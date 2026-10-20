@@ -22,6 +22,9 @@ jobs:
         with:
           python-version: "3.12"
          
+      - name: Testy poprawnosci weryfikacji
+        run: python -m unittest -v test_verify_tennis_broadcasts.py
+
       - name: Pobierz mecze polskich tenisistow
         env:
           LIVE_TENNIS_API_KEY: ${{ secrets.LIVE_TENNIS_API_KEY }}
