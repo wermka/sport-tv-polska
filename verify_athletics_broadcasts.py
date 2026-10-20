@@ -24,9 +24,11 @@ def verify_athletics(entries, tv_rows, epg_rows, updated, now, existing=()):
             continue
         if not (now <= start < now + timedelta(days=7)) or now - verified_at > timedelta(hours=8):
             continue
-        place = normalize(event.get("venue"))
-        if len(place) < 4:
+        places = [normalize(value) for value in [event.get("venue"), *event.get("venueAliases", [])]]
+        places = [value for value in places if len(value) >= 4]
+        if not places:
             continue
+        place = places[0]
         if any(e.get("sport") == "lekkoatletyka" and place in normalize(e.get("name", ""))
                and abs((datetime.fromisoformat(e["start"]).astimezone(TZ) - start).total_seconds()) < 3600
                for e in existing if e.get("start")):
@@ -35,7 +37,7 @@ def verify_athletics(entries, tv_rows, epg_rows, updated, now, existing=()):
         for tv in tv_rows:
             if tv.get("sport") != "lekkoatletyka" or tv.get("telemanLiveBadge") is not True:
                 continue
-            if place not in normalize(tv.get("title")):
+            if not any(place_name in normalize(tv.get("title")) for place_name in places):
                 continue
             tv_time = parse_teleman_date(tv.get("dateLabel"), tv.get("timeLabel"), updated)
             if tv_time is None or tv_time.date() != start.date():
@@ -45,7 +47,7 @@ def verify_athletics(entries, tv_rows, epg_rows, updated, now, existing=()):
             for epg in epg_rows:
                 if epg.get("sport") != "lekkoatletyka" or normalize(epg.get("channel")) != normalize(tv.get("channel")):
                     continue
-                if place not in normalize(epg.get("name", "") + " " + epg.get("description", "")):
+                if not any(place_name in normalize(epg.get("name", "") + " " + epg.get("description", "")) for place_name in places):
                     continue
                 try:
                     epg_start = datetime.fromisoformat(epg["start"]).astimezone(TZ)
