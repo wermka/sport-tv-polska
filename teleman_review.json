@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T22:13:35.660317+02:00",
+  "updatedAt": "2026-10-20T22:28:00.422185+02:00",
   "source": "Teleman, zbiorcza ramówka LIVE (dane diagnostyczne)",
   "warning": "LIVE = oznaczenie w ramówce. Nie potwierdza udziału Polaków ani rzeczywistego terminu zawodów. Nie publikować w events.json.",
   "pagesChecked": 6,
@@ -122,6 +122,17 @@
       "sport": "tenis",
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+    },
+    {
+      "dateLabel": "niedziela, 25 października",
+      "timeLabel": "13:10",
+      "channel": "Eurosport 2",
+      "title": "Skoki narciarskie: Letnie Grand Prix w Klingenthal konkurs mieszany",
+      "sport": "skoki",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_participant_check",
       "verified": false,
       "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
     }

@@ -1,21 +1,8 @@
 {
-  "updatedAt": "2026-10-20T22:13:11.551300+02:00",
+  "updatedAt": "2026-10-20T22:27:33.838777+02:00",
   "source": "Live Tennis API",
-  "note": "Kandydaci z aktualnej odpowiedzi API. Brak potwierdzenia kanału TV; nie kopiuj automatycznie do events.json.",
+  "note": "Zaplanowane mecze z polskim zawodnikiem wedlug aktualnej odpowiedzi API; kanal TV wymaga osobnej weryfikacji.",
   "matches": [
-    {
-      "id": 206998,
-      "start": "2026-10-20T22:25:00+02:00",
-      "sport": "tenis",
-      "name": "Hanna Chang – Nika Hurkacz",
-      "tournament": "W35 Bakersfield, CA",
-      "tour": "itf",
-      "tier": "itf_w35",
-      "doubles": false,
-      "status": "upcoming",
-      "channel": null,
-      "broadcastVerified": false
-    },
     {
       "id": 206823,
       "start": "2026-10-21T01:00:00+02:00",
@@ -27,7 +14,8 @@
       "doubles": false,
       "status": "upcoming",
       "channel": null,
-      "broadcastVerified": false
+      "broadcastVerified": false,
+      "polishParticipantConfirmedByApi": true
     },
     {
       "id": 207212,
@@ -40,7 +28,8 @@
       "doubles": false,
       "status": "upcoming",
       "channel": null,
-      "broadcastVerified": false
+      "broadcastVerified": false,
+      "polishParticipantConfirmedByApi": true
     },
     {
       "id": 207314,
@@ -53,7 +42,8 @@
       "doubles": false,
       "status": "upcoming",
       "channel": null,
-      "broadcastVerified": false
+      "broadcastVerified": false,
+      "polishParticipantConfirmedByApi": true
     },
     {
       "id": 206937,
@@ -66,7 +56,8 @@
       "doubles": false,
       "status": "upcoming",
       "channel": null,
-      "broadcastVerified": false
+      "broadcastVerified": false,
+      "polishParticipantConfirmedByApi": true
     },
     {
       "id": 207389,
@@ -79,7 +70,8 @@
       "doubles": false,
       "status": "upcoming",
       "channel": null,
-      "broadcastVerified": false
+      "broadcastVerified": false,
+      "polishParticipantConfirmedByApi": true
     },
     {
       "id": 207237,
@@ -92,7 +84,8 @@
       "doubles": false,
       "status": "upcoming",
       "channel": null,
-      "broadcastVerified": false
+      "broadcastVerified": false,
+      "polishParticipantConfirmedByApi": true
     },
     {
       "id": 207303,
@@ -105,7 +98,8 @@
       "doubles": false,
       "status": "upcoming",
       "channel": null,
-      "broadcastVerified": false
+      "broadcastVerified": false,
+      "polishParticipantConfirmedByApi": true
     }
   ]
 }
