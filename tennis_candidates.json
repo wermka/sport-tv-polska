@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T18:44:19.283896+02:00",
+  "updatedAt": "2026-10-20T19:13:16.941774+02:00",
   "source": "Live Tennis API",
   "note": "Kandydaci z aktualnej odpowiedzi API. Brak potwierdzenia kanału TV; nie kopiuj automatycznie do events.json.",
   "matches": [
@@ -9,6 +9,19 @@
       "sport": "tenis",
       "name": "Hanna Chang – Nika Hurkacz",
       "tournament": "W35 Bakersfield, CA",
+      "tour": "itf",
+      "tier": "itf_w35",
+      "doubles": false,
+      "status": "upcoming",
+      "channel": null,
+      "broadcastVerified": false
+    },
+    {
+      "id": 206823,
+      "start": "2026-10-21T01:00:00+02:00",
+      "sport": "tenis",
+      "name": "Elena Milovanovic – Amelia Paszun",
+      "tournament": "W35 Monastir 8",
       "tour": "itf",
       "tier": "itf_w35",
       "doubles": false,
@@ -48,19 +61,6 @@
       "sport": "tenis",
       "name": "Weronika Falkowska – Madelief Hageman",
       "tournament": "W35 Loule",
-      "tour": "itf",
-      "tier": "itf_w35",
-      "doubles": false,
-      "status": "upcoming",
-      "channel": null,
-      "broadcastVerified": false
-    },
-    {
-      "id": 206823,
-      "start": "2026-10-21T11:00:00+02:00",
-      "sport": "tenis",
-      "name": "Elena Milovanovic – Amelia Paszun",
-      "tournament": "W35 Monastir 8",
       "tour": "itf",
       "tier": "itf_w35",
       "doubles": false,
