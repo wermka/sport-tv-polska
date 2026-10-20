@@ -11,6 +11,8 @@ import gzip
 import json
 import re
 import sys
+import time
+import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
@@ -165,9 +167,31 @@ def validated_events(now):
 
 def main(url):
     now = datetime.now(WARSAW)
-    candidates = candidates_from_xml(url, now)
+    candidates = None
+    failure = None
+    for attempt in range(3):
+        try:
+            candidates = candidates_from_xml(url, now)
+            break
+        except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, OSError) as exc:
+            failure = f"{type(exc).__name__}: {exc}"
+            print(f"EPG niedostepne (proba {attempt + 1}/3): {failure}", flush=True)
+            if attempt < 2:
+                time.sleep(3 * (attempt + 1))
+    epg_ok = candidates is not None
+    if not epg_ok:
+        # A 522 must not abort updates or turn old EPG data into fresh evidence.
+        # No new automatic matches can be verified without a current EPG.
+        candidates = []
+        print("OSTRZEZENIE: Brak aktualnego EPG. Pomijam nowe dopasowania TV.", flush=True)
     verified = validated_events(now)
-    save('candidates.json', {'updatedAt': now.isoformat(), 'source': 'XMLTV; entries unverified', 'events': candidates})
+    save('candidates.json', {
+        'updatedAt': now.isoformat(),
+        'source': 'XMLTV; entries unverified' if epg_ok else 'XMLTV niedostepne; bez danych EPG',
+        'epgAvailable': epg_ok,
+        'error': None if epg_ok else failure,
+        'events': candidates,
+    })
     save('events.json', {'updatedAt': now.isoformat(), 'source': 'Independently verified events only', 'events': verified})
     print(f'EPG candidates: {len(candidates)}; verified events published: {len(verified)}')
     print('EPG candidates are NOT automatically treated as live sporting events.')
