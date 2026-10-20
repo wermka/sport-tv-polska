@@ -72,7 +72,7 @@ def has_polish_athlete(html):
             continue
         for row in group:
             if not any(COUNTRY.search(cell) for cell in row):
-            continue
+                continue
         # Reject metadata and judging tables, which can also show POL.
             combined = " ".join(row).casefold()
             if any(x in combined for x in ("technical delegate", "jury", "judge ", "chief of competition")):
