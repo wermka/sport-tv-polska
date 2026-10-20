@@ -28,7 +28,7 @@ jobs:
           python-version: "3.12"
          
       - name: Testy poprawnosci weryfikacji
-        run: python -m unittest -v test_verify_tennis_broadcasts.py test_check_tennis_updates.py
+        run: python -m unittest -v test_verify_tennis_broadcasts.py test_check_tennis_updates.py test_verify_ski_broadcasts.py
 
       - name: Pobierz mecze polskich tenisistow
         env:
@@ -46,6 +46,9 @@ jobs:
 
       - name: Zweryfikuj tenis w trzech zrodlach
         run: python verify_tennis_broadcasts.py
+
+      - name: Zweryfikuj skoki z udzialem Polakow
+        run: python verify_ski_broadcasts.py
 
       - name: Zapisz zmiany
         run: |
