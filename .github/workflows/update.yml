@@ -12,9 +12,13 @@ on:
       - "verify_ski_broadcasts.py"
       - "update_epg.py"
       - "test_update_epg.py"
-      - "update_epg.py"
-      - "test_update_epg.py"
       - "sport_competitions.json"
+      - "tv_schedule.py"
+      - "verify_tennis_broadcasts.py"
+      - "verify_athletics_broadcasts.py"
+      - "test_verify_ski_broadcasts.py"
+      - "test_verify_tennis_broadcasts.py"
+      - "test_verify_athletics_broadcasts.py"
   workflow_dispatch:
 
 permissions:
@@ -38,7 +42,7 @@ jobs:
           python-version: "3.12"
          
       - name: Kontrola skladni wszystkich skryptow
-        run: python -m compileall -q update_epg.py update_tennis.py match_tennis_tv.py teleman_importer.py verify_tennis_broadcasts.py verify_ski_broadcasts.py verify_polish_entries.py verify_athletics_broadcasts.py check_tennis_updates.py
+        run: python -m compileall -q update_epg.py update_tennis.py match_tennis_tv.py teleman_importer.py verify_tennis_broadcasts.py verify_ski_broadcasts.py verify_polish_entries.py verify_athletics_broadcasts.py check_tennis_updates.py tv_schedule.py
 
       - name: Testy poprawnosci weryfikacji
         run: python -m unittest -v test_verify_tennis_broadcasts.py test_check_tennis_updates.py test_verify_ski_broadcasts.py test_update_epg.py test_verify_polish_entries.py test_verify_athletics_broadcasts.py
