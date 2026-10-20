@@ -114,6 +114,7 @@ def verify(tennis, teleman, epg, teleman_updated, now):
                 rows.append({
                     "start": tv_start.isoformat(), "end": epg_end.isoformat(),
                     "sport": "tenis", "name": match["name"], "channel": tv["channel"],
+                    "matchId": str(match["id"]), "matchScheduledStart": start.isoformat(),
                     "verifiedLive": True, "sourceUrl": tv.get("sourceUrl", "https://www.teleman.pl/sport?live=1"),
                     "verification": "API upcoming + Teleman LIVE with both names + XMLTV same match/channel/time",
                 })
