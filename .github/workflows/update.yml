@@ -62,16 +62,16 @@ jobs:
       - name: Sprawdz transmisje Polakow w Teleman
         run: python teleman_importer.py --pages ${{ github.event_name == 'workflow_dispatch' && '8' || '6' }}
 
-      - name: Zweryfikuj tenis w trzech zrodlach
+      - name: Zweryfikuj tenis (API i Teleman; EPG opcjonalnie)
         run: python verify_tennis_broadcasts.py
 
       - name: Sprawdz oficjalne listy startowe Polakow
         run: python verify_polish_entries.py
 
-      - name: Zweryfikuj skoki z udzialem Polakow
+      - name: Zweryfikuj skoki (Teleman i Polacy)
         run: python verify_ski_broadcasts.py
 
-      - name: Zweryfikuj lekkoatletyke z udzialem Polakow
+      - name: Zweryfikuj lekkoatletyke (Teleman i Polacy)
         run: python verify_athletics_broadcasts.py
 
       - name: Zapisz zmiany
