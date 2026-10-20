@@ -1,0 +1,228 @@
+{
+  "updatedAt": "2026-10-20T19:42:55.148203+02:00",
+  "source": "Teleman, zbiorcza ramówka LIVE (dane diagnostyczne)",
+  "warning": "LIVE = oznaczenie w ramówce. Nie potwierdza udziału Polaków ani rzeczywistego terminu zawodów. Nie publikować w events.json.",
+  "pagesChecked": 3,
+  "rows": [
+    {
+      "dateLabel": "dziś, 20 października",
+      "timeLabel": "19:55",
+      "channel": "Polsat Sport 2",
+      "title": "Piłka nożna: Liga saudyjska mecz: Al-Nassr FC - Neom SC",
+      "sport": "pilka",
+      "telemanLiveBadge": true,
+      "participantEvidence": "not_poland_national_team",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1"
+    },
+    {
+      "dateLabel": "dziś, 20 października",
+      "timeLabel": "20:55",
+      "channel": "CANAL+ 360",
+      "title": "Piłka nożna: Liga Mistrzów UEFA mecz: FC Porto - PSV Eindhoven",
+      "sport": "pilka",
+      "telemanLiveBadge": true,
+      "participantEvidence": "not_poland_national_team",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1"
+    },
+    {
+      "dateLabel": "noc wt./śr., 20 na 21 października",
+      "timeLabel": "2:25",
+      "channel": "Polsat Sport 1",
+      "title": "Piłka nożna: Copa Sudamericana rewanżowy mecz półfinałowy: CR Vasco da Gama - CA Boca Juniors",
+      "sport": "pilka",
+      "telemanLiveBadge": true,
+      "participantEvidence": "not_poland_national_team",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1"
+    },
+    {
+      "dateLabel": "środa, 21 października",
+      "timeLabel": "15:55",
+      "channel": "CANAL+ Sport 5",
+      "title": "Piłka nożna: Liga Młodzieżowa UEFA mecz: Inter Mediolan - Szachtar Donieck",
+      "sport": "pilka",
+      "telemanLiveBadge": true,
+      "participantEvidence": "not_poland_national_team",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1"
+    },
+    {
+      "dateLabel": "środa, 21 października",
+      "timeLabel": "19:55",
+      "channel": "CANAL+ Sport",
+      "title": "Piłka nożna: Liga hiszpańska mecz: UD Levante - Athletic Club",
+      "sport": "pilka",
+      "telemanLiveBadge": true,
+      "participantEvidence": "not_poland_national_team",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1"
+    },
+    {
+      "dateLabel": "środa, 21 października",
+      "timeLabel": "20:55",
+      "channel": "TVP 1",
+      "title": "Piłka nożna: Liga Mistrzów UEFA mecz: FC Bayern Monachium - Arsenal FC",
+      "sport": "pilka",
+      "telemanLiveBadge": true,
+      "participantEvidence": "not_poland_national_team",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
+    },
+    {
+      "dateLabel": "środa, 21 października",
+      "timeLabel": "20:55",
+      "channel": "CANAL+ 360",
+      "title": "Piłka nożna: Liga Mistrzów UEFA mecz: Inter Mediolan - Szachtar Donieck",
+      "sport": "pilka",
+      "telemanLiveBadge": true,
+      "participantEvidence": "not_poland_national_team",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
+    },
+    {
+      "dateLabel": "środa, 21 października",
+      "timeLabel": "23:20",
+      "channel": "TVP Sport",
+      "title": "Piłka nożna: Liga Mistrzów UEFA skróty",
+      "sport": "pilka",
+      "telemanLiveBadge": true,
+      "participantEvidence": "not_poland_national_team",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
+    },
+    {
+      "dateLabel": "środa, 21 października",
+      "timeLabel": "23:55",
+      "channel": "Polsat Sport 1",
+      "title": "Piłka nożna: Copa Sudamericana rewanżowy mecz półfinałowy: Montevideo City Torque - Atletico Mineiro",
+      "sport": "pilka",
+      "telemanLiveBadge": true,
+      "participantEvidence": "not_poland_national_team",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
+    },
+    {
+      "dateLabel": "noc śr./czw., 21 na 22 października",
+      "timeLabel": "2:25",
+      "channel": "Polsat Sport 1",
+      "title": "Piłka nożna: Copa Libertadores rewanżowy mecz półfinałowy: SE Palmeiras - Fluminense FC",
+      "sport": "pilka",
+      "telemanLiveBadge": true,
+      "participantEvidence": "not_poland_national_team",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
+    },
+    {
+      "dateLabel": "czwartek, 22 października",
+      "timeLabel": "18:35",
+      "channel": "Polsat Sport 1",
+      "title": "Piłka nożna: Liga Europy UEFA mecz: Lech Poznań - Sunderland AFC",
+      "sport": "pilka",
+      "telemanLiveBadge": true,
+      "participantEvidence": "not_poland_national_team",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
+    },
+    {
+      "dateLabel": "czwartek, 22 października",
+      "timeLabel": "18:35",
+      "channel": "TV 6",
+      "title": "Piłka nożna: Liga Europy UEFA mecz: Lech Poznań - Sunderland AFC",
+      "sport": "pilka",
+      "telemanLiveBadge": true,
+      "participantEvidence": "not_poland_national_team",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
+    },
+    {
+      "dateLabel": "czwartek, 22 października",
+      "timeLabel": "20:50",
+      "channel": "Polsat Sport 1",
+      "title": "Piłka nożna: Liga Europy UEFA mecz: Jagiellonia Białystok - RSC Anderlecht",
+      "sport": "pilka",
+      "telemanLiveBadge": true,
+      "participantEvidence": "not_poland_national_team",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
+    },
+    {
+      "dateLabel": "noc czw./pt., 22 na 23 października",
+      "timeLabel": "2:25",
+      "channel": "Polsat Sport 1",
+      "title": "Piłka nożna: Copa Libertadores rewanżowy mecz półfinałowy: CR Flamengo - Estudiantes De La Plata",
+      "sport": "pilka",
+      "telemanLiveBadge": true,
+      "participantEvidence": "not_poland_national_team",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
+    },
+    {
+      "dateLabel": "piątek, 23 października",
+      "timeLabel": "8:30",
+      "channel": "Polsat Sport 2",
+      "title": "Tenis: Turniej ATP w Ałmatach mecz ćwierćfinałowy gry pojedynczej",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
+    },
+    {
+      "dateLabel": "piątek, 23 października",
+      "timeLabel": "10:30",
+      "channel": "Polsat Sport 2",
+      "title": "Tenis: Turniej ATP w Ałmatach mecz ćwierćfinałowy gry pojedynczej",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
+    },
+    {
+      "dateLabel": "piątek, 23 października",
+      "timeLabel": "12:30",
+      "channel": "Polsat Sport 3",
+      "title": "Tenis: Turniej ATP w Ałmatach mecz ćwierćfinałowy gry pojedynczej",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
+    },
+    {
+      "dateLabel": "piątek, 23 października",
+      "timeLabel": "14:00",
+      "channel": "Polsat Sport 3",
+      "title": "Tenis: Turniej ATP w Brukseli mecz ćwierćfinałowy gry pojedynczej",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
+    },
+    {
+      "dateLabel": "piątek, 23 października",
+      "timeLabel": "15:25",
+      "channel": "Polsat Sport 2",
+      "title": "Piłka nożna: Liga saudyjska mecz: Al-Faisaly KSA - Al-Nassr FC",
+      "sport": "pilka",
+      "telemanLiveBadge": true,
+      "participantEvidence": "not_poland_national_team",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
+    },
+    {
+      "dateLabel": "piątek, 23 października",
+      "timeLabel": "16:00",
+      "channel": "Polsat Sport 3",
+      "title": "Tenis: Turniej ATP w Brukseli mecz ćwierćfinałowy gry pojedynczej",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
+    }
+  ]
+}
