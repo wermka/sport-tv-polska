@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T21:50:32.547857+02:00",
+  "updatedAt": "2026-10-20T22:06:35.565431+02:00",
   "competitions": [
     {
       "competitionId": "lgp-klingenthal-men-2026-10-24",
@@ -21,7 +21,7 @@
       ],
       "rosterMinimumMatches": 3,
       "polishParticipantsConfirmed": true,
-      "participantsCheckedAt": "2026-10-20T21:50:32.547786+02:00",
+      "participantsCheckedAt": "2026-10-20T22:06:35.565370+02:00",
       "participationEvidence": "official_roster_announced"
     },
     {
@@ -39,6 +39,21 @@
       "polishParticipantsConfirmed": false,
       "participantsCheckedAt": null,
       "participationEvidence": null
+    },
+    {
+      "competitionId": "auto-ski-2026-10-24-klingenthal",
+      "sport": "skoki",
+      "competitionDate": "2026-10-24",
+      "venue": "klingenthal",
+      "eventType": "men",
+      "name": "Skoki narciarskie: Letnie Grand Prix w Klingenthal",
+      "sourceUrl": "https://pzn.pl/skoki-narciarskie/aktualnosci/szczerozloty-kacper-tomasiak-lks-klimczok-bystra-rzadzi-maciej-maciusiak-oglosil-sklad",
+      "rosterUrl": "https://pzn.pl/skoki-narciarskie/aktualnosci/szczerozloty-kacper-tomasiak-lks-klimczok-bystra-rzadzi-maciej-maciusiak-oglosil-sklad",
+      "polishParticipantsConfirmed": true,
+      "participationEvidence": "official_roster_announced",
+      "participationSourceUrl": "https://pzn.pl/skoki-narciarskie/aktualnosci/szczerozloty-kacper-tomasiak-lks-klimczok-bystra-rzadzi-maciej-maciusiak-oglosil-sklad",
+      "participantsCheckedAt": "2026-10-20T22:06:35.659955+02:00",
+      "discoveredAutomatically": true
     }
   ]
 }

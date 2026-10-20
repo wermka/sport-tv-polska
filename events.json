@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-10-20T21:50:31.656205+02:00",
+  "updatedAt": "2026-10-20T22:06:34.719245+02:00",
   "source": "Independent verification; tennis requires API + Teleman LIVE, EPG optional",
   "events": [
     {
-      "end": "2026-10-24T15:25:00+02:00",
-      "name": "Letnie Grand Prix w Klingenthal – konkurs indywidualny mężczyzn",
       "verifiedLive": true,
       "sourceUrl": "https://www.skijumping.pl/skoki-dzisiaj/",
-      "sport": "skoki",
       "start": "2026-10-24T13:30:00+02:00",
+      "sport": "skoki",
       "channel": "Eurosport 2",
+      "end": "2026-10-24T15:25:00+02:00",
+      "name": "Letnie Grand Prix w Klingenthal – konkurs indywidualny mężczyzn",
       "participationEvidence": "official_roster_announced",
       "participationSourceUrl": "https://pzn.pl/skoki-narciarskie/aktualnosci/szczerozloty-kacper-tomasiak-lks-klimczok-bystra-rzadzi-maciej-maciusiak-oglosil-sklad",
       "competitionId": "lgp-klingenthal-men-2026-10-24"
