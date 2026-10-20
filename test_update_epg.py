@@ -88,7 +88,7 @@ class EpgOutageTests(unittest.TestCase):
                       "verifiedLive": True, "sourceUrl": "https://example.org/source"}]
         with tempfile.TemporaryDirectory() as directory:
             folder = Path(directory)
-            error = HTTPError("https://example.org/epg.xml.gz", 522, "timeout", {}, None)
+            error = urllib.error.HTTPError("https://example.org/epg.xml.gz", 522, "timeout", {}, None)
             with patch.object(update_epg, "BASE", folder), patch.object(update_epg, "candidates_from_xml", side_effect=error) as fetcher, patch.object(update_epg, "validated_events", return_value=confirmed), patch("update_epg.time.sleep") as sleep:
                 update_epg.main("https://example.org/epg.xml.gz")
             self.assertEqual(fetcher.call_count, 3)
