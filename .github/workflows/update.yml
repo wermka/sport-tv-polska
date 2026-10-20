@@ -86,5 +86,23 @@ jobs:
           git add events.json candidates.json tennis_candidates.json tennis_tv_matches.json teleman_review.json participation_verified.json
           if ! git diff --cached --quiet; then
             git commit -m "Automatyczna aktualizacja terminarza"
-            git push
+            # Zmiany mogly pojawic sie podczas dlugiego pobierania ramowki.
+            # Nie nadpisuj cudzych commitow ani nie uzywaj force-push.
+            branch="${GITHUB_REF_NAME:-main}"
+            for attempt in 1 2 3; do
+              git fetch origin "$branch"
+              if ! git rebase "origin/$branch"; then
+                git rebase --abort
+                echo "::error::Konflikt danych z nowsza aktualizacja. Bezpiecznie przerwano zapis."
+                exit 1
+              fi
+              if git push origin "HEAD:$branch"; then
+                echo "Zapisano terminarz (proba $attempt)"
+                exit 0
+              fi
+              echo "Repozytorium zmienilo sie podczas zapisu; ponawiam..."
+              sleep $((attempt * 3))
+            done
+            echo "::error::Nie udalo sie zapisac zmian po trzech probach."
+            exit 1
           fi
