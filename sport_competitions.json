@@ -1,0 +1,22 @@
+[
+  {
+    "competitionId": "lgp-klingenthal-men-2026-10-24",
+    "sport": "skoki",
+    "competitionStart": "2026-10-24T13:35:00+02:00",
+    "venue": "Klingenthal",
+    "eventType": "men",
+    "name": "Letnie Grand Prix w Klingenthal – konkurs indywidualny mężczyzn",
+    "entryListUrl": "",
+    "sourceUrl": "https://weltcup-klingenthal.de/sommer-grandprix-skispringen/"
+  },
+  {
+    "competitionId": "frankfurt-marathon-2026-10-25",
+    "sport": "lekkoatletyka",
+    "competitionStart": "2026-10-25T10:00:00+01:00",
+    "venue": "Frankfurt",
+    "eventType": "marathon",
+    "name": "Maraton we Frankfurcie",
+    "entryListUrl": "",
+    "sourceUrl": "https://www.frankfurt-marathon.com/"
+  }
+]
