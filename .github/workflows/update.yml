@@ -21,54 +21,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
-      - name: Sprawdz Live Tennis API
-        env:
-          LIVE_TENNIS_API_KEY: ${{ secrets.LIVE_TENNIS_API_KEY }}
-        run: |
-          python - <<'PY'
-          import os
-          import json
-          import urllib.request
-
-          key = os.environ["LIVE_TENNIS_API_KEY"]
-          url = "https://api.livetennisapi.com/api/public/v1/matches?status=upcoming&country=pol&limit=50"
-
-          req = urllib.request.Request(
-              url,
-              headers={"X-API-Key": key}
-          )
-
-          with urllib.request.urlopen(req, timeout=30) as response:
-              data = json.load(response)
-
-          print("Polaczenie z Live Tennis API: OK")
-          print("Liczba pobranych meczow:", len(data.get("data", [])))
-          
-          
-          matches = data.get("data", [])
-          for match in matches:
-              players = match.get("players") or {}
-              p1 = players.get("p1") or {}
-              p2 = players.get("p2") or {}
-
-              print(
-                  "MECZ:",
-                  p1.get("name"), "(", p1.get("country"), ")",
-                  "vs",
-                  p2.get("name"), "(", p2.get("country"), ")"
-              )
-              print("GODZINA:", match.get("scheduled_time"))
-              print("TURNIEJ:", match.get("tournament"))
-              print("POZIOM:", match.get("tier"))
-              print("ROZGRYWKI:", match.get("tour"))
-              print("DEBEL:", match.get("is_doubles"))
-              print("---")
-
-
-          PY
-
-          
+         
       - name: Pobierz mecze polskich tenisistow
         env:
           LIVE_TENNIS_API_KEY: ${{ secrets.LIVE_TENNIS_API_KEY }}
