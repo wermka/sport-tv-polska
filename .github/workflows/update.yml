@@ -45,16 +45,26 @@ jobs:
           print("Polaczenie z Live Tennis API: OK")
           print("Liczba pobranych meczow:", len(data.get("data", [])))
           
+          
           matches = data.get("data", [])
-          if matches:
-              print("Pola dostepne w meczu:")
-              print(list(matches[0].keys()))
-              print("Przykladowy mecz:")
-              safe_fields = {
-                  k: v for k, v in matches[0].items()
-                  if k in ("id", "date", "start_time", "status", "home", "away", "player1", "player2", "players", "tournament")
-              }
-              print(json.dumps(safe_fields, ensure_ascii=False, default=str)[:2000])
+          for match in matches:
+              players = match.get("players") or {}
+              p1 = players.get("p1") or {}
+              p2 = players.get("p2") or {}
+
+              print(
+                  "MECZ:",
+                  p1.get("name"), "(", p1.get("country"), ")",
+                  "vs",
+                  p2.get("name"), "(", p2.get("country"), ")"
+              )
+              print("GODZINA:", match.get("scheduled_time"))
+              print("TURNIEJ:", match.get("tournament"))
+              print("POZIOM:", match.get("tier"))
+              print("ROZGRYWKI:", match.get("tour"))
+              print("DEBEL:", match.get("is_doubles"))
+              print("---")
+
 
           PY
 
