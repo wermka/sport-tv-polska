@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T19:21:21.431584+02:00",
+  "updatedAt": "2026-10-20T19:29:11.452918+02:00",
   "source": "Live Tennis API",
   "note": "Kandydaci z aktualnej odpowiedzi API. Brak potwierdzenia kanału TV; nie kopiuj automatycznie do events.json.",
   "matches": [
@@ -63,6 +63,19 @@
       "tournament": "W35 Loule",
       "tour": "itf",
       "tier": "itf_w35",
+      "doubles": false,
+      "status": "upcoming",
+      "channel": null,
+      "broadcastVerified": false
+    },
+    {
+      "id": 207389,
+      "start": "2026-10-21T11:30:00+02:00",
+      "sport": "tenis",
+      "name": "Lola Giza – Maja Wrobel",
+      "tournament": "W15 Karlovy Vary (Czech Republic)",
+      "tour": "itf",
+      "tier": "itf_w15",
       "doubles": false,
       "status": "upcoming",
       "channel": null,
