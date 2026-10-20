@@ -28,9 +28,13 @@ class TableRows(HTMLParser):
         self.row = None
         self.cell = None
         self.rows = []
+        self.groups = []
+        self.current_table = None
     def handle_starttag(self, tag, attrs):
         if tag == "table":
             self.tables += 1
+            if self.tables == 1:
+                self.current_table = []
         if self.tables and tag == "tr":
             self.row = []
         if self.row is not None and tag in ("td", "th"):
@@ -48,25 +52,36 @@ class TableRows(HTMLParser):
         if tag == "tr" and self.row is not None:
             if len(self.row) > 1:
                 self.rows.append(self.row)
+                if self.current_table is not None:
+                    self.current_table.append(self.row)
             self.row = None
         if tag == "table" and self.tables:
             self.tables -= 1
+            if self.tables == 0 and self.current_table is not None:
+                self.groups.append(self.current_table)
+                self.current_table = None
 
 def has_polish_athlete(html):
     parser = TableRows()
     parser.feed(html)
-    for row in parser.rows:
-        if not any(COUNTRY.search(cell) for cell in row):
+    for group in parser.groups:
+        heading = " ".join(" ".join(row) for row in group[:3]).casefold()
+        if not any(key in heading for key in ("athlete", "zawodnik", "bib", "rank", "name", "start list", "entry list")):
+            continue
+        if any(key in heading for key in ("technical delegate", "jury", "judge")):
+            continue
+        for row in group:
+            if not any(COUNTRY.search(cell) for cell in row):
             continue
         # Reject metadata and judging tables, which can also show POL.
-        combined = " ".join(row).casefold()
-        if any(x in combined for x in ("technical delegate", "jury", "judge ", "chief of competition")):
-            continue
-        names = [cell for cell in row if re.search(r"[A-Za-zĄĆĘŁŃÓŚŹŻąćęłńóśźż]{2,}\s+[A-Za-zĄĆĘŁŃÓŚŹŻąćęłńóśźż]{2,}", cell)
-                 and not COUNTRY.fullmatch(cell)]
-        if any(len(candidate) <= 90 and not any(w in GENERIC for w in candidate.casefold().split())
-               for candidate in names):
-            return True
+            combined = " ".join(row).casefold()
+            if any(x in combined for x in ("technical delegate", "jury", "judge ", "chief of competition")):
+                continue
+            names = [cell for cell in row if re.search(r"[A-Za-zĄĆĘŁŃÓŚŹŻąćęłńóśźż]{2,}\s+[A-Za-zĄĆĘŁŃÓŚŹŻąćęłńóśźż]{2,}", cell)
+                     and not COUNTRY.fullmatch(cell)]
+            if any(len(candidate) <= 90 and not any(w in GENERIC for w in candidate.casefold().split())
+                   for candidate in names):
+                return True
     return False
 
 def allowed_url(url):
