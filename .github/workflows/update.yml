@@ -10,6 +10,8 @@ on:
       - ".github/workflows/update.yml"
       - "verify_polish_entries.py"
       - "verify_ski_broadcasts.py"
+      - "update_epg.py"
+      - "test_update_epg.py"
       - "sport_competitions.json"
   workflow_dispatch:
 
