@@ -35,6 +35,11 @@ def verify_ski(competitions, listings, listing_updated, now, existing=()):
             continue
         if comp["competitionId"] in existing_ids:
             continue
+        # Avoid duplicating previously approved manual TV listings for this event.
+        if any(e.get("sport") == "skoki" and normalize(comp["venue"]) in normalize(e.get("name", ""))
+               and abs((datetime.fromisoformat(e["start"]).astimezone(WARSAW) - race).total_seconds()) <= 3600
+               for e in existing if e.get("start")):
+            continue
         matches = []
         for tv in listings:
             if tv.get("sport") != "skoki" or tv.get("telemanLiveBadge") is not True:
