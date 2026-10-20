@@ -18,6 +18,7 @@ on:
       - "tv_schedule.py"
       - "verify_tennis_broadcasts.py"
       - "update_tennis.py"
+      - "test_update_tennis.py"
       - "index.html"
       - "verify_athletics_broadcasts.py"
       - "test_verify_ski_broadcasts.py"
@@ -50,7 +51,7 @@ jobs:
         run: python -m compileall -q update_epg.py update_tennis.py match_tennis_tv.py teleman_importer.py verify_tennis_broadcasts.py verify_ski_broadcasts.py verify_polish_entries.py verify_athletics_broadcasts.py check_tennis_updates.py tv_schedule.py discover_ski.py
 
       - name: Testy poprawnosci weryfikacji
-        run: python -m unittest -v test_verify_tennis_broadcasts.py test_check_tennis_updates.py test_verify_ski_broadcasts.py test_update_epg.py test_verify_polish_entries.py test_verify_athletics_broadcasts.py test_tv_schedule.py test_discover_ski.py
+        run: python -m unittest -v test_verify_tennis_broadcasts.py test_check_tennis_updates.py test_verify_ski_broadcasts.py test_update_epg.py test_verify_polish_entries.py test_verify_athletics_broadcasts.py test_tv_schedule.py test_discover_ski.py test_update_tennis.py
 
       - name: Oblicz terminarz i bezpiecznie zapisz wyniki
         env:
@@ -71,7 +72,7 @@ jobs:
             git reset --hard "origin/$branch"
 
             python -m compileall -q update_epg.py update_tennis.py match_tennis_tv.py teleman_importer.py verify_tennis_broadcasts.py verify_ski_broadcasts.py verify_polish_entries.py verify_athletics_broadcasts.py check_tennis_updates.py tv_schedule.py discover_ski.py
-            python -m unittest -q test_verify_tennis_broadcasts.py test_check_tennis_updates.py test_verify_ski_broadcasts.py test_update_epg.py test_verify_polish_entries.py test_verify_athletics_broadcasts.py test_tv_schedule.py test_discover_ski.py
+            python -m unittest -q test_verify_tennis_broadcasts.py test_check_tennis_updates.py test_verify_ski_broadcasts.py test_update_epg.py test_verify_polish_entries.py test_verify_athletics_broadcasts.py test_tv_schedule.py test_discover_ski.py test_update_tennis.py
 
             python update_tennis.py
             python update_epg.py https://epgshare01.online/epgshare01/epg_ripper_PL1.xml.gz
