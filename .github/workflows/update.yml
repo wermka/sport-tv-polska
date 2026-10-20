@@ -36,6 +36,9 @@ jobs:
       - name: Sprawdz transmisje Polakow w Teleman
         run: python teleman_importer.py --pages 3
 
+      - name: Zweryfikuj tenis w trzech zrodlach
+        run: python verify_tennis_broadcasts.py
+
       - name: Zapisz zmiany
         run: |
           git config user.name "github-actions[bot]"
