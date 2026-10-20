@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T21:49:50.230653+02:00",
+  "updatedAt": "2026-10-20T21:50:32.547857+02:00",
   "competitions": [
     {
       "competitionId": "lgp-klingenthal-men-2026-10-24",
@@ -21,7 +21,7 @@
       ],
       "rosterMinimumMatches": 3,
       "polishParticipantsConfirmed": true,
-      "participantsCheckedAt": "2026-10-20T21:49:50.230600+02:00",
+      "participantsCheckedAt": "2026-10-20T21:50:32.547786+02:00",
       "participationEvidence": "official_roster_announced"
     },
     {
