@@ -28,7 +28,7 @@ jobs:
           python-version: "3.12"
          
       - name: Kontrola skladni wszystkich skryptow
-        run: python -m compileall -q update_epg.py update_tennis.py match_tennis_tv.py teleman_importer.py verify_tennis_broadcasts.py verify_ski_broadcasts.py check_tennis_updates.py
+        run: python -m compileall -q update_epg.py update_tennis.py match_tennis_tv.py teleman_importer.py verify_tennis_broadcasts.py verify_ski_broadcasts.py verify_polish_entries.py verify_athletics_broadcasts.py check_tennis_updates.py
 
       - name: Testy poprawnosci weryfikacji
         run: python -m unittest -v test_verify_tennis_broadcasts.py test_check_tennis_updates.py test_verify_ski_broadcasts.py test_update_epg.py
@@ -50,14 +50,20 @@ jobs:
       - name: Zweryfikuj tenis w trzech zrodlach
         run: python verify_tennis_broadcasts.py
 
+      - name: Sprawdz oficjalne listy startowe Polakow
+        run: python verify_polish_entries.py
+
       - name: Zweryfikuj skoki z udzialem Polakow
         run: python verify_ski_broadcasts.py
+
+      - name: Zweryfikuj lekkoatletyke z udzialem Polakow
+        run: python verify_athletics_broadcasts.py
 
       - name: Zapisz zmiany
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add events.json candidates.json tennis_candidates.json tennis_tv_matches.json teleman_review.json
+          git add events.json candidates.json tennis_candidates.json tennis_tv_matches.json teleman_review.json participation_verified.json
           if ! git diff --cached --quiet; then
             git commit -m "Automatyczna aktualizacja terminarza"
             git push
