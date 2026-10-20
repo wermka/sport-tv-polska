@@ -115,7 +115,7 @@ class VisibleText(HTMLParser):
 
 def normalized_words(value):
     import unicodedata
-    value = unicodedata.normalize("NFKD", str(value)).casefold()
+    value = unicodedata.normalize("NFKD", str(value).translate(str.maketrans({"ł": "l", "Ł": "L"}))).casefold()
     value = "".join(c for c in value if not unicodedata.combining(c))
     return " ".join(re.findall(r"[a-z0-9]+", value))
 
