@@ -40,6 +40,7 @@ SPORTS = {
     'siatkowka': re.compile(r'\b(siatk[oó]wk\w*|volleyball|liga mistrz[oó]w|plusliga|tauron liga)\b', re.I),
     'pilka': re.compile(r'\b(pi[lł]ka no[zż]na|football|eliminacje|liga narod[oó]w)\b', re.I),
     'skoki': re.compile(r'\b(skoki narciarskie|skoki|ski jumping)\b', re.I),
+    'lekkoatletyka': re.compile(r'\b(lekkoatletyka|lekkoatletyczne|athletics|diamentowa liga|diamond league|skok o tyczce|rzut młotem|pchnięcie kulą|sztafeta)\b', re.I),
 }
 POLISH_TENNIS = re.compile(r'\b([śs]wi[aą]tek|hurkacz|linette|fr[eę]ch|chwali[nń]ska|majchrzak|zieli[nń]ski)\b', re.I)
 POLAND = re.compile(r'\b(polska|polski|polacy|polak[oó]w|reprezentacja polski)\b', re.I)
