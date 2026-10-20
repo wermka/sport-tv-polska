@@ -114,8 +114,9 @@ def candidates_from_xml(url, now):
         if sport == 'pilka' and (NOT_CLASSIC_FOOTBALL.search(blob) or not POLAND.search(blob)):
             continue
         # No inference of Polish athlete participation from place names like Zakopane/Wisła.
-        if sport == 'skoki' and not POLAND.search(blob):
-            continue
+        # Ski jumping may list a venue rather than athlete names; verify Polish
+        # participation against a separate competition calendar, not EPG text.
+        # These entries remain UNVERIFIED candidates until checked independently.
         item = {'start': start.isoformat(), 'end': end.isoformat(), 'sport': sport,
                 'name': title, 'channel': channel, 'description': desc[:250],
                 'epgSaysLive': bool(LIVE_HINT.search(blob)), 'verifiedLive': False}
