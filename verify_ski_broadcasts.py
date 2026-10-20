@@ -28,17 +28,22 @@ def verify_ski(competitions, listings, listing_updated, now, existing=(), epg=()
         if not (comp.get("sourceUrl", "").startswith("https://")
                 and comp.get("competitionId") and comp.get("venue")):
             continue
+        # A PZN announcement usually confirms competition DATES, not the
+        # precise start hour. In that case Teleman remains the time source.
         try:
-            race = datetime.fromisoformat(comp["competitionStart"]).astimezone(WARSAW)
+            race = (datetime.fromisoformat(comp["competitionStart"]).astimezone(WARSAW)
+                    if comp.get("competitionStart") else None)
+            race_date = race.date() if race else datetime.fromisoformat(comp["competitionDate"]).date()
         except (ValueError, TypeError, KeyError):
             continue
-        if not now <= race <= now + timedelta(days=7):
+        if not now.date() <= race_date <= (now + timedelta(days=7)).date():
             continue
         if comp["competitionId"] in existing_ids:
             continue
         # Avoid duplicating previously approved manual TV listings for this event.
         if any(e.get("sport") == "skoki" and normalize(comp["venue"]) in normalize(e.get("name", ""))
-               and abs((datetime.fromisoformat(e["start"]).astimezone(WARSAW) - race).total_seconds()) <= 3600
+               and (abs((datetime.fromisoformat(e["start"]).astimezone(WARSAW) - race).total_seconds()) <= 3600
+                    if race else datetime.fromisoformat(e["start"]).astimezone(WARSAW).date() == race_date)
                for e in existing if e.get("start")):
             continue
         matches = []
@@ -58,10 +63,10 @@ def verify_ski(competitions, listings, listing_updated, now, existing=(), epg=()
             if any(phrase in title.split() for phrase in other_types[kind]):
                 continue
             start = parse_teleman_date(tv.get("dateLabel", ""), tv.get("timeLabel", ""), listing_updated)
-            if start is None or not (start - timedelta(minutes=MAX_TV_LATE_MINUTES)
-                                     <= race <= start + timedelta(minutes=MAX_TV_EARLY_MINUTES)):
+            if start is None or start.date() != race_date or not now <= start <= now + timedelta(days=7):
                 continue
-            if start.date() != race.date():
+            if race is not None and not (start - timedelta(minutes=MAX_TV_LATE_MINUTES)
+                                         <= race <= start + timedelta(minutes=MAX_TV_EARLY_MINUTES)):
                 continue
             matches.append((tv, start))
         # Teleman LIVE + official Polish squad/start list is sufficient.
@@ -79,7 +84,7 @@ def verify_ski(competitions, listings, listing_updated, now, existing=(), epg=()
         )
         # Contradictory EPG is not evidence of a different TV start; refuse
         # to infer the end unless it is consistent with the competition.
-        if end is not None and end <= race:
+        if end is not None and race is not None and end <= race:
             end = None
         confirmed.append({
             **tv_times(tv_start, end),
