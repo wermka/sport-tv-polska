@@ -5,7 +5,7 @@ from verify_athletics_broadcasts import verify_athletics
 
 NOW = datetime(2026, 10, 20, 19, 0, tzinfo=ZoneInfo("Europe/Warsaw"))
 COMP = {"competitionId":"frankfurt-test","sport":"lekkoatletyka","competitionStart":"2026-10-25T10:00:00+01:00",
-        "venue":"Frankfurt","name":"Maraton we Frankfurcie","polishParticipantsConfirmed":True,
+        "venue":"Frankfurt","venueAliases":["Frankfurcie"],"name":"Maraton we Frankfurcie","polishParticipantsConfirmed":True,
         "entryListUrl":"https://www.fidal.it/risultati/startlist", "participantsCheckedAt":"2026-10-20T19:00:00+02:00"}
 TV = {"sport":"lekkoatletyka","telemanLiveBadge":True,"dateLabel":"niedziela, 25 października",
       "timeLabel":"9:55","title":"Lekkoatletyka: Maraton we Frankfurcie","channel":"TVP Sport"}
