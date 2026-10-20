@@ -81,6 +81,7 @@ def convert(matches, now):
             'status': status,
             'channel': None,
             'broadcastVerified': False,
+            'polishParticipantConfirmedByApi': True,
         })
     rows.sort(key=lambda row: row['start'])
     return rows
@@ -109,7 +110,7 @@ def main():
         save_snapshot([], 'API niedostępne: brak aktualnie potwierdzonych danych. Nie wyświetlaj starego terminarza.')
         print(f'BŁĄD pobierania API: {type(exc).__name__}: {exc}')
         raise SystemExit(1) from exc
-    save_snapshot(rows, 'Kandydaci z aktualnej odpowiedzi API. Brak potwierdzenia kanału TV; nie kopiuj automatycznie do events.json.')
+    save_snapshot(rows, 'Zaplanowane mecze z polskim zawodnikiem wedlug aktualnej odpowiedzi API; kanal TV wymaga osobnej weryfikacji.')
     print(f'Zapisano {len(rows)} zaplanowanych meczów z udziałem Polaków do tennis_candidates.json.')
     print('Mecze odwołane/usunięte przez API nie są zachowywane z poprzedniej aktualizacji.')
     print('UWAGA: opóźnienia w aktualizacji statusów przez dostawcę API są nadal możliwe.')
