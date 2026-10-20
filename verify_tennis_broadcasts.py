@@ -72,12 +72,19 @@ def load(name, key, now):
     return data[key], updated.astimezone(WARSAW)
 
 def verify(tennis, teleman, epg, teleman_updated, now):
+    """Publish upcoming API tennis fixtures; TV channel requires a LIVE name match.
+
+    The upstream API query and conversion check that at least one player has
+    country=POL. Raw rows without that provenance must not be accepted.
+    """
     rows, seen = [], set()
     for match in tennis:
         if match.get("status") != "upcoming" or match.get("sport") != "tenis":
             continue
+        if match.get("polishParticipantConfirmedByApi") is not True:
+            continue
         names = surnames(match.get("name"))
-        if not names:
+        if not names or not match.get("id"):
             continue
         try:
             start = datetime.fromisoformat(match["start"]).astimezone(WARSAW)
@@ -85,6 +92,22 @@ def verify(tennis, teleman, epg, teleman_updated, now):
             continue
         if not now <= start <= now + timedelta(days=7):
             continue
+        mid = str(match["id"])
+        if mid in seen:
+            continue
+        seen.add(mid)
+
+        # This is a FIXTURE, not a confirmed live TV broadcast.
+        result = {
+            **tv_times(start),
+            "sport": "tenis", "name": match["name"],
+            "matchId": mid, "matchScheduledStart": start.isoformat(),
+            "matchScheduled": True, "timeType": "match_planned",
+            "channel": None, "verifiedLive": False,
+            "sourceUrl": "https://api.livetennisapi.com/",
+            "verification": "Upcoming Polish fixture from Live Tennis API; TV unconfirmed",
+        }
+        possible_tv = []
         for tv in teleman:
             if tv.get("sport") != "tenis" or tv.get("telemanLiveBadge") is not True:
                 continue
@@ -93,30 +116,29 @@ def verify(tennis, teleman, epg, teleman_updated, now):
             tv_start = parse_teleman_date(tv.get("dateLabel", ""), tv.get("timeLabel", ""), teleman_updated)
             if tv_start is None or abs((tv_start - start).total_seconds()) > 45 * 60:
                 continue
-            channel = normalize(tv.get("channel"))
-            # Both full player surnames in a LIVE Teleman listing plus a
-            # specific upcoming API match suffice without XMLTV. An EPG
-            # disagreement cannot supply a fake broadcast end.
-            if not channel:
+            if not normalize(tv.get("channel")):
                 continue
+            possible_tv.append((tv, tv_start))
+        # A single specific broadcast may promote the fixture into TV listing.
+        slots = {(normalize(tv["channel"]), tv_start.isoformat()): (tv, tv_start)
+                 for tv, tv_start in possible_tv}
+        if len(slots) == 1:
+            tv, tv_start = next(iter(slots.values()))
             end = usable_epg_end(
                 epg, tv_start, tv["channel"], "tenis",
                 lambda p: both_named(p.get("name", "") + " " + p.get("description", ""), names),
                 normalize,
             )
-            if end is not None and not end >= start:
+            if end is not None and end < start:
                 end = None
-            key = (str(match.get("id")), channel, tv_start.isoformat())
-            if key in seen:
-                continue
-            seen.add(key)
-            rows.append({
-                **tv_times(tv_start, end),
-                "sport": "tenis", "name": match["name"], "channel": tv["channel"],
-                "matchId": str(match["id"]), "matchScheduledStart": start.isoformat(),
-                "verifiedLive": True, "sourceUrl": tv.get("sourceUrl", "https://www.teleman.pl/sport?live=1"),
+            result.update(tv_times(tv_start, end))
+            result.update({
+                "channel": tv["channel"], "verifiedLive": True,
+                "timeType": "tv_broadcast",
+                "sourceUrl": tv.get("sourceUrl", "https://www.teleman.pl/sport?live=1"),
                 "verification": "API upcoming + Teleman LIVE with both names (EPG optional)",
             })
+        rows.append(result)
     rows.sort(key=lambda x: x["start"])
     return rows
 
@@ -136,11 +158,11 @@ def main():
               if e.get("verifiedLive") is True and not (e.get("sport") == "tenis" and e.get("matchId"))]
     all_events = manual + found
     payload["updatedAt"] = now.isoformat()
-    payload["source"] = "Independent verification; tennis requires API + Teleman LIVE, EPG optional"
+    payload["source"] = "Upcoming Polish tennis fixtures from API; TV channel requires Teleman LIVE"
     payload["events"] = sorted(all_events, key=lambda e: e["start"])
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Potwierdzone mecze tenisowe: {len(found)}; pozostale zweryfikowane: {len(manual)}")
-    print("Brak dopasowania = brak publikacji; nie przypisujemy kanałów na podstawie samego turnieju.")
+    print(f"Zaplanowane mecze Polakow: {len(found)}; z potwierdzona TV: {sum(bool(e.get('channel')) for e in found)}; inne wydarzenia: {len(manual)}")
+    print("Brak dopasowania TV = mecz z godzina API bez kanalu. Nie zgadujemy nadawcy.")
 
 if __name__ == "__main__":
     main()
