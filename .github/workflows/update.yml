@@ -5,6 +5,12 @@ on:
   schedule:
     # 06:00, 12:00 i 18:00 UTC (w Polsce 08/14/20 latem, 07/13/19 zimą)
     - cron: "0 6,12,18 * * *"
+  push:
+    paths:
+      - ".github/workflows/update.yml"
+      - "verify_polish_entries.py"
+      - "verify_ski_broadcasts.py"
+      - "sport_competitions.json"
   workflow_dispatch:
 
 permissions:
