@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T22:33:32.447714+02:00",
+  "updatedAt": "2026-10-20T22:44:30.469936+02:00",
   "source": "Upcoming Polish tennis fixtures from API; TV channel requires Teleman LIVE",
   "events": [
     {
@@ -34,8 +34,8 @@
     },
     {
       "start": "2026-10-24T13:20:00+02:00",
-      "displayUntil": "2026-10-24T17:20:00+02:00",
-      "endConfirmedByEpg": false,
+      "end": "2026-10-24T15:25:00+02:00",
+      "endConfirmedByEpg": true,
       "sport": "skoki",
       "name": "Skoki narciarskie: Letnie Grand Prix w Klingenthal",
       "channel": "Eurosport 2",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T22:33:32.493647+02:00",
+  "updatedAt": "2026-10-20T22:44:30.536635+02:00",
   "competitions": [
     {
       "competitionId": "frankfurt-marathon-2026-10-25",
@@ -29,7 +29,7 @@
       "polishParticipantsConfirmed": true,
       "participationEvidence": "official_roster_announced",
       "participationSourceUrl": "https://pzn.pl/skoki-narciarskie/aktualnosci/szczerozloty-kacper-tomasiak-lks-klimczok-bystra-rzadzi-maciej-maciusiak-oglosil-sklad",
-      "participantsCheckedAt": "2026-10-20T22:33:32.543550+02:00",
+      "participantsCheckedAt": "2026-10-20T22:44:30.606580+02:00",
       "discoveredAutomatically": true
     },
     {
@@ -44,7 +44,7 @@
       "polishParticipantsConfirmed": true,
       "participationEvidence": "official_roster_announced",
       "participationSourceUrl": "https://pzn.pl/skoki-narciarskie/aktualnosci/szczerozloty-kacper-tomasiak-lks-klimczok-bystra-rzadzi-maciej-maciusiak-oglosil-sklad",
-      "participantsCheckedAt": "2026-10-20T22:33:32.543550+02:00",
+      "participantsCheckedAt": "2026-10-20T22:44:30.606580+02:00",
       "discoveredAutomatically": true
     }
   ]
