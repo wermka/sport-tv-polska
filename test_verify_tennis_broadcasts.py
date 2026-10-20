@@ -20,6 +20,13 @@ class CheckVerifiedBroadcasts(unittest.TestCase):
     def test_three_sources_agree(self):
         self.assertEqual(len(verify([MATCH], [TV], [EPG], NOW, NOW)), 1)
 
+    def test_teleman_live_and_api_without_epg(self):
+        rows = verify([MATCH], [TV], [], NOW, NOW)
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(rows[0]["start"], "2026-10-21T04:30:00+02:00")
+        self.assertNotIn("end", rows[0])
+        self.assertIn("displayUntil", rows[0])
+
     def test_replay_not_live(self):
         self.assertEqual(verify([MATCH], [{**TV, "telemanLiveBadge": False}], [EPG], NOW, NOW), [])
 
