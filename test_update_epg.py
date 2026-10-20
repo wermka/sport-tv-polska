@@ -81,5 +81,23 @@ class EpgRegressionTests(unittest.TestCase):
             rows = candidates_from_xml("https://example.org/test", NOW)
         self.assertFalse(any("Powt" in e["name"] for e in rows))
 
+class EpgOutageTests(unittest.TestCase):
+    def test_http_522_does_not_abort_or_publish_stale_candidates(self):
+        confirmed = [{"start": "2026-10-24T13:30:00+02:00", "end": "2026-10-24T15:25:00+02:00",
+                      "sport": "skoki", "name": "Klingenthal", "channel": "Eurosport 2",
+                      "verifiedLive": True, "sourceUrl": "https://example.org/source"}]
+        with tempfile.TemporaryDirectory() as directory:
+            folder = Path(directory)
+            error = HTTPError("https://example.org/epg.xml.gz", 522, "timeout", {}, None)
+            with patch.object(update_epg, "BASE", folder), patch.object(update_epg, "candidates_from_xml", side_effect=error) as fetcher, patch.object(update_epg, "validated_events", return_value=confirmed), patch("update_epg.time.sleep") as sleep:
+                update_epg.main("https://example.org/epg.xml.gz")
+            self.assertEqual(fetcher.call_count, 3)
+            self.assertEqual(sleep.call_count, 2)
+            candidates = json.loads((folder / "candidates.json").read_text(encoding="utf-8"))
+            events = json.loads((folder / "events.json").read_text(encoding="utf-8"))
+            self.assertFalse(candidates["epgAvailable"])
+            self.assertEqual(candidates["events"], [])
+            self.assertEqual(events["events"], confirmed)
+
 if __name__ == "__main__":
     unittest.main()
