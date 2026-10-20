@@ -46,7 +46,7 @@ def surname_forms(surname):
         forms.add(surname[:-1] + "y")
     # Kowalski -> Kowalskiego.
     if surname.endswith(("ski", "cki", "dzki")):
-        forms.add(surname[:-1] + "ego")
+        forms.add(surname[:-1] + "iego")
     return forms
 
 
