@@ -7,7 +7,17 @@
     "eventType": "men",
     "name": "Letnie Grand Prix w Klingenthal – konkurs indywidualny mężczyzn",
     "entryListUrl": "",
-    "sourceUrl": "https://weltcup-klingenthal.de/sommer-grandprix-skispringen/"
+    "sourceUrl": "https://weltcup-klingenthal.de/sommer-grandprix-skispringen/",
+    "rosterUrl": "https://pzn.pl/skoki-narciarskie/aktualnosci/szczerozloty-kacper-tomasiak-lks-klimczok-bystra-rzadzi-maciej-maciusiak-oglosil-sklad",
+    "rosterNames": [
+      "Kacper Tomasiak",
+      "Paweł Wąsek",
+      "Klemens Joniak",
+      "Maciej Kot",
+      "Jakub Wolny",
+      "Dawid Kubacki"
+    ],
+    "rosterMinimumMatches": 3
   },
   {
     "competitionId": "frankfurt-marathon-2026-10-25",
