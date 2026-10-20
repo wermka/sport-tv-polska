@@ -1,0 +1,39 @@
+name: Kontrola godzin tenisa
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sport-tv-polska-dane
+  cancel-in-progress: false
+
+jobs:
+  tennis:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pobierz repozytorium
+        uses: actions/checkout@v4
+      - name: Zainstaluj Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Testy kontroli tenisa
+        run: python -m unittest -v test_check_tennis_updates.py
+      - name: Kontroluj tylko potwierdzone mecze
+        env:
+          LIVE_TENNIS_API_KEY: ${{ secrets.LIVE_TENNIS_API_KEY }}
+        run: python check_tennis_updates.py
+      - name: Zapisz zmiany
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tennis_updates.json tennis_api_usage.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Kontrola zmian godzin meczow tenisowych"
+            git push
+          fi
