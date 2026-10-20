@@ -22,6 +22,30 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Sprawdz Live Tennis API
+        env:
+          LIVE_TENNIS_API_KEY: ${{ secrets.LIVE_TENNIS_API_KEY }}
+        run: |
+          python - <<'PY'
+          import os
+          import json
+          import urllib.request
+
+          key = os.environ["LIVE_TENNIS_API_KEY"]
+          url = "https://api.livetennisapi.com/api/public/v1/matches?status=upcoming&limit=5"
+
+          req = urllib.request.Request(
+              url,
+              headers={"X-API-Key": key}
+          )
+
+          with urllib.request.urlopen(req, timeout=30) as response:
+              data = json.load(response)
+
+          print("Polaczenie z Live Tennis API: OK")
+          print("Liczba pobranych meczow:", len(data.get("data", [])))
+          PY
+
       - name: Aktualizuj terminarz
         run: python update_epg.py https://epgshare01.online/epgshare01/epg_ripper_PL1.xml.gz
 
