@@ -8,6 +8,7 @@ stale matches masquerading as current information.
 """
 import json
 import os
+import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urlencode
@@ -36,6 +37,20 @@ def normalized_status(value):
     return str(value or '').strip().lower().replace(' ', '_')
 
 
+def is_minor_itf(match):
+    """Exclude ITF circuit fixtures; preserve WTA, ATP and Challenger events."""
+    tour = str(match.get('tour') or '').strip().lower()
+    tier = str(match.get('tier') or '').strip().lower()
+    tournament = str(match.get('tournament') or '').strip().lower()
+    if tour == 'itf' or tour.startswith('itf_') or tier.startswith('itf'):
+        return True
+    # Some API records omit the circuit label while identifying the event as
+    # ITF W15/W35/M15/M25 in the tier or tournament name.
+    if re.search(r'\b(?:w15|w35|m15|m25)\b', tier + ' ' + tournament):
+        return True
+    return False
+
+
 def convert(matches, now):
     rows, seen = [], set()
     for match in matches:
@@ -44,6 +59,8 @@ def convert(matches, now):
         status = normalized_status(match.get('status'))
         event_status = normalized_status(match.get('event_status'))
         if status != 'upcoming' or event_status in BLOCKED:
+            continue
+        if is_minor_itf(match):
             continue
         players = match.get('players')
         if not isinstance(players, dict):
