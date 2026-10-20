@@ -1,5 +1,5 @@
 import unittest
-from verify_polish_entries import has_polish_athlete, verify, official_roster_matches
+from verify_polish_entries import has_polish_athlete, verify, official_roster_matches, normalized_words
 
 ATHLETES = """<table><tr><th>Rank</th><th>Athlete</th><th>Nation</th></tr>
 <tr><td>4</td><td>Anna Wielgosz</td><td>POL</td></tr></table>"""
@@ -9,6 +9,9 @@ OTHERS = """<table><tr><th>Athlete</th><th>Nation</th></tr>
 <tr><td>Max Mustermann</td><td>GER</td></tr></table>"""
 
 class StartListTests(unittest.TestCase):
+    def test_polish_l_stroke_normalization(self):
+        self.assertEqual(normalized_words("Ogłosił skład i Paweł Wąsek"), "oglosil sklad i pawel wasek")
+
     def test_athlete_from_poland(self):
         self.assertTrue(has_polish_athlete(ATHLETES))
     def test_judge_is_not_athlete(self):
