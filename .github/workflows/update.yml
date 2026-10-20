@@ -50,59 +50,52 @@ jobs:
       - name: Testy poprawnosci weryfikacji
         run: python -m unittest -v test_verify_tennis_broadcasts.py test_check_tennis_updates.py test_verify_ski_broadcasts.py test_update_epg.py test_verify_polish_entries.py test_verify_athletics_broadcasts.py test_tv_schedule.py test_discover_ski.py
 
-      - name: Pobierz mecze polskich tenisistow
+      - name: Oblicz terminarz i bezpiecznie zapisz wyniki
         env:
           LIVE_TENNIS_API_KEY: ${{ secrets.LIVE_TENNIS_API_KEY }}
-        run: python update_tennis.py
-
-      - name: Aktualizuj terminarz
-        run: python update_epg.py https://epgshare01.online/epgshare01/epg_ripper_PL1.xml.gz
-      
-      - name: Dopasuj mecze tenisowe do TV
-        run: python match_tennis_tv.py
-     
-      - name: Sprawdz transmisje Polakow w Teleman
-        run: python teleman_importer.py --pages ${{ github.event_name == 'workflow_dispatch' && '8' || '6' }}
-
-      - name: Zweryfikuj tenis (API i Teleman; EPG opcjonalnie)
-        run: python verify_tennis_broadcasts.py
-
-      - name: Sprawdz oficjalne listy startowe Polakow
-        run: python verify_polish_entries.py
-
-      - name: Automatycznie odkryj konkursy skokow z ramowki i PZN
-        run: python discover_ski.py
-
-      - name: Zweryfikuj skoki (Teleman i Polacy)
-        run: python verify_ski_broadcasts.py
-
-      - name: Zweryfikuj lekkoatletyke (Teleman i Polacy)
-        run: python verify_athletics_broadcasts.py
-
-      - name: Zapisz zmiany
+          PAGES: ${{ github.event_name == 'workflow_dispatch' && '8' || '6' }}
+        shell: bash
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add events.json candidates.json tennis_candidates.json tennis_tv_matches.json teleman_review.json participation_verified.json
-          if ! git diff --cached --quiet; then
+          branch="${GITHUB_REF_NAME:-main}"
+
+          # Kazda proba zaczyna od najnowszych danych, a NIE od
+          # obliczen wykonanych przed konkurencyjnym commitem.
+          for attempt in 1 2 3; do
+            echo "Aktualizacja na najnowszym stanie repozytorium: proba $attempt"
+            git fetch origin "$branch"
+            git reset --hard "origin/$branch"
+
+            python -m compileall -q update_epg.py update_tennis.py match_tennis_tv.py teleman_importer.py verify_tennis_broadcasts.py verify_ski_broadcasts.py verify_polish_entries.py verify_athletics_broadcasts.py check_tennis_updates.py tv_schedule.py discover_ski.py
+            python -m unittest -q test_verify_tennis_broadcasts.py test_check_tennis_updates.py test_verify_ski_broadcasts.py test_update_epg.py test_verify_polish_entries.py test_verify_athletics_broadcasts.py test_tv_schedule.py test_discover_ski.py
+
+            python update_tennis.py
+            python update_epg.py https://epgshare01.online/epgshare01/epg_ripper_PL1.xml.gz
+            python match_tennis_tv.py
+            python teleman_importer.py --pages "$PAGES"
+            python verify_tennis_broadcasts.py
+            python verify_polish_entries.py
+            python discover_ski.py
+            python verify_ski_broadcasts.py
+            python verify_athletics_broadcasts.py
+
+            git add events.json candidates.json tennis_candidates.json tennis_tv_matches.json teleman_review.json participation_verified.json
+            if git diff --cached --quiet; then
+              echo "Brak zmian do zapisania."
+              exit 0
+            fi
             git commit -m "Automatyczna aktualizacja terminarza"
-            # Zmiany mogly pojawic sie podczas dlugiego pobierania ramowki.
-            # Nie nadpisuj cudzych commitow ani nie uzywaj force-push.
-            branch="${GITHUB_REF_NAME:-main}"
-            for attempt in 1 2 3; do
-              git fetch origin "$branch"
-              if ! git rebase "origin/$branch"; then
-                git rebase --abort
-                echo "::error::Konflikt danych z nowsza aktualizacja. Bezpiecznie przerwano zapis."
-                exit 1
-              fi
-              if git push origin "HEAD:$branch"; then
-                echo "Zapisano terminarz (proba $attempt)"
-                exit 0
-              fi
-              echo "Repozytorium zmienilo sie podczas zapisu; ponawiam..."
-              sleep $((attempt * 3))
-            done
-            echo "::error::Nie udalo sie zapisac zmian po trzech probach."
-            exit 1
-          fi
+            if git push origin "HEAD:$branch"; then
+              echo "Dane zapisane bez konfliktu."
+              exit 0
+            fi
+
+            # Push rejected: rebase nie wystarcza, bo pliki JSON sa
+            # generowane. Musimy przeliczyc je od poczatku.
+            echo "Repozytorium zmienilo sie w trakcie obliczen. Przeliczam na aktualnych danych."
+            sleep $((attempt * 3))
+          done
+          echo "::error::Repozytorium zmienialo sie podczas kazdej z trzech prob."
+          exit 1
