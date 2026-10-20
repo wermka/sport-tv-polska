@@ -10,6 +10,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 from verify_tennis_broadcasts import normalize, parse_teleman_date, load
+from tv_schedule import tv_times, usable_epg_end
 
 ROOT = Path(__file__).resolve().parent
 WARSAW = ZoneInfo("Europe/Warsaw")
@@ -63,31 +64,25 @@ def verify_ski(competitions, listings, listing_updated, now, existing=(), epg=()
             if start.date() != race.date():
                 continue
             matches.append((tv, start))
-        # Independently require an XMLTV programme ending after the competition starts.
-        supported = []
-        for tv, start in matches:
-            for p in epg:
-                if p.get("sport") != "skoki" or normalize(p.get("channel")) != normalize(tv["channel"]):
-                    continue
-                if normalize(comp["venue"]) not in normalize(p.get("name", "") + " " + p.get("description", "")):
-                    continue
-                try:
-                    epg_start = datetime.fromisoformat(p["start"]).astimezone(WARSAW)
-                    epg_end = datetime.fromisoformat(p["end"]).astimezone(WARSAW)
-                except (ValueError, TypeError, KeyError):
-                    continue
-                if abs((epg_start - start).total_seconds()) > 30 * 60 or epg_end <= race:
-                    continue
-                supported.append((tv, start, epg_end))
-        # Multiple different programme slots would be ambiguous.
-        unique = {(tv["channel"], start.isoformat()): (tv, start, end)
-                  for tv, start, end in supported}
+        # Teleman LIVE + official Polish squad/start list is sufficient.
+        # XMLTV only supplies an independently grounded programme end.
+        unique = {(tv["channel"], start.isoformat()): (tv, start)
+                  for tv, start in matches}
         if len(unique) != 1:
             continue
-        tv, tv_start, end = next(iter(unique.values()))
+        tv, tv_start = next(iter(unique.values()))
+        end = usable_epg_end(
+            epg, tv_start, tv["channel"], "skoki",
+            lambda p: normalize(comp["venue"]) in normalize(
+                p.get("name", "") + " " + p.get("description", "")),
+            normalize,
+        )
+        # Contradictory EPG is not evidence of a different TV start; refuse
+        # to infer the end unless it is consistent with the competition.
+        if end is not None and end <= race:
+            end = None
         confirmed.append({
-            "start": tv_start.isoformat(),
-            "end": end.isoformat(),
+            **tv_times(tv_start, end),
             "sport": "skoki",
             "name": comp["name"],
             "channel": tv["channel"],
@@ -96,7 +91,7 @@ def verify_ski(competitions, listings, listing_updated, now, existing=(), epg=()
             "competitionId": comp["competitionId"],
             "participationEvidence": comp.get("participationEvidence", "official_start_list"),
             "participationSourceUrl": comp.get("entryListUrl") if comp.get("participationEvidence") == "official_start_list" else comp.get("rosterUrl", comp["sourceUrl"]),
-            "verification": "Official squad or start list + exact competition/date + Teleman LIVE + XMLTV",
+            "verification": "Official squad or start list + exact competition/date + Teleman LIVE (EPG optional)",
         })
     return confirmed
 
