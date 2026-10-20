@@ -15,7 +15,7 @@ def parse_time(s):
     if not m:return None
     dt=datetime.strptime(m.group(1),'%Y%m%d%H%M%S')
     if m.group(2):
-        z=m.group(2); dt=dt.replace(tz=timezone((1 if z[0]=='+' else -1)*timedelta(hours=int(z[1:3]),minutes=int(z[3:]))))
+        z=m.group(2); dt=dt.replace(tzinfo=timezone((1 if z[0]=='+' else -1)*timedelta(hours=int(z[1:3]),minutes=int(z[3:]))))
     else:dt=dt.replace(tz=ZoneInfo('Europe/Warsaw'))
     return dt.astimezone(ZoneInfo('Europe/Warsaw'))
 
