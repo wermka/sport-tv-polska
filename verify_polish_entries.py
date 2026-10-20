@@ -127,7 +127,7 @@ def official_roster_matches(html, event):
     p.feed(html)
     text = normalized_words(" ".join(p.parts))
     venue = normalized_words(event.get("venue", ""))
-    if len(venue) < 4 or not re.search(r"(?<!\\w)" + re.escape(venue) + r"(?!\\w)", text):
+    if len(venue) < 4 or not re.search(r"(?<!\w)" + re.escape(venue) + r"(?!\w)", text):
         return False
     names = event["rosterNames"]
     if not isinstance(names, list) or len(names) < 2:
@@ -139,7 +139,7 @@ def official_roster_matches(html, event):
             continue
         # Name may appear in surname-first order in published squads.
         a, b = parts[0], parts[-1]
-        if re.search(r"\\b" + re.escape(a) + r"\\s+" + re.escape(b) + r"\\b", text) or re.search(r"\\b" + re.escape(b) + r"\\s+" + re.escape(a) + r"\\b", text):
+        if re.search(r"\b" + re.escape(a) + r"\s+" + re.escape(b) + r"\b", text) or re.search(r"\b" + re.escape(b) + r"\s+" + re.escape(a) + r"\b", text):
             found += 1
     minimum = max(2, int(event.get("rosterMinimumMatches", 2)))
     return found >= minimum
