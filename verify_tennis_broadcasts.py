@@ -25,7 +25,7 @@ MONTHS = {"stycznia": 1, "lutego": 2, "marca": 3, "kwietnia": 4, "maja": 5,
 MAX_FEED_AGE = timedelta(hours=5)
 
 def normalize(value):
-    value = unicodedata.normalize("NFKD", str(value or ""))
+    value = unicodedata.normalize("NFKD", str(value or "").replace("ł", "l").replace("Ł", "L"))
     value = "".join(c for c in value if not unicodedata.combining(c))
     return re.sub(r"[^a-z0-9]+", " ", value.casefold()).strip()
 
@@ -36,9 +36,23 @@ def surnames(name):
     names = [normalize(player).split()[-1] for player in players if normalize(player)]
     return names if len(names) == 2 and all(len(n) >= 3 for n in names) and names[0] != names[1] else None
 
+def surname_forms(surname):
+    """Small, explicit set of Polish surname inflections, not fuzzy matching."""
+    forms = {surname}
+    # Kawa -> Kawy, Giza -> Gizy, Kowalska -> Kowalskiej.
+    if surname.endswith(("ska", "cka", "dzka")):
+        forms.add(surname[:-1] + "iej")
+    elif surname.endswith("a") and len(surname) >= 4:
+        forms.add(surname[:-1] + "y")
+    # Kowalski -> Kowalskiego.
+    if surname.endswith(("ski", "cki", "dzki")):
+        forms.add(surname[:-1] + "ego")
+    return forms
+
+
 def both_named(title, names):
-    title = " " + normalize(title) + " "
-    return all(re.search(r"\b" + re.escape(n) + r"\b", title) for n in names)
+    words = set(normalize(title).split())
+    return all(bool(words & surname_forms(n)) for n in names)
 
 def parse_teleman_date(label, hour, updated):
     text = normalize(label)
