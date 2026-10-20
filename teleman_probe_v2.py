@@ -95,6 +95,13 @@ def main():
             sport = 'SKOKI'
         elif 'piłka nożna' in text or 'pilka nozna' in text:
             sport = 'PIŁKA NOŻNA (do weryfikacji reprezentacji Polski)'
+        elif re.search(
+            r'lekkoatletyk|athletics|diamentowa liga|diamond league|'
+            r'skok o tyczce|rzut młotem|pchnięcie kulą|'
+            r'bieg na \d+ m|sztafeta',
+            text
+        ):
+            sport = 'LEKKOATLETYKA'
         else:
             continue
         counts[sport] += 1
