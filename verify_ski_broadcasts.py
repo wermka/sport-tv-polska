@@ -109,6 +109,17 @@ def main():
     file = ROOT / "events.json"
     payload = json.loads(file.read_text(encoding="utf-8"))
     old = payload.get("events", [])
+    # When the official start list arrives, upgrade an earlier roster-based
+    # confirmation, without altering the TV channel or programme start time.
+    for event in old:
+        if event.get("sport") != "skoki":
+            continue
+        for comp in competitions:
+            if (event.get("competitionId") == comp.get("competitionId")
+                    and comp.get("polishParticipantsConfirmed") is True
+                    and comp.get("participationEvidence") == "official_start_list"):
+                event["participationEvidence"] = "official_start_list"
+                event["participationSourceUrl"] = comp.get("entryListUrl")
     # A subsequent run must not erase independently verified broadcast listings.
     epg, _ = load("candidates.json", "events", now)
     added = verify_ski(competitions, listing, updated, now, old, epg)
