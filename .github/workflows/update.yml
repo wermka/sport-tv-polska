@@ -32,7 +32,7 @@ jobs:
           import urllib.request
 
           key = os.environ["LIVE_TENNIS_API_KEY"]
-          url = "https://api.livetennisapi.com/api/public/v1/matches?status=upcoming&limit=5"
+          url = "https://api.livetennisapi.com/api/public/v1/matches?status=upcoming&country=pol&limit=50"
 
           req = urllib.request.Request(
               url,
