@@ -98,22 +98,80 @@ def fetch(url):
             raise ValueError("Zbyt duza strona")
         return raw.decode("utf-8", "replace")
 
+class VisibleText(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.parts = []
+        self.suppressed = 0
+    def handle_starttag(self, tag, attrs):
+        if tag in ("script", "style"):
+            self.suppressed += 1
+    def handle_endtag(self, tag):
+        if tag in ("script", "style") and self.suppressed:
+            self.suppressed -= 1
+    def handle_data(self, value):
+        if not self.suppressed:
+            self.parts.append(value)
+
+def normalized_words(value):
+    import unicodedata
+    value = unicodedata.normalize("NFKD", str(value)).casefold()
+    value = "".join(c for c in value if not unicodedata.combining(c))
+    return " ".join(re.findall(r"[a-z0-9]+", value))
+
+def official_roster_matches(html, event):
+    """Never infer a roster from the whole page mentioning 'Poland'."""
+    if event.get("sport") != "skoki" or not event.get("rosterNames"):
+        return False
+    p = VisibleText()
+    p.feed(html)
+    text = normalized_words(" ".join(p.parts))
+    venue = normalized_words(event.get("venue", ""))
+    if len(venue) < 4 or not re.search(r"(?<!\\w)" + re.escape(venue) + r"(?!\\w)", text):
+        return False
+    names = event["rosterNames"]
+    if not isinstance(names, list) or len(names) < 2:
+        return False
+    found = 0
+    for person in set(normalized_words(n) for n in names):
+        parts = person.split()
+        if len(parts) < 2 or not all(len(part) >= 3 for part in parts):
+            continue
+        # Name may appear in surname-first order in published squads.
+        a, b = parts[0], parts[-1]
+        if re.search(r"\\b" + re.escape(a) + r"\\s+" + re.escape(b) + r"\\b", text) or re.search(r"\\b" + re.escape(b) + r"\\s+" + re.escape(a) + r"\\b", text):
+            found += 1
+    minimum = max(2, int(event.get("rosterMinimumMatches", 2)))
+    return found >= minimum
+
 def verify(entries, downloader=fetch):
     checked = []
     for event in entries:
         row = dict(event)
         row["polishParticipantsConfirmed"] = False
         row["participantsCheckedAt"] = None
-        url = event.get("entryListUrl", "")
-        if not allowed_url(url):
-            checked.append(row)
-            continue
-        try:
-            html = downloader(url)
-            row["polishParticipantsConfirmed"] = has_polish_athlete(html)
-            row["participantsCheckedAt"] = datetime.now(WARSAW).isoformat()
-        except (OSError, ValueError, TimeoutError) as exc:
-            print(f"Brak potwierdzenia uczestnikow: {event.get('competitionId')}: {type(exc).__name__}")
+        row["participationEvidence"] = None
+        # The start list is stronger evidence than an announced squad.
+        entry_url = event.get("entryListUrl", "")
+        if allowed_url(entry_url):
+            try:
+                if has_polish_athlete(downloader(entry_url)):
+                    row["polishParticipantsConfirmed"] = True
+                    row["participantsCheckedAt"] = datetime.now(WARSAW).isoformat()
+                    row["participationEvidence"] = "official_start_list"
+            except (OSError, ValueError, TimeoutError) as exc:
+                print(f"Lista startowa niedostepna: {event.get('competitionId')}: {type(exc).__name__}")
+        if not row["polishParticipantsConfirmed"] and event.get("sport") == "skoki":
+            roster_url = event.get("rosterUrl", "")
+            # Only the Polish Ski Association's announcement is accepted.
+            if allowed_url(roster_url) and (urlparse(roster_url).hostname or "").lower() == "pzn.pl":
+                try:
+                    if official_roster_matches(downloader(roster_url), event):
+                        row["polishParticipantsConfirmed"] = True
+                        row["participantsCheckedAt"] = datetime.now(WARSAW).isoformat()
+                        row["participationEvidence"] = "official_roster_announced"
+                except (OSError, ValueError, TimeoutError) as exc:
+                    print(f"Kadra niedostepna: {event.get('competitionId')}: {type(exc).__name__}")
         checked.append(row)
     return checked
 
@@ -126,7 +184,7 @@ def main():
         json.dumps({"updatedAt": datetime.now(WARSAW).isoformat(), "competitions": checked},
                    ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print("Wydarzenia:", len(checked), "potwierdzeni Polacy:", sum(e["polishParticipantsConfirmed"] for e in checked))
-    missing = [e.get("competitionId") for e in checked if not e.get("entryListUrl")]
+    missing = [e.get("competitionId") for e in checked if not e.get("entryListUrl") and not e.get("rosterUrl")]
     if missing:
         print("BRAK oficjalnej listy startowej (nie publikujemy):", ", ".join(str(x) for x in missing))
 
