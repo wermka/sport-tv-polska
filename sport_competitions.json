@@ -27,6 +27,9 @@
     "eventType": "marathon",
     "name": "Maraton we Frankfurcie",
     "entryListUrl": "",
-    "sourceUrl": "https://www.frankfurt-marathon.com/"
+    "sourceUrl": "https://www.frankfurt-marathon.com/",
+    "venueAliases": [
+      "Frankfurcie"
+    ]
   }
 ]
