@@ -31,7 +31,7 @@ jobs:
         run: python -m compileall -q update_epg.py update_tennis.py match_tennis_tv.py teleman_importer.py verify_tennis_broadcasts.py verify_ski_broadcasts.py verify_polish_entries.py verify_athletics_broadcasts.py check_tennis_updates.py
 
       - name: Testy poprawnosci weryfikacji
-        run: python -m unittest -v test_verify_tennis_broadcasts.py test_check_tennis_updates.py test_verify_ski_broadcasts.py test_update_epg.py
+        run: python -m unittest -v test_verify_tennis_broadcasts.py test_check_tennis_updates.py test_verify_ski_broadcasts.py test_update_epg.py test_verify_polish_entries.py test_verify_athletics_broadcasts.py
 
       - name: Pobierz mecze polskich tenisistow
         env:
