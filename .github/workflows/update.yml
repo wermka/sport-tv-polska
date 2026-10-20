@@ -44,6 +44,18 @@ jobs:
 
           print("Polaczenie z Live Tennis API: OK")
           print("Liczba pobranych meczow:", len(data.get("data", [])))
+          
+          matches = data.get("data", [])
+          if matches:
+              print("Pola dostepne w meczu:")
+              print(list(matches[0].keys()))
+              print("Przykladowy mecz:")
+              safe_fields = {
+                  k: v for k, v in matches[0].items()
+                  if k in ("id", "date", "start_time", "status", "home", "away", "player1", "player2", "players", "tournament")
+              }
+              print(json.dumps(safe_fields, ensure_ascii=False, default=str)[:2000])
+
           PY
 
       - name: Aktualizuj terminarz
