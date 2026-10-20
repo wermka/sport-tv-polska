@@ -84,7 +84,7 @@ def verify_ski(competitions, listings, listing_updated, now, existing=(), epg=()
                   for tv, start, end in supported}
         if len(unique) != 1:
             continue
-        tv, tv_start, end = next(iter(unique.values())
+        tv, tv_start, end = next(iter(unique.values()))
         confirmed.append({
             "start": tv_start.isoformat(),
             "end": end.isoformat(),
