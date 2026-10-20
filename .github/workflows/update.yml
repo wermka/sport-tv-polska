@@ -34,7 +34,7 @@ jobs:
         run: python match_tennis_tv.py
      
       - name: Test zbiorczej ramowki Teleman
-        run: python teleman_probe_v2.py.
+        run: python teleman_probe_v2.py
 
       - name: Zapisz zmiany
         run: |
