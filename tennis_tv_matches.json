@@ -1,0 +1,6 @@
+{
+  "updatedAt": "2026-10-20T16:27:29.450572+00:00",
+  "source": "Tennis API x XMLTV",
+  "warning": "Potential matches only; do not publish to events.json automatically.",
+  "matches": []
+}
