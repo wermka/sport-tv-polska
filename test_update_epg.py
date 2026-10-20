@@ -64,7 +64,7 @@ class EpgRegressionTests(unittest.TestCase):
             with patch.object(update_epg, "BASE", base), \
                  patch.object(update_epg, "candidates_from_xml", side_effect=failure) as call, \
                  patch.object(update_epg, "time") as clock, \
-                 patch.object(update_epg, "datetime") as dt:
+                 patch.object(update_epg, "datetime", wraps=datetime) as dt:
                 dt.now.return_value = now
                 update_epg.main("https://example.org/epg.xml.gz")
             self.assertEqual(call.call_count, 3)
