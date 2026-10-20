@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-10-20T20:59:20.476012+02:00",
+  "updatedAt": "2026-10-20T21:48:29.247357+02:00",
   "source": "Live Tennis API",
   "note": "Kandydaci z aktualnej odpowiedzi API. Brak potwierdzenia kanału TV; nie kopiuj automatycznie do events.json.",
   "matches": [
     {
       "id": 206998,
-      "start": "2026-10-20T22:00:00+02:00",
+      "start": "2026-10-20T22:25:00+02:00",
       "sport": "tenis",
       "name": "Hanna Chang – Nika Hurkacz",
       "tournament": "W35 Bakersfield, CA",
