@@ -4,7 +4,7 @@
 Requirements:
 - upcoming Polish tennis match from Live Tennis API,
 - the same two players in a Teleman listing explicitly marked LIVE,
-- the same players and channel in XMLTV with matching start time and known end.
+- the XMLTV can optionally confirm programme end but is not required.
 
 No guesses from generic tournament slots. Other sports stay in the manual
 verification queue until independent competition calendars are integrated.
@@ -15,6 +15,7 @@ import unicodedata
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
+from tv_schedule import tv_times, usable_epg_end
 
 ROOT = Path(__file__).resolve().parent
 WARSAW = ZoneInfo("Europe/Warsaw")
@@ -93,31 +94,29 @@ def verify(tennis, teleman, epg, teleman_updated, now):
             if tv_start is None or abs((tv_start - start).total_seconds()) > 45 * 60:
                 continue
             channel = normalize(tv.get("channel"))
-            for programme in epg:
-                if programme.get("sport") != "tenis" or normalize(programme.get("channel")) != channel:
-                    continue
-                if not both_named(programme.get("name", "") + " " + programme.get("description", ""), names):
-                    continue
-                try:
-                    epg_start = datetime.fromisoformat(programme["start"]).astimezone(WARSAW)
-                    epg_end = datetime.fromisoformat(programme["end"]).astimezone(WARSAW)
-                except (KeyError, TypeError, ValueError):
-                    continue
-                if abs((epg_start - tv_start).total_seconds()) > 30 * 60 or not epg_start <= start <= epg_end:
-                    continue
-                if epg_end <= now or epg_end <= start:
-                    continue
-                key = (match.get("id"), channel, tv_start.isoformat())
-                if key in seen:
-                    continue
-                seen.add(key)
-                rows.append({
-                    "start": tv_start.isoformat(), "end": epg_end.isoformat(),
-                    "sport": "tenis", "name": match["name"], "channel": tv["channel"],
-                    "matchId": str(match["id"]), "matchScheduledStart": start.isoformat(),
-                    "verifiedLive": True, "sourceUrl": tv.get("sourceUrl", "https://www.teleman.pl/sport?live=1"),
-                    "verification": "API upcoming + Teleman LIVE with both names + XMLTV same match/channel/time",
-                })
+            # Both full player surnames in a LIVE Teleman listing plus a
+            # specific upcoming API match suffice without XMLTV. An EPG
+            # disagreement cannot supply a fake broadcast end.
+            if not channel:
+                continue
+            end = usable_epg_end(
+                epg, tv_start, tv["channel"], "tenis",
+                lambda p: both_named(p.get("name", "") + " " + p.get("description", ""), names),
+                normalize,
+            )
+            if end is not None and not end >= start:
+                end = None
+            key = (str(match.get("id")), channel, tv_start.isoformat())
+            if key in seen:
+                continue
+            seen.add(key)
+            rows.append({
+                **tv_times(tv_start, end),
+                "sport": "tenis", "name": match["name"], "channel": tv["channel"],
+                "matchId": str(match["id"]), "matchScheduledStart": start.isoformat(),
+                "verifiedLive": True, "sourceUrl": tv.get("sourceUrl", "https://www.teleman.pl/sport?live=1"),
+                "verification": "API upcoming + Teleman LIVE with both names (EPG optional)",
+            })
     rows.sort(key=lambda x: x["start"])
     return rows
 
@@ -134,10 +133,10 @@ def main():
     path = ROOT / "events.json"
     payload = json.loads(path.read_text(encoding="utf-8"))
     manual = [e for e in payload.get("events", [])
-              if e.get("verifiedLive") is True and e.get("verification") != "API upcoming + Teleman LIVE with both names + XMLTV same match/channel/time"]
+              if e.get("verifiedLive") is True and e.get("sport") != "tenis" or not e.get("matchId")]
     all_events = manual + found
     payload["updatedAt"] = now.isoformat()
-    payload["source"] = "Independent verification; tennis requires API + Teleman LIVE + XMLTV"
+    payload["source"] = "Independent verification; tennis requires API + Teleman LIVE, EPG optional"
     payload["events"] = sorted(all_events, key=lambda e: e["start"])
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Potwierdzone mecze tenisowe: {len(found)}; pozostale zweryfikowane: {len(manual)}")
