@@ -3,7 +3,7 @@
 import unittest
 from datetime import datetime
 from zoneinfo import ZoneInfo
-from verify_tennis_broadcasts import verify, parse_teleman_date
+from verify_tennis_broadcasts import verify, parse_teleman_date, both_named, surnames
 
 NOW = datetime(2026, 10, 20, 19, 0, tzinfo=ZoneInfo("Europe/Warsaw"))
 MATCH = {"id": 101, "status": "upcoming", "sport": "tenis",
@@ -55,6 +55,26 @@ class CheckVerifiedBroadcasts(unittest.TestCase):
 
     def test_same_api_match_not_duplicated(self):
         self.assertEqual(len(verify([MATCH, MATCH], [], [], NOW, NOW)), 1)
+
+    def test_inflected_kawa_and_bencic_assigns_channel(self):
+        match = {**MATCH, "name": "Katarzyna Kawa – Belinda Bencic"}
+        tv = {**TV, "title": "Tenis: mecz Katarzyny Kawy i Belindy Bencic"}
+        rows = verify([match], [tv], [], NOW, NOW)
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(rows[0]["channel"], "CANAL+ Sport 2")
+        self.assertTrue(rows[0]["verifiedLive"])
+
+    def test_inflection_does_not_accept_one_surname(self):
+        self.assertFalse(both_named("Mecz Katarzyny Kawy", ["kawa", "bencic"]))
+        self.assertFalse(both_named("Mecz Belindy Bencic", ["kawa", "bencic"]))
+
+    def test_inflection_does_not_accept_partial_surname(self):
+        self.assertFalse(both_named("Kawycz i Bencic", ["kawa", "bencic"]))
+        self.assertFalse(both_named("Kawy i Bencicowa", ["kawa", "bencic"]))
+
+    def test_other_polish_inflected_endings(self):
+        self.assertTrue(both_named("Mecz Anny Kowalskiej i Jana Kowalskiego", ["kowalska", "kowalski"]))
+        self.assertTrue(both_named("Mecz Oli Gizy i Belindy Bencic", ["giza", "bencic"]))
 
     def test_night_date(self):
         self.assertEqual(parse_teleman_date("noc wt./śr., 20 na 21 października", "2:25", NOW).day, 21)
