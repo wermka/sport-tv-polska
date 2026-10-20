@@ -37,7 +37,7 @@ class SkiTests(unittest.TestCase):
         self.assertEqual(verify_ski([COMP], [{**TV, "title": "Skoki Klingenthal konkurs kobiet"}], NOW, NOW, epg=[EPG]), [])
     def test_multiple_slots_ambiguous(self):
         also = {**TV, "channel": "TVP Sport"}
-        self.assertEqual(verify_ski([COMP], [TV, also], NOW, NOW, epg=[EPG]), [])
+        self.assertEqual(verify_ski([COMP], [TV, also], NOW, NOW, epg=[EPG, {**EPG, "channel": "TVP Sport"}]), [])
     def test_missing_epg_is_not_confirmed(self):
         self.assertEqual(verify_ski([COMP], [TV], NOW, NOW), [])
 
