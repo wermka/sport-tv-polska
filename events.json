@@ -1,5 +1,20 @@
 {
-  "updatedAt": "2026-10-20T22:06:34.719245+02:00",
+  "updatedAt": "2026-10-20T22:13:35.700487+02:00",
   "source": "Independent verification; tennis requires API + Teleman LIVE, EPG optional",
-  "events": []
+  "events": [
+    {
+      "start": "2026-10-24T13:20:00+02:00",
+      "displayUntil": "2026-10-24T17:20:00+02:00",
+      "endConfirmedByEpg": false,
+      "sport": "skoki",
+      "name": "Skoki narciarskie: Letnie Grand Prix w Klingenthal",
+      "channel": "Eurosport 2",
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4",
+      "verifiedLive": true,
+      "competitionId": "auto-ski-2026-10-24-klingenthal",
+      "participationEvidence": "official_roster_announced",
+      "participationSourceUrl": "https://pzn.pl/skoki-narciarskie/aktualnosci/szczerozloty-kacper-tomasiak-lks-klimczok-bystra-rzadzi-maciej-maciusiak-oglosil-sklad",
+      "verification": "Official squad or start list + exact competition/date + Teleman LIVE (EPG optional)"
+    }
+  ]
 }
