@@ -37,7 +37,7 @@ jobs:
         run: python match_tennis_tv.py
      
       - name: Sprawdz transmisje Polakow w Teleman
-        run: python teleman_importer.py --pages 3
+        run: python teleman_importer.py --pages ${{ github.event_name == 'workflow_dispatch' && '6' || '3' }}
 
       - name: Zweryfikuj tenis w trzech zrodlach
         run: python verify_tennis_broadcasts.py
