@@ -1,17 +1,7 @@
 {
-  "updatedAt": "2026-10-20T19:42:42.094534+02:00",
+  "updatedAt": "2026-10-20T19:56:06.699706+02:00",
   "source": "XMLTV; entries unverified",
   "events": [
-    {
-      "start": "2026-10-20T17:30:00+02:00",
-      "end": "2026-10-20T19:45:00+02:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA w Ningbo - mecz 1. rundy gry pojedynczej: Jasmine Paolini - Anhelina Kalinina",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
     {
       "start": "2026-10-20T18:00:00+02:00",
       "end": "2026-10-20T21:00:00+02:00",
@@ -153,6 +143,16 @@
       "verifiedLive": false
     },
     {
+      "start": "2026-10-21T18:30:00+02:00",
+      "end": "2026-10-21T20:00:00+02:00",
+      "sport": "lekkoatletyka",
+      "name": "Lekkoatletyka: Maraton w Amsterdamie",
+      "channel": "Eurosport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
       "start": "2026-10-21T19:00:00+02:00",
       "end": "2026-10-21T22:00:00+02:00",
       "sport": "tenis",
@@ -278,6 +278,16 @@
       "sport": "tenis",
       "name": "Tenis: Turniej WTA w Ningbo - mecz 2. rundy gry pojedynczej",
       "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-22T14:00:00+02:00",
+      "end": "2026-10-22T15:30:00+02:00",
+      "sport": "lekkoatletyka",
+      "name": "Lekkoatletyka: Maraton w Chicago",
+      "channel": "Eurosport 2",
       "description": "",
       "epgSaysLive": false,
       "verifiedLive": false
@@ -438,6 +448,16 @@
       "sport": "tenis",
       "name": "Tenis: Turniej WTA w Ningbo - mecz ćwierćfinałowy gry pojedynczej",
       "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-23T14:00:00+02:00",
+      "end": "2026-10-23T15:30:00+02:00",
+      "sport": "lekkoatletyka",
+      "name": "Lekkoatletyka: Maraton w Amsterdamie",
+      "channel": "Eurosport 2",
       "description": "",
       "epgSaysLive": false,
       "verifiedLive": false
