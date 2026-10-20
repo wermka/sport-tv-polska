@@ -12,6 +12,8 @@ on:
       - "verify_ski_broadcasts.py"
       - "update_epg.py"
       - "test_update_epg.py"
+      - "update_epg.py"
+      - "test_update_epg.py"
       - "sport_competitions.json"
   workflow_dispatch:
 
