@@ -23,7 +23,7 @@ jobs:
           python-version: "3.12"
 
       - name: Aktualizuj terminarz
-        run: python update_epg.py
+        run: python update_epg.py https://epgshare01.online/epgshare01/epg_ripper_PL1.xml.gz
 
       - name: Zapisz zmiany
         run: |
