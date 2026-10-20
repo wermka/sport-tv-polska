@@ -23,6 +23,20 @@ class SkiTests(unittest.TestCase):
         found = verify_ski([COMP], [TV], NOW, NOW, epg=[EPG])
         self.assertEqual(len(found), 1)
         self.assertEqual(found[0]["start"], "2026-10-24T13:20:00+02:00")
+    def test_roster_evidence_is_preserved(self):
+        comp = {**COMP, "participationEvidence": "official_roster_announced",
+                "rosterUrl": "https://pzn.pl/news/test"}
+        found = verify_ski([comp], [TV], NOW, NOW, epg=[EPG])
+        self.assertEqual(found[0]["participationEvidence"], "official_roster_announced")
+        self.assertEqual(found[0]["participationSourceUrl"], comp["rosterUrl"])
+
+    def test_start_list_evidence_is_preserved(self):
+        comp = {**COMP, "participationEvidence": "official_start_list",
+                "entryListUrl": "https://www.fis-ski.com/entries/test"}
+        found = verify_ski([comp], [TV], NOW, NOW, epg=[EPG])
+        self.assertEqual(found[0]["participationEvidence"], "official_start_list")
+        self.assertEqual(found[0]["participationSourceUrl"], comp["entryListUrl"])
+
     def test_participation_must_be_confirmed(self):
         self.assertEqual(verify_ski([{**COMP, "polishParticipantsConfirmed": False}], [TV], NOW, NOW, epg=[EPG]), [])
     def test_rerun_not_live(self):
