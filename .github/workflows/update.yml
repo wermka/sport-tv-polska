@@ -32,6 +32,9 @@ jobs:
       
       - name: Dopasuj mecze tenisowe do TV
         run: python match_tennis_tv.py
+     
+      - name: Test zbiorczej ramowki Teleman
+        run: python teleman_probe.py
 
       - name: Zapisz zmiany
         run: |
