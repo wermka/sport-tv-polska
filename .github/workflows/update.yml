@@ -40,7 +40,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add events.json candidates.json tennis_candidates.json tennis_tv_matches.json
+          git add events.json candidates.json tennis_candidates.json tennis_tv_matches.json teleman_review.json
           if ! git diff --cached --quiet; then
             git commit -m "Automatyczna aktualizacja terminarza"
             git push
