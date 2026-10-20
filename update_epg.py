@@ -159,7 +159,7 @@ def validated_events(now):
             continue
         if not (end > now and start <= now + timedelta(days=7) and end > start):
             continue
-        output.append({key: item[key] for key in required})
+        output.append({**{key: item[key] for key in required}, **{key: item[key] for key in ("participationEvidence", "participationSourceUrl", "competitionId") if key in item}})
     return sorted(output, key=lambda e: e['start'])
 
 
