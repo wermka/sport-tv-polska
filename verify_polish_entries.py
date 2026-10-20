@@ -15,7 +15,7 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent
 WARSAW = ZoneInfo("Europe/Warsaw")
-ALLOWED = ("fis-ski.com", "worldathletics.org", "fidal.it", "domtel-sport.pl",
+ALLOWED = ("pzn.pl", "fis-ski.com", "worldathletics.org", "fidal.it", "domtel-sport.pl",
            "pzla.pl", "european-athletics.com")
 COUNTRY = re.compile(r"(?<![A-Za-z])(?:POL|POLAND|POLSKA)(?![A-Za-z])", re.I)
 GENERIC = {"athlete", "bib", "rank", "nation", "country", "poland", "polska", "pol",
