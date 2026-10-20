@@ -16,7 +16,7 @@ WARSAW = ZoneInfo("Europe/Warsaw")
 MAX_TV_EARLY_MINUTES = 40
 MAX_TV_LATE_MINUTES = 15
 
-def verify_ski(competitions, listings, listing_updated, now, existing=()):
+def verify_ski(competitions, listings, listing_updated, now, existing=(), epg=()):
     confirmed = []
     existing_ids = {
         e.get("competitionId") for e in existing if e.get("competitionId")
@@ -63,13 +63,28 @@ def verify_ski(competitions, listings, listing_updated, now, existing=()):
             if start.date() != race.date():
                 continue
             matches.append((tv, start))
-        # Ambiguous multiple channels or slots must not be promoted automatically.
-        unique = {(tv["channel"], start.isoformat()): (tv, start) for tv, start in matches}
+        # Independently require an XMLTV programme ending after the competition starts.
+        supported = []
+        for tv, start in matches:
+            for p in epg:
+                if p.get("sport") != "skoki" or normalize(p.get("channel")) != normalize(tv["channel"]):
+                    continue
+                if normalize(comp["venue"]) not in normalize(p.get("name", "") + " " + p.get("description", "")):
+                    continue
+                try:
+                    epg_start = datetime.fromisoformat(p["start"]).astimezone(WARSAW)
+                    epg_end = datetime.fromisoformat(p["end"]).astimezone(WARSAW)
+                except (ValueError, TypeError, KeyError):
+                    continue
+                if abs((epg_start - start).total_seconds()) > 30 * 60 or epg_end <= race:
+                    continue
+                supported.append((tv, start, epg_end))
+        # Multiple different programme slots would be ambiguous.
+        unique = {(tv["channel"], start.isoformat()): (tv, start, end)
+                  for tv, start, end in supported}
         if len(unique) != 1:
             continue
-        tv, tv_start = next(iter(unique.values()))
-        # End time is approximate, never represented as factual broadcast end.
-        end = race + timedelta(hours=3)
+        tv, tv_start, end = next(iter(unique.values())
         confirmed.append({
             "start": tv_start.isoformat(),
             "end": end.isoformat(),
@@ -93,7 +108,8 @@ def main():
     payload = json.loads(file.read_text(encoding="utf-8"))
     old = payload.get("events", [])
     # A subsequent run must not erase independently verified broadcast listings.
-    added = verify_ski(competitions, listing, updated, now, old)
+    epg, _ = load("candidates.json", "events", now)
+    added = verify_ski(competitions, listing, updated, now, old, epg)
     payload["events"] = sorted(old + added, key=lambda e: e["start"])
     file.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Nowe potwierdzone transmisje skoków: {len(added)}")
