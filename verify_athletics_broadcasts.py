@@ -6,6 +6,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 from verify_tennis_broadcasts import normalize, load, parse_teleman_date
+from tv_schedule import tv_times, usable_epg_end
 
 ROOT = Path(__file__).resolve().parent
 TZ = ZoneInfo("Europe/Warsaw")
@@ -44,27 +45,24 @@ def verify_athletics(entries, tv_rows, epg_rows, updated, now, existing=()):
                 continue
             if not tv_time - timedelta(minutes=15) <= start <= tv_time + timedelta(minutes=40):
                 continue
-            for epg in epg_rows:
-                if epg.get("sport") != "lekkoatletyka" or normalize(epg.get("channel")) != normalize(tv.get("channel")):
-                    continue
-                if not any(place_name in normalize(epg.get("name", "") + " " + epg.get("description", "")) for place_name in places):
-                    continue
-                try:
-                    epg_start = datetime.fromisoformat(epg["start"]).astimezone(TZ)
-                    epg_end = datetime.fromisoformat(epg["end"]).astimezone(TZ)
-                except (ValueError, TypeError, KeyError):
-                    continue
-                if abs((epg_start - tv_time).total_seconds()) <= 30 * 60 and epg_end > start:
-                    matching.append((tv, tv_time, epg_end))
-        unique = {(tv["channel"], time.isoformat()): (tv, time, end) for tv, time, end in matching}
+            matching.append((tv, tv_time))
+        unique = {(tv["channel"], time.isoformat()): (tv, time) for tv, time in matching}
         if len(unique) != 1:
             continue
-        tv, time, end = next(iter(unique.values()))
-        found.append({"start": time.isoformat(), "end": end.isoformat(), "sport": "lekkoatletyka",
+        tv, time = next(iter(unique.values()))
+        end = usable_epg_end(
+            epg_rows, time, tv["channel"], "lekkoatletyka",
+            lambda p: any(place_name in normalize(
+                p.get("name", "") + " " + p.get("description", "")) for place_name in places),
+            normalize,
+        )
+        if end is not None and end <= start:
+            end = None
+        found.append({**tv_times(time, end), "sport": "lekkoatletyka",
                       "name": event["name"], "channel": tv["channel"], "verifiedLive": True,
                       "sourceUrl": tv.get("sourceUrl", "https://www.teleman.pl/sport?live=1"),
                       "competitionId": event["competitionId"],
-                      "verification": "Official athlete entries POL + Teleman LIVE + matching XMLTV"})
+                      "verification": "Official athlete entries POL + Teleman LIVE (EPG optional)"})
     return found
 
 def main():
