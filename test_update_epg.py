@@ -11,7 +11,7 @@ from update_epg import candidates_from_xml
 NOW = datetime(2026, 10, 20, 19, 0, tzinfo=ZoneInfo("Europe/Warsaw"))
 
 def programmes():
-    return b"""<?xml version="1.0" encoding="UTF-8"?>
+    return """<?xml version="1.0" encoding="UTF-8"?>
 <tv>
 <channel id="1"><display-name>Eurosport 2</display-name></channel>
 <channel id="2"><display-name>Polsat Sport</display-name></channel>
@@ -25,7 +25,7 @@ def programmes():
 <title>Tenis: Magda Linette - rywalka</title></programme>
 <programme channel="1" start="20261024200000 +0200" stop="20261024210000 +0200">
 <title>Skoki narciarskie: Powtórka z Klingenthal</title></programme>
-</tv>"""
+</tv>""".encode("utf-8")
 
 class EpgRegressionTests(unittest.TestCase):
     def test_ski_without_poland_word_is_retained_as_unverified(self):
