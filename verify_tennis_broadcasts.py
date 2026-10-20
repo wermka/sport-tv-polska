@@ -33,7 +33,7 @@ def surnames(name):
     if len(players) != 2:
         return None
     names = [normalize(player).split()[-1] for player in players if normalize(player)]
-    return names if len(names) == 2 and all(len(n) >= 4 for n in names) and names[0] != names[1] else None
+    return names if len(names) == 2 and all(len(n) >= 3 for n in names) and names[0] != names[1] else None
 
 def both_named(title, names):
     title = " " + normalize(title) + " "
