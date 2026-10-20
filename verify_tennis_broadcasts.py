@@ -133,7 +133,7 @@ def main():
     path = ROOT / "events.json"
     payload = json.loads(path.read_text(encoding="utf-8"))
     manual = [e for e in payload.get("events", [])
-              if e.get("verifiedLive") is True and e.get("sport") != "tenis" or not e.get("matchId")]
+              if e.get("verifiedLive") is True and not (e.get("sport") == "tenis" and e.get("matchId"))]
     all_events = manual + found
     payload["updatedAt"] = now.isoformat()
     payload["source"] = "Independent verification; tennis requires API + Teleman LIVE, EPG optional"
