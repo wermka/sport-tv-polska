@@ -20,10 +20,20 @@ from zoneinfo import ZoneInfo
 BASE = Path(__file__).resolve().parent
 WARSAW = ZoneInfo('Europe/Warsaw')
 CHANNELS = [
-    ('polsat sport 3', 'Polsat Sport 3'), ('polsat sport 2', 'Polsat Sport 2'),
-    ('polsat sport 1', 'Polsat Sport 1'), ('polsat sport', 'Polsat Sport'),
-    ('eurosport 2', 'Eurosport 2'), ('eurosport 1', 'Eurosport 1'),
-    ('tvp sport', 'TVP Sport'), ('tvp 1', 'TVP 1'), ('tvp 2', 'TVP 2'),
+    ('canal+ sport 5', 'CANAL+ Sport 5'),
+    ('canal+ sport 4', 'CANAL+ Sport 4'),
+    ('canal+ sport 3', 'CANAL+ Sport 3'),
+    ('canal+ sport 2', 'CANAL+ Sport 2'),
+    ('canal+ sport', 'CANAL+ Sport'),
+    ('polsat sport 3', 'Polsat Sport 3'),
+    ('polsat sport 2', 'Polsat Sport 2'),
+    ('polsat sport 1', 'Polsat Sport 1'),
+    ('polsat sport', 'Polsat Sport'),
+    ('eurosport 2', 'Eurosport 2'),
+    ('eurosport 1', 'Eurosport 1'),
+    ('tvp sport', 'TVP Sport'),
+    ('tvp 1', 'TVP 1'),
+    ('tvp 2', 'TVP 2'),
 ]
 SPORTS = {
     'tenis': re.compile(r'\b(tenis|wta|atp|wimbledon|roland garros|australian open|us open)\b', re.I),
@@ -97,8 +107,6 @@ def candidates_from_xml(url, now):
             continue
         sport = next((kind for kind, pattern in SPORTS.items() if pattern.search(blob)), None)
         if not sport:
-            continue
-        if sport == 'tenis' and not (POLISH_TENNIS.search(blob) or POLAND.search(blob)):
             continue
         if sport == 'siatkowka' and not POLAND.search(blob):
             continue
