@@ -12,6 +12,7 @@ COMP = {
     "name": "Test: skoki mezczyzn", "polishParticipantsConfirmed": True,
     "sourceUrl": "https://example.org/official",
 }
+EPG = {"sport": "skoki", "channel": "Eurosport 2", "name": "Skoki narciarskie – Klingenthal", "start": "2026-10-24T13:20:00+02:00", "end": "2026-10-24T15:30:00+02:00"}
 TV = {"sport": "skoki", "telemanLiveBadge": True,
       "dateLabel": "sobota, 24 października", "timeLabel": "13:20",
       "title": "Skoki narciarskie: Letnie Grand Prix w Klingenthal",
@@ -19,26 +20,32 @@ TV = {"sport": "skoki", "telemanLiveBadge": True,
 
 class SkiTests(unittest.TestCase):
     def test_tv_start_precedes_competition(self):
-        found = verify_ski([COMP], [TV], NOW, NOW)
+        found = verify_ski([COMP], [TV], NOW, NOW, epg=[EPG])
         self.assertEqual(len(found), 1)
         self.assertEqual(found[0]["start"], "2026-10-24T13:20:00+02:00")
     def test_participation_must_be_confirmed(self):
-        self.assertEqual(verify_ski([{**COMP, "polishParticipantsConfirmed": False}], [TV], NOW, NOW), [])
+        self.assertEqual(verify_ski([{**COMP, "polishParticipantsConfirmed": False}], [TV], NOW, NOW, epg=[EPG]), [])
     def test_rerun_not_live(self):
-        self.assertEqual(verify_ski([COMP], [{**TV, "telemanLiveBadge": False}], NOW, NOW), [])
+        self.assertEqual(verify_ski([COMP], [{**TV, "telemanLiveBadge": False}], NOW, NOW, epg=[EPG]), [])
     def test_wrong_day(self):
-        self.assertEqual(verify_ski([COMP], [{**TV, "dateLabel": "niedziela, 25 października"}], NOW, NOW), [])
+        self.assertEqual(verify_ski([COMP], [{**TV, "dateLabel": "niedziela, 25 października"}], NOW, NOW, epg=[EPG]), [])
     def test_wrong_venue(self):
-        self.assertEqual(verify_ski([COMP], [{**TV, "title": "Skoki w Zakopanem"}], NOW, NOW), [])
+        self.assertEqual(verify_ski([COMP], [{**TV, "title": "Skoki w Zakopanem"}], NOW, NOW, epg=[EPG]), [])
     def test_late_broadcast_not_accepted(self):
-        self.assertEqual(verify_ski([COMP], [{**TV, "timeLabel": "19:00"}], NOW, NOW), [])
+        self.assertEqual(verify_ski([COMP], [{**TV, "timeLabel": "19:00"}], NOW, NOW, epg=[EPG]), [])
     def test_explicit_other_event_type(self):
-        self.assertEqual(verify_ski([COMP], [{**TV, "title": "Skoki Klingenthal konkurs kobiet"}], NOW, NOW), [])
+        self.assertEqual(verify_ski([COMP], [{**TV, "title": "Skoki Klingenthal konkurs kobiet"}], NOW, NOW, epg=[EPG]), [])
     def test_multiple_slots_ambiguous(self):
         also = {**TV, "channel": "TVP Sport"}
-        self.assertEqual(verify_ski([COMP], [TV, also], NOW, NOW), [])
+        self.assertEqual(verify_ski([COMP], [TV, also], NOW, NOW, epg=[EPG]), [])
+    def test_missing_epg_is_not_confirmed(self):
+        self.assertEqual(verify_ski([COMP], [TV], NOW, NOW), [])
+
+    def test_epg_different_channel_is_not_confirmed(self):
+        self.assertEqual(verify_ski([COMP], [TV], NOW, NOW, epg=[{**EPG, "channel": "TVP Sport"}]), [])
+
     def test_same_competition_already_confirmed(self):
-        self.assertEqual(verify_ski([COMP], [TV], NOW, NOW, [{"competitionId": COMP["competitionId"]}]), [])
+        self.assertEqual(verify_ski([COMP], [TV], NOW, NOW, [{"competitionId": COMP["competitionId"]}], [EPG]), [])
 
 if __name__ == "__main__":
     unittest.main()
