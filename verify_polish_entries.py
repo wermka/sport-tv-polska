@@ -126,6 +126,9 @@ def main():
         json.dumps({"updatedAt": datetime.now(WARSAW).isoformat(), "competitions": checked},
                    ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print("Wydarzenia:", len(checked), "potwierdzeni Polacy:", sum(e["polishParticipantsConfirmed"] for e in checked))
+    missing = [e.get("competitionId") for e in checked if not e.get("entryListUrl")]
+    if missing:
+        print("BRAK oficjalnej listy startowej (nie publikujemy):", ", ".join(str(x) for x in missing))
 
 if __name__ == "__main__":
     main()
