@@ -1,13 +1,53 @@
 {
-  "updatedAt": "2026-10-20T18:27:25.324657+02:00",
+  "updatedAt": "2026-10-20T18:44:19.381664+02:00",
   "source": "XMLTV; entries unverified",
   "events": [
     {
-      "start": "2026-10-20T17:25:00+02:00",
-      "end": "2026-10-20T18:55:00+02:00",
-      "sport": "skoki",
-      "name": "Skoki narciarskie: Letnie mistrzostwa Polski - Zakopane 2026 - konkursy indywidualne kobiet i mężczyzn",
+      "start": "2026-10-20T16:50:00+02:00",
+      "end": "2026-10-20T19:05:00+02:00",
+      "sport": "pilka",
+      "name": "Piłka nożna kobiet: Mistrzostwa świata U-17 - Maroko 2026 - mecz: Korea Północna - Polska",
       "channel": "TVP Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-20T17:30:00+02:00",
+      "end": "2026-10-20T19:45:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz 1. rundy gry pojedynczej: Jasmine Paolini - Anhelina Kalinina",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-20T18:00:00+02:00",
+      "end": "2026-10-20T21:00:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis stołowy: LOTTO Superliga - mecz: KS Villa Verde Olesno - Energa Manekin Toruń",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-20T19:45:00+02:00",
+      "end": "2026-10-20T22:00:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Osace - mecz 1. rundy gry pojedynczej: Claire Liu - Magda Linette",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-20T22:00:00+02:00",
+      "end": "2026-10-21T00:15:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz 1. rundy gry pojedynczej: Katarzyna Kawa - Daria Snigur",
+      "channel": "CANAL+ Sport 2",
       "description": "",
       "epgSaysLive": false,
       "verifiedLive": false
@@ -23,11 +63,281 @@
       "verifiedLive": false
     },
     {
+      "start": "2026-10-21T00:15:00+02:00",
+      "end": "2026-10-21T02:30:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz 1. rundy gry pojedynczej: Julija Putincewa - Diana Sznajder",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-21T01:00:00+02:00",
+      "end": "2026-10-21T03:00:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Szanghaju - mecz finałowy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-21T06:00:00+02:00",
+      "end": "2026-10-21T07:00:00+02:00",
+      "sport": "tenis",
+      "name": "8 wspaniałych",
+      "channel": "CANAL+ Sport 2",
+      "description": "W kobiecym tenisie sezon 2025 zwieńczył turniej WTA Finals w Rijadzie z udziałem ośmiu zawodniczek. Każdy odcinek tej serii będzie poświęcony innej z nich. Zobaczymy, z jakimi wyzwaniami się mierzą.",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-21T07:00:00+02:00",
+      "end": "2026-10-21T09:00:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz 2. rundy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-21T09:00:00+02:00",
+      "end": "2026-10-21T11:00:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz 2. rundy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-21T10:00:00+02:00",
+      "end": "2026-10-21T12:00:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Szanghaju - mecz finałowy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-21T11:00:00+02:00",
+      "end": "2026-10-21T13:00:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz 2. rundy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-21T13:00:00+02:00",
+      "end": "2026-10-21T15:15:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz 2. rundy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-21T15:15:00+02:00",
+      "end": "2026-10-21T17:30:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz 2. rundy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-21T17:30:00+02:00",
+      "end": "2026-10-21T19:45:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz 2. rundy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-21T19:00:00+02:00",
+      "end": "2026-10-21T22:00:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis stołowy: LOTTO Superliga - mecz: KS Villa Verde Olesno - Energa Manekin Toruń",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-21T19:45:00+02:00",
+      "end": "2026-10-21T22:00:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz 2. rundy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-21T22:00:00+02:00",
+      "end": "2026-10-22T00:15:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz 2. rundy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
       "start": "2026-10-21T23:00:00+02:00",
       "end": "2026-10-22T07:00:00+02:00",
       "sport": "siatkowka",
       "name": "Siatkówka mężczyzn: Mistrzostwa Europy 2026 - mecz grupy B: Polska - Izrael",
       "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-22T00:15:00+02:00",
+      "end": "2026-10-22T02:30:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz 2. rundy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-22T01:00:00+02:00",
+      "end": "2026-10-22T03:00:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Szanghaju - mecz finałowy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-22T06:00:00+02:00",
+      "end": "2026-10-22T07:00:00+02:00",
+      "sport": "tenis",
+      "name": "8 wspaniałych",
+      "channel": "CANAL+ Sport 2",
+      "description": "W kobiecym tenisie sezon 2025 zwieńczył turniej WTA Finals w Rijadzie z udziałem ośmiu zawodniczek. Każdy odcinek tej serii będzie poświęcony innej z nich. Zobaczymy, z jakimi wyzwaniami się mierzą.",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-22T07:00:00+02:00",
+      "end": "2026-10-22T09:00:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz 2. rundy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-22T09:00:00+02:00",
+      "end": "2026-10-22T11:00:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz 2. rundy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-22T10:00:00+02:00",
+      "end": "2026-10-22T12:00:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Szanghaju - mecz finałowy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-22T11:00:00+02:00",
+      "end": "2026-10-22T13:00:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz 2. rundy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-22T12:00:00+02:00",
+      "end": "2026-10-22T15:30:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis stołowy: LOTTO Superliga - mecz: KS Villa Verde Olesno - Energa Manekin Toruń",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-22T13:00:00+02:00",
+      "end": "2026-10-22T15:15:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz 2. rundy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-22T15:15:00+02:00",
+      "end": "2026-10-22T17:30:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz 2. rundy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-22T16:55:00+02:00",
+      "end": "2026-10-22T20:00:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis stołowy: LOTTO Superliga - mecz: ORLEN Bogoria Grodzisk Mazowiecki - Bud-An ElectriCon Olimpia Grudziądz",
+      "channel": "TVP Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-22T17:30:00+02:00",
+      "end": "2026-10-22T19:45:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz 2. rundy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-22T19:45:00+02:00",
+      "end": "2026-10-22T22:00:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz 2. rundy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-22T22:00:00+02:00",
+      "end": "2026-10-23T00:15:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz 2. rundy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
       "description": "",
       "epgSaysLive": false,
       "verifiedLive": false
@@ -43,11 +353,381 @@
       "verifiedLive": false
     },
     {
+      "start": "2026-10-23T00:15:00+02:00",
+      "end": "2026-10-23T02:30:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz 2. rundy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-23T06:00:00+02:00",
+      "end": "2026-10-23T07:00:00+02:00",
+      "sport": "tenis",
+      "name": "8 wspaniałych",
+      "channel": "CANAL+ Sport 2",
+      "description": "W kobiecym tenisie sezon 2025 zwieńczył turniej WTA Finals w Rijadzie z udziałem ośmiu zawodniczek. Każdy odcinek tej serii będzie poświęcony innej z nich. Zobaczymy, z jakimi wyzwaniami się mierzą.",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-23T07:00:00+02:00",
+      "end": "2026-10-23T09:00:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz ćwierćfinałowy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-23T08:30:00+02:00",
+      "end": "2026-10-23T10:30:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Ałmatach - mecz ćwierćfinałowy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-23T09:00:00+02:00",
+      "end": "2026-10-23T11:00:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz ćwierćfinałowy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-23T10:30:00+02:00",
+      "end": "2026-10-23T13:00:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Ałmatach - mecz ćwierćfinałowy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-23T11:00:00+02:00",
+      "end": "2026-10-23T13:00:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz ćwierćfinałowy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-23T12:00:00+02:00",
+      "end": "2026-10-23T15:00:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis stołowy: LOTTO Superliga - mecz: KS Villa Verde Olesno - Energa Manekin Toruń",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-23T12:30:00+02:00",
+      "end": "2026-10-23T14:00:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Ałmatach - mecz ćwierćfinałowy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-23T13:00:00+02:00",
+      "end": "2026-10-23T15:15:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz ćwierćfinałowy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-23T14:00:00+02:00",
+      "end": "2026-10-23T16:00:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Brukseli - mecz ćwierćfinałowy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-23T14:30:00+02:00",
+      "end": "2026-10-23T16:00:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Ałmatach - mecz ćwierćfinałowy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-23T15:15:00+02:00",
+      "end": "2026-10-23T17:30:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz ćwierćfinałowy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-23T16:00:00+02:00",
+      "end": "2026-10-23T18:00:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Brukseli - mecz ćwierćfinałowy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-23T17:30:00+02:00",
+      "end": "2026-10-23T19:50:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz ćwierćfinałowy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-23T18:00:00+02:00",
+      "end": "2026-10-23T20:00:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Brukseli - mecz ćwierćfinałowy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-23T19:50:00+02:00",
+      "end": "2026-10-23T20:55:00+02:00",
+      "sport": "tenis",
+      "name": "8 wspaniałych",
+      "channel": "CANAL+ Sport 2",
+      "description": "W kobiecym tenisie sezon 2025 zwieńczył turniej WTA Finals w Rijadzie z udziałem ośmiu zawodniczek. Każdy odcinek tej serii będzie poświęcony innej z nich. Zobaczymy, z jakimi wyzwaniami się mierzą.",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-23T20:00:00+02:00",
+      "end": "2026-10-23T22:00:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Brukseli - mecz ćwierćfinałowy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
       "start": "2026-10-23T23:00:00+02:00",
       "end": "2026-10-24T06:00:00+02:00",
       "sport": "siatkowka",
       "name": "Siatkówka mężczyzn: Mistrzostwa Europy 2026 - mecz grupy B: Polska - Ukraina",
       "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-23T23:15:00+02:00",
+      "end": "2026-10-24T00:15:00+02:00",
+      "sport": "tenis",
+      "name": "8 wspaniałych",
+      "channel": "CANAL+ Sport 2",
+      "description": "W kobiecym tenisie sezon 2025 zwieńczył turniej WTA Finals w Rijadzie z udziałem ośmiu zawodniczek. Każdy odcinek tej serii będzie poświęcony innej z nich. Zobaczymy, z jakimi wyzwaniami się mierzą.",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-23T23:40:00+02:00",
+      "end": "2026-10-24T01:55:00+02:00",
+      "sport": "pilka",
+      "name": "Piłka nożna kobiet: Mistrzostwa świata U-17 - Maroko 2026 - mecz: Portoryko - Polska",
+      "channel": "TVP Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-24T00:15:00+02:00",
+      "end": "2026-10-24T02:30:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz ćwierćfinałowy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-24T06:00:00+02:00",
+      "end": "2026-10-24T08:00:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Brukseli - mecz ćwierćfinałowy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-24T06:00:00+02:00",
+      "end": "2026-10-24T08:20:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz ćwierćfinałowy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-24T08:20:00+02:00",
+      "end": "2026-10-24T09:00:00+02:00",
+      "sport": "tenis",
+      "name": "8 wspaniałych",
+      "channel": "CANAL+ Sport 2",
+      "description": "W kobiecym tenisie sezon 2025 zwieńczył turniej WTA Finals w Rijadzie z udziałem ośmiu zawodniczek. Każdy odcinek tej serii będzie poświęcony innej z nich. Zobaczymy, z jakimi wyzwaniami się mierzą.",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-24T08:30:00+02:00",
+      "end": "2026-10-24T11:00:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Ałmatach - mecz ćwierćfinałowy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-24T09:00:00+02:00",
+      "end": "2026-10-24T11:30:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz półfinałowy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-24T11:00:00+02:00",
+      "end": "2026-10-24T12:00:00+02:00",
+      "sport": "tenis",
+      "name": "ATP World Tour Next Week",
+      "channel": "Polsat Sport",
+      "description": "Program poświęcony rozgrywkom z głównego cyklu ATP Tour. Kibice zobaczą w nim m.in. zapowiedzi nadchodzących turniejów. Ponadto dostaną porcję statystyk i ciekawostek, też zza kulis tenisowego świata.",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-24T11:30:00+02:00",
+      "end": "2026-10-24T13:45:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz półfinałowy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-24T12:00:00+02:00",
+      "end": "2026-10-24T14:00:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Ałmatach - mecz półfinałowy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-24T13:45:00+02:00",
+      "end": "2026-10-24T16:00:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz półfinałowy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-24T14:00:00+02:00",
+      "end": "2026-10-24T16:00:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Ałmatach - mecz półfinałowy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-24T14:45:00+02:00",
+      "end": "2026-10-24T17:45:00+02:00",
+      "sport": "siatkowka",
+      "name": "Siatkówka kobiet: Al-KO Superpuchar Polski - mecz: PGE Budowlani Łódź - KS DevelopRes Rzeszów",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-24T16:00:00+02:00",
+      "end": "2026-10-24T17:25:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Brukseli - mecz półfinałowy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-24T16:00:00+02:00",
+      "end": "2026-10-24T18:20:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz półfinałowy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-24T18:20:00+02:00",
+      "end": "2026-10-24T19:00:00+02:00",
+      "sport": "tenis",
+      "name": "8 wspaniałych",
+      "channel": "CANAL+ Sport 2",
+      "description": "W kobiecym tenisie sezon 2025 zwieńczył turniej WTA Finals w Rijadzie z udziałem ośmiu zawodniczek. Każdy odcinek tej serii będzie poświęcony innej z nich. Zobaczymy, z jakimi wyzwaniami się mierzą.",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-24T22:15:00+02:00",
+      "end": "2026-10-25T00:30:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz półfinałowy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-25T00:30:00+02:00",
+      "end": "2026-10-25T02:45:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz półfinałowy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
       "description": "",
       "epgSaysLive": false,
       "verifiedLive": false
