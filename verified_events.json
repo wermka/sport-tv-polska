@@ -6,6 +6,9 @@
     "name": "Letnie Grand Prix w Klingenthal – konkurs indywidualny mężczyzn",
     "channel": "Eurosport 2",
     "sourceUrl": "https://www.skijumping.pl/skoki-dzisiaj/",
-    "verifiedLive": true
+    "verifiedLive": true,
+    "competitionId": "lgp-klingenthal-men-2026-10-24",
+    "participationEvidence": "official_roster_announced",
+    "participationSourceUrl": "https://pzn.pl/skoki-narciarskie/aktualnosci/szczerozloty-kacper-tomasiak-lks-klimczok-bystra-rzadzi-maciej-maciusiak-oglosil-sklad"
   }
 ]
