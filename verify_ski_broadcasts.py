@@ -101,7 +101,7 @@ def verify_ski(competitions, listings, listing_updated, now, existing=(), epg=()
 def main():
     now = datetime.now(WARSAW)
     listing, updated = load("teleman_review.json", "rows", now)
-    competitions = json.loads((ROOT / "ski_competitions.json").read_text(encoding="utf-8"))
+    competitions = [e for e in json.loads((ROOT / "participation_verified.json").read_text(encoding="utf-8"))["competitions"] if e.get("sport") == "skoki"]
     if not isinstance(competitions, list):
         raise SystemExit("ski_competitions.json must be a list")
     file = ROOT / "events.json"
