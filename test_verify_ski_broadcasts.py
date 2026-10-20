@@ -52,11 +52,17 @@ class SkiTests(unittest.TestCase):
     def test_multiple_slots_ambiguous(self):
         also = {**TV, "channel": "TVP Sport"}
         self.assertEqual(verify_ski([COMP], [TV, also], NOW, NOW, epg=[EPG, {**EPG, "channel": "TVP Sport"}]), [])
-    def test_missing_epg_is_not_confirmed(self):
-        self.assertEqual(verify_ski([COMP], [TV], NOW, NOW), [])
+    def test_missing_epg_keeps_live_tv_without_claiming_end(self):
+        rows = verify_ski([COMP], [TV], NOW, NOW)
+        self.assertEqual(len(rows), 1)
+        self.assertNotIn("end", rows[0])
+        self.assertIn("displayUntil", rows[0])
+        self.assertFalse(rows[0]["endConfirmedByEpg"])
 
-    def test_epg_different_channel_is_not_confirmed(self):
-        self.assertEqual(verify_ski([COMP], [TV], NOW, NOW, epg=[{**EPG, "channel": "TVP Sport"}]), [])
+    def test_epg_different_channel_does_not_supply_end(self):
+        rows = verify_ski([COMP], [TV], NOW, NOW, epg=[{**EPG, "channel": "TVP Sport"}])
+        self.assertEqual(len(rows), 1)
+        self.assertNotIn("end", rows[0])
 
     def test_same_competition_already_confirmed(self):
         self.assertEqual(verify_ski([COMP], [TV], NOW, NOW, [{"competitionId": COMP["competitionId"]}], [EPG]), [])
