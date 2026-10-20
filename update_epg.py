@@ -104,6 +104,9 @@ def candidates_from_xml(url, now):
         title = ' '.join((e.text or '') for e in p.findall('title')).strip()
         desc = ' '.join((e.text or '') for e in p.findall('desc')).strip()
         blob = title + ' ' + desc
+        # Tenis stolowy nie jest tenisem ziemnym i nie trafia do aplikacji.
+        if re.search(r'\btenis sto[lł]owy\b|\btable tennis\b', blob, re.I):
+            continue
         if REPLAY.search(blob):
             continue
         sport = next((kind for kind, pattern in SPORTS.items() if pattern.search(blob)), None)
