@@ -19,8 +19,17 @@ class AthleticsTests(unittest.TestCase):
         self.assertEqual(rows[0]["start"],"2026-10-25T09:55:00+01:00")
     def test_poland_not_confirmed(self):
         self.assertEqual(verify_athletics([{**COMP,"polishParticipantsConfirmed":False}],[TV],[EPG],NOW,NOW),[])
-    def test_bad_channel(self):
-        self.assertEqual(verify_athletics([COMP],[TV],[{**EPG,"channel":"Eurosport 2"}],NOW,NOW),[])
+    def test_epg_other_channel_does_not_provide_end(self):
+        rows = verify_athletics([COMP],[TV],[{**EPG,"channel":"Eurosport 2"}],NOW,NOW)
+        self.assertEqual(len(rows),1)
+        self.assertNotIn("end",rows[0])
+
+    def test_teleman_works_without_epg(self):
+        rows = verify_athletics([COMP],[TV],[],NOW,NOW)
+        self.assertEqual(len(rows),1)
+        self.assertEqual(rows[0]["start"],"2026-10-25T09:55:00+01:00")
+        self.assertNotIn("end",rows[0])
+        self.assertIn("displayUntil",rows[0])
     def test_not_live(self):
         self.assertEqual(verify_athletics([COMP],[{**TV,"telemanLiveBadge":False}],[EPG],NOW,NOW),[])
     def test_other_city(self):
