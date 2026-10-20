@@ -10,6 +10,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: sport-tv-polska-dane
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -24,7 +28,7 @@ jobs:
           python-version: "3.12"
          
       - name: Testy poprawnosci weryfikacji
-        run: python -m unittest -v test_verify_tennis_broadcasts.py
+        run: python -m unittest -v test_verify_tennis_broadcasts.py test_check_tennis_updates.py
 
       - name: Pobierz mecze polskich tenisistow
         env:
