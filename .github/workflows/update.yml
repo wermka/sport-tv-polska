@@ -17,6 +17,8 @@ on:
       - "sport_competitions.json"
       - "tv_schedule.py"
       - "verify_tennis_broadcasts.py"
+      - "update_tennis.py"
+      - "index.html"
       - "verify_athletics_broadcasts.py"
       - "test_verify_ski_broadcasts.py"
       - "test_verify_tennis_broadcasts.py"
