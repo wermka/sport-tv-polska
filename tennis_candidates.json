@@ -1,0 +1,98 @@
+{
+  "updatedAt": "2026-10-20T18:17:05.264663+02:00",
+  "source": "Live Tennis API",
+  "note": "Kandydaci z aktualnej odpowiedzi API. Brak potwierdzenia kanału TV; nie kopiuj automatycznie do events.json.",
+  "matches": [
+    {
+      "id": 206998,
+      "start": "2026-10-20T22:00:00+02:00",
+      "sport": "tenis",
+      "name": "Hanna Chang – Nika Hurkacz",
+      "tournament": "W35 Bakersfield, CA",
+      "tour": "itf",
+      "tier": "itf_w35",
+      "doubles": false,
+      "status": "upcoming",
+      "channel": null,
+      "broadcastVerified": false
+    },
+    {
+      "id": 207212,
+      "start": "2026-10-21T05:00:00+02:00",
+      "sport": "tenis",
+      "name": "Filip Peliwo – Jordan Chiu",
+      "tournament": "M15 Shenzhen (China)",
+      "tour": "itf",
+      "tier": "itf_m15",
+      "doubles": false,
+      "status": "upcoming",
+      "channel": null,
+      "broadcastVerified": false
+    },
+    {
+      "id": 207314,
+      "start": "2026-10-21T10:30:00+02:00",
+      "sport": "tenis",
+      "name": "Mikhail Khodorchenko – Jan Werblinski",
+      "tournament": "M15 Sharm ElSheikh 14",
+      "tour": "itf",
+      "tier": "itf_m15",
+      "doubles": false,
+      "status": "upcoming",
+      "channel": null,
+      "broadcastVerified": false
+    },
+    {
+      "id": 206937,
+      "start": "2026-10-21T11:00:00+02:00",
+      "sport": "tenis",
+      "name": "Weronika Falkowska – Madelief Hageman",
+      "tournament": "W35 Loule",
+      "tour": "itf",
+      "tier": "itf_w35",
+      "doubles": false,
+      "status": "upcoming",
+      "channel": null,
+      "broadcastVerified": false
+    },
+    {
+      "id": 206823,
+      "start": "2026-10-21T11:00:00+02:00",
+      "sport": "tenis",
+      "name": "Elena Milovanovic – Amelia Paszun",
+      "tournament": "W35 Monastir 8",
+      "tour": "itf",
+      "tier": "itf_w35",
+      "doubles": false,
+      "status": "upcoming",
+      "channel": null,
+      "broadcastVerified": false
+    },
+    {
+      "id": 207237,
+      "start": "2026-10-22T03:00:00+02:00",
+      "sport": "tenis",
+      "name": "Magda Linette – Katerina Siniakova",
+      "tournament": "Osaka",
+      "tour": "wta",
+      "tier": null,
+      "doubles": false,
+      "status": "upcoming",
+      "channel": null,
+      "broadcastVerified": false
+    },
+    {
+      "id": 207303,
+      "start": "2026-10-22T04:00:00+02:00",
+      "sport": "tenis",
+      "name": "Belinda Bencic – Katarzyna Kawa",
+      "tournament": "Ningbo",
+      "tour": "wta",
+      "tier": null,
+      "doubles": false,
+      "status": "upcoming",
+      "channel": null,
+      "broadcastVerified": false
+    }
+  ]
+}
