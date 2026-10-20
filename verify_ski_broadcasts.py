@@ -94,7 +94,9 @@ def verify_ski(competitions, listings, listing_updated, now, existing=(), epg=()
             "sourceUrl": tv.get("sourceUrl", "https://www.teleman.pl/sport?live=1"),
             "verifiedLive": True,
             "competitionId": comp["competitionId"],
-            "verification": "Polish starters independently confirmed + exact venue/date + Teleman LIVE",
+            "participationEvidence": comp.get("participationEvidence", "official_start_list"),
+            "participationSourceUrl": comp.get("entryListUrl") if comp.get("participationEvidence") == "official_start_list" else comp.get("rosterUrl", comp["sourceUrl"]),
+            "verification": "Official squad or start list + exact competition/date + Teleman LIVE + XMLTV",
         })
     return confirmed
 
@@ -103,7 +105,7 @@ def main():
     listing, updated = load("teleman_review.json", "rows", now)
     competitions = [e for e in json.loads((ROOT / "participation_verified.json").read_text(encoding="utf-8"))["competitions"] if e.get("sport") == "skoki"]
     if not isinstance(competitions, list):
-        raise SystemExit("ski_competitions.json must be a list")
+        raise SystemExit("Lista zawodow w participation_verified.json jest niepoprawna")
     file = ROOT / "events.json"
     payload = json.loads(file.read_text(encoding="utf-8"))
     old = payload.get("events", [])
