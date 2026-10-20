@@ -147,6 +147,9 @@ def collect(pages, pause):
             # Nie zbieraj siatkówki klubowej ani nieokreślonych spotkań.
             if sport == 'siatkowka' and not polish_volleyball_national_team(title):
                 continue
+            # W piłce nożnej również wyłącznie reprezentacja Polski.
+            if sport == 'pilka' and not POLAND_TEAM.search(title):
+                continue
             key = (date, hour, channel, title)
             if key in seen:
                 continue
