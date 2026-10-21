@@ -19,7 +19,11 @@ EPG = {"sport": "tenis", "channel": "CANAL+ Sport 2",
 
 class CheckVerifiedBroadcasts(unittest.TestCase):
     def test_three_sources_agree(self):
-        self.assertEqual(len(verify([MATCH], [TV], [EPG], NOW, NOW)), 1)
+        rows = verify([MATCH], [TV], [EPG], NOW, NOW)
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(rows[0]["start"], MATCH["start"])
+        self.assertEqual(rows[0]["tvStart"], TV["dateLabel"] and MATCH["start"])
+        self.assertEqual(rows[0]["tvEnd"], EPG["end"])
 
     def test_teleman_live_and_api_without_epg(self):
         rows = verify([MATCH], [TV], [], NOW, NOW)
@@ -27,6 +31,7 @@ class CheckVerifiedBroadcasts(unittest.TestCase):
         self.assertEqual(rows[0]["start"], "2026-10-21T04:30:00+02:00")
         self.assertNotIn("end", rows[0])
         self.assertIn("displayUntil", rows[0])
+        self.assertEqual(rows[0]["tvStart"], MATCH["start"])
 
     def test_replay_not_live(self):
         self.assertEqual(len(verify([MATCH], [{**TV, "telemanLiveBadge": False}], [EPG], NOW, NOW)), 1)
@@ -85,7 +90,9 @@ class CheckVerifiedBroadcasts(unittest.TestCase):
         rows = verify([match], [tv], [], NOW, NOW)
         self.assertEqual(len(rows), 1)
         self.assertEqual(rows[0]["channel"], "CANAL+ Sport")
-        self.assertEqual(rows[0]["start"], "2026-10-22T08:30:00+02:00")
+        self.assertEqual(rows[0]["start"], "2026-10-22T07:30:00+02:00")
+        self.assertEqual(rows[0]["tvStart"], "2026-10-22T08:30:00+02:00")
+        self.assertEqual(rows[0]["timeType"], "match_planned")
         self.assertEqual(rows[0]["matchScheduledStart"], match["start"])
 
     def test_too_distant_named_tv_time_is_not_accepted(self):
