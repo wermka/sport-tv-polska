@@ -23,7 +23,8 @@ class ScheduleGateTests(unittest.TestCase):
     def test_afternoon_missing_and_late_retry(self):
         self.assertTrue(should_refresh(time(21, 14, 29), {"updatedAt":time(21, 8, 32).isoformat()}))
         self.assertTrue(should_refresh(time(21, 17, 37), {"updatedAt":time(21, 8, 32).isoformat()}))
-        self.assertFalse(should_refresh(time(21, 17, 37), {"updatedAt":time(21, 14, 39).isoformat()}))
+        self.assertTrue(should_refresh(time(21, 17, 37), {"updatedAt":time(21, 14, 39).isoformat()}))
+        self.assertFalse(should_refresh(time(21, 17, 37), {"updatedAt":time(21, 15, 39).isoformat()}))
 
     def test_third_slot_and_next_day(self):
         self.assertEqual(latest_due(time(21, 15, 17)), time(21, 15, 17))
