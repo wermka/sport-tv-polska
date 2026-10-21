@@ -128,7 +128,7 @@ def verify(tennis, teleman, epg, teleman_updated, now):
             if not both_named(tv.get("title", ""), names):
                 continue
             tv_start = parse_teleman_date(tv.get("dateLabel", ""), tv.get("timeLabel", ""), teleman_updated)
-            if tv_start is None or abs((tv_start - start).total_seconds()) > 45 * 60:
+            if tv_start is None or abs((tv_start - start).total_seconds()) > 90 * 60:
                 continue
             if not normalize(tv.get("channel")):
                 continue
