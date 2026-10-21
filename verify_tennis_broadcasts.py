@@ -145,13 +145,25 @@ def verify(tennis, teleman, epg, teleman_updated, now):
             )
             if end is not None and end < start:
                 end = None
-            result.update(tv_times(tv_start, end))
+            # The prominent time remains the planned MATCH start from API.
+            # The verified Teleman programme is a distinct, explicitly labelled
+            # TV schedule; never overwrite the fixture time with broadcast time.
             result.update({
                 "channel": tv["channel"], "verifiedLive": True,
-                "timeType": "tv_broadcast",
+                "tvStart": tv_start.isoformat(),
+                "timeType": "match_planned",
                 "sourceUrl": tv.get("sourceUrl", "https://www.teleman.pl/sport?live=1"),
-                "verification": "API upcoming + Teleman LIVE with both names (EPG optional)",
+                "verification": "API fixture time + independently verified Teleman LIVE broadcast",
             })
+            if end is not None:
+                result["tvEnd"] = end.isoformat()
+                result["end"] = end.isoformat()
+                result.pop("displayUntil", None)
+                result["endConfirmedByEpg"] = True
+            else:
+                # Keep fixture visible while the verified TV broadcast can be ongoing.
+                cutoff = max(start, tv_start) + timedelta(hours=4)
+                result["displayUntil"] = cutoff.isoformat()
         rows.append(result)
     rows.sort(key=lambda x: x["start"])
     return rows
