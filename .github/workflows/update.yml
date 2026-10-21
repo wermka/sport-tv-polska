@@ -3,10 +3,13 @@ name: Aktualizacja Sport TV Polska
 
 on:
   schedule:
-    # 08:17, 14:17, 20:17 w Polsce, z uwzglednieniem czasu letniego/zimowego.
-    # GitHub cron dziala w UTC; filtr w pierwszym kroku odrzuca nieaktywna strefe.
-    - cron: "17 6,12,18 * * *"  # CEST / UTC+2
-    - cron: "17 7,13,19 * * *"  # CET / UTC+1
+    # Planowane godziny w Polsce: 08:17, 14:17, 20:17 (CEST/CET).
+    # Obydwa zestawy UTC; watchdog sprawdza, czy ostatni termin zostal wykonany.
+    - cron: "17 6,12,18 * * *"
+    - cron: "17 7,13,19 * * *"
+    # Dodatkowe podejscie co godzine, kiedy GitHub opozni lub pominie zadanie.
+    # Brak zaleglosci => bez pobierania API.
+    - cron: "37 * * * *"
   push:
     paths:
       - ".github/workflows/update.yml"
@@ -21,6 +24,8 @@ on:
       - "verify_tennis_broadcasts.py"
       - "update_tennis.py"
       - "test_update_tennis.py"
+      - "schedule_gate.py"
+      - "test_schedule_gate.py"
       - "index.html"
       - "verify_athletics_broadcasts.py"
       - "test_verify_ski_broadcasts.py"
@@ -37,50 +42,41 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  update:
+  plan:
+    name: Czy termin wymaga odswiezenia?
     runs-on: ubuntu-latest
-
+    outputs:
+      run: ${{ steps.gate.outputs.run }}
     steps:
-      - name: Dopasuj harmonogram do czasu polskiego
-        id: local_time
-        env:
-          TRIGGER: ${{ github.event_name }}
-          SCHEDULE: ${{ github.event.schedule }}
-        shell: bash
-        run: |
-          if [[ "$TRIGGER" != "schedule" ]]; then
-            echo "run=true" >> "$GITHUB_OUTPUT"
-          else
-            offset="$(TZ=Europe/Warsaw date +%z)"
-            if [[ "$offset" == "+0200" && "$SCHEDULE" == "17 6,12,18 * * *" ]] ||
-               [[ "$offset" == "+0100" && "$SCHEDULE" == "17 7,13,19 * * *" ]]; then
-              echo "run=true" >> "$GITHUB_OUTPUT"
-            else
-              echo "run=false" >> "$GITHUB_OUTPUT"
-              echo "Pomijam harmonogram spoza aktywnej strefy czasowej ($offset)."
-            fi
-          fi
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Sprawdz ostatnia zapisana aktualizacje
+        id: gate
+        run: python schedule_gate.py
 
+  update:
+    name: Pelna aktualizacja terminarza
+    needs: plan
+    if: needs.plan.outputs.run == 'true'
+    runs-on: ubuntu-latest
+    steps:
       - name: Pobierz repozytorium
-        if: steps.local_time.outputs.run == 'true'
         uses: actions/checkout@v4
 
       - name: Zainstaluj Python
-        if: steps.local_time.outputs.run == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
          
       - name: Kontrola skladni wszystkich skryptow
-        if: steps.local_time.outputs.run == 'true'
         run: python -m compileall -q update_epg.py update_tennis.py match_tennis_tv.py teleman_importer.py verify_tennis_broadcasts.py verify_ski_broadcasts.py verify_polish_entries.py verify_athletics_broadcasts.py check_tennis_updates.py tv_schedule.py discover_ski.py
 
       - name: Testy poprawnosci weryfikacji
-        if: steps.local_time.outputs.run == 'true'
-        run: python -m unittest -v test_verify_tennis_broadcasts.py test_check_tennis_updates.py test_verify_ski_broadcasts.py test_update_epg.py test_verify_polish_entries.py test_verify_athletics_broadcasts.py test_tv_schedule.py test_discover_ski.py test_update_tennis.py
+        run: python -m unittest -v test_verify_tennis_broadcasts.py test_check_tennis_updates.py test_verify_ski_broadcasts.py test_update_epg.py test_verify_polish_entries.py test_verify_athletics_broadcasts.py test_tv_schedule.py test_discover_ski.py test_update_tennis.py test_schedule_gate.py
 
       - name: Oblicz terminarz i bezpiecznie zapisz wyniki
-        if: steps.local_time.outputs.run == 'true'
         env:
           LIVE_TENNIS_API_KEY: ${{ secrets.LIVE_TENNIS_API_KEY }}
           PAGES: ${{ github.event_name == 'workflow_dispatch' && '8' || '6' }}
@@ -99,7 +95,7 @@ jobs:
             git reset --hard "origin/$branch"
 
             python -m compileall -q update_epg.py update_tennis.py match_tennis_tv.py teleman_importer.py verify_tennis_broadcasts.py verify_ski_broadcasts.py verify_polish_entries.py verify_athletics_broadcasts.py check_tennis_updates.py tv_schedule.py discover_ski.py
-            python -m unittest -q test_verify_tennis_broadcasts.py test_check_tennis_updates.py test_verify_ski_broadcasts.py test_update_epg.py test_verify_polish_entries.py test_verify_athletics_broadcasts.py test_tv_schedule.py test_discover_ski.py test_update_tennis.py
+            python -m unittest -q test_verify_tennis_broadcasts.py test_check_tennis_updates.py test_verify_ski_broadcasts.py test_update_epg.py test_verify_polish_entries.py test_verify_athletics_broadcasts.py test_tv_schedule.py test_discover_ski.py test_update_tennis.py test_schedule_gate.py
 
             python update_tennis.py
             python update_epg.py https://epgshare01.online/epgshare01/epg_ripper_PL1.xml.gz
