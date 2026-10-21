@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T16:36:22.509631+02:00",
+  "updatedAt": "2026-10-21T20:51:31.499419+02:00",
   "source": "Upcoming Polish tennis fixtures from API; TV channel requires Teleman LIVE",
   "events": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "start": "2026-10-24T13:20:00+02:00",
-      "end": "2026-10-24T15:25:00+02:00",
+      "end": "2026-10-24T15:40:00+02:00",
       "endConfirmedByEpg": true,
       "sport": "skoki",
       "name": "Skoki narciarskie: Letnie Grand Prix w Klingenthal",

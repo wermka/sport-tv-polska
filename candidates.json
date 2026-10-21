@@ -1,35 +1,15 @@
 {
-  "updatedAt": "2026-10-21T16:36:03.271524+02:00",
+  "updatedAt": "2026-10-21T20:51:10.258018+02:00",
   "source": "XMLTV; entries unverified",
   "epgAvailable": true,
   "error": null,
   "events": [
     {
-      "start": "2026-10-21T15:15:00+02:00",
-      "end": "2026-10-21T17:30:00+02:00",
+      "start": "2026-10-21T19:45:00+02:00",
+      "end": "2026-10-21T22:00:00+02:00",
       "sport": "tenis",
-      "name": "Tenis: Turniej WTA w Ningbo - mecz 2. rundy gry pojedynczej",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz 2. rundy gry pojedynczej: Sorana Cirstea - Sara Bejlek",
       "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-21T17:30:00+02:00",
-      "end": "2026-10-21T19:45:00+02:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA w Ningbo - mecz 2. rundy gry pojedynczej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-21T18:30:00+02:00",
-      "end": "2026-10-21T20:00:00+02:00",
-      "sport": "lekkoatletyka",
-      "name": "Lekkoatletyka: Maraton w Amsterdamie",
-      "channel": "Eurosport 2",
       "description": "",
       "epgSaysLive": false,
       "verifiedLive": false
@@ -39,6 +19,16 @@
       "end": "2026-10-21T22:00:00+02:00",
       "sport": "tenis",
       "name": "Tenis: Turniej WTA w Ningbo - mecz 2. rundy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-21T22:00:00+02:00",
+      "end": "2026-10-22T00:15:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz 2. rundy gry pojedynczej: Jekaterina Aleksandrowa - Marta Kostiuk",
       "channel": "CANAL+ Sport 2",
       "description": "",
       "epgSaysLive": false,
@@ -60,6 +50,16 @@
       "sport": "siatkowka",
       "name": "Siatkówka mężczyzn: Mistrzostwa Europy 2026 - mecz grupy B: Polska - Izrael",
       "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-22T00:15:00+02:00",
+      "end": "2026-10-22T02:30:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz 2. rundy gry pojedynczej: Marie Bouzková - Anastazja Zacharowa",
+      "channel": "CANAL+ Sport 2",
       "description": "",
       "epgSaysLive": false,
       "verifiedLive": false
@@ -386,7 +386,7 @@
     },
     {
       "start": "2026-10-23T23:00:00+02:00",
-      "end": "2026-10-24T06:00:00+02:00",
+      "end": "2026-10-24T07:00:00+02:00",
       "sport": "siatkowka",
       "name": "Siatkówka mężczyzn: Mistrzostwa Europy 2026 - mecz grupy B: Polska - Ukraina",
       "channel": "Polsat Sport",
@@ -406,7 +406,7 @@
     },
     {
       "start": "2026-10-23T23:40:00+02:00",
-      "end": "2026-10-24T01:55:00+02:00",
+      "end": "2026-10-24T01:35:00+02:00",
       "sport": "pilka",
       "name": "Piłka nożna kobiet: Mistrzostwa świata U-17 - Maroko 2026 - mecz: Portoryko - Polska",
       "channel": "TVP Sport",
@@ -505,8 +505,8 @@
       "verifiedLive": false
     },
     {
-      "start": "2026-10-24T13:30:00+02:00",
-      "end": "2026-10-24T15:25:00+02:00",
+      "start": "2026-10-24T13:20:00+02:00",
+      "end": "2026-10-24T15:40:00+02:00",
       "sport": "skoki",
       "name": "Skoki narciarskie: Letnie Grand Prix w Klingenthal",
       "channel": "Eurosport 2",
@@ -528,7 +528,27 @@
       "start": "2026-10-24T14:00:00+02:00",
       "end": "2026-10-24T16:00:00+02:00",
       "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Lyonie - mecz półfinałowy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-24T14:00:00+02:00",
+      "end": "2026-10-24T16:00:00+02:00",
+      "sport": "tenis",
       "name": "Tenis: Turniej ATP w Ałmatach - mecz półfinałowy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-24T14:35:00+02:00",
+      "end": "2026-10-24T17:50:00+02:00",
+      "sport": "siatkowka",
+      "name": "Siatkówka kobiet: Al-KO Superpuchar Polski - mecz: PGE Budowlani Łódź - KS DevelopRes Rzeszów",
       "channel": "Polsat Sport",
       "description": "",
       "epgSaysLive": false,
@@ -539,6 +559,16 @@
       "end": "2026-10-24T17:45:00+02:00",
       "sport": "siatkowka",
       "name": "Siatkówka kobiet: Al-KO Superpuchar Polski - mecz: PGE Budowlani Łódź - KS DevelopRes Rzeszów",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-24T16:00:00+02:00",
+      "end": "2026-10-24T19:00:00+02:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Lyonie - mecz półfinałowy gry pojedynczej",
       "channel": "Polsat Sport",
       "description": "",
       "epgSaysLive": false,
@@ -590,6 +620,226 @@
       "sport": "tenis",
       "name": "Tenis: Turniej WTA w Ningbo - mecz półfinałowy gry pojedynczej",
       "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-25T06:00:00+01:00",
+      "end": "2026-10-25T08:30:00+01:00",
+      "sport": "siatkowka",
+      "name": "Siatkówka kobiet: Al-KO Superpuchar Polski - mecz: PGE Budowlani Łódź - KS DevelopRes Rzeszów",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-25T06:00:00+01:00",
+      "end": "2026-10-25T08:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Brukseli - mecz półfinałowy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-25T06:00:00+01:00",
+      "end": "2026-10-25T08:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz półfinałowy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-25T08:00:00+01:00",
+      "end": "2026-10-25T10:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz półfinałowy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-25T09:55:00+01:00",
+      "end": "2026-10-25T12:45:00+01:00",
+      "sport": "lekkoatletyka",
+      "name": "Lekkoatletyka: Maraton we Frankfurcie",
+      "channel": "TVP Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-25T10:00:00+01:00",
+      "end": "2026-10-25T12:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz finałowy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-25T11:00:00+01:00",
+      "end": "2026-10-25T11:30:00+01:00",
+      "sport": "tenis",
+      "name": "ATP World Tour Next Week",
+      "channel": "Polsat Sport",
+      "description": "Program poświęcony rozgrywkom z głównego cyklu ATP Tour. Kibice zobaczą w nim m.in. zapowiedzi nadchodzących turniejów. Ponadto dostaną porcję statystyk i ciekawostek, też zza kulis tenisowego świata.",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-25T11:00:00+01:00",
+      "end": "2026-10-25T14:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Ałmatach - mecz finałowy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-25T12:30:00+01:00",
+      "end": "2026-10-25T14:45:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz półfinałowy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-25T13:10:00+01:00",
+      "end": "2026-10-25T15:25:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie: Letnie Grand Prix w Klingenthal - konkurs mieszany",
+      "channel": "Eurosport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-25T14:00:00+01:00",
+      "end": "2026-10-25T14:30:00+01:00",
+      "sport": "tenis",
+      "name": "ATP World Tour Next Week",
+      "channel": "Polsat Sport",
+      "description": "Program poświęcony rozgrywkom z głównego cyklu ATP Tour. Kibice zobaczą w nim m.in. zapowiedzi nadchodzących turniejów. Ponadto dostaną porcję statystyk i ciekawostek, też zza kulis tenisowego świata.",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-25T14:30:00+01:00",
+      "end": "2026-10-25T16:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Lyonie - mecz finałowy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-25T14:35:00+01:00",
+      "end": "2026-10-25T17:50:00+01:00",
+      "sport": "siatkowka",
+      "name": "Siatkówka mężczyzn: Al-KO Superpuchar Polski - mecz: Aluron CMC Warta Zawiercie - Bogdanka LUK Lublin",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-25T14:45:00+01:00",
+      "end": "2026-10-25T17:45:00+01:00",
+      "sport": "siatkowka",
+      "name": "Siatkówka mężczyzn: Al-KO Superpuchar Polski - mecz: Aluron CMC Warta Zawiercie - Bogdanka LUK Lublin",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-25T14:45:00+01:00",
+      "end": "2026-10-25T17:20:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz półfinałowy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-25T16:30:00+01:00",
+      "end": "2026-10-25T19:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Brukseli - mecz finałowy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-25T17:20:00+01:00",
+      "end": "2026-10-25T18:25:00+01:00",
+      "sport": "tenis",
+      "name": "8 wspaniałych",
+      "channel": "CANAL+ Sport 2",
+      "description": "W kobiecym tenisie sezon 2025 zwieńczył turniej WTA Finals w Rijadzie z udziałem ośmiu zawodniczek. Każdy odcinek tej serii będzie poświęcony innej z nich. Zobaczymy, z jakimi wyzwaniami się mierzą.",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-25T20:40:00+01:00",
+      "end": "2026-10-25T21:45:00+01:00",
+      "sport": "tenis",
+      "name": "8 wspaniałych",
+      "channel": "CANAL+ Sport 2",
+      "description": "W kobiecym tenisie sezon 2025 zwieńczył turniej WTA Finals w Rijadzie z udziałem ośmiu zawodniczek. Każdy odcinek tej serii będzie poświęcony innej z nich. Zobaczymy, z jakimi wyzwaniami się mierzą.",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-25T21:45:00+01:00",
+      "end": "2026-10-26T00:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz półfinałowy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-25T23:00:00+01:00",
+      "end": "2026-10-26T01:05:00+01:00",
+      "sport": "siatkowka",
+      "name": "Siatkówka mężczyzn: Al-KO Superpuchar Polski - mecz: Aluron CMC Warta Zawiercie - Bogdanka LUK Lublin",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-26T00:00:00+01:00",
+      "end": "2026-10-26T02:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Ningbo - mecz finałowy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-10-26T05:55:00+01:00",
+      "end": "2026-10-26T06:45:00+01:00",
+      "sport": "lekkoatletyka",
+      "name": "Lekkoatletyka: Maraton we Frankfurcie",
+      "channel": "TVP Sport",
       "description": "",
       "epgSaysLive": false,
       "verifiedLive": false
