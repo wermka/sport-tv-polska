@@ -12,8 +12,8 @@ def time(day, hour, minute):
 
 
 class ScheduleGateTests(unittest.TestCase):
-    def test_before_morning_slot_uses_previous_evening(self):
-        self.assertEqual(latest_due(time(21, 7, 30)), time(20, 20, 17))
+    def test_before_morning_slot_uses_previous_last_slot(self):
+        self.assertEqual(latest_due(time(21, 7, 30)), time(20, 15, 17))
 
     def test_morning_due(self):
         self.assertEqual(latest_due(time(21, 8, 17)), time(21, 8, 17))
@@ -25,9 +25,11 @@ class ScheduleGateTests(unittest.TestCase):
         self.assertTrue(should_refresh(time(21, 17, 37), {"updatedAt":time(21, 8, 32).isoformat()}))
         self.assertFalse(should_refresh(time(21, 17, 37), {"updatedAt":time(21, 14, 39).isoformat()}))
 
-    def test_evening_due_and_next_day(self):
-        self.assertTrue(should_refresh(time(21, 20, 37), {"updatedAt":time(21, 14, 30).isoformat()}))
-        self.assertFalse(should_refresh(time(22, 7, 37), {"updatedAt":time(21, 20, 45).isoformat()}))
+    def test_third_slot_and_next_day(self):
+        self.assertEqual(latest_due(time(21, 15, 17)), time(21, 15, 17))
+        self.assertTrue(should_refresh(time(21, 15, 37), {"updatedAt":time(21, 14, 36).isoformat()}))
+        self.assertFalse(should_refresh(time(21, 15, 37), {"updatedAt":time(21, 15, 25).isoformat()}))
+        self.assertFalse(should_refresh(time(22, 7, 37), {"updatedAt":time(21, 15, 45).isoformat()}))
 
     def test_malformed_timestamp_starts_refresh(self):
         self.assertTrue(should_refresh(time(21, 14, 37), {}))
