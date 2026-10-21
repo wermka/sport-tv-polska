@@ -2,7 +2,7 @@ import unittest
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
-from schedule_gate import latest_due, should_refresh
+from schedule_gate import latest_due, should_refresh, early_tennis_on_day
 
 TZ = ZoneInfo("Europe/Warsaw")
 
@@ -41,6 +41,35 @@ class ScheduleGateTests(unittest.TestCase):
         self.assertTrue(should_refresh(time(21, 14, 37), {}))
         self.assertTrue(should_refresh(time(21, 14, 37), {"updatedAt": "garbage"}))
         self.assertTrue(should_refresh(time(21, 14, 37), {"updatedAt": "2026-10-21T14:50:00"}))
+
+    def test_conditional_0617_refresh_for_morning_tennis(self):
+        match = {"sport": "tenis", "matchScheduled": True,
+                 "matchScheduledStart": "2026-10-22T08:30:00+02:00"}
+        payload = {"updatedAt": time(21, 20, 40).isoformat(), "events": [match]}
+        self.assertTrue(early_tennis_on_day(payload, time(22, 6, 17).date()))
+        self.assertEqual(latest_due(time(22, 6, 16), payload), time(21, 20, 17))
+        self.assertEqual(latest_due(time(22, 6, 17), payload), time(22, 6, 17))
+        self.assertTrue(should_refresh(time(22, 6, 37), payload))
+        payload["updatedAt"] = time(22, 6, 25).isoformat()
+        self.assertFalse(should_refresh(time(22, 7, 37), payload))
+        self.assertTrue(should_refresh(time(22, 8, 17), payload))
+
+    def test_no_morning_tennis_keeps_regular_schedule(self):
+        payload = {"updatedAt": time(21, 20, 40).isoformat(),
+                   "events": [{"sport": "tenis", "matchScheduled": True,
+                               "matchScheduledStart": "2026-10-22T15:00:00+02:00"}]}
+        self.assertFalse(early_tennis_on_day(payload, time(22, 6, 17).date()))
+        self.assertEqual(latest_due(time(22, 6, 37), payload), time(21, 20, 17))
+        self.assertFalse(should_refresh(time(22, 6, 37), payload))
+
+    def test_unconfirmed_or_different_day_does_not_trigger_early(self):
+        payload = {"events": [{"sport": "siatkowka", "matchScheduled": True,
+                               "matchScheduledStart": "2026-10-22T08:30:00+02:00"},
+                              {"sport": "tenis", "matchScheduled": False,
+                               "matchScheduledStart": "2026-10-22T08:30:00+02:00"},
+                              {"sport": "tenis", "matchScheduled": True,
+                               "matchScheduledStart": "2026-10-23T08:30:00+02:00"}]}
+        self.assertFalse(early_tennis_on_day(payload, time(22, 6, 17).date()))
 
     def test_winter_dst_is_polish_local(self):
         now = datetime(2026, 10, 26, 20, 18, tzinfo=TZ)
