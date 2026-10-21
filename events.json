@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-21T21:40:02.199622+02:00",
+  "updatedAt": "2026-10-21T21:48:18.282477+02:00",
   "source": "Upcoming Polish tennis fixtures from API; TV channel requires Teleman LIVE",
   "events": [
     {
-      "start": "2026-10-22T08:30:00+02:00",
+      "start": "2026-10-22T07:30:00+02:00",
       "displayUntil": "2026-10-22T12:30:00+02:00",
       "endConfirmedByEpg": false,
       "sport": "tenis",
@@ -11,11 +11,12 @@
       "matchId": "207237",
       "matchScheduledStart": "2026-10-22T07:30:00+02:00",
       "matchScheduled": true,
-      "timeType": "tv_broadcast",
+      "timeType": "match_planned",
       "channel": "CANAL+ Sport",
       "verifiedLive": true,
       "sourceUrl": "https://www.teleman.pl/sport?live=1",
-      "verification": "API upcoming + Teleman LIVE with both names (EPG optional)"
+      "verification": "API fixture time + independently verified Teleman LIVE broadcast",
+      "tvStart": "2026-10-22T08:30:00+02:00"
     },
     {
       "start": "2026-10-22T08:30:00+02:00",
