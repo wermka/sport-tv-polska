@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-10-21T14:36:56.382211+02:00",
+  "updatedAt": "2026-10-21T15:32:20.014278+02:00",
   "source": "Upcoming Polish tennis fixtures from API; TV channel requires Teleman LIVE",
   "events": [
     {
-      "start": "2026-10-22T03:00:00+02:00",
-      "displayUntil": "2026-10-22T07:00:00+02:00",
+      "start": "2026-10-22T07:30:00+02:00",
+      "displayUntil": "2026-10-22T11:30:00+02:00",
       "endConfirmedByEpg": false,
       "sport": "tenis",
       "name": "Magda Linette – Katerina Siniakova",
       "matchId": "207237",
-      "matchScheduledStart": "2026-10-22T03:00:00+02:00",
+      "matchScheduledStart": "2026-10-22T07:30:00+02:00",
       "matchScheduled": true,
       "timeType": "match_planned",
       "channel": null,
