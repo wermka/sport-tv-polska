@@ -11,20 +11,38 @@ from zoneinfo import ZoneInfo
 
 WARSAW = ZoneInfo("Europe/Warsaw")
 SLOTS = ((8, 17), (14, 17), (20, 17))
+EARLY_HOUR, EARLY_MINUTE = 6, 17
 
 
-def latest_due(now):
+def early_tennis_on_day(payload, day):
+    """Use existing fixtures only: no API request to decide the 06:17 run."""
+    if not isinstance(payload, dict):
+        return False
+    for event in payload.get("events", []):
+        if not isinstance(event, dict) or event.get("sport") != "tenis" or not event.get("matchScheduled"):
+            continue
+        try:
+            start = datetime.fromisoformat(event["matchScheduledStart"]).astimezone(WARSAW)
+        except (KeyError, TypeError, ValueError, AttributeError):
+            continue
+        if start.date() == day and 6 <= start.hour < 11:
+            return True
+    return False
+
+
+def latest_due(now, payload=None):
     local = now.astimezone(WARSAW)
     candidates = []
     for day in (local.date() - timedelta(days=1), local.date()):
-        for hour, minute in SLOTS:
+        day_slots = SLOTS + (((EARLY_HOUR, EARLY_MINUTE),) if early_tennis_on_day(payload, day) else ())
+        for hour, minute in day_slots:
             candidates.append(datetime(day.year, day.month, day.day, hour, minute, tzinfo=WARSAW))
     return max(slot for slot in candidates if slot <= local)
 
 
 def should_refresh(now, payload):
     """True when the schedule is missing or predates the latest due slot."""
-    due = latest_due(now)
+    due = latest_due(now, payload)
     try:
         updated = datetime.fromisoformat(payload["updatedAt"])
         if updated.tzinfo is None:
@@ -47,7 +65,7 @@ def main():
             due = should_refresh(now, data)
         except (OSError, ValueError, TypeError):
             due = True
-        reason = f"Latest required Warsaw slot: {latest_due(now).isoformat()}"
+        reason = f"Latest required Warsaw slot: {latest_due(now, data if 'data' in locals() else None).isoformat()}"
     print(f"{reason}; full refresh {'REQUIRED' if due else 'not required'}")
     if os.environ.get("GITHUB_OUTPUT"):
         with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as out:
