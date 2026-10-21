@@ -1,59 +1,9 @@
 {
-  "updatedAt": "2026-10-20T22:44:44.413420+02:00",
+  "updatedAt": "2026-10-21T08:30:44.725204+02:00",
   "source": "XMLTV; entries unverified",
   "epgAvailable": true,
   "error": null,
   "events": [
-    {
-      "start": "2026-10-20T22:00:00+02:00",
-      "end": "2026-10-21T00:15:00+02:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA w Ningbo - mecz 1. rundy gry pojedynczej: Katarzyna Kawa - Daria Snigur",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-20T23:00:00+02:00",
-      "end": "2026-10-21T07:00:00+02:00",
-      "sport": "siatkowka",
-      "name": "Siatkówka mężczyzn: Mistrzostwa Europy 2026 - mecz grupy B: Polska - Portugalia",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-21T00:15:00+02:00",
-      "end": "2026-10-21T02:30:00+02:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA w Ningbo - mecz 1. rundy gry pojedynczej: Julija Putincewa - Diana Sznajder",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-21T01:00:00+02:00",
-      "end": "2026-10-21T03:00:00+02:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej ATP w Szanghaju - mecz finałowy gry pojedynczej",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-21T06:00:00+02:00",
-      "end": "2026-10-21T07:00:00+02:00",
-      "sport": "tenis",
-      "name": "8 wspaniałych",
-      "channel": "CANAL+ Sport 2",
-      "description": "W kobiecym tenisie sezon 2025 zwieńczył turniej WTA Finals w Rijadzie z udziałem ośmiu zawodniczek. Każdy odcinek tej serii będzie poświęcony innej z nich. Zobaczymy, z jakimi wyzwaniami się mierzą.",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
     {
       "start": "2026-10-21T07:00:00+02:00",
       "end": "2026-10-21T09:00:00+02:00",
