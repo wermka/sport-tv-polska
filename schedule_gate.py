@@ -10,7 +10,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 WARSAW = ZoneInfo("Europe/Warsaw")
-SLOTS = ((8, 17), (14, 17), (15, 55))
+SLOTS = ((8, 17), (14, 17), (20, 17))
 
 
 def latest_due(now):
