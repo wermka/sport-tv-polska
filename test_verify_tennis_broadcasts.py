@@ -76,6 +76,26 @@ class CheckVerifiedBroadcasts(unittest.TestCase):
         self.assertTrue(both_named("Mecz Anny Kowalskiej i Jana Kowalskiego", ["kowalska", "kowalski"]))
         self.assertTrue(both_named("Mecz Oli Gizy i Belindy Bencic", ["giza", "bencic"]))
 
+    def test_named_live_match_one_hour_after_api_gets_channel(self):
+        match = {**MATCH, "name": "Magda Linette – Katerina Siniakova",
+                 "start": "2026-10-22T07:30:00+02:00"}
+        tv = {**TV, "title": "Tenis: WTA Osaka: Magda Linette - Kateřina Siniaková",
+              "dateLabel": "czwartek, 22 października", "timeLabel": "8:30",
+              "channel": "CANAL+ Sport"}
+        rows = verify([match], [tv], [], NOW, NOW)
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(rows[0]["channel"], "CANAL+ Sport")
+        self.assertEqual(rows[0]["start"], "2026-10-22T08:30:00+02:00")
+        self.assertEqual(rows[0]["matchScheduledStart"], match["start"])
+
+    def test_too_distant_named_tv_time_is_not_accepted(self):
+        tv = {**TV, "timeLabel": "6:10"}
+        self.assertIsNone(verify([MATCH], [tv], [], NOW, NOW)[0]["channel"])
+
+    def test_ambiguous_two_channels_does_not_guess(self):
+        tv2 = {**TV, "channel": "CANAL+ Sport"}
+        self.assertIsNone(verify([MATCH], [TV, tv2], [], NOW, NOW)[0]["channel"])
+
     def test_night_date(self):
         self.assertEqual(parse_teleman_date("noc wt./śr., 20 na 21 października", "2:25", NOW).day, 21)
 
