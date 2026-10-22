@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T22:37:04.044273+02:00",
+  "updatedAt": "2026-10-22T22:47:37.742489+02:00",
   "source": "Upcoming Polish tennis fixtures from API; TV channel requires Teleman LIVE",
   "events": [
     {
@@ -12,11 +12,10 @@
       "matchScheduledStart": "2026-10-23T13:00:00+02:00",
       "matchScheduled": true,
       "timeType": "match_planned",
-      "channel": "CANAL+ Sport 2",
-      "verifiedLive": true,
-      "sourceUrl": "https://m.teleman.pl/stations/CanalPlus-Sport-2?date=2026-10-23",
-      "verification": "API fixture time + independently verified Teleman LIVE broadcast",
-      "tvStart": "2026-10-23T13:00:00+02:00"
+      "channel": null,
+      "verifiedLive": false,
+      "sourceUrl": "https://api.livetennisapi.com/",
+      "verification": "Upcoming Polish fixture from Live Tennis API; TV unconfirmed"
     },
     {
       "start": "2026-10-24T13:20:00+02:00",
