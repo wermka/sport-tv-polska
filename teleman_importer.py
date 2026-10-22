@@ -167,6 +167,11 @@ def collect(pages, pause):
             })
         if page < pages:
             time.sleep(pause)
+    for candidate in station_matches(tennis, pause):
+        key = (candidate['dateLabel'], candidate['timeLabel'], candidate['channel'], candidate['title'])
+        if key not in seen:
+            seen.add(key)
+            results.append(candidate)
     return results
 
 
