@@ -182,12 +182,12 @@ def station_live_tennis(html, day, tennis):
     parser = TextReader()
     parser.feed(html)
     text = ' '.join(parser.parts)
-    times = list(re.finditer(r'(?<!\\d)([01]?\\d|2[0-3]):[0-5]\\d(?!\\d)', text))
+    times = list(re.finditer(r'(?<!\d)([01]?\d|2[0-3]):[0-5]\d(?!\d)', text))
     found = []
     months = ['stycznia','lutego','marca','kwietnia','maja','czerwca','lipca','sierpnia','września','października','listopada','grudnia']
     for i, stamp in enumerate(times):
         block = text[stamp.end():times[i+1].start() if i+1<len(times) else len(text)]
-        title = re.search(r'(Tenis:\\s*.{8,220}?)\\s*\\|?\\s*na\\s+żywo\\b', block, re.I)
+        title = re.search(r'(Tenis:\s*.{8,220}?)\s*\|?\s*na\s+żywo\b', block, re.I)
         if not title:
             continue
         name = ' '.join(title.group(1).split())
