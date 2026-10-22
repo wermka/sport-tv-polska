@@ -178,7 +178,7 @@ def station_live_tennis(html, day, tennis):
             self.parts = []
         def handle_data(self, data):
             if data.strip():
-                self.parts.append(data.strip())
+                self.parts.append(' '.join(data.split()))
     parser = TextReader()
     parser.feed(html)
     text = ' '.join(parser.parts)
