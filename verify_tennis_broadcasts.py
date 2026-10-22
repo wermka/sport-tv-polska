@@ -168,6 +168,40 @@ def verify(tennis, teleman, epg, teleman_updated, now):
     rows.sort(key=lambda x: x["start"])
     return rows
 
+def preserve_recent_started(previous, fresh, now, explicit_statuses=None):
+    """Retain a previously verified fixture for up to four hours after its API start.
+
+    The upstream endpoint only queries upcoming games: absence is NOT evidence
+    that a game finished or was cancelled. Never preserve missing future fixtures.
+    """
+    explicit_statuses = explicit_statuses or {}
+    present = {str(e["matchId"]) for e in fresh if e.get("matchId") is not None}
+    obsolete = {"cancelled", "canceled", "postponed", "withdrawn",
+                "walkover", "wo", "retired", "completed", "finished"}
+    retained = []
+    for original in previous:
+        if original.get("sport") != "tenis" or not original.get("matchId") or not original.get("matchScheduled"):
+            continue
+        mid = str(original["matchId"])
+        if mid in present or str(explicit_statuses.get(mid, "")).lower() in obsolete:
+            continue
+        try:
+            start = datetime.fromisoformat(original["matchScheduledStart"]).astimezone(WARSAW)
+        except (KeyError, TypeError, ValueError, AttributeError):
+            continue
+        cutoff = start + timedelta(hours=4)
+        if not (start <= now < cutoff):
+            continue
+        row = dict(original)
+        row["start"] = start.isoformat()
+        row["displayUntil"] = cutoff.isoformat()
+        row.pop("end", None)  # No longer claim a future confirmed programme end.
+        row["statusUnconfirmedAfterStart"] = True
+        row["verification"] = str(row.get("verification") or "") + "; API upcoming feed no longer lists fixture; current match status unknown"
+        retained.append(row)
+    return retained
+
+
 def main():
     now = datetime.now(WARSAW)
     try:
@@ -182,7 +216,10 @@ def main():
     payload = json.loads(path.read_text(encoding="utf-8"))
     manual = [e for e in payload.get("events", [])
               if e.get("verifiedLive") is True and not (e.get("sport") == "tenis" and e.get("matchId"))]
-    all_events = manual + found
+    previously_listed = preserve_recent_started(payload.get("events", []), found, now,
+                                                {str(m["id"]): m.get("status")
+                                                 for m in tennis if m.get("id") is not None})
+    all_events = manual + found + previously_listed
     payload["updatedAt"] = now.isoformat()
     payload["source"] = "Upcoming Polish tennis fixtures from API; TV channel requires Teleman LIVE"
     payload["events"] = sorted(all_events, key=lambda e: e["start"])
