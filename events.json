@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T20:51:09.425618+02:00",
+  "updatedAt": "2026-10-22T22:34:03.001893+02:00",
   "source": "Upcoming Polish tennis fixtures from API; TV channel requires Teleman LIVE",
   "events": [
     {
@@ -24,7 +24,7 @@
       "sport": "skoki",
       "name": "Skoki narciarskie: Letnie Grand Prix w Klingenthal",
       "channel": "Eurosport 2",
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3",
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2",
       "verifiedLive": true,
       "competitionId": "auto-ski-2026-10-24-klingenthal",
       "participationEvidence": "official_roster_announced",
