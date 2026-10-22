@@ -10,7 +10,7 @@ import argparse
 import json
 import re
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.request import Request, urlopen
@@ -168,6 +168,67 @@ def collect(pages, pause):
         if page < pages:
             time.sleep(pause)
     return results
+
+
+def station_live_tennis(html, day, tennis):
+    """Only named LIVE tennis pairings from a dated CANAL+ Sport 2 channel listing."""
+    class TextReader(HTMLParser):
+        def __init__(self):
+            super().__init__(convert_charrefs=True)
+            self.parts = []
+        def handle_data(self, data):
+            if data.strip():
+                self.parts.append(data.strip())
+    parser = TextReader()
+    parser.feed(html)
+    text = ' '.join(parser.parts)
+    times = list(re.finditer(r'(?<!\\d)([01]?\\d|2[0-3]):[0-5]\\d(?!\\d)', text))
+    found = []
+    months = ['stycznia','lutego','marca','kwietnia','maja','czerwca','lipca','sierpnia','września','października','listopada','grudnia']
+    for i, stamp in enumerate(times):
+        block = text[stamp.end():times[i+1].start() if i+1<len(times) else len(text)]
+        title = re.search(r'(Tenis:\\s*.{8,220}?)\\s*\\|?\\s*na\\s+żywo\\b', block, re.I)
+        if not title:
+            continue
+        name = ' '.join(title.group(1).split())
+        if classify(name) != 'tenis' or evidence('tenis', name, tennis) != 'both_tennis_surnames_named':
+            continue
+        found.append({
+            'dateLabel': f'{day.day} {months[day.month-1]}',
+            'timeLabel': stamp.group(0),
+            'channel': 'CANAL+ Sport 2',
+            'title': name, 'sport': 'tenis', 'telemanLiveBadge': True,
+            'participantEvidence': 'both_tennis_surnames_named', 'verified': False,
+            'sourceUrl': f'https://m.teleman.pl/stations/CanalPlus-Sport-2?date={day.isoformat()}',
+        })
+    return found
+
+
+def station_matches(tennis, pause):
+    today = datetime.now(WARSAW).date()
+    dates = set()
+    for match in tennis:
+        if match.get('status') != 'upcoming':
+            continue
+        try:
+            day = datetime.fromisoformat(match['start']).astimezone(WARSAW).date()
+        except (KeyError, TypeError, ValueError):
+            continue
+        if today <= day <= today + timedelta(days=2):
+            dates.add(day)
+    results = []
+    for day in sorted(dates):
+        url = f'https://m.teleman.pl/stations/CanalPlus-Sport-2?date={day.isoformat()}'
+        req = Request(url, headers={'User-Agent': 'SportTVPolska/1.0 (personal noncommercial EPG diagnostics)'})
+        try:
+            with urlopen(req, timeout=30) as response:
+                html = response.read(3_000_000).decode('utf-8', errors='replace')
+            results.extend(station_live_tennis(html, day, tennis))
+        except Exception as exc:
+            print(f'Szczegolowa ramowka CANAL+ Sport 2 niedostepna ({day}): {type(exc).__name__}')
+        time.sleep(pause)
+    return results
+
 
 def main():
     parser = argparse.ArgumentParser()
