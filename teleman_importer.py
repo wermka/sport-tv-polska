@@ -223,7 +223,27 @@ def station_matches(tennis, pause):
         try:
             with urlopen(req, timeout=30) as response:
                 html = response.read(3_000_000).decode('utf-8', errors='replace')
-            results.extend(station_live_tennis(html, day, tennis))
+            detected = station_live_tennis(html, day, tennis)
+            print(f'Ramowka kanalu {day}: {len(html)} znakow, dopasowane LIVE: {len(detected)}')
+            if not detected:
+                checker = HTMLParser()
+                class TextDump(HTMLParser):
+                    def __init__(self):
+                        super().__init__(convert_charrefs=True)
+                        self.parts = []
+                    def handle_data(self, data):
+                        if data.strip():
+                            self.parts.append(' '.join(data.split()))
+                debug = TextDump()
+                debug.feed(html)
+                flattened = ' '.join(debug.parts)
+                index = flattened.casefold().find('rybakina')
+                if index >= 0:
+                    print('Diagnostyka ramowki (fragment publicznego opisu):',
+                          flattened[max(0, index-110):index+180])
+                else:
+                    print('Diagnostyka ramowki: brak nazwiska Rybakina w tresci')
+            results.extend(detected)
         except Exception as exc:
             print(f'Szczegolowa ramowka CANAL+ Sport 2 niedostepna ({day}): {type(exc).__name__}')
         time.sleep(pause)
