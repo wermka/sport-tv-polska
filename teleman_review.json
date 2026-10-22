@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-10-21T21:56:19.594656+02:00",
+  "updatedAt": "2026-10-22T07:09:42.146115+02:00",
   "source": "Teleman, zbiorcza ramówka LIVE (dane diagnostyczne)",
   "warning": "LIVE = oznaczenie w ramówce. Nie potwierdza udziału Polaków ani rzeczywistego terminu zawodów. Nie publikować w events.json.",
   "pagesChecked": 6,
   "rows": [
     {
-      "dateLabel": "czwartek, 22 października",
+      "dateLabel": "dziś, 22 października",
       "timeLabel": "7:00",
       "channel": "CANAL+ Sport",
       "title": "Tenis: Turniej WTA w Ningbo mecz 2. rundy gry pojedynczej: Iva Jovic - Jasmine Paolini",
@@ -16,7 +16,7 @@
       "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "czwartek, 22 października",
+      "dateLabel": "dziś, 22 października",
       "timeLabel": "8:30",
       "channel": "CANAL+ Sport",
       "title": "Tenis: Turniej WTA w Osace mecz 2. rundy gry pojedynczej: Magda Linette - Kateřina Siniaková",
@@ -90,7 +90,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
     },
     {
       "dateLabel": "sobota, 24 października",
@@ -101,7 +101,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_participant_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
     },
     {
       "dateLabel": "sobota, 24 października",
@@ -112,7 +112,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
     },
     {
       "dateLabel": "sobota, 24 października",
@@ -156,7 +156,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_participant_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
     },
     {
       "dateLabel": "niedziela, 25 października",
