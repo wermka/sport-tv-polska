@@ -1,20 +1,9 @@
 {
-  "updatedAt": "2026-10-22T07:09:42.146115+02:00",
+  "updatedAt": "2026-10-22T08:47:12.416440+02:00",
   "source": "Teleman, zbiorcza ramówka LIVE (dane diagnostyczne)",
   "warning": "LIVE = oznaczenie w ramówce. Nie potwierdza udziału Polaków ani rzeczywistego terminu zawodów. Nie publikować w events.json.",
   "pagesChecked": 6,
   "rows": [
-    {
-      "dateLabel": "dziś, 22 października",
-      "timeLabel": "7:00",
-      "channel": "CANAL+ Sport",
-      "title": "Tenis: Turniej WTA w Ningbo mecz 2. rundy gry pojedynczej: Iva Jovic - Jasmine Paolini",
-      "sport": "tenis",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_tennis_match_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1"
-    },
     {
       "dateLabel": "dziś, 22 października",
       "timeLabel": "8:30",
