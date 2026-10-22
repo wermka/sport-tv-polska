@@ -14,6 +14,7 @@ from datetime import datetime, timedelta
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.request import Request, urlopen
+from urllib.parse import urljoin, urlparse
 from zoneinfo import ZoneInfo
 
 BASE = 'https://www.teleman.pl/sport?live=1'
@@ -175,8 +176,73 @@ def collect(pages, pause):
     return results
 
 
-def station_live_tennis(html, day, tennis):
-    """Only named LIVE tennis pairings from a dated CANAL+ Sport 2 channel listing."""
+
+STATIONS_URL = "https://m.teleman.pl/stations"
+# Hard limit on pages/requests if the Teleman station index changes unexpectedly.
+MAX_SPORT_STATIONS = 45
+MAX_TENNIS_DAYS = 2
+
+
+class SportStationCatalog(HTMLParser):
+    """Discover sport stations from Teleman's own Sportowe menu, not a fixed broadcaster."""
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.in_sport = False
+        self.link = None
+        self.names = []
+        self.stations = []
+        self.seen = set()
+
+    def handle_starttag(self, tag, attrs):
+        if tag == 'a' and self.in_sport:
+            self.link = dict(attrs).get('href')
+            self.names = []
+
+    def handle_data(self, data):
+        name = ' '.join(data.split())
+        if not name:
+            return
+        if name.casefold() == 'sportowe':
+            self.in_sport = True
+        elif self.in_sport and name.casefold() in ('informacyjne', 'ogólnotematyczne', 'filmowe'):
+            self.in_sport = False
+        if self.link is not None:
+            self.names.append(name)
+
+    def handle_endtag(self, tag):
+        if tag != 'a' or self.link is None:
+            return
+        url = urljoin(STATIONS_URL, self.link)
+        parts = urlparse(url)
+        name = ' '.join(self.names).strip()
+        if (self.in_sport and parts.hostname == 'm.teleman.pl'
+                and parts.path.startswith('/stations/') and len(parts.path) > len('/stations/')
+                and name and parts.path not in self.seen and len(self.stations) < MAX_SPORT_STATIONS):
+            self.stations.append((name, parts.path))
+            self.seen.add(parts.path)
+        self.link = None
+        self.names = []
+
+
+def sport_station_catalog(html):
+    parser = SportStationCatalog()
+    parser.feed(html)
+    return parser.stations
+
+
+def fetch_sport_stations():
+    req = Request(STATIONS_URL, headers={'User-Agent': 'SportTVPolska/1.0 (personal noncommercial EPG diagnostics)'})
+    with urlopen(req, timeout=30) as response:
+        html = response.read(3_000_000).decode('utf-8', errors='replace')
+    stations = sport_station_catalog(html)
+    if not stations:
+        raise ValueError('Brak dzialu Sportowe w katalogu stacji Teleman')
+    print(f'Katalog Teleman: {len(stations)} stacji sportowych.')
+    return stations
+
+
+def station_live_tennis(html, day, tennis, channel='CANAL+ Sport 2', source_url=None):
+    """Only named LIVE pairs from a dated sports-channel listing."""
     class TextReader(HTMLParser):
         def __init__(self):
             super().__init__(convert_charrefs=True)
@@ -201,15 +267,16 @@ def station_live_tennis(html, day, tennis):
         found.append({
             'dateLabel': f'{day.day} {months[day.month-1]}',
             'timeLabel': stamp.group(0),
-            'channel': 'CANAL+ Sport 2',
+            'channel': channel,
             'title': name, 'sport': 'tenis', 'telemanLiveBadge': True,
             'participantEvidence': 'both_tennis_surnames_named', 'verified': False,
-            'sourceUrl': f'https://m.teleman.pl/stations/CanalPlus-Sport-2?date={day.isoformat()}',
+            'sourceUrl': source_url or f'https://m.teleman.pl/stations/CanalPlus-Sport-2?date={day.isoformat()}',
         })
     return found
 
 
-def station_matches(tennis, pause):
+def station_matches(tennis, pause, station_loader=fetch_sport_stations, opener=urlopen):
+    """Check all Teleman-listed sport stations on dates with imminent Polish tennis."""
     today = datetime.now(WARSAW).date()
     dates = set()
     for match in tennis:
@@ -219,39 +286,38 @@ def station_matches(tennis, pause):
             day = datetime.fromisoformat(match['start']).astimezone(WARSAW).date()
         except (KeyError, TypeError, ValueError):
             continue
-        if today <= day <= today + timedelta(days=2):
+        if today <= day < today + timedelta(days=MAX_TENNIS_DAYS):
             dates.add(day)
-    results = []
+    if not dates:
+        print('Brak najblizszych meczow tenisa do sprawdzenia w ramowkach kanalow.')
+        return []
+
+    try:
+        stations = station_loader()
+    except Exception as exc:
+        print(f'Nie mozna pobrac katalogu stacji sportowych: {type(exc).__name__}; '
+              'zbiorcza lista LIVE pozostaje dostepna.')
+        return []
+
+    results, seen = [], set()
     for day in sorted(dates):
-        url = f'https://m.teleman.pl/stations/CanalPlus-Sport-2?date={day.isoformat()}'
-        req = Request(url, headers={'User-Agent': 'SportTVPolska/1.0 (personal noncommercial EPG diagnostics)'})
-        try:
-            with urlopen(req, timeout=30) as response:
-                html = response.read(3_000_000).decode('utf-8', errors='replace')
-            detected = station_live_tennis(html, day, tennis)
-            print(f'Ramowka kanalu {day}: {len(html)} znakow, dopasowane LIVE: {len(detected)}')
-            if not detected:
-                checker = HTMLParser()
-                class TextDump(HTMLParser):
-                    def __init__(self):
-                        super().__init__(convert_charrefs=True)
-                        self.parts = []
-                    def handle_data(self, data):
-                        if data.strip():
-                            self.parts.append(' '.join(data.split()))
-                debug = TextDump()
-                debug.feed(html)
-                flattened = ' '.join(debug.parts)
-                index = flattened.casefold().find('rybakina')
-                if index >= 0:
-                    print('Diagnostyka ramowki (fragment publicznego opisu):',
-                          flattened[max(0, index-110):index+180])
-                else:
-                    print('Diagnostyka ramowki: brak nazwiska Rybakina w tresci')
-            results.extend(detected)
-        except Exception as exc:
-            print(f'Szczegolowa ramowka CANAL+ Sport 2 niedostepna ({day}): {type(exc).__name__}')
-        time.sleep(pause)
+        for channel, path in stations:
+            url = f'https://m.teleman.pl{path}?date={day.isoformat()}'
+            req = Request(url, headers={'User-Agent': 'SportTVPolska/1.0 (personal noncommercial EPG diagnostics)'})
+            try:
+                with opener(req, timeout=30) as response:
+                    html = response.read(3_000_000).decode('utf-8', errors='replace')
+                rows = station_live_tennis(html, day, tennis, channel=channel, source_url=url)
+                for row in rows:
+                    key = (row['dateLabel'], row['timeLabel'], row['channel'], row['title'])
+                    if key not in seen:
+                        seen.add(key)
+                        results.append(row)
+            except Exception as exc:
+                print(f'Ramowka niedostepna {channel} {day}: {type(exc).__name__}')
+            time.sleep(pause)
+    print(f'Ramowki szczegolowe: {len(stations)} kanalow, {len(dates)} dni, '
+          f'{len(results)} dopasowan LIVE z oboma nazwiskami.')
     return results
 
 
