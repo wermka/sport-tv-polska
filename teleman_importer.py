@@ -275,9 +275,9 @@ def station_live_tennis(html, day, tennis, channel='CANAL+ Sport 2', source_url=
     return found
 
 
-def station_matches(tennis, pause, station_loader=fetch_sport_stations, opener=urlopen):
+def station_matches(tennis, pause, station_loader=fetch_sport_stations, opener=urlopen, today=None, sleep_fn=time.sleep):
     """Check all Teleman-listed sport stations on dates with imminent Polish tennis."""
-    today = datetime.now(WARSAW).date()
+    today = today or datetime.now(WARSAW).date()
     dates = set()
     for match in tennis:
         if match.get('status') != 'upcoming':
@@ -315,7 +315,7 @@ def station_matches(tennis, pause, station_loader=fetch_sport_stations, opener=u
                         results.append(row)
             except Exception as exc:
                 print(f'Ramowka niedostepna {channel} {day}: {type(exc).__name__}')
-            time.sleep(pause)
+            sleep_fn(pause)
     print(f'Ramowki szczegolowe: {len(stations)} kanalow, {len(dates)} dni, '
           f'{len(results)} dopasowan LIVE z oboma nazwiskami.')
     return results
