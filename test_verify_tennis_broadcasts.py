@@ -3,7 +3,7 @@
 import unittest
 from datetime import datetime
 from zoneinfo import ZoneInfo
-from verify_tennis_broadcasts import verify, parse_teleman_date, both_named, surnames
+from verify_tennis_broadcasts import verify, parse_teleman_date, both_named, surnames, preserve_recent_started
 
 NOW = datetime(2026, 10, 20, 19, 0, tzinfo=ZoneInfo("Europe/Warsaw"))
 MATCH = {"id": 101, "status": "upcoming", "sport": "tenis",
@@ -102,6 +102,35 @@ class CheckVerifiedBroadcasts(unittest.TestCase):
     def test_ambiguous_two_channels_does_not_guess(self):
         tv2 = {**TV, "channel": "CANAL+ Sport"}
         self.assertIsNone(verify([MATCH], [TV, tv2], [], NOW, NOW)[0]["channel"])
+
+    def test_keep_recent_started_but_missing_from_upcoming_feed(self):
+        previous = [{"sport": "tenis", "matchId": "207303", "matchScheduled": True,
+                     "matchScheduledStart": "2026-10-22T08:45:00+02:00",
+                     "start": "2026-10-22T08:45:00+02:00", "name": "Kawa – Bencic",
+                     "channel": None, "verifiedLive": False,
+                     "displayUntil": "2026-10-22T12:45:00+02:00"}]
+        now = datetime(2026, 10, 22, 9, 0, tzinfo=ZoneInfo("Europe/Warsaw"))
+        rows = preserve_recent_started(previous, [], now)
+        self.assertEqual(len(rows), 1)
+        self.assertTrue(rows[0]["statusUnconfirmedAfterStart"])
+        self.assertEqual(rows[0]["displayUntil"], "2026-10-22T12:45:00+02:00")
+        later = datetime(2026, 10, 22, 12, 45, tzinfo=now.tzinfo)
+        self.assertEqual(preserve_recent_started(previous, [], later), [])
+
+    def test_no_retention_before_start_or_for_cancelled(self):
+        previous = [{"sport": "tenis", "matchId": "1", "matchScheduled": True,
+                     "matchScheduledStart": "2026-10-22T08:45:00+02:00"}]
+        early = datetime(2026, 10, 22, 8, 40, tzinfo=ZoneInfo("Europe/Warsaw"))
+        later = datetime(2026, 10, 22, 9, 0, tzinfo=early.tzinfo)
+        self.assertEqual(preserve_recent_started(previous, [], early), [])
+        self.assertEqual(preserve_recent_started(previous, [], later, {"1": "cancelled"}), [])
+        self.assertEqual(preserve_recent_started(previous, [], later, {"1": "finished"}), [])
+
+    def test_no_retention_when_fresh_fixture_exists(self):
+        previous = [{"sport": "tenis", "matchId": "1", "matchScheduled": True,
+                     "matchScheduledStart": "2026-10-22T08:45:00+02:00"}]
+        now = datetime(2026, 10, 22, 9, 0, tzinfo=ZoneInfo("Europe/Warsaw"))
+        self.assertEqual(preserve_recent_started(previous, [{"matchId": "1"}], now), [])
 
     def test_night_date(self):
         self.assertEqual(parse_teleman_date("noc wt./śr., 20 na 21 października", "2:25", NOW).day, 21)
