@@ -1,39 +1,9 @@
 {
-  "updatedAt": "2026-10-22T09:08:46.900355+02:00",
+  "updatedAt": "2026-10-22T14:47:50.221316+02:00",
   "source": "XMLTV; entries unverified",
   "epgAvailable": true,
   "error": null,
   "events": [
-    {
-      "start": "2026-10-22T09:00:00+02:00",
-      "end": "2026-10-22T11:00:00+02:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA w Ningbo - mecz 2. rundy gry pojedynczej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-22T10:00:00+02:00",
-      "end": "2026-10-22T12:00:00+02:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej ATP w Szanghaju - mecz finałowy gry pojedynczej",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-22T11:00:00+02:00",
-      "end": "2026-10-22T13:00:00+02:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA w Ningbo - mecz 2. rundy gry pojedynczej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
     {
       "start": "2026-10-22T13:00:00+02:00",
       "end": "2026-10-22T15:15:00+02:00",
