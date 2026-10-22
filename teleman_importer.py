@@ -177,7 +177,7 @@ def collect(pages, pause):
 
 
 
-STATIONS_URL = "https://m.teleman.pl/stations"
+STATIONS_URL = "https://m.teleman.pl/stations/TVP-Sport"
 # Hard limit on pages/requests if the Teleman station index changes unexpectedly.
 MAX_SPORT_STATIONS = 45
 MAX_TENNIS_DAYS = 2
