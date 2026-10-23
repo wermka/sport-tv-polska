@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-10-22T22:52:50.396916+02:00",
+  "updatedAt": "2026-10-23T08:48:07.489675+02:00",
   "source": "Teleman, zbiorcza ramówka LIVE (dane diagnostyczne)",
   "warning": "LIVE = oznaczenie w ramówce. Nie potwierdza udziału Polaków ani rzeczywistego terminu zawodów. Nie publikować w events.json.",
   "pagesChecked": 6,
   "rows": [
     {
-      "dateLabel": "piątek, 23 października",
+      "dateLabel": "dziś, 23 października",
       "timeLabel": "8:30",
       "channel": "Polsat Sport 2",
       "title": "Tenis: Turniej ATP w Ałmatach mecz ćwierćfinałowy gry pojedynczej",
@@ -16,7 +16,7 @@
       "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "piątek, 23 października",
+      "dateLabel": "dziś, 23 października",
       "timeLabel": "10:30",
       "channel": "Polsat Sport 2",
       "title": "Tenis: Turniej ATP w Ałmatach mecz ćwierćfinałowy gry pojedynczej",
@@ -27,7 +27,7 @@
       "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "piątek, 23 października",
+      "dateLabel": "dziś, 23 października",
       "timeLabel": "12:30",
       "channel": "Polsat Sport 3",
       "title": "Tenis: Turniej ATP w Ałmatach mecz ćwierćfinałowy gry pojedynczej",
@@ -38,7 +38,7 @@
       "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "piątek, 23 października",
+      "dateLabel": "dziś, 23 października",
       "timeLabel": "14:00",
       "channel": "Polsat Sport 3",
       "title": "Tenis: Turniej ATP w Brukseli mecz ćwierćfinałowy gry pojedynczej",
@@ -49,7 +49,7 @@
       "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "piątek, 23 października",
+      "dateLabel": "dziś, 23 października",
       "timeLabel": "16:00",
       "channel": "Polsat Sport 3",
       "title": "Tenis: Turniej ATP w Brukseli mecz ćwierćfinałowy gry pojedynczej",
@@ -90,7 +90,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
     },
     {
       "dateLabel": "sobota, 24 października",
@@ -101,7 +101,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
     },
     {
       "dateLabel": "niedziela, 25 października",
@@ -134,7 +134,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_participant_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
     },
     {
       "dateLabel": "niedziela, 25 października",
@@ -145,7 +145,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
     },
     {
       "dateLabel": "niedziela, 25 października",
@@ -207,6 +207,28 @@
       "timeLabel": "17:30",
       "channel": "Polsat Sport 2",
       "title": "Tenis: Turniej ATP w Wiedniu mecz 1. rundy gry pojedynczej",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+    },
+    {
+      "dateLabel": "poniedziałek, 26 października",
+      "timeLabel": "20:00",
+      "channel": "Polsat Sport 2",
+      "title": "Tenis: Turniej ATP w Wiedniu mecz 1. rundy gry pojedynczej",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+    },
+    {
+      "dateLabel": "poniedziałek, 26 października",
+      "timeLabel": "20:00",
+      "channel": "Polsat Sport 1",
+      "title": "Tenis: Turniej ATP w Bazylei mecz 1. rundy gry pojedynczej",
       "sport": "tenis",
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
