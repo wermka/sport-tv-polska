@@ -1,42 +1,9 @@
 {
-  "updatedAt": "2026-10-23T08:48:07.489675+02:00",
+  "updatedAt": "2026-10-23T14:47:59.495659+02:00",
   "source": "Teleman, zbiorcza ramówka LIVE (dane diagnostyczne)",
   "warning": "LIVE = oznaczenie w ramówce. Nie potwierdza udziału Polaków ani rzeczywistego terminu zawodów. Nie publikować w events.json.",
   "pagesChecked": 6,
   "rows": [
-    {
-      "dateLabel": "dziś, 23 października",
-      "timeLabel": "8:30",
-      "channel": "Polsat Sport 2",
-      "title": "Tenis: Turniej ATP w Ałmatach mecz ćwierćfinałowy gry pojedynczej",
-      "sport": "tenis",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_tennis_match_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1"
-    },
-    {
-      "dateLabel": "dziś, 23 października",
-      "timeLabel": "10:30",
-      "channel": "Polsat Sport 2",
-      "title": "Tenis: Turniej ATP w Ałmatach mecz ćwierćfinałowy gry pojedynczej",
-      "sport": "tenis",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_tennis_match_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1"
-    },
-    {
-      "dateLabel": "dziś, 23 października",
-      "timeLabel": "12:30",
-      "channel": "Polsat Sport 3",
-      "title": "Tenis: Turniej ATP w Ałmatach mecz ćwierćfinałowy gry pojedynczej",
-      "sport": "tenis",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_tennis_match_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1"
-    },
     {
       "dateLabel": "dziś, 23 października",
       "timeLabel": "14:00",
@@ -112,7 +79,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_participant_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
     },
     {
       "dateLabel": "niedziela, 25 października",
@@ -234,17 +201,6 @@
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
       "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
-    },
-    {
-      "dateLabel": "23 października",
-      "timeLabel": "13:00",
-      "channel": "CANAL+ Sport 2",
-      "title": "Tenis: Turniej WTA w Ningbo mecz ćwierćfinałowy gry pojedynczej: Jelena Rybakina - Katarzyna Kawa",
-      "sport": "tenis",
-      "telemanLiveBadge": true,
-      "participantEvidence": "both_tennis_surnames_named",
-      "verified": false,
-      "sourceUrl": "https://m.teleman.pl/stations/CanalPlus-Sport-2?date=2026-10-23"
     }
   ]
 }

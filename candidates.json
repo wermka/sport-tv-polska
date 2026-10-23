@@ -1,69 +1,9 @@
 {
-  "updatedAt": "2026-10-23T08:46:30.832711+02:00",
+  "updatedAt": "2026-10-23T14:46:30.576016+02:00",
   "source": "XMLTV; entries unverified",
   "epgAvailable": true,
   "error": null,
   "events": [
-    {
-      "start": "2026-10-23T07:00:00+02:00",
-      "end": "2026-10-23T09:00:00+02:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA w Ningbo - mecz ćwierćfinałowy gry pojedynczej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-23T08:30:00+02:00",
-      "end": "2026-10-23T10:30:00+02:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej ATP w Ałmatach - mecz ćwierćfinałowy gry pojedynczej",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-23T09:00:00+02:00",
-      "end": "2026-10-23T11:00:00+02:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA w Ningbo - mecz ćwierćfinałowy gry pojedynczej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-23T10:30:00+02:00",
-      "end": "2026-10-23T13:00:00+02:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej ATP w Ałmatach - mecz ćwierćfinałowy gry pojedynczej",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-23T11:00:00+02:00",
-      "end": "2026-10-23T13:00:00+02:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA w Ningbo - mecz ćwierćfinałowy gry pojedynczej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-23T12:30:00+02:00",
-      "end": "2026-10-23T14:00:00+02:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej ATP w Ałmatach - mecz ćwierćfinałowy gry pojedynczej",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
     {
       "start": "2026-10-23T13:00:00+02:00",
       "end": "2026-10-23T15:15:00+02:00",
