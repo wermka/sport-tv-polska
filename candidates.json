@@ -1,89 +1,9 @@
 {
-  "updatedAt": "2026-10-23T20:51:03.842834+02:00",
+  "updatedAt": "2026-10-24T08:43:45.366696+02:00",
   "source": "XMLTV; entries unverified",
   "epgAvailable": true,
   "error": null,
   "events": [
-    {
-      "start": "2026-10-23T19:50:00+02:00",
-      "end": "2026-10-23T20:55:00+02:00",
-      "sport": "tenis",
-      "name": "8 wspaniałych",
-      "channel": "CANAL+ Sport 2",
-      "description": "W kobiecym tenisie sezon 2025 zwieńczył turniej WTA Finals w Rijadzie z udziałem ośmiu zawodniczek. Każdy odcinek tej serii będzie poświęcony innej z nich. Zobaczymy, z jakimi wyzwaniami się mierzą.",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-23T20:00:00+02:00",
-      "end": "2026-10-23T22:00:00+02:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej ATP w Brukseli - mecz ćwierćfinałowy gry pojedynczej",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-23T23:00:00+02:00",
-      "end": "2026-10-24T07:00:00+02:00",
-      "sport": "siatkowka",
-      "name": "Siatkówka mężczyzn: Mistrzostwa Europy 2026 - mecz grupy B: Polska - Ukraina",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-23T23:15:00+02:00",
-      "end": "2026-10-24T00:15:00+02:00",
-      "sport": "tenis",
-      "name": "8 wspaniałych",
-      "channel": "CANAL+ Sport 2",
-      "description": "W kobiecym tenisie sezon 2025 zwieńczył turniej WTA Finals w Rijadzie z udziałem ośmiu zawodniczek. Każdy odcinek tej serii będzie poświęcony innej z nich. Zobaczymy, z jakimi wyzwaniami się mierzą.",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-23T23:40:00+02:00",
-      "end": "2026-10-24T01:35:00+02:00",
-      "sport": "pilka",
-      "name": "Piłka nożna kobiet: Mistrzostwa świata U-17 - Maroko 2026 - mecz: Portoryko - Polska",
-      "channel": "TVP Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-24T00:15:00+02:00",
-      "end": "2026-10-24T02:30:00+02:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA w Ningbo - mecz ćwierćfinałowy gry pojedynczej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-24T06:00:00+02:00",
-      "end": "2026-10-24T08:00:00+02:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej ATP w Brukseli - mecz ćwierćfinałowy gry pojedynczej",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-24T06:00:00+02:00",
-      "end": "2026-10-24T08:20:00+02:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA w Ningbo - mecz ćwierćfinałowy gry pojedynczej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
     {
       "start": "2026-10-24T08:20:00+02:00",
       "end": "2026-10-24T09:00:00+02:00",

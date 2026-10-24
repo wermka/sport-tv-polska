@@ -1,22 +1,7 @@
 {
-  "updatedAt": "2026-10-23T20:52:33.790769+02:00",
+  "updatedAt": "2026-10-24T08:44:05.203142+02:00",
   "source": "Upcoming Polish tennis fixtures from API; TV channel requires Teleman LIVE",
   "events": [
-    {
-      "start": "2026-10-24T12:00:00+02:00",
-      "displayUntil": "2026-10-24T16:00:00+02:00",
-      "endConfirmedByEpg": false,
-      "sport": "tenis",
-      "name": "Katarzyna Kawa – Linda Fruhvirtova",
-      "matchId": "209410",
-      "matchScheduledStart": "2026-10-24T12:00:00+02:00",
-      "matchScheduled": true,
-      "timeType": "match_planned",
-      "channel": null,
-      "verifiedLive": false,
-      "sourceUrl": "https://api.livetennisapi.com/",
-      "verification": "Upcoming Polish fixture from Live Tennis API; TV unconfirmed"
-    },
     {
       "start": "2026-10-24T13:20:00+02:00",
       "end": "2026-10-24T15:40:00+02:00",
