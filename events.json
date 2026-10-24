@@ -1,20 +1,21 @@
 {
-  "updatedAt": "2026-10-24T08:44:05.203142+02:00",
+  "updatedAt": "2026-10-24T14:44:49.854732+02:00",
   "source": "Upcoming Polish tennis fixtures from API; TV channel requires Teleman LIVE",
   "events": [
     {
-      "start": "2026-10-24T13:20:00+02:00",
-      "end": "2026-10-24T15:40:00+02:00",
-      "endConfirmedByEpg": true,
-      "sport": "skoki",
-      "name": "Skoki narciarskie: Letnie Grand Prix w Klingenthal",
-      "channel": "Eurosport 2",
-      "sourceUrl": "https://www.teleman.pl/sport?live=1",
-      "verifiedLive": true,
-      "competitionId": "auto-ski-2026-10-24-klingenthal",
-      "participationEvidence": "official_roster_announced",
-      "participationSourceUrl": "https://pzn.pl/skoki-narciarskie/aktualnosci/szczerozloty-kacper-tomasiak-lks-klimczok-bystra-rzadzi-maciej-maciusiak-oglosil-sklad",
-      "verification": "Official squad or start list + exact competition/date + Teleman LIVE (EPG optional)"
+      "start": "2026-10-25T10:30:00+01:00",
+      "displayUntil": "2026-10-25T14:30:00+01:00",
+      "endConfirmedByEpg": false,
+      "sport": "tenis",
+      "name": "Saba Purtseladze – Filip Peliwo",
+      "matchId": "209674",
+      "matchScheduledStart": "2026-10-25T10:30:00+01:00",
+      "matchScheduled": true,
+      "timeType": "match_planned",
+      "channel": null,
+      "verifiedLive": false,
+      "sourceUrl": "https://api.livetennisapi.com/",
+      "verification": "Upcoming Polish fixture from Live Tennis API; TV unconfirmed"
     }
   ]
 }

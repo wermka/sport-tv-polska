@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-10-24T08:43:45.309589+02:00",
+  "updatedAt": "2026-10-24T14:43:16.080020+02:00",
   "source": "Live Tennis API",
   "note": "Zaplanowane mecze z polskim zawodnikiem wedlug aktualnej odpowiedzi API; kanal TV wymaga osobnej weryfikacji.",
-  "matches": []
+  "matches": [
+    {
+      "id": 209674,
+      "start": "2026-10-25T10:30:00+01:00",
+      "sport": "tenis",
+      "name": "Saba Purtseladze – Filip Peliwo",
+      "tournament": "Ningbo",
+      "tour": "challenger",
+      "tier": null,
+      "doubles": false,
+      "status": "upcoming",
+      "channel": null,
+      "broadcastVerified": false,
+      "polishParticipantConfirmedByApi": true
+    }
+  ]
 }

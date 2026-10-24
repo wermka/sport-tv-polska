@@ -1,69 +1,9 @@
 {
-  "updatedAt": "2026-10-24T08:43:45.366696+02:00",
+  "updatedAt": "2026-10-24T14:43:16.138872+02:00",
   "source": "XMLTV; entries unverified",
   "epgAvailable": true,
   "error": null,
   "events": [
-    {
-      "start": "2026-10-24T08:20:00+02:00",
-      "end": "2026-10-24T09:00:00+02:00",
-      "sport": "tenis",
-      "name": "8 wspaniałych",
-      "channel": "CANAL+ Sport 2",
-      "description": "W kobiecym tenisie sezon 2025 zwieńczył turniej WTA Finals w Rijadzie z udziałem ośmiu zawodniczek. Każdy odcinek tej serii będzie poświęcony innej z nich. Zobaczymy, z jakimi wyzwaniami się mierzą.",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-24T08:30:00+02:00",
-      "end": "2026-10-24T11:00:00+02:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej ATP w Ałmatach - mecz ćwierćfinałowy gry pojedynczej",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-24T09:00:00+02:00",
-      "end": "2026-10-24T11:30:00+02:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA w Ningbo - mecz półfinałowy gry pojedynczej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-24T11:00:00+02:00",
-      "end": "2026-10-24T12:00:00+02:00",
-      "sport": "tenis",
-      "name": "ATP World Tour Next Week",
-      "channel": "Polsat Sport",
-      "description": "Program poświęcony rozgrywkom z głównego cyklu ATP Tour. Kibice zobaczą w nim m.in. zapowiedzi nadchodzących turniejów. Ponadto dostaną porcję statystyk i ciekawostek, też zza kulis tenisowego świata.",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-24T11:30:00+02:00",
-      "end": "2026-10-24T13:45:00+02:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA w Ningbo - mecz półfinałowy gry pojedynczej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-24T12:00:00+02:00",
-      "end": "2026-10-24T14:00:00+02:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej ATP w Ałmatach - mecz półfinałowy gry pojedynczej",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
     {
       "start": "2026-10-24T13:20:00+02:00",
       "end": "2026-10-24T15:40:00+02:00",
