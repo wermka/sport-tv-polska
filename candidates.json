@@ -1,39 +1,9 @@
 {
-  "updatedAt": "2026-10-24T20:43:37.957139+02:00",
+  "updatedAt": "2026-10-25T07:03:39.619924+01:00",
   "source": "XMLTV; entries unverified",
   "epgAvailable": true,
   "error": null,
   "events": [
-    {
-      "start": "2026-10-24T22:15:00+02:00",
-      "end": "2026-10-25T00:30:00+02:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA w Ningbo - mecz półfinałowy gry pojedynczej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-24T23:00:00+02:00",
-      "end": "2026-10-25T07:00:00+01:00",
-      "sport": "siatkowka",
-      "name": "Siatkówka mężczyzn: Mistrzostwa Europy 2026 - mecz grupy B: Polska - Bułgaria",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-25T00:30:00+02:00",
-      "end": "2026-10-25T02:45:00+02:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA w Ningbo - mecz półfinałowy gry pojedynczej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
     {
       "start": "2026-10-25T06:00:00+01:00",
       "end": "2026-10-25T08:30:00+01:00",

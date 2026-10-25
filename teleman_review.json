@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-10-24T20:45:07.726566+02:00",
+  "updatedAt": "2026-10-25T07:05:10.535511+01:00",
   "source": "Teleman, zbiorcza ramówka LIVE (dane diagnostyczne)",
   "warning": "LIVE = oznaczenie w ramówce. Nie potwierdza udziału Polaków ani rzeczywistego terminu zawodów. Nie publikować w events.json.",
   "pagesChecked": 6,
   "rows": [
     {
-      "dateLabel": "niedziela, 25 października",
+      "dateLabel": "dziś, 25 października",
       "timeLabel": "9:55",
       "channel": "TVP Sport",
       "title": "Lekkoatletyka: Maraton we Frankfurcie",
@@ -16,7 +16,7 @@
       "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "niedziela, 25 października",
+      "dateLabel": "dziś, 25 października",
       "timeLabel": "11:00",
       "channel": "Polsat Sport 3",
       "title": "Tenis: Turniej ATP w Ałmatach mecz finałowy gry pojedynczej",
@@ -27,7 +27,7 @@
       "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "niedziela, 25 października",
+      "dateLabel": "dziś, 25 października",
       "timeLabel": "13:10",
       "channel": "Eurosport 2",
       "title": "Skoki narciarskie: Letnie Grand Prix w Klingenthal konkurs mieszany",
@@ -35,10 +35,10 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_participant_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "niedziela, 25 października",
+      "dateLabel": "dziś, 25 października",
       "timeLabel": "14:30",
       "channel": "Polsat Sport 3",
       "title": "Tenis: Turniej ATP w Lyonie mecz finałowy gry pojedynczej",
@@ -49,7 +49,7 @@
       "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
     },
     {
-      "dateLabel": "niedziela, 25 października",
+      "dateLabel": "dziś, 25 października",
       "timeLabel": "16:30",
       "channel": "Polsat Sport 3",
       "title": "Tenis: Turniej ATP w Brukseli mecz finałowy gry pojedynczej",
@@ -112,7 +112,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
     },
     {
       "dateLabel": "poniedziałek, 26 października",
@@ -123,7 +123,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
     },
     {
       "dateLabel": "poniedziałek, 26 października",
@@ -134,7 +134,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
     },
     {
       "dateLabel": "wtorek, 27 października",
@@ -189,7 +189,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
     },
     {
       "dateLabel": "wtorek, 27 października",
@@ -200,7 +200,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
     },
     {
       "dateLabel": "wtorek, 27 października",
@@ -211,7 +211,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
     },
     {
       "dateLabel": "wtorek, 27 października",
@@ -222,7 +222,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
     },
     {
       "dateLabel": "środa, 28 października",
@@ -277,7 +277,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
     },
     {
       "dateLabel": "czwartek, 29 października",
@@ -294,6 +294,39 @@
       "dateLabel": "czwartek, 29 października",
       "timeLabel": "14:00",
       "channel": "Polsat Sport 1",
+      "title": "Tenis: Turniej ATP w Bazylei mecz 2. rundy gry pojedynczej",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+    },
+    {
+      "dateLabel": "czwartek, 29 października",
+      "timeLabel": "15:30",
+      "channel": "Polsat Sport 2",
+      "title": "Tenis: Turniej ATP w Wiedniu mecz 2. rundy gry pojedynczej",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+    },
+    {
+      "dateLabel": "czwartek, 29 października",
+      "timeLabel": "16:00",
+      "channel": "Polsat Sport 1",
+      "title": "Tenis: Turniej ATP w Bazylei mecz 2. rundy gry pojedynczej",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+    },
+    {
+      "dateLabel": "czwartek, 29 października",
+      "timeLabel": "17:30",
+      "channel": "Polsat Sport 2",
       "title": "Tenis: Turniej ATP w Bazylei mecz 2. rundy gry pojedynczej",
       "sport": "tenis",
       "telemanLiveBadge": true,
