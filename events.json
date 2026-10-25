@@ -1,7 +1,22 @@
 {
-  "updatedAt": "2026-10-25T14:45:27.629387+01:00",
+  "updatedAt": "2026-10-25T20:39:57.753244+01:00",
   "source": "Upcoming Polish tennis fixtures from API; TV channel requires Teleman LIVE",
   "events": [
+    {
+      "start": "2026-10-26T07:00:00+01:00",
+      "displayUntil": "2026-10-26T11:00:00+01:00",
+      "endConfirmedByEpg": false,
+      "sport": "tenis",
+      "name": "Filip Peliwo – Luca Castelnuovo",
+      "matchId": "210388",
+      "matchScheduledStart": "2026-10-26T07:00:00+01:00",
+      "matchScheduled": true,
+      "timeType": "match_planned",
+      "channel": null,
+      "verifiedLive": false,
+      "sourceUrl": "https://api.livetennisapi.com/",
+      "verification": "Upcoming Polish fixture from Live Tennis API; TV unconfirmed"
+    },
     {
       "start": "2026-10-27T03:00:00+01:00",
       "displayUntil": "2026-10-27T07:00:00+01:00",
@@ -25,6 +40,21 @@
       "name": "Arthur Fils – Hubert Hurkacz",
       "matchId": "209806",
       "matchScheduledStart": "2026-10-27T10:00:00+01:00",
+      "matchScheduled": true,
+      "timeType": "match_planned",
+      "channel": null,
+      "verifiedLive": false,
+      "sourceUrl": "https://api.livetennisapi.com/",
+      "verification": "Upcoming Polish fixture from Live Tennis API; TV unconfirmed"
+    },
+    {
+      "start": "2026-10-27T11:00:00+01:00",
+      "displayUntil": "2026-10-27T15:00:00+01:00",
+      "endConfirmedByEpg": false,
+      "sport": "tenis",
+      "name": "Mia Ristic – Martyna Kubka",
+      "matchId": "210419",
+      "matchScheduledStart": "2026-10-27T11:00:00+01:00",
       "matchScheduled": true,
       "timeType": "match_planned",
       "channel": null,
