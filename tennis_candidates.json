@@ -1,22 +1,8 @@
 {
-  "updatedAt": "2026-10-26T08:30:10.291800+01:00",
+  "updatedAt": "2026-10-26T13:43:20.485954+01:00",
   "source": "Live Tennis API",
   "note": "Zaplanowane mecze z polskim zawodnikiem wedlug aktualnej odpowiedzi API; kanal TV wymaga osobnej weryfikacji.",
   "matches": [
-    {
-      "id": 210388,
-      "start": "2026-10-26T09:00:00+01:00",
-      "sport": "tenis",
-      "name": "Filip Peliwo – Luca Castelnuovo",
-      "tournament": "Ningbo",
-      "tour": "challenger",
-      "tier": null,
-      "doubles": false,
-      "status": "upcoming",
-      "channel": null,
-      "broadcastVerified": false,
-      "polishParticipantConfirmedByApi": true
-    },
     {
       "id": 210484,
       "start": "2026-10-26T18:30:00+01:00",
@@ -47,7 +33,7 @@
     },
     {
       "id": 210373,
-      "start": "2026-10-27T03:00:00+01:00",
+      "start": "2026-10-27T04:00:00+01:00",
       "sport": "tenis",
       "name": "Magda Linette – Anastasia Zakharova",
       "tournament": "Guangzhou",
@@ -80,20 +66,6 @@
       "name": "Mia Ristic – Martyna Kubka",
       "tournament": "Courmayeur (Italy) - Qualification",
       "tour": "challenger",
-      "tier": null,
-      "doubles": false,
-      "status": "upcoming",
-      "channel": null,
-      "broadcastVerified": false,
-      "polishParticipantConfirmedByApi": true
-    },
-    {
-      "id": 210861,
-      "start": "2026-10-28T03:00:00+01:00",
-      "sport": "tenis",
-      "name": "Alycia Parks – Maja Chwalinska",
-      "tournament": "Tokyo",
-      "tour": "wta",
       "tier": null,
       "doubles": false,
       "status": "upcoming",
