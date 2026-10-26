@@ -46,6 +46,22 @@ class CheckVerifiedBroadcasts(unittest.TestCase):
     def test_removed_or_cancelled(self):
         self.assertEqual(verify([{**MATCH, "status": "cancelled"}], [TV], [EPG], NOW, NOW), [])
 
+    def test_tournament_name_is_preserved_without_tv(self):
+        match = {**MATCH, "tournament": "Wimbledon", "tour": "wta"}
+        event = verify([match], [], [], NOW, NOW)[0]
+        self.assertEqual(event["tournament"], "Wimbledon")
+        self.assertIsNone(event["channel"])
+
+    def test_tournament_name_is_preserved_with_verified_tv(self):
+        match = {**MATCH, "tournament": "US Open", "tour": "wta"}
+        event = verify([match], [TV], [], NOW, NOW)[0]
+        self.assertEqual(event["tournament"], "US Open")
+        self.assertEqual(event["channel"], "CANAL+ Sport 2")
+
+    def test_missing_tournament_does_not_invent_one(self):
+        event = verify([MATCH], [], [], NOW, NOW)[0]
+        self.assertIsNone(event["tournament"])
+
     def test_no_tv_listing_creates_planned_match(self):
         rows = verify([MATCH], [], [], NOW, NOW)
         self.assertEqual(len(rows), 1)
