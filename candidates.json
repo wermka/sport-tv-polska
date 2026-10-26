@@ -1,79 +1,9 @@
 {
-  "updatedAt": "2026-10-25T20:38:20.227389+01:00",
+  "updatedAt": "2026-10-26T07:09:07.520704+01:00",
   "source": "XMLTV; entries unverified",
   "epgAvailable": true,
   "error": null,
   "events": [
-    {
-      "start": "2026-10-25T20:40:00+01:00",
-      "end": "2026-10-25T21:45:00+01:00",
-      "sport": "tenis",
-      "name": "8 wspaniałych",
-      "channel": "CANAL+ Sport 2",
-      "description": "W kobiecym tenisie sezon 2025 zwieńczył turniej WTA Finals w Rijadzie z udziałem ośmiu zawodniczek. Każdy odcinek tej serii będzie poświęcony innej z nich. Zobaczymy, z jakimi wyzwaniami się mierzą.",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-25T21:45:00+01:00",
-      "end": "2026-10-26T00:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA w Ningbo - mecz półfinałowy gry pojedynczej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-25T23:00:00+01:00",
-      "end": "2026-10-26T07:00:00+01:00",
-      "sport": "siatkowka",
-      "name": "Siatkówka mężczyzn: Mistrzostwa Europy 2026 - mecz 1/8 finału: Polska - Łotwa",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-25T23:00:00+01:00",
-      "end": "2026-10-26T01:05:00+01:00",
-      "sport": "siatkowka",
-      "name": "Siatkówka mężczyzn: Al-KO Superpuchar Polski - mecz: Aluron CMC Warta Zawiercie - Bogdanka LUK Lublin",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-26T00:00:00+01:00",
-      "end": "2026-10-26T02:30:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA w Ningbo - mecz finałowy gry pojedynczej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-26T05:00:00+01:00",
-      "end": "2026-10-26T06:00:00+01:00",
-      "sport": "siatkowka",
-      "name": "Siatkówka mężczyzn: Al-KO Superpuchar Polski - mecz: Aluron CMC Warta Zawiercie - Bogdanka LUK Lublin",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-26T05:55:00+01:00",
-      "end": "2026-10-26T06:45:00+01:00",
-      "sport": "lekkoatletyka",
-      "name": "Lekkoatletyka: Maraton we Frankfurcie",
-      "channel": "TVP Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
     {
       "start": "2026-10-26T06:00:00+01:00",
       "end": "2026-10-26T08:15:00+01:00",
