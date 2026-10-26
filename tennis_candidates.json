@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-10-26T07:09:07.444171+01:00",
+  "updatedAt": "2026-10-26T08:30:10.291800+01:00",
   "source": "Live Tennis API",
   "note": "Zaplanowane mecze z polskim zawodnikiem wedlug aktualnej odpowiedzi API; kanal TV wymaga osobnej weryfikacji.",
   "matches": [
     {
       "id": 210388,
-      "start": "2026-10-26T08:00:00+01:00",
+      "start": "2026-10-26T09:00:00+01:00",
       "sport": "tenis",
       "name": "Filip Peliwo – Luca Castelnuovo",
       "tournament": "Ningbo",
