@@ -115,6 +115,7 @@ def verify(tennis, teleman, epg, teleman_updated, now):
         result = {
             **tv_times(start),
             "sport": "tenis", "name": match["name"],
+            "tournament": match.get("tournament") if isinstance(match.get("tournament"), str) and match["tournament"].strip() else None,
             "matchId": mid, "matchScheduledStart": start.isoformat(),
             "matchScheduled": True, "timeType": "match_planned",
             "channel": None, "verifiedLive": False,
