@@ -10,8 +10,12 @@ small,.muted{color:#a9bfd8}
 .clock{font-size:clamp(26px,5vw,48px);font-weight:800;font-variant-numeric:tabular-nums}
 .status{display:inline-block;background:#23364e;color:#d9e9fc;border-radius:12px;padding:8px 12px;font-weight:650;margin-top:15px}
 .tabs,.controls{display:flex;gap:10px;flex-wrap:wrap;margin:22px 0}
-.tabs button,.controls button{background:#23364e;border:2px solid transparent;border-radius:13px;color:white;padding:13px 19px;font-size:19px;font-weight:750;cursor:pointer}
-.tabs button.active,.controls button.active{background:#c9e6ff;color:#0d2841}
+.tabs button,.controls button{background:#23364e;border:2px solid #496481;border-radius:13px;color:#fff;padding:13px 19px;font-size:19px;font-weight:750;cursor:pointer;transition:background .12s,border-color .12s}
+.tabs button.active,.controls button.active{background:#FFB454;color:#10243c;border-color:#FFE8B4;box-shadow:0 0 0 3px rgba(255,180,84,.25);font-weight:900}
+.tabs button.active::before,.controls button.active::before{content:"✓";font-weight:900;margin-right:8px}
+.current-filter{display:flex;align-items:center;gap:8px;flex-wrap:wrap;background:#182a40;border-left:5px solid #FFB454;border-radius:10px;color:#d9e9fc;padding:11px 14px;font-size:17px;font-weight:650;margin:3px 0 19px}
+.current-filter .selection-value{color:#FFB454;font-weight:900}
+.current-filter .separator{color:#8fa6bf;font-weight:700}
 .card{background:#1c2d43;border:1px solid #35506e;border-radius:20px;padding:18px;margin:16px 0;overflow:hidden}
 .card-date{display:flex;align-items:center;gap:12px;background:#493823;border-radius:14px;padding:14px 17px;font-size:clamp(20px,3vw,25px);font-weight:850;color:#FFB454}
 .calendar-icon{font-size:25px;flex:0 0 auto}
@@ -38,7 +42,7 @@ small,.muted{color:#a9bfd8}
 .alert h2{margin:0 0 7px;font-size:28px}
 .empty{background:#1c2d43;border-radius:18px;padding:30px;font-size:22px;color:#c6d6e9}
 .foot{font-size:15px;color:#b7c7d9;margin:24px 0;line-height:1.6}
-button:focus-visible{outline:3px solid #fff}
+button:focus-visible{outline:4px solid #FFB454;outline-offset:4px}
 @media(max-width:600px){
  .wrap{padding:13px}
  header{align-items:flex-start}
@@ -63,14 +67,20 @@ button:focus-visible{outline:3px solid #fff}
  .time-box{flex-basis:93px}
  .name{font-size:19px}
 }
-</style></head><body><main class="wrap"><header><div><small>🇵🇱 SPORT TV POLSKA · WSZYSTKIE KANAŁY</small><h1>Program sportowy</h1><div id="date" class="muted"></div></div><div class="clock" id="clock">--:--</div></header><div class="status">Transmisje TV oraz zaplanowane mecze polskich tenisistów</div><section id="alert" aria-live="polite"></section><nav class="tabs" aria-label="Wybór dnia"><button class="active" data-day="0">Dzisiaj</button><button data-day="1">Jutro</button><button data-day="7">7 dni</button></nav><div class="controls" aria-label="Filtr dyscypliny"><button class="active" data-sport="all">Wszystkie</button><button data-sport="tenis">🎾 Tenis</button><button data-sport="siatkowka">🏐 Siatkówka</button><button data-sport="pilka">⚽ Piłka</button><button data-sport="skoki">🎿 Skoki</button><button data-sport="lekkoatletyka">🏃 Lekkoatletyka</button></div><section id="events"></section><div class="foot">Godziny meczów tenisowych mogą się zmienić. Gdy godzina transmisji TV różni się od początku meczu, pokazujemy ją osobno. Przypomnienia działają tylko przy otwartej stronie.</div></main><script>
+</style></head><body><main class="wrap"><header><div><small>🇵🇱 SPORT TV POLSKA · WSZYSTKIE KANAŁY</small><h1>Program sportowy</h1><div id="date" class="muted"></div></div><div class="clock" id="clock">--:--</div></header><div class="status">Transmisje TV oraz zaplanowane mecze polskich tenisistów</div><section id="alert" aria-live="polite"></section><nav class="tabs" aria-label="Wybór dnia"><button class="active" data-day="0" aria-pressed="true">Dzisiaj</button><button data-day="1" aria-pressed="false">Jutro</button><button data-day="7" aria-pressed="false">7 dni</button></nav><div class="controls" aria-label="Filtr dyscypliny"><button class="active" data-sport="all" aria-pressed="true">Wszystkie</button><button data-sport="tenis" aria-pressed="false">🎾 Tenis</button><button data-sport="siatkowka" aria-pressed="false">🏐 Siatkówka</button><button data-sport="pilka" aria-pressed="false">⚽ Piłka</button><button data-sport="skoki" aria-pressed="false">🎿 Skoki</button><button data-sport="lekkoatletyka" aria-pressed="false">🏃 Lekkoatletyka</button></div><div class="current-filter" aria-live="polite" aria-atomic="true"><span>Wybrano:</span> <span class="selection-value" id="selected-day">Dzisiaj</span><span class="separator">·</span><span class="selection-value" id="selected-sport">Wszystkie sporty</span></div><section id="events"></section><div class="foot">Godziny meczów tenisowych mogą się zmienić. Gdy godzina transmisji TV różni się od początku meczu, pokazujemy ją osobno. Przypomnienia działają tylko przy otwartej stronie.</div></main><script>
 const sports={tenis:['🎾','TENIS'],siatkowka:['🏐','SIATKÓWKA'],pilka:['⚽','PIŁKA NOŻNA'],skoki:['🎿','SKOKI NARCIARSKIE'],lekkoatletyka:['🏃','LEKKOATLETYKA']};
 let examples=[], updates=[], day=0,sport='all';const pad=n=>String(n).padStart(2,'0');
 function label(d){return d.toLocaleDateString('pl-PL',{weekday:'long',day:'numeric',month:'long'})}
 function prominentDate(d){const value=label(d);return value.charAt(0).toLocaleUpperCase('pl-PL')+value.slice(1)}
 function countdown(diff){const m=Math.max(1,Math.ceil(diff));return `ZA ${m} ${m===1?"MINUTĘ":m%10>=2&&m%10<=4&&(m<12||m>14)?"MINUTY":"MINUT"}`}
 function esc(v){return String(v||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
-function render(){const now=new Date();document.getElementById('clock').textContent=`${pad(now.getHours())}:${pad(now.getMinutes())}`;document.getElementById('date').textContent=label(now);
+function render(){
+const dayNames={0:'Dzisiaj',1:'Jutro',7:'7 dni'};
+const sportNames={all:'Wszystkie sporty',tenis:'Tenis',siatkowka:'Siatkówka',pilka:'Piłka nożna',skoki:'Skoki narciarskie',lekkoatletyka:'Lekkoatletyka'};
+const dayLabel=document.getElementById('selected-day'),sportLabel=document.getElementById('selected-sport');
+if(dayLabel.textContent!==dayNames[day])dayLabel.textContent=dayNames[day];
+if(sportLabel.textContent!==sportNames[sport])sportLabel.textContent=sportNames[sport];
+const now=new Date();document.getElementById('clock').textContent=`${pad(now.getHours())}:${pad(now.getMinutes())}`;document.getElementById('date').textContent=label(now);
 const today=new Date(now.getFullYear(),now.getMonth(),now.getDate());
 const chosen=examples.filter(e=>{let start=new Date(e.start),d=Math.round((new Date(start.getFullYear(),start.getMonth(),start.getDate())-today)/86400000);return (e.end||e.displayUntil?new Date(e.end||e.displayUntil)>now:false)&&(day===7?(d>=0&&d<7):d===day)&&(sport==='all'||e.sport===sport)}).sort((a,b)=>new Date(a.start)-new Date(b.start));
 document.getElementById('events').innerHTML=chosen.length?chosen.map(e=>{
@@ -106,5 +116,5 @@ document.getElementById('events').innerHTML=chosen.length?chosen.map(e=>{
 }).join(''):'<div class="empty">Brak zaplanowanych meczów lub potwierdzonych transmisji w tym widoku.</div>';
 const alert=chosen.find(e=>{const diff=(new Date(e.start)-now)/60000;return diff>0&&diff<=15});document.getElementById('alert').innerHTML=alert?`<div class="alert"><h2>🔔 ${countdown((new Date(alert.start)-now)/60000)}</h2><div class="name">${esc(alert.name)}</div><div class="channel">${alert.channel?`${alert.sport==="tenis"?"Mecz wkrótce · kanał: ":"Włącz: "}${esc(alert.channel)}`:"Nadchodzi mecz · kanał TV niepotwierdzony"}</div></div>`:''}
 async function refresh(){try{const r=await fetch('events.json?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('Brak danych');const d=await r.json();examples=(d.events||[]).filter(e=>e.verifiedLive===true||(e.sport==="tenis"&&e.matchScheduled===true&&e.matchId));updates=[];try{const tr=await fetch('tennis_updates.json?t='+Date.now(),{cache:'no-store'});if(tr.ok){const td=await tr.json();if(td.checkedAt&&Date.now()-new Date(td.checkedAt).getTime()<45*60000&&Date.now()>=new Date(td.checkedAt).getTime())updates=td.updates||[]}}catch(_){}document.querySelector('.status').textContent='Transmisje i mecze Polaków · Aktualizacja: '+new Date(d.updatedAt).toLocaleString('pl-PL');}catch(e){document.querySelector('.status').textContent='BRAK AKTUALNYCH DANYCH TERMINARZA'}render()}
-document.querySelectorAll('[data-day]').forEach(b=>b.onclick=()=>{day=Number(b.dataset.day);document.querySelectorAll('[data-day]').forEach(x=>x.classList.toggle('active',x===b));render()});document.querySelectorAll('[data-sport]').forEach(b=>b.onclick=()=>{sport=b.dataset.sport;document.querySelectorAll('[data-sport]').forEach(x=>x.classList.toggle('active',x===b));render()});refresh();setInterval(render,15000);setInterval(refresh,15*60*1000);
+document.querySelectorAll('[data-day]').forEach(b=>b.onclick=()=>{day=Number(b.dataset.day);document.querySelectorAll('[data-day]').forEach(x=>{const selected=x===b;x.classList.toggle('active',selected);x.setAttribute('aria-pressed',String(selected))});render()});document.querySelectorAll('[data-sport]').forEach(b=>b.onclick=()=>{sport=b.dataset.sport;document.querySelectorAll('[data-sport]').forEach(x=>{const selected=x===b;x.classList.toggle('active',selected);x.setAttribute('aria-pressed',String(selected))});render()});refresh();setInterval(render,15000);setInterval(refresh,15*60*1000);
 </script></body></html>
