@@ -1,39 +1,11 @@
 {
-  "updatedAt": "2026-10-28T14:35:03.237725+01:00",
+  "updatedAt": "2026-10-28T20:26:23.827548+01:00",
   "source": "Live Tennis API",
   "note": "Zaplanowane mecze z polskim zawodnikiem wedlug aktualnej odpowiedzi API; kanal TV wymaga osobnej weryfikacji.",
   "matches": [
     {
-      "id": 211777,
-      "start": "2026-10-28T17:15:00+01:00",
-      "sport": "tenis",
-      "name": "Noma Noha Akugue – Linda Klimovicova",
-      "tournament": "Courmayeur (Italy)",
-      "tour": "challenger",
-      "tier": null,
-      "doubles": false,
-      "status": "upcoming",
-      "channel": null,
-      "broadcastVerified": false,
-      "polishParticipantConfirmedByApi": true
-    },
-    {
-      "id": 211883,
-      "start": "2026-10-28T17:30:00+01:00",
-      "sport": "tenis",
-      "name": "Maks Kasnikowski – Aidan Mayo",
-      "tournament": "Sioux Falls",
-      "tour": "challenger",
-      "tier": null,
-      "doubles": false,
-      "status": "upcoming",
-      "channel": null,
-      "broadcastVerified": false,
-      "polishParticipantConfirmedByApi": true
-    },
-    {
       "id": 211600,
-      "start": "2026-10-28T19:30:00+01:00",
+      "start": "2026-10-28T20:45:00+01:00",
       "sport": "tenis",
       "name": "Hubert Hurkacz – Holger Rune",
       "tournament": "Basel",
