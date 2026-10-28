@@ -1,7 +1,39 @@
 {
-  "updatedAt": "2026-10-27T20:24:44.703525+01:00",
+  "updatedAt": "2026-10-28T08:39:53.556595+01:00",
   "source": "Upcoming Polish tennis fixtures from API; TV channel requires Teleman LIVE",
   "events": [
+    {
+      "start": "2026-10-28T16:30:00+01:00",
+      "displayUntil": "2026-10-28T20:30:00+01:00",
+      "endConfirmedByEpg": false,
+      "sport": "tenis",
+      "name": "Noma Noha Akugue – Linda Klimovicova",
+      "tournament": "Courmayeur (Italy)",
+      "matchId": "211777",
+      "matchScheduledStart": "2026-10-28T16:30:00+01:00",
+      "matchScheduled": true,
+      "timeType": "match_planned",
+      "channel": null,
+      "verifiedLive": false,
+      "sourceUrl": "https://api.livetennisapi.com/",
+      "verification": "Upcoming Polish fixture from Live Tennis API; TV unconfirmed"
+    },
+    {
+      "start": "2026-10-28T17:30:00+01:00",
+      "displayUntil": "2026-10-28T21:30:00+01:00",
+      "endConfirmedByEpg": false,
+      "sport": "tenis",
+      "name": "Maks Kasnikowski – Aidan Mayo",
+      "tournament": "Sioux Falls",
+      "matchId": "211883",
+      "matchScheduledStart": "2026-10-28T17:30:00+01:00",
+      "matchScheduled": true,
+      "timeType": "match_planned",
+      "channel": null,
+      "verifiedLive": false,
+      "sourceUrl": "https://api.livetennisapi.com/",
+      "verification": "Upcoming Polish fixture from Live Tennis API; TV unconfirmed"
+    },
     {
       "start": "2026-10-28T19:30:00+01:00",
       "displayUntil": "2026-10-28T23:30:00+01:00",
