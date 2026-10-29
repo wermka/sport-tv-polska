@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T08:41:00.310313+01:00",
+  "updatedAt": "2026-10-29T14:39:57.224495+01:00",
   "source": "Teleman, zbiorcza ramówka LIVE (dane diagnostyczne)",
   "warning": "LIVE = oznaczenie w ramówce. Nie potwierdza udziału Polaków ani rzeczywistego terminu zawodów. Nie publikować w events.json.",
   "pagesChecked": 6,
@@ -236,15 +236,15 @@
       "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
     },
     {
-      "dateLabel": "29 października",
-      "timeLabel": "12:00",
-      "channel": "CANAL+ Sport 2",
-      "title": "Tenis: Turniej WTA w Guangzhou mecz 2. rundy gry pojedynczej: Lilli Tagger - Magda Linette",
+      "dateLabel": "poniedziałek, 2 listopada",
+      "timeLabel": "20:00",
+      "channel": "Polsat Sport 2",
+      "title": "Tenis: Turniej ATP w Paryżu mecz 1. rundy gry pojedynczej",
       "sport": "tenis",
       "telemanLiveBadge": true,
-      "participantEvidence": "both_tennis_surnames_named",
+      "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://m.teleman.pl/stations/CanalPlus-Sport-2?date=2026-10-29"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
     }
   ]
 }
