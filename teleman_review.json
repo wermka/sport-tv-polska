@@ -1,22 +1,11 @@
 {
-  "updatedAt": "2026-10-28T20:29:19.739293+01:00",
+  "updatedAt": "2026-10-29T08:41:00.310313+01:00",
   "source": "Teleman, zbiorcza ramówka LIVE (dane diagnostyczne)",
   "warning": "LIVE = oznaczenie w ramówce. Nie potwierdza udziału Polaków ani rzeczywistego terminu zawodów. Nie publikować w events.json.",
   "pagesChecked": 6,
   "rows": [
     {
-      "dateLabel": "dziś, 28 października",
-      "timeLabel": "20:00",
-      "channel": "Polsat Sport 3",
-      "title": "Tenis: Turniej ATP w Bazylei mecz 2. rundy gry pojedynczej",
-      "sport": "tenis",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_tennis_match_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1"
-    },
-    {
-      "dateLabel": "czwartek, 29 października",
+      "dateLabel": "dziś, 29 października",
       "timeLabel": "13:30",
       "channel": "Polsat Sport 2",
       "title": "Tenis: Turniej ATP w Wiedniu mecz 2. rundy gry pojedynczej",
@@ -27,7 +16,7 @@
       "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "czwartek, 29 października",
+      "dateLabel": "dziś, 29 października",
       "timeLabel": "14:00",
       "channel": "Polsat Sport 1",
       "title": "Tenis: Turniej ATP w Bazylei mecz 2. rundy gry pojedynczej",
@@ -38,7 +27,7 @@
       "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "czwartek, 29 października",
+      "dateLabel": "dziś, 29 października",
       "timeLabel": "15:30",
       "channel": "Polsat Sport 2",
       "title": "Tenis: Turniej ATP w Wiedniu mecz 2. rundy gry pojedynczej",
@@ -49,7 +38,7 @@
       "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "czwartek, 29 października",
+      "dateLabel": "dziś, 29 października",
       "timeLabel": "16:00",
       "channel": "Polsat Sport 1",
       "title": "Tenis: Turniej ATP w Bazylei mecz 2. rundy gry pojedynczej",
@@ -60,7 +49,7 @@
       "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "czwartek, 29 października",
+      "dateLabel": "dziś, 29 października",
       "timeLabel": "17:30",
       "channel": "Polsat Sport 2",
       "title": "Tenis: Turniej ATP w Bazylei mecz 2. rundy gry pojedynczej",
@@ -71,7 +60,7 @@
       "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "czwartek, 29 października",
+      "dateLabel": "dziś, 29 października",
       "timeLabel": "20:00",
       "channel": "Polsat Sport 2",
       "title": "Tenis: Turniej ATP w Bazylei mecz 2. rundy gry pojedynczej",
@@ -79,7 +68,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
       "dateLabel": "piątek, 30 października",
@@ -145,7 +134,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
     },
     {
       "dateLabel": "piątek, 30 października",
@@ -156,7 +145,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
     },
     {
       "dateLabel": "sobota, 31 października",
@@ -167,7 +156,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
     },
     {
       "dateLabel": "sobota, 31 października",
@@ -178,7 +167,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
     },
     {
       "dateLabel": "sobota, 31 października",
@@ -199,6 +188,50 @@
       "sport": "lekkoatletyka",
       "telemanLiveBadge": true,
       "participantEvidence": "needs_participant_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
+    },
+    {
+      "dateLabel": "poniedziałek, 2 listopada",
+      "timeLabel": "11:00",
+      "channel": "Polsat Sport 1",
+      "title": "Tenis: Turniej ATP w Paryżu mecz 1. rundy gry pojedynczej",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+    },
+    {
+      "dateLabel": "poniedziałek, 2 listopada",
+      "timeLabel": "13:00",
+      "channel": "Polsat Sport 1",
+      "title": "Tenis: Turniej ATP w Paryżu mecz 1. rundy gry pojedynczej",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+    },
+    {
+      "dateLabel": "poniedziałek, 2 listopada",
+      "timeLabel": "15:00",
+      "channel": "Polsat Sport 1",
+      "title": "Tenis: Turniej ATP w Paryżu mecz 1. rundy gry pojedynczej",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+    },
+    {
+      "dateLabel": "poniedziałek, 2 listopada",
+      "timeLabel": "17:00",
+      "channel": "Polsat Sport 1",
+      "title": "Tenis: Turniej ATP w Paryżu mecz 1. rundy gry pojedynczej",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_tennis_match_check",
       "verified": false,
       "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
     },
