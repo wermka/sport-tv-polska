@@ -1,75 +1,9 @@
 {
-  "updatedAt": "2026-10-30T14:39:39.226606+01:00",
+  "updatedAt": "2026-10-30T20:25:51.322431+01:00",
   "source": "Teleman, zbiorcza ramówka LIVE (dane diagnostyczne)",
   "warning": "LIVE = oznaczenie w ramówce. Nie potwierdza udziału Polaków ani rzeczywistego terminu zawodów. Nie publikować w events.json.",
   "pagesChecked": 6,
   "rows": [
-    {
-      "dateLabel": "dziś, 30 października",
-      "timeLabel": "13:30",
-      "channel": "Polsat Sport 3",
-      "title": "Tenis: Turniej ATP w Wiedniu mecz ćwierćfinałowy gry pojedynczej",
-      "sport": "tenis",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_tennis_match_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1"
-    },
-    {
-      "dateLabel": "dziś, 30 października",
-      "timeLabel": "14:00",
-      "channel": "Polsat Sport 2",
-      "title": "Tenis: Turniej ATP w Bazylei mecz ćwierćfinałowy gry pojedynczej",
-      "sport": "tenis",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_tennis_match_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1"
-    },
-    {
-      "dateLabel": "dziś, 30 października",
-      "timeLabel": "15:30",
-      "channel": "Polsat Sport 3",
-      "title": "Tenis: Turniej ATP w Wiedniu mecz ćwierćfinałowy gry pojedynczej",
-      "sport": "tenis",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_tennis_match_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1"
-    },
-    {
-      "dateLabel": "dziś, 30 października",
-      "timeLabel": "16:00",
-      "channel": "Polsat Sport 2",
-      "title": "Tenis: Turniej ATP w Bazylei mecz ćwierćfinałowy gry pojedynczej",
-      "sport": "tenis",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_tennis_match_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1"
-    },
-    {
-      "dateLabel": "dziś, 30 października",
-      "timeLabel": "17:30",
-      "channel": "Polsat Sport 3",
-      "title": "Tenis: Turniej ATP w Wiedniu mecz ćwierćfinałowy gry pojedynczej",
-      "sport": "tenis",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_tennis_match_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1"
-    },
-    {
-      "dateLabel": "dziś, 30 października",
-      "timeLabel": "18:00",
-      "channel": "Polsat Sport 2",
-      "title": "Tenis: Turniej ATP w Bazylei mecz ćwierćfinałowy gry pojedynczej",
-      "sport": "tenis",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_tennis_match_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1"
-    },
     {
       "dateLabel": "dziś, 30 października",
       "timeLabel": "20:00",
@@ -104,17 +38,6 @@
       "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
     },
     {
-      "dateLabel": "sobota, 31 października",
-      "timeLabel": "17:30",
-      "channel": "Polsat Sport 3",
-      "title": "Tenis: Turniej ATP w Wiedniu mecz półfinałowy gry pojedynczej",
-      "sport": "tenis",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_tennis_match_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
-    },
-    {
       "dateLabel": "niedziela, 1 listopada",
       "timeLabel": "14:00",
       "channel": "Polsat Sport 2",
@@ -123,7 +46,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
     },
     {
       "dateLabel": "niedziela, 1 listopada",
@@ -134,7 +57,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_participant_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
     },
     {
       "dateLabel": "niedziela, 1 listopada",
@@ -156,7 +79,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
     },
     {
       "dateLabel": "poniedziałek, 2 listopada",
@@ -200,7 +123,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
     },
     {
       "dateLabel": "poniedziałek, 2 listopada",
@@ -211,7 +134,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
     },
     {
       "dateLabel": "wtorek, 3 listopada",
@@ -222,7 +145,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
     },
     {
       "dateLabel": "wtorek, 3 listopada",
@@ -239,6 +162,50 @@
       "dateLabel": "wtorek, 3 listopada",
       "timeLabel": "15:00",
       "channel": "Polsat Sport 1",
+      "title": "Tenis: Turniej ATP w Paryżu mecze 1. i 2. rundy gry pojedynczej",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+    },
+    {
+      "dateLabel": "wtorek, 3 listopada",
+      "timeLabel": "18:00",
+      "channel": "Polsat Sport 2",
+      "title": "Tenis: Turniej ATP w Paryżu mecze 1. i 2. rundy gry pojedynczej",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+    },
+    {
+      "dateLabel": "wtorek, 3 listopada",
+      "timeLabel": "20:00",
+      "channel": "Polsat Sport 1",
+      "title": "Tenis: Turniej ATP w Paryżu mecze 1. i 2. rundy gry pojedynczej",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+    },
+    {
+      "dateLabel": "wtorek, 3 listopada",
+      "timeLabel": "20:00",
+      "channel": "Polsat Sport 2",
+      "title": "Tenis: Turniej ATP w Paryżu mecze 1. i 2. rundy gry pojedynczej",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+    },
+    {
+      "dateLabel": "wtorek, 3 listopada",
+      "timeLabel": "22:00",
+      "channel": "Polsat Sport 2",
       "title": "Tenis: Turniej ATP w Paryżu mecze 1. i 2. rundy gry pojedynczej",
       "sport": "tenis",
       "telemanLiveBadge": true,
