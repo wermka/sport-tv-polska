@@ -1,155 +1,15 @@
 {
-  "updatedAt": "2026-10-30T08:38:42.293852+01:00",
+  "updatedAt": "2026-10-30T14:36:44.234769+01:00",
   "source": "XMLTV; entries unverified",
   "epgAvailable": true,
   "error": null,
   "events": [
-    {
-      "start": "2026-10-30T06:00:00+01:00",
-      "end": "2026-10-30T09:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA w Tokio - mecz ćwierćfinałowy gry pojedynczej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-30T07:00:00+01:00",
-      "end": "2026-10-30T10:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA w Tokio - mecz ćwierćfinałowy gry pojedynczej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-30T08:20:00+01:00",
-      "end": "2026-10-30T10:25:00+01:00",
-      "sport": "pilka",
-      "name": "Piłka nożna: STS Puchar Polski - mecz 2. rundy: Polonia Warszawa - Korona Kielce",
-      "channel": "TVP Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-30T08:30:00+01:00",
-      "end": "2026-10-30T11:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej ATP w Wiedniu - mecz 2. rundy gry pojedynczej",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-30T09:00:00+01:00",
-      "end": "2026-10-30T11:15:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA w Tokio - mecz ćwierćfinałowy gry pojedynczej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-30T09:20:00+01:00",
-      "end": "2026-10-30T11:25:00+01:00",
-      "sport": "pilka",
-      "name": "Piłka nożna: STS Puchar Polski - mecz 2. rundy: Polonia Warszawa - Korona Kielce",
-      "channel": "TVP Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-30T10:00:00+01:00",
-      "end": "2026-10-30T12:15:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA w Tokio - mecz ćwierćfinałowy gry pojedynczej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-30T10:25:00+01:00",
-      "end": "2026-10-30T12:30:00+01:00",
-      "sport": "pilka",
-      "name": "Piłka nożna: STS Puchar Polski - mecz 2. rundy: Odra Opole - Śląsk Wrocław",
-      "channel": "TVP Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-30T11:00:00+01:00",
-      "end": "2026-10-30T13:30:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej ATP w Bazylei - mecz 2. rundy gry pojedynczej",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-30T11:15:00+01:00",
-      "end": "2026-10-30T12:00:00+01:00",
-      "sport": "tenis",
-      "name": "8 wspaniałych",
-      "channel": "CANAL+ Sport 2",
-      "description": "W kobiecym tenisie sezon 2025 zwieńczył turniej WTA Finals w Rijadzie z udziałem ośmiu zawodniczek. Każdy odcinek tej serii będzie poświęcony innej z nich. Zobaczymy, z jakimi wyzwaniami się mierzą.",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-30T11:25:00+01:00",
-      "end": "2026-10-30T13:30:00+01:00",
-      "sport": "pilka",
-      "name": "Piłka nożna: STS Puchar Polski - mecz 2. rundy: Odra Opole - Śląsk Wrocław",
-      "channel": "TVP Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-30T12:15:00+01:00",
-      "end": "2026-10-30T13:00:00+01:00",
-      "sport": "tenis",
-      "name": "8 wspaniałych",
-      "channel": "CANAL+ Sport 2",
-      "description": "W kobiecym tenisie sezon 2025 zwieńczył turniej WTA Finals w Rijadzie z udziałem ośmiu zawodniczek. Każdy odcinek tej serii będzie poświęcony innej z nich. Zobaczymy, z jakimi wyzwaniami się mierzą.",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-30T12:30:00+01:00",
-      "end": "2026-10-30T13:05:00+01:00",
-      "sport": "pilka",
-      "name": "Piłka nożna: STS Puchar Polski - losowanie par 1/8 finału",
-      "channel": "TVP Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
     {
       "start": "2026-10-30T13:30:00+01:00",
       "end": "2026-10-30T15:30:00+01:00",
       "sport": "tenis",
       "name": "Tenis: Turniej ATP w Wiedniu - mecz ćwierćfinałowy gry pojedynczej",
       "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-30T13:30:00+01:00",
-      "end": "2026-10-30T14:05:00+01:00",
-      "sport": "pilka",
-      "name": "Piłka nożna: STS Puchar Polski - losowanie par 1/8 finału",
-      "channel": "TVP Sport",
       "description": "",
       "epgSaysLive": false,
       "verifiedLive": false
