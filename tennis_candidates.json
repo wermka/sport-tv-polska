@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-29T20:28:35.505445+01:00",
+  "updatedAt": "2026-10-30T08:38:42.228749+01:00",
   "source": "Live Tennis API",
   "note": "Zaplanowane mecze z polskim zawodnikiem wedlug aktualnej odpowiedzi API; kanal TV wymaga osobnej weryfikacji.",
   "matches": [
     {
-      "id": 212137,
-      "start": "2026-10-29T20:45:00+01:00",
+      "id": 212727,
+      "start": "2026-10-30T15:30:00+01:00",
       "sport": "tenis",
-      "name": "Lisa Pigato – Martyna Kubka",
+      "name": "Anna Blinkova – Martyna Kubka",
       "tournament": "Courmayeur (Italy)",
       "tour": "challenger",
       "tier": null,
