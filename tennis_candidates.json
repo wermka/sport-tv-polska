@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T20:24:07.717046+01:00",
+  "updatedAt": "2026-10-31T08:30:23.945369+01:00",
   "source": "Live Tennis API",
   "note": "Zaplanowane mecze z polskim zawodnikiem wedlug aktualnej odpowiedzi API; kanal TV wymaga osobnej weryfikacji.",
   "matches": [
@@ -11,6 +11,20 @@
       "tournament": "Chennai",
       "tour": "wta",
       "tier": null,
+      "doubles": false,
+      "status": "upcoming",
+      "channel": null,
+      "broadcastVerified": false,
+      "polishParticipantConfirmedByApi": true
+    },
+    {
+      "id": 212970,
+      "start": "2026-11-02T10:00:00+01:00",
+      "sport": "tenis",
+      "name": "Hubert Hurkacz – Lorenzo Musetti",
+      "tournament": "Paris",
+      "tour": "atp",
+      "tier": "atp_1000",
       "doubles": false,
       "status": "upcoming",
       "channel": null,

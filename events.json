@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T20:25:51.365214+01:00",
+  "updatedAt": "2026-10-31T08:31:59.610297+01:00",
   "source": "Upcoming Polish tennis fixtures from API; TV channel requires Teleman LIVE",
   "events": [
     {
@@ -11,6 +11,22 @@
       "tournament": "Chennai",
       "matchId": "212843",
       "matchScheduledStart": "2026-10-31T12:00:00+01:00",
+      "matchScheduled": true,
+      "timeType": "match_planned",
+      "channel": null,
+      "verifiedLive": false,
+      "sourceUrl": "https://api.livetennisapi.com/",
+      "verification": "Upcoming Polish fixture from Live Tennis API; TV unconfirmed"
+    },
+    {
+      "start": "2026-11-02T10:00:00+01:00",
+      "displayUntil": "2026-11-02T14:00:00+01:00",
+      "endConfirmedByEpg": false,
+      "sport": "tenis",
+      "name": "Hubert Hurkacz – Lorenzo Musetti",
+      "tournament": "Paris",
+      "matchId": "212970",
+      "matchScheduledStart": "2026-11-02T10:00:00+01:00",
       "matchScheduled": true,
       "timeType": "match_planned",
       "channel": null,
