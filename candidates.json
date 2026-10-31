@@ -1,79 +1,9 @@
 {
-  "updatedAt": "2026-10-31T08:30:23.996517+01:00",
+  "updatedAt": "2026-10-31T14:26:15.538933+01:00",
   "source": "XMLTV; entries unverified",
   "epgAvailable": true,
   "error": null,
   "events": [
-    {
-      "start": "2026-10-31T07:00:00+01:00",
-      "end": "2026-10-31T09:20:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA w Tokio - mecz półfinałowy gry pojedynczej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-31T08:20:00+01:00",
-      "end": "2026-10-31T10:40:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA w Tokio - mecz półfinałowy gry pojedynczej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-31T08:30:00+01:00",
-      "end": "2026-10-31T11:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej ATP w Wiedniu - mecz ćwierćfinałowy gry pojedynczej",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-31T09:20:00+01:00",
-      "end": "2026-10-31T11:40:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA w Tokio - mecz półfinałowy gry pojedynczej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-31T10:40:00+01:00",
-      "end": "2026-10-31T13:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA w Tokio - mecz półfinałowy gry pojedynczej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-31T11:40:00+01:00",
-      "end": "2026-10-31T14:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA w Tokio - mecz półfinałowy gry pojedynczej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-31T13:00:00+01:00",
-      "end": "2026-10-31T14:00:00+01:00",
-      "sport": "tenis",
-      "name": "8 wspaniałych",
-      "channel": "CANAL+ Sport 2",
-      "description": "W kobiecym tenisie sezon 2025 zwieńczył turniej WTA Finals w Rijadzie z udziałem ośmiu zawodniczek. Każdy odcinek tej serii będzie poświęcony innej z nich. Zobaczymy, z jakimi wyzwaniami się mierzą.",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
     {
       "start": "2026-10-31T14:00:00+01:00",
       "end": "2026-10-31T15:00:00+01:00",
