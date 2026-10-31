@@ -1,86 +1,16 @@
 {
-  "updatedAt": "2026-10-31T14:26:15.538933+01:00",
+  "updatedAt": "2026-10-31T20:46:53.988199+01:00",
   "source": "XMLTV; entries unverified",
   "epgAvailable": true,
   "error": null,
   "events": [
     {
-      "start": "2026-10-31T14:00:00+01:00",
-      "end": "2026-10-31T15:00:00+01:00",
-      "sport": "tenis",
-      "name": "8 wspaniałych",
-      "channel": "CANAL+ Sport 2",
-      "description": "W kobiecym tenisie sezon 2025 zwieńczył turniej WTA Finals w Rijadzie z udziałem ośmiu zawodniczek. Każdy odcinek tej serii będzie poświęcony innej z nich. Zobaczymy, z jakimi wyzwaniami się mierzą.",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-31T15:00:00+01:00",
-      "end": "2026-10-31T17:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej ATP w Bazylei - 1. mecz półfinałowy gry pojedynczej",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-31T15:30:00+01:00",
-      "end": "2026-10-31T17:30:00+01:00",
+      "start": "2026-10-31T18:30:00+01:00",
+      "end": "2026-10-31T21:30:00+01:00",
       "sport": "tenis",
       "name": "Tenis: Turniej ATP w Wiedniu - mecz półfinałowy gry pojedynczej",
       "channel": "Polsat Sport",
       "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-31T16:00:00+01:00",
-      "end": "2026-10-31T18:20:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej ATP w Bazylei - 1. mecz półfinałowy gry pojedynczej",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-31T17:00:00+01:00",
-      "end": "2026-10-31T18:40:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej ATP w Bazylei - 2. mecz półfinałowy gry pojedynczej",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-31T17:30:00+01:00",
-      "end": "2026-10-31T20:30:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej ATP w Wiedniu - mecz półfinałowy gry pojedynczej",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-31T18:15:00+01:00",
-      "end": "2026-10-31T19:30:00+01:00",
-      "sport": "tenis",
-      "name": "8 wspaniałych",
-      "channel": "CANAL+ Sport 2",
-      "description": "W kobiecym tenisie sezon 2025 zwieńczył turniej WTA Finals w Rijadzie z udziałem ośmiu zawodniczek. Każdy odcinek tej serii będzie poświęcony innej z nich. Zobaczymy, z jakimi wyzwaniami się mierzą.",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-10-31T19:15:00+01:00",
-      "end": "2026-10-31T20:30:00+01:00",
-      "sport": "tenis",
-      "name": "8 wspaniałych",
-      "channel": "CANAL+ Sport 2",
-      "description": "W kobiecym tenisie sezon 2025 zwieńczył turniej WTA Finals w Rijadzie z udziałem ośmiu zawodniczek. Każdy odcinek tej serii będzie poświęcony innej z nich. Zobaczymy, z jakimi wyzwaniami się mierzą.",
       "epgSaysLive": false,
       "verifiedLive": false
     },
@@ -126,9 +56,9 @@
     },
     {
       "start": "2026-10-31T23:00:00+01:00",
-      "end": "2026-11-01T01:00:00+01:00",
+      "end": "2026-11-01T02:30:00+01:00",
       "sport": "tenis",
-      "name": "Tenis: Turniej ATP w Bazylei - 1. mecz półfinałowy gry pojedynczej",
+      "name": "Tenis: Turniej ATP w Wiedniu - mecz półfinałowy gry pojedynczej",
       "channel": "Polsat Sport",
       "description": "",
       "epgSaysLive": false,
@@ -1205,6 +1135,16 @@
       "verifiedLive": false
     },
     {
+      "start": "2026-11-04T01:00:00+01:00",
+      "end": "2026-11-04T07:00:00+01:00",
+      "sport": "siatkowka",
+      "name": "Siatkówka mężczyzn: Mistrzostwa Europy 2026 - mecz ćwierćfinałowy: Polska - Niemcy",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
       "start": "2026-11-04T05:00:00+01:00",
       "end": "2026-11-04T07:30:00+01:00",
       "sport": "tenis",
@@ -1229,6 +1169,366 @@
       "end": "2026-11-04T08:15:00+01:00",
       "sport": "tenis",
       "name": "Tenis: Turniej WTA w Tokio - mecz 2. rundy gry pojedynczej: Jelena Rybakina - Julija Putincewa",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-04T07:15:00+01:00",
+      "end": "2026-11-04T09:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Tokio",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-04T07:30:00+01:00",
+      "end": "2026-11-04T10:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Paryżu - mecz 2. rundy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-04T08:15:00+01:00",
+      "end": "2026-11-04T10:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Tokio",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-04T09:30:00+01:00",
+      "end": "2026-11-04T11:45:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Tokio",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-04T10:00:00+01:00",
+      "end": "2026-11-04T12:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Paryżu - mecz 2. rundy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-04T10:30:00+01:00",
+      "end": "2026-11-04T12:45:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Tokio",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-04T11:00:00+01:00",
+      "end": "2026-11-04T13:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Paryżu - mecz 2. rundy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-04T11:45:00+01:00",
+      "end": "2026-11-04T14:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Tokio",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-04T12:00:00+01:00",
+      "end": "2026-11-04T14:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Paryżu - mecz 2. rundy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-04T12:45:00+01:00",
+      "end": "2026-11-04T15:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Tokio",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-04T13:00:00+01:00",
+      "end": "2026-11-04T15:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Paryżu - mecz 2. rundy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-04T14:00:00+01:00",
+      "end": "2026-11-04T16:20:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Paryżu - mecz 2. rundy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-04T14:00:00+01:00",
+      "end": "2026-11-04T16:15:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Tokio",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-04T15:00:00+01:00",
+      "end": "2026-11-04T17:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Paryżu - mecz 2. rundy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-04T15:00:00+01:00",
+      "end": "2026-11-04T17:15:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Tokio",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-04T16:00:00+01:00",
+      "end": "2026-11-04T18:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Paryżu - mecz 2. rundy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-04T16:15:00+01:00",
+      "end": "2026-11-04T18:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Tokio",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-04T17:00:00+01:00",
+      "end": "2026-11-04T17:55:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Paryżu - mecz 2. rundy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-04T17:15:00+01:00",
+      "end": "2026-11-04T19:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Tokio",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-04T17:50:00+01:00",
+      "end": "2026-11-04T20:00:00+01:00",
+      "sport": "pilka",
+      "name": "Piłka ręczna mężczyzn: Eliminacje mistrzostw Europy - mecz: Polska - Łotwa",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-04T18:00:00+01:00",
+      "end": "2026-11-04T19:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Paryżu - mecz 2. rundy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-04T18:30:00+01:00",
+      "end": "2026-11-04T20:45:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Tokio",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-04T19:00:00+01:00",
+      "end": "2026-11-04T21:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Paryżu - mecz 2. rundy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-04T19:30:00+01:00",
+      "end": "2026-11-04T22:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Paryżu - mecz 2. rundy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-04T19:30:00+01:00",
+      "end": "2026-11-04T21:45:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Tokio",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-04T20:30:00+01:00",
+      "end": "2026-11-04T22:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Paryżu - mecz 2. rundy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-04T20:45:00+01:00",
+      "end": "2026-11-04T23:15:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Tokio - mecz finałowy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-04T21:45:00+01:00",
+      "end": "2026-11-05T00:15:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Tokio - mecz finałowy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-04T22:00:00+01:00",
+      "end": "2026-11-04T23:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Paryżu - mecz 2. rundy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-04T23:00:00+01:00",
+      "end": "2026-11-05T01:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Paryżu - mecz 2. rundy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-04T23:15:00+01:00",
+      "end": "2026-11-05T01:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Tokio - mecz 1. rundy gry pojedynczej: Leylah Fernandez - Himeno Sakatsume",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-05T00:15:00+01:00",
+      "end": "2026-11-05T02:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Tokio - mecz 1. rundy gry pojedynczej: Leylah Fernandez - Himeno Sakatsume",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-05T05:00:00+01:00",
+      "end": "2026-11-05T07:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Paryżu - mecz 2. rundy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-05T05:00:00+01:00",
+      "end": "2026-11-05T07:15:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Tokio - mecz 1. rundy gry pojedynczej: Naomi Osaka - Jasmine Paolini",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-05T06:00:00+01:00",
+      "end": "2026-11-05T08:30:00+01:00",
+      "sport": "pilka",
+      "name": "Piłka ręczna mężczyzn: Eliminacje mistrzostw Europy - mecz: Polska - Łotwa",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-05T06:00:00+01:00",
+      "end": "2026-11-05T08:15:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA w Tokio - mecz 1. rundy gry pojedynczej: Naomi Osaka - Jasmine Paolini",
       "channel": "CANAL+ Sport 2",
       "description": "",
       "epgSaysLive": false,
