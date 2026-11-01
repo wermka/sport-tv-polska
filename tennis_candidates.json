@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T20:46:53.920547+01:00",
+  "updatedAt": "2026-11-01T06:22:45.305077+01:00",
   "source": "Live Tennis API",
   "note": "Zaplanowane mecze z polskim zawodnikiem wedlug aktualnej odpowiedzi API; kanal TV wymaga osobnej weryfikacji.",
   "matches": [
@@ -46,6 +46,20 @@
       "polishParticipantConfirmedByApi": true
     },
     {
+      "id": 213220,
+      "start": "2026-11-02T10:00:00+01:00",
+      "sport": "tenis",
+      "name": "Linda Klimovicova – Gina Feistel",
+      "tournament": "Luanda (Angola) - Qualification",
+      "tour": "challenger",
+      "tier": null,
+      "doubles": false,
+      "status": "upcoming",
+      "channel": null,
+      "broadcastVerified": false,
+      "polishParticipantConfirmedByApi": true
+    },
+    {
       "id": 212970,
       "start": "2026-11-02T10:00:00+01:00",
       "sport": "tenis",
@@ -60,11 +74,11 @@
       "polishParticipantConfirmedByApi": true
     },
     {
-      "id": 213220,
-      "start": "2026-11-02T10:00:00+01:00",
+      "id": 213420,
+      "start": "2026-11-02T16:00:00+01:00",
       "sport": "tenis",
-      "name": "Linda Klimovicova – Gina Feistel",
-      "tournament": "Luanda (Angola) - Qualification",
+      "name": "Liam Draxl – Maks Kasnikowski",
+      "tournament": "Charlottesville",
       "tour": "challenger",
       "tier": null,
       "doubles": false,
