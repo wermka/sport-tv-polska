@@ -1,59 +1,9 @@
 {
-  "updatedAt": "2026-11-01T06:22:45.374510+01:00",
+  "updatedAt": "2026-11-01T08:36:26.597979+01:00",
   "source": "XMLTV; entries unverified",
   "epgAvailable": true,
   "error": null,
   "events": [
-    {
-      "start": "2026-11-01T02:00:00+01:00",
-      "end": "2026-11-01T08:00:00+01:00",
-      "sport": "siatkowka",
-      "name": "Siatkówka mężczyzn: Mistrzostwa Europy 2026 - mecz grupy B: Polska - Izrael",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-01T04:00:00+01:00",
-      "end": "2026-11-01T06:30:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA w Tokio - mecz finałowy gry pojedynczej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-01T05:00:00+01:00",
-      "end": "2026-11-01T07:30:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA w Tokio - mecz finałowy gry pojedynczej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-01T06:00:00+01:00",
-      "end": "2026-11-01T07:30:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej ATP w Bazylei - mecz półfinałowy gry pojedynczej",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-01T06:30:00+01:00",
-      "end": "2026-11-01T07:45:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA w Tokio - mecz półfinałowy gry pojedynczej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
     {
       "start": "2026-11-01T07:30:00+01:00",
       "end": "2026-11-01T10:00:00+01:00",
