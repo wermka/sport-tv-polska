@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T14:46:59.376888+01:00",
+  "updatedAt": "2026-11-02T20:31:01.150483+01:00",
   "source": "Upcoming Polish tennis fixtures from API; TV channel requires Teleman LIVE",
   "events": [
     {
@@ -35,22 +35,6 @@
       "verification": "Upcoming Polish fixture from Live Tennis API; TV unconfirmed"
     },
     {
-      "start": "2026-11-03T10:00:00+01:00",
-      "displayUntil": "2026-11-03T14:00:00+01:00",
-      "endConfirmedByEpg": false,
-      "sport": "tenis",
-      "name": "Linda Klimovicova – Gina Feistel",
-      "tournament": "Luanda (Angola)",
-      "matchId": "213220",
-      "matchScheduledStart": "2026-11-03T10:00:00+01:00",
-      "matchScheduled": true,
-      "timeType": "match_planned",
-      "channel": null,
-      "verifiedLive": false,
-      "sourceUrl": "https://api.livetennisapi.com/",
-      "verification": "Upcoming Polish fixture from Live Tennis API; TV unconfirmed"
-    },
-    {
       "start": "2026-11-03T11:00:00+01:00",
       "displayUntil": "2026-11-03T15:00:00+01:00",
       "endConfirmedByEpg": false,
@@ -59,6 +43,22 @@
       "tournament": "Chennai",
       "matchId": "213108",
       "matchScheduledStart": "2026-11-03T11:00:00+01:00",
+      "matchScheduled": true,
+      "timeType": "match_planned",
+      "channel": null,
+      "verifiedLive": false,
+      "sourceUrl": "https://api.livetennisapi.com/",
+      "verification": "Upcoming Polish fixture from Live Tennis API; TV unconfirmed"
+    },
+    {
+      "start": "2026-11-03T11:30:00+01:00",
+      "displayUntil": "2026-11-03T15:30:00+01:00",
+      "endConfirmedByEpg": false,
+      "sport": "tenis",
+      "name": "Linda Klimovicova – Gina Feistel",
+      "tournament": "Luanda (Angola)",
+      "matchId": "213220",
+      "matchScheduledStart": "2026-11-03T11:30:00+01:00",
       "matchScheduled": true,
       "timeType": "match_planned",
       "channel": null,
