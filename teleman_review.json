@@ -1,20 +1,9 @@
 {
-  "updatedAt": "2026-11-02T08:31:48.144926+01:00",
+  "updatedAt": "2026-11-02T14:46:59.331293+01:00",
   "source": "Teleman, zbiorcza ramówka LIVE (dane diagnostyczne)",
   "warning": "LIVE = oznaczenie w ramówce. Nie potwierdza udziału Polaków ani rzeczywistego terminu zawodów. Nie publikować w events.json.",
   "pagesChecked": 6,
   "rows": [
-    {
-      "dateLabel": "dziś, 2 listopada",
-      "timeLabel": "11:00",
-      "channel": "Polsat Sport 1",
-      "title": "Tenis: Turniej ATP w Paryżu mecz 1. rundy gry pojedynczej",
-      "sport": "tenis",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_tennis_match_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1"
-    },
     {
       "dateLabel": "dziś, 2 listopada",
       "timeLabel": "13:00",
@@ -277,7 +266,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
     },
     {
       "dateLabel": "piątek, 6 listopada",
