@@ -1,23 +1,7 @@
 {
-  "updatedAt": "2026-11-02T06:37:19.207825+01:00",
+  "updatedAt": "2026-11-02T08:31:48.186898+01:00",
   "source": "Upcoming Polish tennis fixtures from API; TV channel requires Teleman LIVE",
   "events": [
-    {
-      "start": "2026-11-02T07:20:00+01:00",
-      "displayUntil": "2026-11-02T11:20:00+01:00",
-      "endConfirmedByEpg": false,
-      "sport": "tenis",
-      "name": "Daniel Michalski – August Holmgren",
-      "tournament": "Taipei",
-      "matchId": "213136",
-      "matchScheduledStart": "2026-11-02T07:20:00+01:00",
-      "matchScheduled": true,
-      "timeType": "match_planned",
-      "channel": null,
-      "verifiedLive": false,
-      "sourceUrl": "https://api.livetennisapi.com/",
-      "verification": "Upcoming Polish fixture from Live Tennis API; TV unconfirmed"
-    },
     {
       "start": "2026-11-02T10:30:00+01:00",
       "displayUntil": "2026-11-02T14:30:00+01:00",
