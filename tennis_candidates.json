@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-01T20:18:16.796242+01:00",
+  "updatedAt": "2026-11-02T06:34:15.973393+01:00",
   "source": "Live Tennis API",
   "note": "Zaplanowane mecze z polskim zawodnikiem wedlug aktualnej odpowiedzi API; kanal TV wymaga osobnej weryfikacji.",
   "matches": [
     {
       "id": 213136,
-      "start": "2026-11-02T07:30:00+01:00",
+      "start": "2026-11-02T07:20:00+01:00",
       "sport": "tenis",
       "name": "Daniel Michalski – August Holmgren",
       "tournament": "Taipei",
@@ -18,8 +18,22 @@
       "polishParticipantConfirmedByApi": true
     },
     {
+      "id": 213865,
+      "start": "2026-11-02T10:30:00+01:00",
+      "sport": "tenis",
+      "name": "Magda Linette – Aliona Falei",
+      "tournament": "Chennai",
+      "tour": "wta",
+      "tier": null,
+      "doubles": false,
+      "status": "upcoming",
+      "channel": null,
+      "broadcastVerified": false,
+      "polishParticipantConfirmedByApi": true
+    },
+    {
       "id": 212970,
-      "start": "2026-11-02T10:00:00+01:00",
+      "start": "2026-11-02T11:00:00+01:00",
       "sport": "tenis",
       "name": "Hubert Hurkacz – Lorenzo Musetti",
       "tournament": "Paris",
@@ -32,12 +46,12 @@
       "polishParticipantConfirmedByApi": true
     },
     {
-      "id": 213420,
-      "start": "2026-11-02T16:00:00+01:00",
+      "id": 213867,
+      "start": "2026-11-02T12:00:00+01:00",
       "sport": "tenis",
-      "name": "Liam Draxl – Maks Kasnikowski",
-      "tournament": "Charlottesville",
-      "tour": "challenger",
+      "name": "Linda Fruhvirtova – Weronika Falkowska",
+      "tournament": "Chennai",
+      "tour": "wta",
       "tier": null,
       "doubles": false,
       "status": "upcoming",
@@ -65,6 +79,20 @@
       "sport": "tenis",
       "name": "Linda Klimovicova – Gina Feistel",
       "tournament": "Luanda (Angola)",
+      "tour": "challenger",
+      "tier": null,
+      "doubles": false,
+      "status": "upcoming",
+      "channel": null,
+      "broadcastVerified": false,
+      "polishParticipantConfirmedByApi": true
+    },
+    {
+      "id": 213420,
+      "start": "2026-11-03T16:00:00+01:00",
+      "sport": "tenis",
+      "name": "Liam Draxl – Maks Kasnikowski",
+      "tournament": "Charlottesville",
       "tour": "challenger",
       "tier": null,
       "doubles": false,

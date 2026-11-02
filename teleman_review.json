@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-01T20:19:53.636355+01:00",
+  "updatedAt": "2026-11-02T06:37:19.165255+01:00",
   "source": "Teleman, zbiorcza ramówka LIVE (dane diagnostyczne)",
   "warning": "LIVE = oznaczenie w ramówce. Nie potwierdza udziału Polaków ani rzeczywistego terminu zawodów. Nie publikować w events.json.",
   "pagesChecked": 6,
   "rows": [
     {
-      "dateLabel": "poniedziałek, 2 listopada",
+      "dateLabel": "dziś, 2 listopada",
       "timeLabel": "11:00",
       "channel": "Polsat Sport 1",
       "title": "Tenis: Turniej ATP w Paryżu mecz 1. rundy gry pojedynczej",
@@ -16,7 +16,7 @@
       "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "poniedziałek, 2 listopada",
+      "dateLabel": "dziś, 2 listopada",
       "timeLabel": "13:00",
       "channel": "Polsat Sport 1",
       "title": "Tenis: Turniej ATP w Paryżu mecz 1. rundy gry pojedynczej",
@@ -27,7 +27,7 @@
       "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "poniedziałek, 2 listopada",
+      "dateLabel": "dziś, 2 listopada",
       "timeLabel": "15:00",
       "channel": "Polsat Sport 1",
       "title": "Tenis: Turniej ATP w Paryżu mecz 1. rundy gry pojedynczej",
@@ -38,7 +38,7 @@
       "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "poniedziałek, 2 listopada",
+      "dateLabel": "dziś, 2 listopada",
       "timeLabel": "17:00",
       "channel": "Polsat Sport 1",
       "title": "Tenis: Turniej ATP w Paryżu mecz 1. rundy gry pojedynczej",
@@ -49,7 +49,7 @@
       "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "poniedziałek, 2 listopada",
+      "dateLabel": "dziś, 2 listopada",
       "timeLabel": "20:00",
       "channel": "Polsat Sport 2",
       "title": "Tenis: Turniej ATP w Paryżu mecz 1. rundy gry pojedynczej",
@@ -60,7 +60,7 @@
       "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "poniedziałek, 2 listopada",
+      "dateLabel": "dziś, 2 listopada",
       "timeLabel": "22:00",
       "channel": "Polsat Sport 2",
       "title": "Tenis: Turniej ATP w Paryżu mecz 1. rundy gry pojedynczej",
@@ -68,7 +68,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
       "dateLabel": "wtorek, 3 listopada",
@@ -112,7 +112,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
     },
     {
       "dateLabel": "wtorek, 3 listopada",
@@ -123,7 +123,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
     },
     {
       "dateLabel": "wtorek, 3 listopada",
@@ -134,7 +134,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
     },
     {
       "dateLabel": "wtorek, 3 listopada",
@@ -200,7 +200,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
     },
     {
       "dateLabel": "środa, 4 listopada",
@@ -244,7 +244,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
     },
     {
       "dateLabel": "czwartek, 5 listopada",
@@ -255,7 +255,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
     },
     {
       "dateLabel": "piątek, 6 listopada",
@@ -266,7 +266,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
     },
     {
       "dateLabel": "piątek, 6 listopada",
