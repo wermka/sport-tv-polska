@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T20:29:25.452004+01:00",
+  "updatedAt": "2026-11-03T06:28:20.500564+01:00",
   "source": "Live Tennis API",
   "note": "Zaplanowane mecze z polskim zawodnikiem wedlug aktualnej odpowiedzi API; kanal TV wymaga osobnej weryfikacji.",
   "matches": [
@@ -22,7 +22,7 @@
       "start": "2026-11-03T10:00:00+01:00",
       "sport": "tenis",
       "name": "Darja Suvirdjonkova – Martyna Kubka",
-      "tournament": "Luanda (Angola) - Qualification",
+      "tournament": "Luanda (Angola)",
       "tour": "challenger",
       "tier": null,
       "doubles": false,
@@ -75,7 +75,7 @@
     },
     {
       "id": 213420,
-      "start": "2026-11-03T16:00:00+01:00",
+      "start": "2026-11-04T16:00:00+01:00",
       "sport": "tenis",
       "name": "Liam Draxl – Maks Kasnikowski",
       "tournament": "Charlottesville",
