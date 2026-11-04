@@ -1,39 +1,11 @@
 {
-  "updatedAt": "2026-11-04T14:45:09.371857+01:00",
+  "updatedAt": "2026-11-04T20:35:10.355578+01:00",
   "source": "Live Tennis API",
   "note": "Zaplanowane mecze z polskim zawodnikiem wedlug aktualnej odpowiedzi API; kanal TV wymaga osobnej weryfikacji.",
   "matches": [
     {
-      "id": 215034,
-      "start": "2026-11-04T15:25:00+01:00",
-      "sport": "tenis",
-      "name": "Weronika Falkowska – Maaya Rajeshwaran Revathi",
-      "tournament": "Chennai",
-      "tour": "wta",
-      "tier": null,
-      "doubles": false,
-      "status": "upcoming",
-      "channel": null,
-      "broadcastVerified": false,
-      "polishParticipantConfirmedByApi": true
-    },
-    {
-      "id": 213420,
-      "start": "2026-11-04T17:30:00+01:00",
-      "sport": "tenis",
-      "name": "Liam Draxl – Maks Kasnikowski",
-      "tournament": "Charlottesville",
-      "tour": "challenger",
-      "tier": null,
-      "doubles": false,
-      "status": "upcoming",
-      "channel": null,
-      "broadcastVerified": false,
-      "polishParticipantConfirmedByApi": true
-    },
-    {
       "id": 215142,
-      "start": "2026-11-05T05:30:00+01:00",
+      "start": "2026-11-05T10:30:00+01:00",
       "sport": "tenis",
       "name": "Magda Linette – Maiko Uchijima",
       "tournament": "Chennai",
@@ -46,11 +18,25 @@
       "polishParticipantConfirmedByApi": true
     },
     {
+      "id": 215686,
+      "start": "2026-11-05T16:00:00+01:00",
+      "sport": "tenis",
+      "name": "Maks Kasnikowski – Michael Antonius",
+      "tournament": "Charlottesville",
+      "tour": "challenger",
+      "tier": null,
+      "doubles": false,
+      "status": "upcoming",
+      "channel": null,
+      "broadcastVerified": false,
+      "polishParticipantConfirmedByApi": true
+    },
+    {
       "id": 215495,
       "start": "2026-11-06T10:00:00+01:00",
       "sport": "tenis",
       "name": "Sofya Lansere – Martyna Kubka",
-      "tournament": "Luanda (Angola) - Qualification",
+      "tournament": "Luanda (Angola)",
       "tour": "challenger",
       "tier": null,
       "doubles": false,

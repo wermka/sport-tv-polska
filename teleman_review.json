@@ -1,42 +1,9 @@
 {
-  "updatedAt": "2026-11-04T14:48:02.458689+01:00",
+  "updatedAt": "2026-11-04T20:36:52.640840+01:00",
   "source": "Teleman, zbiorcza ramówka LIVE (dane diagnostyczne)",
   "warning": "LIVE = oznaczenie w ramówce. Nie potwierdza udziału Polaków ani rzeczywistego terminu zawodów. Nie publikować w events.json.",
   "pagesChecked": 6,
   "rows": [
-    {
-      "dateLabel": "dziś, 4 listopada",
-      "timeLabel": "13:00",
-      "channel": "Polsat Sport 1",
-      "title": "Tenis: Turniej ATP w Paryżu mecz 2. rundy gry pojedynczej",
-      "sport": "tenis",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_tennis_match_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1"
-    },
-    {
-      "dateLabel": "dziś, 4 listopada",
-      "timeLabel": "15:00",
-      "channel": "Polsat Sport 1",
-      "title": "Tenis: Turniej ATP w Paryżu mecz 2. rundy gry pojedynczej",
-      "sport": "tenis",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_tennis_match_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1"
-    },
-    {
-      "dateLabel": "dziś, 4 listopada",
-      "timeLabel": "18:00",
-      "channel": "Polsat Sport 3",
-      "title": "Tenis: Turniej ATP w Paryżu mecz 2. rundy gry pojedynczej",
-      "sport": "tenis",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_tennis_match_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1"
-    },
     {
       "dateLabel": "dziś, 4 listopada",
       "timeLabel": "20:30",
@@ -68,7 +35,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
       "dateLabel": "czwartek, 5 listopada",
@@ -79,12 +46,45 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
       "dateLabel": "czwartek, 5 listopada",
       "timeLabel": "15:00",
       "channel": "Polsat Sport 1",
+      "title": "Tenis: Turniej ATP w Paryżu mecz 3. rundy gry pojedynczej",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1"
+    },
+    {
+      "dateLabel": "czwartek, 5 listopada",
+      "timeLabel": "17:00",
+      "channel": "Polsat Sport 3",
+      "title": "Tenis: Turniej ATP w Paryżu mecz 3. rundy gry pojedynczej",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1"
+    },
+    {
+      "dateLabel": "czwartek, 5 listopada",
+      "timeLabel": "19:00",
+      "channel": "Polsat Sport 3",
+      "title": "Tenis: Turniej ATP w Paryżu mecz 3. rundy gry pojedynczej",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1"
+    },
+    {
+      "dateLabel": "czwartek, 5 listopada",
+      "timeLabel": "20:30",
+      "channel": "Polsat Sport 3",
       "title": "Tenis: Turniej ATP w Paryżu mecz 3. rundy gry pojedynczej",
       "sport": "tenis",
       "telemanLiveBadge": true,
@@ -134,7 +134,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
     },
     {
       "dateLabel": "sobota, 7 listopada",
@@ -159,15 +159,15 @@
       "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
     },
     {
-      "dateLabel": "4 listopada",
-      "timeLabel": "13:30",
-      "channel": "CANAL+ Sport 2",
-      "title": "Tenis: Turniej WTA w Ćennaj mecz 2. rundy gry pojedynczej: Weronika Falkowska - Maaya Rajeshwaran Revathi",
+      "dateLabel": "niedziela, 8 listopada",
+      "timeLabel": "16:00",
+      "channel": "Polsat Sport 2",
+      "title": "Tenis: Turniej ATP w Paryżu mecz finałowy gry pojedynczej",
       "sport": "tenis",
       "telemanLiveBadge": true,
-      "participantEvidence": "both_tennis_surnames_named",
+      "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://m.teleman.pl/stations/CanalPlus-Sport-2?date=2026-11-04"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
     }
   ]
 }
