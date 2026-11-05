@@ -1,22 +1,8 @@
 {
-  "updatedAt": "2026-11-05T08:22:58.593225+01:00",
+  "updatedAt": "2026-11-05T14:49:56.776627+01:00",
   "source": "Live Tennis API",
   "note": "Zaplanowane mecze z polskim zawodnikiem wedlug aktualnej odpowiedzi API; kanal TV wymaga osobnej weryfikacji.",
   "matches": [
-    {
-      "id": 215142,
-      "start": "2026-11-05T10:30:00+01:00",
-      "sport": "tenis",
-      "name": "Magda Linette – Maiko Uchijima",
-      "tournament": "Chennai",
-      "tour": "wta",
-      "tier": null,
-      "doubles": false,
-      "status": "upcoming",
-      "channel": null,
-      "broadcastVerified": false,
-      "polishParticipantConfirmedByApi": true
-    },
     {
       "id": 215686,
       "start": "2026-11-05T20:00:00+01:00",
@@ -32,11 +18,39 @@
       "polishParticipantConfirmedByApi": true
     },
     {
+      "id": 215917,
+      "start": "2026-11-06T05:30:00+01:00",
+      "sport": "tenis",
+      "name": "Magda Linette – Mai Hontama",
+      "tournament": "Chennai",
+      "tour": "wta",
+      "tier": null,
+      "doubles": false,
+      "status": "upcoming",
+      "channel": null,
+      "broadcastVerified": false,
+      "polishParticipantConfirmedByApi": true
+    },
+    {
       "id": 215495,
       "start": "2026-11-06T10:00:00+01:00",
       "sport": "tenis",
       "name": "Sofya Lansere – Martyna Kubka",
       "tournament": "Luanda (Angola)",
+      "tour": "challenger",
+      "tier": null,
+      "doubles": false,
+      "status": "upcoming",
+      "channel": null,
+      "broadcastVerified": false,
+      "polishParticipantConfirmedByApi": true
+    },
+    {
+      "id": 215905,
+      "start": "2026-11-06T10:00:00+01:00",
+      "sport": "tenis",
+      "name": "Ksenia Zaytseva – Gina Feistel",
+      "tournament": "Luanda (Angola) - Qualification",
       "tour": "challenger",
       "tier": null,
       "doubles": false,

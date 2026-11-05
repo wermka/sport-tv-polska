@@ -1,23 +1,7 @@
 {
-  "updatedAt": "2026-11-05T08:25:46.767660+01:00",
+  "updatedAt": "2026-11-05T14:52:44.677052+01:00",
   "source": "Upcoming Polish tennis fixtures from API; TV channel requires Teleman LIVE",
   "events": [
-    {
-      "start": "2026-11-05T10:30:00+01:00",
-      "displayUntil": "2026-11-05T14:30:00+01:00",
-      "endConfirmedByEpg": false,
-      "sport": "tenis",
-      "name": "Magda Linette – Maiko Uchijima",
-      "tournament": "Chennai",
-      "matchId": "215142",
-      "matchScheduledStart": "2026-11-05T10:30:00+01:00",
-      "matchScheduled": true,
-      "timeType": "match_planned",
-      "channel": null,
-      "verifiedLive": false,
-      "sourceUrl": "https://api.livetennisapi.com/",
-      "verification": "Upcoming Polish fixture from Live Tennis API; TV unconfirmed"
-    },
     {
       "start": "2026-11-05T20:00:00+01:00",
       "displayUntil": "2026-11-06T00:00:00+01:00",
@@ -35,6 +19,22 @@
       "verification": "Upcoming Polish fixture from Live Tennis API; TV unconfirmed"
     },
     {
+      "start": "2026-11-06T05:30:00+01:00",
+      "displayUntil": "2026-11-06T09:30:00+01:00",
+      "endConfirmedByEpg": false,
+      "sport": "tenis",
+      "name": "Magda Linette – Mai Hontama",
+      "tournament": "Chennai",
+      "matchId": "215917",
+      "matchScheduledStart": "2026-11-06T05:30:00+01:00",
+      "matchScheduled": true,
+      "timeType": "match_planned",
+      "channel": null,
+      "verifiedLive": false,
+      "sourceUrl": "https://api.livetennisapi.com/",
+      "verification": "Upcoming Polish fixture from Live Tennis API; TV unconfirmed"
+    },
+    {
       "start": "2026-11-06T10:00:00+01:00",
       "displayUntil": "2026-11-06T14:00:00+01:00",
       "endConfirmedByEpg": false,
@@ -42,6 +42,22 @@
       "name": "Sofya Lansere – Martyna Kubka",
       "tournament": "Luanda (Angola)",
       "matchId": "215495",
+      "matchScheduledStart": "2026-11-06T10:00:00+01:00",
+      "matchScheduled": true,
+      "timeType": "match_planned",
+      "channel": null,
+      "verifiedLive": false,
+      "sourceUrl": "https://api.livetennisapi.com/",
+      "verification": "Upcoming Polish fixture from Live Tennis API; TV unconfirmed"
+    },
+    {
+      "start": "2026-11-06T10:00:00+01:00",
+      "displayUntil": "2026-11-06T14:00:00+01:00",
+      "endConfirmedByEpg": false,
+      "sport": "tenis",
+      "name": "Ksenia Zaytseva – Gina Feistel",
+      "tournament": "Luanda (Angola) - Qualification",
+      "matchId": "215905",
       "matchScheduledStart": "2026-11-06T10:00:00+01:00",
       "matchScheduled": true,
       "timeType": "match_planned",

@@ -1,20 +1,9 @@
 {
-  "updatedAt": "2026-11-05T08:25:46.725742+01:00",
+  "updatedAt": "2026-11-05T14:52:44.634371+01:00",
   "source": "Teleman, zbiorcza ramówka LIVE (dane diagnostyczne)",
   "warning": "LIVE = oznaczenie w ramówce. Nie potwierdza udziału Polaków ani rzeczywistego terminu zawodów. Nie publikować w events.json.",
   "pagesChecked": 6,
   "rows": [
-    {
-      "dateLabel": "dziś, 5 listopada",
-      "timeLabel": "11:00",
-      "channel": "Polsat Sport 1",
-      "title": "Tenis: Turniej ATP w Paryżu mecz 3. rundy gry pojedynczej",
-      "sport": "tenis",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_tennis_match_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1"
-    },
     {
       "dateLabel": "dziś, 5 listopada",
       "timeLabel": "13:00",
