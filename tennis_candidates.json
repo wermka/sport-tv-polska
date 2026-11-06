@@ -1,29 +1,15 @@
 {
-  "updatedAt": "2026-11-06T14:45:50.473663+01:00",
+  "updatedAt": "2026-11-06T20:30:07.859219+01:00",
   "source": "Live Tennis API",
   "note": "Zaplanowane mecze z polskim zawodnikiem wedlug aktualnej odpowiedzi API; kanal TV wymaga osobnej weryfikacji.",
   "matches": [
     {
-      "id": 215917,
-      "start": "2026-11-06T15:00:00+01:00",
+      "id": 216269,
+      "start": "2026-11-07T15:00:00+01:00",
       "sport": "tenis",
-      "name": "Magda Linette – Mai Hontama",
+      "name": "Magda Linette – Anastasia Zakharova",
       "tournament": "Chennai",
       "tour": "wta",
-      "tier": null,
-      "doubles": false,
-      "status": "upcoming",
-      "channel": null,
-      "broadcastVerified": false,
-      "polishParticipantConfirmedByApi": true
-    },
-    {
-      "id": 216149,
-      "start": "2026-11-07T20:00:00+01:00",
-      "sport": "tenis",
-      "name": "Andres Andrade – Maks Kasnikowski",
-      "tournament": "Charlottesville",
-      "tour": "challenger",
       "tier": null,
       "doubles": false,
       "status": "upcoming",
