@@ -1,22 +1,11 @@
 {
-  "updatedAt": "2026-11-05T20:32:45.136289+01:00",
+  "updatedAt": "2026-11-06T08:22:08.179061+01:00",
   "source": "Teleman, zbiorcza ramówka LIVE (dane diagnostyczne)",
   "warning": "LIVE = oznaczenie w ramówce. Nie potwierdza udziału Polaków ani rzeczywistego terminu zawodów. Nie publikować w events.json.",
   "pagesChecked": 6,
   "rows": [
     {
-      "dateLabel": "dziś, 5 listopada",
-      "timeLabel": "20:30",
-      "channel": "Polsat Sport 3",
-      "title": "Tenis: Turniej ATP w Paryżu mecz 3. rundy gry pojedynczej",
-      "sport": "tenis",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_tennis_match_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1"
-    },
-    {
-      "dateLabel": "piątek, 6 listopada",
+      "dateLabel": "dziś, 6 listopada",
       "timeLabel": "14:00",
       "channel": "Polsat Sport 2",
       "title": "Tenis: Turniej ATP w Paryżu mecz ćwierćfinałowy gry pojedynczej",
@@ -27,7 +16,7 @@
       "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "piątek, 6 listopada",
+      "dateLabel": "dziś, 6 listopada",
       "timeLabel": "16:00",
       "channel": "Polsat Sport 2",
       "title": "Tenis: Turniej ATP w Paryżu mecz ćwierćfinałowy gry pojedynczej",
@@ -35,10 +24,10 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "piątek, 6 listopada",
+      "dateLabel": "dziś, 6 listopada",
       "timeLabel": "18:00",
       "channel": "Polsat Sport 2",
       "title": "Tenis: Turniej ATP w Paryżu mecz ćwierćfinałowy gry pojedynczej",
@@ -46,10 +35,10 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "piątek, 6 listopada",
+      "dateLabel": "dziś, 6 listopada",
       "timeLabel": "20:00",
       "channel": "Polsat Sport 2",
       "title": "Tenis: Turniej ATP w Paryżu mecz ćwierćfinałowy gry pojedynczej",
@@ -79,7 +68,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
     },
     {
       "dateLabel": "niedziela, 8 listopada",

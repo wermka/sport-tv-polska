@@ -1,22 +1,8 @@
 {
-  "updatedAt": "2026-11-05T20:29:46.424192+01:00",
+  "updatedAt": "2026-11-06T08:18:58.254304+01:00",
   "source": "Live Tennis API",
   "note": "Zaplanowane mecze z polskim zawodnikiem wedlug aktualnej odpowiedzi API; kanal TV wymaga osobnej weryfikacji.",
   "matches": [
-    {
-      "id": 215686,
-      "start": "2026-11-05T21:05:00+01:00",
-      "sport": "tenis",
-      "name": "Maks Kasnikowski – Michael Antonius",
-      "tournament": "Charlottesville",
-      "tour": "challenger",
-      "tier": null,
-      "doubles": false,
-      "status": "upcoming",
-      "channel": null,
-      "broadcastVerified": false,
-      "polishParticipantConfirmedByApi": true
-    },
     {
       "id": 215495,
       "start": "2026-11-06T11:30:00+01:00",
@@ -36,7 +22,7 @@
       "start": "2026-11-06T12:00:00+01:00",
       "sport": "tenis",
       "name": "Ksenia Zaytseva – Gina Feistel",
-      "tournament": "Luanda (Angola) - Qualification",
+      "tournament": "Luanda (Angola)",
       "tour": "challenger",
       "tier": null,
       "doubles": false,
@@ -52,6 +38,20 @@
       "name": "Magda Linette – Mai Hontama",
       "tournament": "Chennai",
       "tour": "wta",
+      "tier": null,
+      "doubles": false,
+      "status": "upcoming",
+      "channel": null,
+      "broadcastVerified": false,
+      "polishParticipantConfirmedByApi": true
+    },
+    {
+      "id": 216149,
+      "start": "2026-11-07T20:00:00+01:00",
+      "sport": "tenis",
+      "name": "Andres Andrade – Maks Kasnikowski",
+      "tournament": "Charlottesville",
+      "tour": "challenger",
       "tier": null,
       "doubles": false,
       "status": "upcoming",
