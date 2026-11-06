@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T08:22:08.179061+01:00",
+  "updatedAt": "2026-11-06T14:48:57.563832+01:00",
   "source": "Teleman, zbiorcza ramówka LIVE (dane diagnostyczne)",
   "warning": "LIVE = oznaczenie w ramówce. Nie potwierdza udziału Polaków ani rzeczywistego terminu zawodów. Nie publikować w events.json.",
   "pagesChecked": 6,
@@ -46,7 +46,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
       "dateLabel": "sobota, 7 listopada",
@@ -79,7 +79,18 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
+    },
+    {
+      "dateLabel": "6 listopada",
+      "timeLabel": "14:30",
+      "channel": "CANAL+ Sport 2",
+      "title": "Tenis: Turniej WTA w Ćennaj mecz ćwierćfinałowy gry pojedynczej: Mai Hontama - Magda Linette",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "both_tennis_surnames_named",
+      "verified": false,
+      "sourceUrl": "https://m.teleman.pl/stations/CanalPlus-Sport-2?date=2026-11-06"
     }
   ]
 }
