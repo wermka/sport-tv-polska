@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T08:40:05.326622+01:00",
+  "updatedAt": "2026-11-07T14:30:45.845426+01:00",
   "source": "Teleman, zbiorcza ramówka LIVE (dane diagnostyczne)",
   "warning": "LIVE = oznaczenie w ramówce. Nie potwierdza udziału Polaków ani rzeczywistego terminu zawodów. Nie publikować w events.json.",
   "pagesChecked": 6,
@@ -24,7 +24,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
       "dateLabel": "niedziela, 8 listopada",
@@ -46,7 +46,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
     },
     {
       "dateLabel": "czwartek, 12 listopada",
@@ -56,6 +56,39 @@
       "sport": "tenis",
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
+    },
+    {
+      "dateLabel": "piątek, 13 listopada",
+      "timeLabel": "14:00",
+      "channel": "Polsat Sport 3",
+      "title": "Tenis: Turniej ATP w Sztokholmie mecz półfinałowy gry pojedynczej",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+    },
+    {
+      "dateLabel": "piątek, 13 listopada",
+      "timeLabel": "17:00",
+      "channel": "Polsat Sport 3",
+      "title": "Tenis: Turniej ATP w Sztokholmie mecz półfinałowy gry pojedynczej",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+    },
+    {
+      "dateLabel": "piątek, 13 listopada",
+      "timeLabel": "17:20",
+      "channel": "TVP Sport",
+      "title": "Piłka nożna mecz towarzyski drużyn U-21: Polska - Norwegia",
+      "sport": "pilka",
+      "telemanLiveBadge": true,
+      "participantEvidence": "national_team_named",
       "verified": false,
       "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
     }
