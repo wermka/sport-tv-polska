@@ -1,36 +1,8 @@
 {
-  "updatedAt": "2026-11-07T14:29:00.584633+01:00",
+  "updatedAt": "2026-11-07T20:21:05.546738+01:00",
   "source": "Live Tennis API",
   "note": "Zaplanowane mecze z polskim zawodnikiem wedlug aktualnej odpowiedzi API; kanal TV wymaga osobnej weryfikacji.",
   "matches": [
-    {
-      "id": 216450,
-      "start": "2026-11-07T15:00:00+01:00",
-      "sport": "tenis",
-      "name": "Anna Blinkova – Gina Feistel",
-      "tournament": "Luanda (Angola) - Qualification",
-      "tour": "challenger",
-      "tier": null,
-      "doubles": false,
-      "status": "upcoming",
-      "channel": null,
-      "broadcastVerified": false,
-      "polishParticipantConfirmedByApi": true
-    },
-    {
-      "id": 216269,
-      "start": "2026-11-07T15:10:00+01:00",
-      "sport": "tenis",
-      "name": "Magda Linette – Anastasia Zakharova",
-      "tournament": "Chennai",
-      "tour": "wta",
-      "tier": null,
-      "doubles": false,
-      "status": "upcoming",
-      "channel": null,
-      "broadcastVerified": false,
-      "polishParticipantConfirmedByApi": true
-    },
     {
       "id": 216440,
       "start": "2026-11-09T01:00:00+01:00",
