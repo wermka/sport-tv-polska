@@ -1,22 +1,11 @@
 {
-  "updatedAt": "2026-11-06T20:31:48.627822+01:00",
+  "updatedAt": "2026-11-07T08:40:05.326622+01:00",
   "source": "Teleman, zbiorcza ramówka LIVE (dane diagnostyczne)",
   "warning": "LIVE = oznaczenie w ramówce. Nie potwierdza udziału Polaków ani rzeczywistego terminu zawodów. Nie publikować w events.json.",
   "pagesChecked": 6,
   "rows": [
     {
-      "dateLabel": "dziś, 6 listopada",
-      "timeLabel": "20:00",
-      "channel": "Polsat Sport 2",
-      "title": "Tenis: Turniej ATP w Paryżu mecz ćwierćfinałowy gry pojedynczej",
-      "sport": "tenis",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_tennis_match_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1"
-    },
-    {
-      "dateLabel": "sobota, 7 listopada",
+      "dateLabel": "dziś, 7 listopada",
       "timeLabel": "15:30",
       "channel": "Polsat Sport 2",
       "title": "Tenis: Turniej ATP w Paryżu mecz półfinałowy gry pojedynczej",
@@ -24,10 +13,10 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "sobota, 7 listopada",
+      "dateLabel": "dziś, 7 listopada",
       "timeLabel": "17:30",
       "channel": "Polsat Sport 2",
       "title": "Tenis: Turniej ATP w Paryżu mecz półfinałowy gry pojedynczej",
@@ -46,7 +35,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
     },
     {
       "dateLabel": "czwartek, 12 listopada",
