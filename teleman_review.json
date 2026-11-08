@@ -1,20 +1,9 @@
 {
-  "updatedAt": "2026-11-08T14:31:07.959826+01:00",
+  "updatedAt": "2026-11-08T20:22:16.307383+01:00",
   "source": "Teleman, zbiorcza ramówka LIVE (dane diagnostyczne)",
   "warning": "LIVE = oznaczenie w ramówce. Nie potwierdza udziału Polaków ani rzeczywistego terminu zawodów. Nie publikować w events.json.",
   "pagesChecked": 6,
   "rows": [
-    {
-      "dateLabel": "dziś, 8 listopada",
-      "timeLabel": "16:00",
-      "channel": "Polsat Sport 2",
-      "title": "Tenis: Turniej ATP w Paryżu mecz finałowy gry pojedynczej",
-      "sport": "tenis",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_tennis_match_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1"
-    },
     {
       "dateLabel": "czwartek, 12 listopada",
       "timeLabel": "13:00",
@@ -24,7 +13,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
     },
     {
       "dateLabel": "czwartek, 12 listopada",
@@ -35,7 +24,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
     },
     {
       "dateLabel": "piątek, 13 listopada",
@@ -57,7 +46,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
     },
     {
       "dateLabel": "piątek, 13 listopada",
@@ -68,7 +57,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "national_team_named",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
     },
     {
       "dateLabel": "piątek, 13 listopada",
@@ -79,7 +68,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "national_team_named",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
     },
     {
       "dateLabel": "sobota, 14 listopada",
@@ -89,6 +78,28 @@
       "sport": "tenis",
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
+    },
+    {
+      "dateLabel": "sobota, 14 listopada",
+      "timeLabel": "20:35",
+      "channel": "TVP 1",
+      "title": "Piłka nożna: Liga Narodów mecz: Rumunia - Polska",
+      "sport": "pilka",
+      "telemanLiveBadge": true,
+      "participantEvidence": "national_team_named",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+    },
+    {
+      "dateLabel": "sobota, 14 listopada",
+      "timeLabel": "20:35",
+      "channel": "TVP Sport",
+      "title": "Piłka nożna: Liga Narodów mecz: Rumunia - Polska",
+      "sport": "pilka",
+      "telemanLiveBadge": true,
+      "participantEvidence": "national_team_named",
       "verified": false,
       "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
     }

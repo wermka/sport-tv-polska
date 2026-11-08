@@ -1,22 +1,8 @@
 {
-  "updatedAt": "2026-11-08T14:28:09.855034+01:00",
+  "updatedAt": "2026-11-08T20:20:24.816584+01:00",
   "source": "Live Tennis API",
   "note": "Zaplanowane mecze z polskim zawodnikiem wedlug aktualnej odpowiedzi API; kanal TV wymaga osobnej weryfikacji.",
   "matches": [
-    {
-      "id": 216546,
-      "start": "2026-11-08T14:30:00+01:00",
-      "sport": "tenis",
-      "name": "Magda Linette – Janice Tjen",
-      "tournament": "Chennai",
-      "tour": "wta",
-      "tier": null,
-      "doubles": false,
-      "status": "upcoming",
-      "channel": null,
-      "broadcastVerified": false,
-      "polishParticipantConfirmedByApi": true
-    },
     {
       "id": 216782,
       "start": "2026-11-09T16:00:00+01:00",

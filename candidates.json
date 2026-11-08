@@ -1,49 +1,9 @@
 {
-  "updatedAt": "2026-11-08T14:28:09.925686+01:00",
+  "updatedAt": "2026-11-08T20:20:24.862703+01:00",
   "source": "XMLTV; entries unverified",
   "epgAvailable": true,
   "error": null,
   "events": [
-    {
-      "start": "2026-11-08T13:50:00+01:00",
-      "end": "2026-11-08T16:15:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA w Tokio - mecz półfinałowy gry pojedynczej: Diana Sznajder - Mia Pohankova",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-08T14:00:00+01:00",
-      "end": "2026-11-08T16:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej ATP w Paryżu - mecz półfinałowy gry pojedynczej",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-08T16:00:00+01:00",
-      "end": "2026-11-08T18:50:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej ATP w Paryżu - mecz finałowy gry pojedynczej",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-08T16:15:00+01:00",
-      "end": "2026-11-08T19:25:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA w Tokio - mecz finałowy gry pojedynczej: Leylah Fernandez - Diana Sznajder",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
     {
       "start": "2026-11-08T18:50:00+01:00",
       "end": "2026-11-08T21:00:00+01:00",
@@ -51,16 +11,6 @@
       "name": "Piłka ręczna mężczyzn: Eliminacje mistrzostw Europy - mecz: Rumunia - Polska",
       "channel": "Polsat Sport",
       "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-08T19:25:00+01:00",
-      "end": "2026-11-08T20:00:00+01:00",
-      "sport": "tenis",
-      "name": "8 wspaniałych",
-      "channel": "CANAL+ Sport 2",
-      "description": "W kobiecym tenisie sezon 2025 zwieńczył turniej WTA Finals w Rijadzie z udziałem ośmiu zawodniczek. Każdy odcinek tej serii będzie poświęcony innej z nich. Zobaczymy, z jakimi wyzwaniami się mierzą.",
       "epgSaysLive": false,
       "verifiedLive": false
     },
@@ -970,6 +920,266 @@
       "sport": "pilka",
       "name": "Piłka nożna: Liga Narodów - mecz: Bośnia i Hercegowina - Polska",
       "channel": "TVP Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-12T07:00:00+01:00",
+      "end": "2026-11-12T09:00:00+01:00",
+      "sport": "tenis",
+      "name": "Squash: Turniej US Open - półfinały",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-12T08:15:00+01:00",
+      "end": "2026-11-12T10:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-12T10:30:00+01:00",
+      "end": "2026-11-12T12:45:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-12T11:00:00+01:00",
+      "end": "2026-11-12T13:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Paryżu - mecz półfinałowy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-12T11:00:00+01:00",
+      "end": "2026-11-12T13:00:00+01:00",
+      "sport": "pilka",
+      "name": "Piłka ręczna mężczyzn: Eliminacje mistrzostw Europy - mecz: Rumunia - Polska",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-12T12:45:00+01:00",
+      "end": "2026-11-12T15:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-12T13:00:00+01:00",
+      "end": "2026-11-12T15:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Sztokholmie - mecz ćwierćfinałowy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-12T13:00:00+01:00",
+      "end": "2026-11-12T15:00:00+01:00",
+      "sport": "tenis",
+      "name": "Squash: Turniej US Open - finały",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-12T14:15:00+01:00",
+      "end": "2026-11-12T16:15:00+01:00",
+      "sport": "pilka",
+      "name": "Koszykówka kobiet: Eliminacje mistrzostw Europy - mecz: Izrael - Polska",
+      "channel": "TVP Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-12T15:00:00+01:00",
+      "end": "2026-11-12T17:55:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Sztokholmie - mecz ćwierćfinałowy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-12T15:00:00+01:00",
+      "end": "2026-11-12T17:15:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-12T17:00:00+01:00",
+      "end": "2026-11-12T19:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Paryżu - mecz półfinałowy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-12T17:15:00+01:00",
+      "end": "2026-11-12T19:20:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-12T18:30:00+01:00",
+      "end": "2026-11-12T20:35:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Sztokholmie - mecz ćwierćfinałowy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-12T19:00:00+01:00",
+      "end": "2026-11-12T21:00:00+01:00",
+      "sport": "tenis",
+      "name": "Squash: Turniej US Open - półfinały",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-12T19:20:00+01:00",
+      "end": "2026-11-12T20:00:00+01:00",
+      "sport": "tenis",
+      "name": "8 wspaniałych",
+      "channel": "CANAL+ Sport 2",
+      "description": "W kobiecym tenisie sezon 2025 zwieńczył turniej WTA Finals w Rijadzie z udziałem ośmiu zawodniczek. Każdy odcinek tej serii będzie poświęcony innej z nich. Zobaczymy, z jakimi wyzwaniami się mierzą.",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-12T20:00:00+01:00",
+      "end": "2026-11-12T21:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis raport",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-12T20:30:00+01:00",
+      "end": "2026-11-12T23:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Sztokholmie - mecz ćwierćfinałowy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-12T21:00:00+01:00",
+      "end": "2026-11-12T23:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP w Paryżu - mecz finałowy gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-12T21:00:00+01:00",
+      "end": "2026-11-12T23:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-12T23:00:00+01:00",
+      "end": "2026-11-13T01:00:00+01:00",
+      "sport": "siatkowka",
+      "name": "Siatkówka mężczyzn: Mistrzostwa Europy 2026 - mecz 1/8 finału: Polska - Łotwa",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-12T23:00:00+01:00",
+      "end": "2026-11-13T01:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-13T01:00:00+01:00",
+      "end": "2026-11-13T03:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-13T03:00:00+01:00",
+      "end": "2026-11-13T04:55:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-13T06:00:00+01:00",
+      "end": "2026-11-13T07:55:00+01:00",
+      "sport": "pilka",
+      "name": "Koszykówka kobiet: Eliminacje mistrzostw Europy - mecz: Izrael - Polska",
+      "channel": "TVP Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-13T06:00:00+01:00",
+      "end": "2026-11-13T08:15:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej",
+      "channel": "CANAL+ Sport 2",
       "description": "",
       "epgSaysLive": false,
       "verifiedLive": false
