@@ -1,11 +1,39 @@
 {
-  "updatedAt": "2026-11-07T20:21:05.546738+01:00",
+  "updatedAt": "2026-11-08T08:38:43.822975+01:00",
   "source": "Live Tennis API",
   "note": "Zaplanowane mecze z polskim zawodnikiem wedlug aktualnej odpowiedzi API; kanal TV wymaga osobnej weryfikacji.",
   "matches": [
     {
+      "id": 216546,
+      "start": "2026-11-08T14:00:00+01:00",
+      "sport": "tenis",
+      "name": "Magda Linette – Janice Tjen",
+      "tournament": "Chennai",
+      "tour": "wta",
+      "tier": null,
+      "doubles": false,
+      "status": "upcoming",
+      "channel": null,
+      "broadcastVerified": false,
+      "polishParticipantConfirmedByApi": true
+    },
+    {
+      "id": 216782,
+      "start": "2026-11-09T16:00:00+01:00",
+      "sport": "tenis",
+      "name": "Maks Kasnikowski – Marcos Giron",
+      "tournament": "Knoxville",
+      "tour": "challenger",
+      "tier": null,
+      "doubles": false,
+      "status": "upcoming",
+      "channel": null,
+      "broadcastVerified": false,
+      "polishParticipantConfirmedByApi": true
+    },
+    {
       "id": 216440,
-      "start": "2026-11-09T01:00:00+01:00",
+      "start": "2026-11-10T01:00:00+01:00",
       "sport": "tenis",
       "name": "Rio Noguchi – Daniel Michalski",
       "tournament": "Matsuyama",
