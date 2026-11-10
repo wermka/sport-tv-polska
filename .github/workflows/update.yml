@@ -27,6 +27,7 @@ on:
       - "tv_schedule.py"
       - "verify_tennis_broadcasts.py"
       - "update_tennis.py"
+      - "update_football.py"
       - "test_update_tennis.py"
       - "schedule_gate.py"
       - "test_schedule_gate.py"
@@ -75,7 +76,7 @@ jobs:
           python-version: "3.12"
          
       - name: Kontrola skladni wszystkich skryptow
-        run: python -m compileall -q update_epg.py update_tennis.py match_tennis_tv.py teleman_importer.py verify_tennis_broadcasts.py verify_ski_broadcasts.py verify_polish_entries.py verify_athletics_broadcasts.py check_tennis_updates.py tv_schedule.py discover_ski.py
+        run: python -m compileall -q update_football.py update_epg.py update_tennis.py match_tennis_tv.py teleman_importer.py verify_tennis_broadcasts.py verify_ski_broadcasts.py verify_polish_entries.py verify_athletics_broadcasts.py check_tennis_updates.py tv_schedule.py discover_ski.py
 
       - name: Testy poprawnosci weryfikacji
         run: python -m unittest -v test_verify_tennis_broadcasts.py test_check_tennis_updates.py test_verify_ski_broadcasts.py test_update_epg.py test_verify_polish_entries.py test_verify_athletics_broadcasts.py test_tv_schedule.py test_discover_ski.py test_update_tennis.py test_schedule_gate.py test_teleman_station.py
@@ -98,7 +99,7 @@ jobs:
             git fetch origin "$branch"
             git reset --hard "origin/$branch"
 
-            python -m compileall -q update_epg.py update_tennis.py match_tennis_tv.py teleman_importer.py verify_tennis_broadcasts.py verify_ski_broadcasts.py verify_polish_entries.py verify_athletics_broadcasts.py check_tennis_updates.py tv_schedule.py discover_ski.py
+            python -m compileall -q update_football.py update_epg.py update_tennis.py match_tennis_tv.py teleman_importer.py verify_tennis_broadcasts.py verify_ski_broadcasts.py verify_polish_entries.py verify_athletics_broadcasts.py check_tennis_updates.py tv_schedule.py discover_ski.py
             python -m unittest -q test_verify_tennis_broadcasts.py test_check_tennis_updates.py test_verify_ski_broadcasts.py test_update_epg.py test_verify_polish_entries.py test_verify_athletics_broadcasts.py test_tv_schedule.py test_discover_ski.py test_update_tennis.py test_schedule_gate.py
 
             python update_tennis.py
@@ -110,6 +111,7 @@ jobs:
             python discover_ski.py
             python verify_ski_broadcasts.py
             python verify_athletics_broadcasts.py
+            python update_football.py
 
             git add events.json candidates.json tennis_candidates.json tennis_tv_matches.json teleman_review.json participation_verified.json
             if git diff --cached --quiet; then
