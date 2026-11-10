@@ -1,5 +1,6 @@
 
 name: Aktualizacja Sport TV Polska
+# Manual refresh requested: rerun the automatic sports schedule pipeline.
 
 on:
   schedule:
