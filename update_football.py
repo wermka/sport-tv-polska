@@ -167,6 +167,26 @@ def verify_tvp_broadcast(fixtures, now):
         print(f"TVP broadcast verification unavailable: {type(exc).__name__}")
         return fixtures
 
+def fetch_tvp_fixtures(now):
+    """Parse the official TVP licensed national-team fixture schedule."""
+    url = "https://licencje.tvp.pl/95581693/harmonogram-meczy"
+    req = Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    with urlopen(req, timeout=20) as response:
+        html = response.read(3000000).decode("utf-8", "replace")
+    from html import unescape
+    text = unescape(re.sub(r"<[^>]+>", " ", html))
+    text = " ".join(text.split())
+    found = []
+    for m in re.finditer(r"(\\d{1,2})\\s+listopada\\s+(20\\d{2}),?\\s+godz\\.?\\s*(\\d{1,2}:\\d{2})\\s*[—–-]\\s*(Polska|Rumunia|Szwecja)\\s*[—–-]\\s*(Polska|Rumunia|Szwecja)", text, re.I):
+        day, year, clock, home, away = m.groups()
+        if sum(n.casefold() == "polska" for n in (home, away)) != 1:
+            continue
+        start = datetime(int(year), 11, int(day), int(clock[:2]), int(clock[3:]), tzinfo=TZ)
+        if not now - timedelta(hours=3) <= start <= now + timedelta(days=21):
+            continue
+        found.append({"start": start.isoformat(), "displayUntil": (start+timedelta(hours=3)).isoformat(), "sport":"pilka", "name":home+" – "+away, "tournament":"Liga Narodów UEFA", "channel":None, "verifiedLive":False, "matchScheduled":True, "timeType":"match_planned", "sourceUrl":url, "competitionId":"tvp:"+start.date().isoformat()+":"+home+":"+away, "verification":"Official TVP schedule; TV channel unconfirmed"})
+    return found
+
 def main():
     now = datetime.now(TZ)
     collected = []
@@ -192,6 +212,10 @@ def main():
             found.append(fixture)
     except (OSError, ValueError, TimeoutError) as exc:
         print(f"UEFA unavailable: {type(exc).__name__}")
+    try:
+        found.extend(fetch_tvp_fixtures(now))
+    except (OSError, ValueError, TimeoutError) as exc:
+        print(f"TVP fixture calendar unavailable: {type(exc).__name__}")
     found.sort(key=lambda e: e["start"])
     if not found:
         print("No fixtures returned by ESPN; preserving previously discovered future matches")
