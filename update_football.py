@@ -177,7 +177,7 @@ def fetch_tvp_fixtures(now):
     text = unescape(re.sub(r"<[^>]+>", " ", html))
     text = " ".join(text.split())
     found = []
-    for m in re.finditer(r"(\\d{1,2})\\s+listopada\\s+(20\\d{2}),?\\s+godz\\.?\\s*(\\d{1,2}:\\d{2})\\s*[—–-]\\s*(Polska|Rumunia|Szwecja)\\s*[—–-]\\s*(Polska|Rumunia|Szwecja)", text, re.I):
+    for m in re.finditer(r"(\d{1,2})\s+listopada\s+(20\d{2}),?\s+godz\.?\s*(\d{1,2}:\d{2})\s*[—–-]\s*(Polska|Rumunia|Szwecja)\s*[—–-]\s*(Polska|Rumunia|Szwecja)", text, re.I):
         day, year, clock, home, away = m.groups()
         if sum(n.casefold() == "polska" for n in (home, away)) != 1:
             continue
