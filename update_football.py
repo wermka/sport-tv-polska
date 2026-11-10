@@ -103,8 +103,8 @@ def parse_uefa(html, now):
     # The official page sometimes puts the date and fixtures into one text node.
     # Split at day headings and group codes without inventing any fixture.
     text = " ".join(lines)
-    text = re.sub(r"(?=(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\\s+\\d{1,2}\\s+(?:January|February|March|April|May|June|July|August|September|October|November|December)\\b)", "\\n", text)
-    text = re.sub(r"\\s+(?=[A-D][1-4]\\s+[A-Z][A-Za-z ]+\\s+vs\\s+)", "\\n", text)
+    text = re.sub(r"(?=(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\s+\d{1,2}\s+(?:January|February|March|April|May|June|July|August|September|October|November|December)\b)", "\n", text)
+    text = re.sub(r"\s+(?=[A-D][1-4]\s+[A-Z][A-Za-z ]+\s+vs\s+)", "\n", text)
     lines = [" ".join(s.split()) for s in text.splitlines() if s.strip()]
     months = {m: i for i, m in enumerate(("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"), 1)}
     date = None
