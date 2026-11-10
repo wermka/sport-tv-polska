@@ -1,7 +1,7 @@
 import unittest
 from datetime import datetime
 from zoneinfo import ZoneInfo
-from update_football import parse, merge
+from update_football import parse, merge, parse_uefa
 
 NOW = datetime(2026, 11, 10, 12, tzinfo=ZoneInfo("Europe/Warsaw"))
 
@@ -22,6 +22,11 @@ class FootballTests(unittest.TestCase):
                          ["2026-11-14T20:45:00+01:00", "2026-11-17T20:45:00+01:00"])
         self.assertTrue(all(x["sport"] == "pilka" for x in result))
         self.assertTrue(all(x["channel"] is None for x in result))
+    def test_uefa_html(self):
+        html = '<h3>Saturday 14 November</h3><p>B4 Romania vs Poland</p><h3>Tuesday 17 November</h3><p>B4 Poland vs Sweden</p>'
+        rows = parse_uefa(html, NOW)
+        self.assertEqual(len(rows), 2)
+        self.assertEqual(rows[0]['start'], '2026-11-14T20:45:00+01:00')
     def test_excludes_youth(self):
         result = parse([("uefa.nations", [game("4", "2026-11-14T19:45:00Z", "Poland U21", "Sweden")])], NOW)
         self.assertEqual(result, [])
