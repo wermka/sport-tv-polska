@@ -136,6 +136,37 @@ def fetch_uefa(now):
     with urlopen(req, timeout=25) as response:
         return parse_uefa(response.read(3000000).decode("utf-8", "replace"), now)
 
+TVP_ROMANIA_URL = "https://sport.tvp.pl/96219792/rumunia-polska-na-zywo-transmisja-meczu-ligi-narodow-online-live-stream-14112026-gdzie-ogladac"
+
+def verify_tvp_broadcast(fixtures, now):
+    """Verify TVP channel using the broadcaster itself; never invent a broadcast."""
+    try:
+        req = Request(TVP_ROMANIA_URL, headers={"User-Agent": "Mozilla/5.0"})
+        with urlopen(req, timeout=20) as response:
+            html = response.read(3000000).decode("utf-8", "replace")
+        from html import unescape
+        body = unescape(re.sub(r"<[^>]+>", " ", html))
+        body = " ".join(body.split()).casefold()
+        confirmed = ("rumunia" in body and "polska" in body and "14.11.2026" in body
+                     and "tvp 1" in body and "20:25" in body and "20:45" in body)
+        if not confirmed:
+            print("TVP page does not confirm broadcast details; no channel assigned")
+            return fixtures
+        for row in fixtures:
+            name = row.get("name", "").casefold()
+            if row.get("sport") != "pilka" or row.get("start", "")[:10] != "2026-11-14": continue
+            if not (("rumunia" in name or "romania" in name) and ("polska" in name or "poland" in name)): continue
+            row["channel"] = "TVP1"
+            row["verifiedLive"] = True
+            row["tvStart"] = "2026-11-14T20:25:00+01:00"
+            row["tvEnd"] = "2026-11-14T23:15:00+01:00"
+            row["sourceUrl"] = TVP_ROMANIA_URL
+            row["verification"] = "TVP Sport official broadcast announcement"
+        return fixtures
+    except (OSError, TimeoutError, ValueError) as exc:
+        print(f"TVP broadcast verification unavailable: {type(exc).__name__}")
+        return fixtures
+
 def main():
     now = datetime.now(TZ)
     collected = []
@@ -165,6 +196,7 @@ def main():
     if not found:
         print("No fixtures returned by ESPN; preserving previously discovered future matches")
         found = [e for e in data.get("events", []) if e.get("sport") == "pilka" and e.get("start", "") >= (now - timedelta(hours=3)).isoformat()]
+    found = verify_tvp_broadcast(found, now)
     data["events"] = merge(data.get("events", []), found, now)
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Poland national-team fixtures automatically discovered: {len(found)}")
