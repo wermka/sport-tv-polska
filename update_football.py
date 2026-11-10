@@ -91,10 +91,10 @@ def parse_uefa(html, now):
             self.hidden = 0
         def handle_starttag(self, tag, attrs):
             if tag in ("script", "style", "noscript"): self.hidden += 1
-            if tag in ("p", "div", "li", "h2", "h3", "br"): self.parts.append("\n")
+            if tag in ("p", "div", "li", "h2", "h3", "h4", "br"): self.parts.append("\n")
         def handle_endtag(self, tag):
             if tag in ("script", "style", "noscript") and self.hidden: self.hidden -= 1
-            if tag in ("p", "div", "li", "h2", "h3"): self.parts.append("\n")
+            if tag in ("p", "div", "li", "h2", "h3", "h4"): self.parts.append("\n")
         def handle_data(self, value):
             if not self.hidden: self.parts.append(value)
     parser = Text()
