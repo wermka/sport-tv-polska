@@ -79,6 +79,57 @@ def merge(existing, discovered, now):
                         if k in old})
     return sorted(other + discovered, key=lambda x: x["start"])
 
+UEFA_URL = "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/"
+
+def parse_uefa(html, now):
+    """Discover fixtures from the official UEFA matchday listing, not manual entries."""
+    from html.parser import HTMLParser
+    class Text(HTMLParser):
+        def __init__(self):
+            super().__init__()
+            self.parts = []
+            self.hidden = 0
+        def handle_starttag(self, tag, attrs):
+            if tag in ("script", "style", "noscript"): self.hidden += 1
+            if tag in ("p", "div", "li", "h2", "h3", "br"): self.parts.append("\n")
+        def handle_endtag(self, tag):
+            if tag in ("script", "style", "noscript") and self.hidden: self.hidden -= 1
+            if tag in ("p", "div", "li", "h2", "h3"): self.parts.append("\n")
+        def handle_data(self, value):
+            if not self.hidden: self.parts.append(value)
+    parser = Text()
+    parser.feed(html)
+    lines = [" ".join(s.split()) for s in "".join(parser.parts).splitlines()]
+    months = {m: i for i, m in enumerate(("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"), 1)}
+    date = None
+    found = {}
+    for line in lines:
+        heading = re.fullmatch(r"(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\s+(\d{1,2})\s+([A-Za-z]+)", line)
+        if heading:
+            month = months.get(heading.group(2))
+            date = datetime(now.year, month, int(heading.group(1)), tzinfo=TZ) if month else None
+            continue
+        if date is None: continue
+        match = re.fullmatch(r"(?:[A-D]\d\s+)?(.+?)\s+vs\s+(.+?)(?:\s+\((\d{1,2}:\d{2})\))?", line)
+        if not match: continue
+        home, away = match.group(1).strip(), match.group(2).strip()
+        if sum(n.casefold() == "poland" for n in (home, away)) != 1: continue
+        hour = match.group(3) or "20:45"
+        start = date.replace(hour=int(hour[:2]), minute=int(hour[3:]))
+        if not now - timedelta(hours=3) <= start <= now + timedelta(days=21): continue
+        key = (start.date().isoformat(), home, away)
+        found[key] = {"start": start.isoformat(), "displayUntil": (start + timedelta(hours=3)).isoformat(),
+            "sport": "pilka", "name": f"{home} – {away}", "tournament": "Liga Narodów UEFA",
+            "channel": None, "verifiedLive": False, "matchScheduled": True, "timeType": "match_planned",
+            "sourceUrl": UEFA_URL, "competitionId": f"uefa:{start.date()}:{home}:{away}",
+            "verification": "Official UEFA matchday listing; TV unconfirmed"}
+    return list(found.values())
+
+def fetch_uefa(now):
+    req = Request(UEFA_URL, headers={"User-Agent": "Mozilla/5.0 SportTVPolska"})
+    with urlopen(req, timeout=25) as response:
+        return parse_uefa(response.read(3000000).decode("utf-8", "replace"), now)
+
 def main():
     now = datetime.now(TZ)
     collected = []
@@ -92,11 +143,19 @@ def main():
         except (OSError, ValueError, TimeoutError) as exc:
             print(f"{league}: unavailable ({type(exc).__name__})")
     if not successful:
-        print("All football sources unavailable; leaving existing events unchanged")
-        return
+        print("ESPN unavailable; checking UEFA instead")
     path = ROOT / "events.json"
     data = json.loads(path.read_text(encoding="utf-8"))
     found = parse(collected, now)
+    try:
+        official = fetch_uefa(now)
+        print(f"Official UEFA Poland fixtures: {len(official)}")
+        for fixture in official:
+            found = [e for e in found if not (e["start"][:10] == fixture["start"][:10] and set(e["name"].lower().split(" – ")) == set(fixture["name"].lower().split(" – ")))]
+            found.append(fixture)
+    except (OSError, ValueError, TimeoutError) as exc:
+        print(f"UEFA unavailable: {type(exc).__name__}")
+    found.sort(key=lambda e: e["start"])
     if not found:
         print("No fixtures returned by ESPN; preserving previously discovered future matches")
         found = [e for e in data.get("events", []) if e.get("sport") == "pilka" and e.get("start", "") >= (now - timedelta(hours=3)).isoformat()]
