@@ -1,19 +1,9 @@
 {
-  "updatedAt": "2026-11-10T12:58:10.302875+01:00",
+  "updatedAt": "2026-11-10T13:06:05.865711+01:00",
   "source": "XMLTV; entries unverified",
   "epgAvailable": true,
   "error": null,
   "events": [
-    {
-      "start": "2026-11-10T11:00:00+01:00",
-      "end": "2026-11-10T13:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej ATP w Paryżu - mecz półfinałowy gry pojedynczej",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
     {
       "start": "2026-11-10T12:45:00+01:00",
       "end": "2026-11-10T15:00:00+01:00",
