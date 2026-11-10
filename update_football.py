@@ -62,7 +62,7 @@ def parse(events, now):
                 "tournament": (match.get("season") or {}).get("displayName") or league,
                 "channel": None, "verifiedLive": False,
                 "matchScheduled": True, "timeType": "match_planned",
-                "sourceUrl": match.get("links", [{}])[0].get("href") or f"{BASE}/{league}/summary?event={match_id}",
+                "sourceUrl": (match.get("links") or [{}])[0].get("href") or f"{BASE}/{league}/summary?event={match_id}",
                 "competitionId": f"espn:{league}:{match_id}",
                 "verification": "Poland senior national team fixture from ESPN; TV not confirmed"}
     return sorted(output.values(), key=lambda x: x["start"])
@@ -97,6 +97,9 @@ def main():
     path = ROOT / "events.json"
     data = json.loads(path.read_text(encoding="utf-8"))
     found = parse(collected, now)
+    if not found:
+        print("No fixtures returned by ESPN; preserving previously discovered future matches")
+        found = [e for e in data.get("events", []) if e.get("sport") == "pilka" and e.get("start", "") >= (now - timedelta(hours=3)).isoformat()]
     data["events"] = merge(data.get("events", []), found, now)
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Poland national-team fixtures automatically discovered: {len(found)}")
