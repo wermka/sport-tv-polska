@@ -1,22 +1,5 @@
 {
-  "updatedAt": "2026-11-10T21:41:02.632067+01:00",
+  "updatedAt": "2026-11-11T08:18:36.094676+01:00",
   "source": "Upcoming Polish tennis fixtures from API; TV channel requires Teleman LIVE",
-  "events": [
-    {
-      "start": "2026-11-11T00:30:00+01:00",
-      "displayUntil": "2026-11-11T04:30:00+01:00",
-      "endConfirmedByEpg": false,
-      "sport": "tenis",
-      "name": "Maks Kasnikowski – Marcos Giron",
-      "tournament": "Knoxville",
-      "matchId": "216782",
-      "matchScheduledStart": "2026-11-11T00:30:00+01:00",
-      "matchScheduled": true,
-      "timeType": "match_planned",
-      "channel": null,
-      "verifiedLive": false,
-      "sourceUrl": "https://api.livetennisapi.com/",
-      "verification": "Upcoming Polish fixture from Live Tennis API; TV unconfirmed"
-    }
-  ]
+  "events": []
 }

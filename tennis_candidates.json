@@ -1,21 +1,6 @@
 {
-  "updatedAt": "2026-11-10T21:39:20.580792+01:00",
+  "updatedAt": "2026-11-11T08:18:15.332812+01:00",
   "source": "Live Tennis API",
   "note": "Zaplanowane mecze z polskim zawodnikiem wedlug aktualnej odpowiedzi API; kanal TV wymaga osobnej weryfikacji.",
-  "matches": [
-    {
-      "id": 216782,
-      "start": "2026-11-11T00:30:00+01:00",
-      "sport": "tenis",
-      "name": "Maks Kasnikowski – Marcos Giron",
-      "tournament": "Knoxville",
-      "tour": "challenger",
-      "tier": null,
-      "doubles": false,
-      "status": "upcoming",
-      "channel": null,
-      "broadcastVerified": false,
-      "polishParticipantConfirmedByApi": true
-    }
-  ]
+  "matches": []
 }
