@@ -1,109 +1,9 @@
 {
-  "updatedAt": "2026-11-11T14:48:15.257783+01:00",
+  "updatedAt": "2026-11-11T20:36:16.969241+01:00",
   "source": "XMLTV; entries unverified",
   "epgAvailable": true,
   "error": null,
   "events": [
-    {
-      "start": "2026-11-11T12:45:00+01:00",
-      "end": "2026-11-11T15:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-11T13:00:00+01:00",
-      "end": "2026-11-11T15:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej ATP w Paryżu - mecz półfinałowy gry pojedynczej",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-11T13:00:00+01:00",
-      "end": "2026-11-11T15:05:00+01:00",
-      "sport": "pilka",
-      "name": "Piłka nożna: Liga Narodów - mecz: Polska - Rumunia",
-      "channel": "TVP Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-11T15:00:00+01:00",
-      "end": "2026-11-11T17:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej ATP w Paryżu - mecz półfinałowy gry pojedynczej",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-11T15:00:00+01:00",
-      "end": "2026-11-11T17:15:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-11T17:00:00+01:00",
-      "end": "2026-11-11T19:00:00+01:00",
-      "sport": "tenis",
-      "name": "Squash: Turniej US Open - półfinały",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-11T17:00:00+01:00",
-      "end": "2026-11-11T19:00:00+01:00",
-      "sport": "pilka",
-      "name": "Piłka ręczna mężczyzn: Eliminacje mistrzostw Europy - mecz: Rumunia - Polska",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-11T17:00:00+01:00",
-      "end": "2026-11-11T19:25:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej ATP w Paryżu - mecz finałowy gry pojedynczej",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-11T17:15:00+01:00",
-      "end": "2026-11-11T19:20:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-11T18:30:00+01:00",
-      "end": "2026-11-11T20:30:00+01:00",
-      "sport": "pilka",
-      "name": "Koszykówka kobiet: Eliminacje mistrzostw Europy - mecz: Izrael - Polska",
-      "channel": "TVP Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
     {
       "start": "2026-11-11T19:00:00+01:00",
       "end": "2026-11-11T21:00:00+01:00",
@@ -111,16 +11,6 @@
       "name": "Tenis: Turniej ATP w Paryżu - mecz finałowy gry pojedynczej",
       "channel": "Polsat Sport",
       "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-11T19:20:00+01:00",
-      "end": "2026-11-11T20:00:00+01:00",
-      "sport": "tenis",
-      "name": "8 wspaniałych",
-      "channel": "CANAL+ Sport 2",
-      "description": "W kobiecym tenisie sezon 2025 zwieńczył turniej WTA Finals w Rijadzie z udziałem ośmiu zawodniczek. Każdy odcinek tej serii będzie poświęcony innej z nich. Zobaczymy, z jakimi wyzwaniami się mierzą.",
       "epgSaysLive": false,
       "verifiedLive": false
     },
@@ -227,19 +117,19 @@
     {
       "start": "2026-11-12T06:00:00+01:00",
       "end": "2026-11-12T08:15:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej",
-      "channel": "CANAL+ Sport 2",
+      "sport": "pilka",
+      "name": "Piłka nożna: Liga Narodów - mecz: Bośnia i Hercegowina - Polska",
+      "channel": "TVP Sport",
       "description": "",
       "epgSaysLive": false,
       "verifiedLive": false
     },
     {
-      "start": "2026-11-12T06:05:00+01:00",
+      "start": "2026-11-12T06:00:00+01:00",
       "end": "2026-11-12T08:15:00+01:00",
-      "sport": "pilka",
-      "name": "Piłka nożna: Liga Narodów - mecz: Bośnia i Hercegowina - Polska",
-      "channel": "TVP Sport",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej",
+      "channel": "CANAL+ Sport 2",
       "description": "",
       "epgSaysLive": false,
       "verifiedLive": false
@@ -476,20 +366,20 @@
     },
     {
       "start": "2026-11-13T06:00:00+01:00",
-      "end": "2026-11-13T07:55:00+01:00",
-      "sport": "pilka",
-      "name": "Koszykówka kobiet: Eliminacje mistrzostw Europy - mecz: Izrael - Polska",
-      "channel": "TVP Sport",
+      "end": "2026-11-13T08:15:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej",
+      "channel": "CANAL+ Sport 2",
       "description": "",
       "epgSaysLive": false,
       "verifiedLive": false
     },
     {
-      "start": "2026-11-13T06:00:00+01:00",
-      "end": "2026-11-13T08:15:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej",
-      "channel": "CANAL+ Sport 2",
+      "start": "2026-11-13T06:05:00+01:00",
+      "end": "2026-11-13T08:00:00+01:00",
+      "sport": "pilka",
+      "name": "Koszykówka kobiet: Eliminacje mistrzostw Europy - mecz: Izrael - Polska",
+      "channel": "TVP Sport",
       "description": "",
       "epgSaysLive": false,
       "verifiedLive": false
@@ -575,26 +465,6 @@
       "verifiedLive": false
     },
     {
-      "start": "2026-11-13T16:30:00+01:00",
-      "end": "2026-11-13T19:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej ATP w Sztokholmie - mecz półfinałowy gry pojedynczej",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-13T17:00:00+01:00",
-      "end": "2026-11-13T19:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej ATP w Paryżu - mecz półfinałowy gry pojedynczej",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
       "start": "2026-11-13T17:00:00+01:00",
       "end": "2026-11-13T19:00:00+01:00",
       "sport": "tenis",
@@ -625,10 +495,10 @@
       "verifiedLive": false
     },
     {
-      "start": "2026-11-13T19:00:00+01:00",
-      "end": "2026-11-13T21:00:00+01:00",
+      "start": "2026-11-13T18:00:00+01:00",
+      "end": "2026-11-13T20:00:00+01:00",
       "sport": "tenis",
-      "name": "Squash: Turniej US Open - półfinały",
+      "name": "Tenis: Turniej ATP w Paryżu - mecz półfinałowy gry pojedynczej",
       "channel": "Polsat Sport",
       "description": "",
       "epgSaysLive": false,
@@ -920,6 +790,136 @@
       "sport": "tenis",
       "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz półfinałowy",
       "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-15T08:15:00+01:00",
+      "end": "2026-11-15T10:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz półfinałowy",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-15T08:30:00+01:00",
+      "end": "2026-11-15T10:45:00+01:00",
+      "sport": "pilka",
+      "name": "Piłka nożna: Liga Narodów - mecz: Rumunia - Polska",
+      "channel": "TVP Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-15T10:30:00+01:00",
+      "end": "2026-11-15T12:45:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz półfinałowy",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-15T12:45:00+01:00",
+      "end": "2026-11-15T15:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz półfinałowy",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-15T14:00:00+01:00",
+      "end": "2026-11-15T17:25:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP Finals w Turynie - mecz gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-15T20:00:00+01:00",
+      "end": "2026-11-15T21:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis raport",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-15T20:30:00+01:00",
+      "end": "2026-11-15T23:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP Finals w Turynie - mecz gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-15T21:00:00+01:00",
+      "end": "2026-11-15T23:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz finałowy gry podwójnej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-15T23:00:00+01:00",
+      "end": "2026-11-16T01:15:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz finałowy gry pojedynczej",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-16T01:00:00+01:00",
+      "end": "2026-11-16T03:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP Finals w Turynie - mecz fazy grupowej gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-16T01:50:00+01:00",
+      "end": "2026-11-16T03:55:00+01:00",
+      "sport": "pilka",
+      "name": "Piłka nożna: Liga Narodów - mecz: Rumunia - Polska",
+      "channel": "TVP Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-16T03:30:00+01:00",
+      "end": "2026-11-16T06:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP Finals w Turynie - mecz fazy grupowej gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-16T06:00:00+01:00",
+      "end": "2026-11-16T08:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP Finals w Turynie - mecz gry pojedynczej",
+      "channel": "Polsat Sport",
       "description": "",
       "epgSaysLive": false,
       "verifiedLive": false
