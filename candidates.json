@@ -1,49 +1,9 @@
 {
-  "updatedAt": "2026-11-12T08:23:52.154771+01:00",
+  "updatedAt": "2026-11-12T14:50:03.961763+01:00",
   "source": "XMLTV; entries unverified",
   "epgAvailable": true,
   "error": null,
   "events": [
-    {
-      "start": "2026-11-12T06:00:00+01:00",
-      "end": "2026-11-12T08:30:00+01:00",
-      "sport": "pilka",
-      "name": "Piłka ręczna mężczyzn: Eliminacje mistrzostw Europy - mecz: Rumunia - Polska",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-12T08:15:00+01:00",
-      "end": "2026-11-12T10:30:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-12T10:30:00+01:00",
-      "end": "2026-11-12T12:45:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-12T11:00:00+01:00",
-      "end": "2026-11-12T13:00:00+01:00",
-      "sport": "pilka",
-      "name": "Piłka ręczna mężczyzn: Eliminacje mistrzostw Europy - mecz: Rumunia - Polska",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
     {
       "start": "2026-11-12T12:45:00+01:00",
       "end": "2026-11-12T15:00:00+01:00",
