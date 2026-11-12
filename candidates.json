@@ -1,144 +1,14 @@
 {
-  "updatedAt": "2026-11-11T20:36:16.969241+01:00",
+  "updatedAt": "2026-11-12T08:23:52.154771+01:00",
   "source": "XMLTV; entries unverified",
   "epgAvailable": true,
   "error": null,
   "events": [
     {
-      "start": "2026-11-11T19:00:00+01:00",
-      "end": "2026-11-11T21:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej ATP w Paryżu - mecz finałowy gry pojedynczej",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-11T20:00:00+01:00",
-      "end": "2026-11-11T21:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis raport",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-11T21:00:00+01:00",
-      "end": "2026-11-11T23:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-11T22:30:00+01:00",
-      "end": "2026-11-12T01:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej ATP w Paryżu - mecz finałowy gry pojedynczej",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-11T23:00:00+01:00",
-      "end": "2026-11-12T01:00:00+01:00",
-      "sport": "siatkowka",
-      "name": "Siatkówka mężczyzn: Mistrzostwa Europy 2026 - mecz grupy B: Polska - Ukraina",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-11T23:00:00+01:00",
-      "end": "2026-11-12T01:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-12T01:00:00+01:00",
-      "end": "2026-11-12T07:00:00+01:00",
-      "sport": "siatkowka",
-      "name": "Siatkówka mężczyzn: Mistrzostwa Europy 2026 - mecz grupy B: Polska - Bułgaria",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-12T01:00:00+01:00",
-      "end": "2026-11-12T01:30:00+01:00",
-      "sport": "tenis",
-      "name": "ATP World Tour: Next Week",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-12T01:00:00+01:00",
-      "end": "2026-11-12T03:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-12T03:00:00+01:00",
-      "end": "2026-11-12T04:55:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
       "start": "2026-11-12T06:00:00+01:00",
       "end": "2026-11-12T08:30:00+01:00",
       "sport": "pilka",
       "name": "Piłka ręczna mężczyzn: Eliminacje mistrzostw Europy - mecz: Rumunia - Polska",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-12T06:00:00+01:00",
-      "end": "2026-11-12T08:15:00+01:00",
-      "sport": "pilka",
-      "name": "Piłka nożna: Liga Narodów - mecz: Bośnia i Hercegowina - Polska",
-      "channel": "TVP Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-12T06:00:00+01:00",
-      "end": "2026-11-12T08:15:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-12T07:00:00+01:00",
-      "end": "2026-11-12T08:00:00+01:00",
-      "sport": "tenis",
-      "name": "Squash: Turniej US Open - półfinały",
       "channel": "Polsat Sport",
       "description": "",
       "epgSaysLive": false,

@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-11T20:36:38.859976+01:00",
+  "updatedAt": "2026-11-12T08:24:13.895302+01:00",
   "source": "Teleman, zbiorcza ramówka LIVE (dane diagnostyczne)",
   "warning": "LIVE = oznaczenie w ramówce. Nie potwierdza udziału Polaków ani rzeczywistego terminu zawodów. Nie publikować w events.json.",
   "pagesChecked": 6,
   "rows": [
     {
-      "dateLabel": "czwartek, 12 listopada",
+      "dateLabel": "dziś, 12 listopada",
       "timeLabel": "13:00",
       "channel": "Polsat Sport 3",
       "title": "Tenis: Turniej ATP w Sztokholmie mecz ćwierćfinałowy gry pojedynczej",
@@ -16,7 +16,7 @@
       "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "czwartek, 12 listopada",
+      "dateLabel": "dziś, 12 listopada",
       "timeLabel": "15:00",
       "channel": "Polsat Sport 3",
       "title": "Tenis: Turniej ATP w Sztokholmie mecz ćwierćfinałowy gry pojedynczej",
@@ -35,7 +35,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
       "dateLabel": "piątek, 13 listopada",
@@ -123,7 +123,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
     },
     {
       "dateLabel": "poniedziałek, 16 listopada",
@@ -140,6 +140,17 @@
       "dateLabel": "poniedziałek, 16 listopada",
       "timeLabel": "14:00",
       "channel": "Polsat Sport 1",
+      "title": "Tenis: Turniej ATP Finals w Turynie mecz fazy grupowej gry pojedynczej",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+    },
+    {
+      "dateLabel": "poniedziałek, 16 listopada",
+      "timeLabel": "20:30",
+      "channel": "Polsat Sport 3",
       "title": "Tenis: Turniej ATP Finals w Turynie mecz fazy grupowej gry pojedynczej",
       "sport": "tenis",
       "telemanLiveBadge": true,
