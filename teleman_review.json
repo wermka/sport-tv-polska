@@ -1,42 +1,9 @@
 {
-  "updatedAt": "2026-11-13T14:47:27.109023+01:00",
+  "updatedAt": "2026-11-13T20:31:28.966619+01:00",
   "source": "Teleman, zbiorcza ramówka LIVE (dane diagnostyczne)",
   "warning": "LIVE = oznaczenie w ramówce. Nie potwierdza udziału Polaków ani rzeczywistego terminu zawodów. Nie publikować w events.json.",
   "pagesChecked": 6,
   "rows": [
-    {
-      "dateLabel": "dziś, 13 listopada",
-      "timeLabel": "14:00",
-      "channel": "Polsat Sport 3",
-      "title": "Tenis: Turniej ATP w Sztokholmie mecz półfinałowy gry pojedynczej",
-      "sport": "tenis",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_tennis_match_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1"
-    },
-    {
-      "dateLabel": "dziś, 13 listopada",
-      "timeLabel": "17:00",
-      "channel": "Polsat Sport 3",
-      "title": "Tenis: Turniej ATP w Sztokholmie mecz półfinałowy gry pojedynczej",
-      "sport": "tenis",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_tennis_match_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1"
-    },
-    {
-      "dateLabel": "dziś, 13 listopada",
-      "timeLabel": "17:20",
-      "channel": "TVP Sport",
-      "title": "Piłka nożna mecz towarzyski drużyn U-21: Polska - Norwegia",
-      "sport": "pilka",
-      "telemanLiveBadge": true,
-      "participantEvidence": "national_team_named",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1"
-    },
     {
       "dateLabel": "dziś, 13 listopada",
       "timeLabel": "19:50",
@@ -57,7 +24,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
       "dateLabel": "sobota, 14 listopada",
@@ -68,7 +35,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "national_team_named",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
     },
     {
       "dateLabel": "sobota, 14 listopada",
@@ -79,13 +46,13 @@
       "telemanLiveBadge": true,
       "participantEvidence": "national_team_named",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
     },
     {
       "dateLabel": "niedziela, 15 listopada",
       "timeLabel": "11:30",
       "channel": "Polsat Sport 2",
-      "title": "Tenis: Turniej ATP Finals w Turynie mecz gry podwójnej",
+      "title": "Tenis: Turniej ATP Finals w Turynie mecz fazy grupowej gry podwójnej: Harri Heliövaara/Henry Patten - Orlando Luz/Rafael Matos",
       "sport": "tenis",
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
@@ -96,18 +63,18 @@
       "dateLabel": "niedziela, 15 listopada",
       "timeLabel": "14:00",
       "channel": "Polsat Sport 2",
-      "title": "Tenis: Turniej ATP Finals w Turynie mecz gry pojedynczej",
+      "title": "Tenis: Turniej ATP Finals w Turynie mecz fazy grupowej gry pojedynczej: Alexander Zverev - Rafael Jodar",
       "sport": "tenis",
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
     },
     {
       "dateLabel": "niedziela, 15 listopada",
       "timeLabel": "18:00",
       "channel": "Polsat Sport 3",
-      "title": "Tenis: Turniej ATP Finals w Turynie mecz fazy grupowej gry podwójnej",
+      "title": "Tenis: Turniej ATP Finals w Turynie mecz fazy grupowej gry podwójnej: Marcelo Arévalo/Mate Pavić - Théo Arribagé/Albano Olivetti",
       "sport": "tenis",
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
@@ -118,18 +85,18 @@
       "dateLabel": "niedziela, 15 listopada",
       "timeLabel": "20:30",
       "channel": "Polsat Sport 2",
-      "title": "Tenis: Turniej ATP Finals w Turynie mecz gry pojedynczej",
+      "title": "Tenis: Turniej ATP Finals w Turynie mecz fazy grupowej gry pojedynczej: Ben Shelton - Arthur Fils",
       "sport": "tenis",
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
     },
     {
       "dateLabel": "poniedziałek, 16 listopada",
       "timeLabel": "11:30",
       "channel": "Polsat Sport 1",
-      "title": "Tenis: Turniej ATP Finals w Turynie mecz fazy grupowej gry podwójnej",
+      "title": "Tenis: Turniej ATP Finals w Turynie mecz fazy grupowej gry podwójnej: Marcel Granollers/Horacio Zeballos - Simone Bolelli/Andrea Vavassori",
       "sport": "tenis",
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
@@ -140,7 +107,7 @@
       "dateLabel": "poniedziałek, 16 listopada",
       "timeLabel": "14:00",
       "channel": "Polsat Sport 1",
-      "title": "Tenis: Turniej ATP Finals w Turynie mecz fazy grupowej gry pojedynczej",
+      "title": "Tenis: Turniej ATP Finals w Turynie mecz fazy grupowej gry pojedynczej: Carlos Alcaraz - Frances Tiafoe",
       "sport": "tenis",
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
@@ -151,7 +118,7 @@
       "dateLabel": "poniedziałek, 16 listopada",
       "timeLabel": "18:00",
       "channel": "Polsat Sport 2",
-      "title": "Tenis: Turniej ATP Finals w Turynie mecz gry podwójnej",
+      "title": "Tenis: Turniej ATP Finals w Turynie mecz fazy grupowej gry podwójnej: Christian Harrison/Neal Skupski - Kevin Krawietz/Tim Puetz",
       "sport": "tenis",
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
@@ -162,12 +129,12 @@
       "dateLabel": "poniedziałek, 16 listopada",
       "timeLabel": "20:30",
       "channel": "Polsat Sport 2",
-      "title": "Tenis: Turniej ATP Finals w Turynie mecz gry pojedynczej",
+      "title": "Tenis: Turniej ATP Finals w Turynie mecz fazy grupowej gry pojedynczej: Daniił Miedwiediew - Flavio Cobolli",
       "sport": "tenis",
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
     },
     {
       "dateLabel": "wtorek, 17 listopada",
@@ -178,7 +145,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
     },
     {
       "dateLabel": "wtorek, 17 listopada",
@@ -189,7 +156,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
     },
     {
       "dateLabel": "wtorek, 17 listopada",
@@ -221,6 +188,39 @@
       "sport": "pilka",
       "telemanLiveBadge": true,
       "participantEvidence": "national_team_named",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+    },
+    {
+      "dateLabel": "wtorek, 17 listopada",
+      "timeLabel": "20:35",
+      "channel": "TVP Sport",
+      "title": "Piłka nożna: Liga Narodów mecz: Polska - Szwecja",
+      "sport": "pilka",
+      "telemanLiveBadge": true,
+      "participantEvidence": "national_team_named",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+    },
+    {
+      "dateLabel": "środa, 18 listopada",
+      "timeLabel": "11:30",
+      "channel": "Polsat Sport 1",
+      "title": "Tenis: Turniej ATP Finals w Turynie mecz fazy grupowej gry podwójnej",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+    },
+    {
+      "dateLabel": "środa, 18 listopada",
+      "timeLabel": "14:00",
+      "channel": "Polsat Sport 1",
+      "title": "Tenis: Turniej ATP Finals w Turynie mecz fazy grupowej gry pojedynczej",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_tennis_match_check",
       "verified": false,
       "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
     }

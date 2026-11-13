@@ -1,99 +1,9 @@
 {
-  "updatedAt": "2026-11-13T14:47:05.845957+01:00",
+  "updatedAt": "2026-11-13T20:31:09.773617+01:00",
   "source": "XMLTV; entries unverified",
   "epgAvailable": true,
   "error": null,
   "events": [
-    {
-      "start": "2026-11-13T12:45:00+01:00",
-      "end": "2026-11-13T15:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-13T14:00:00+01:00",
-      "end": "2026-11-13T17:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej ATP w Sztokholmie - mecz półfinałowy gry pojedynczej",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-13T14:00:00+01:00",
-      "end": "2026-11-13T15:00:00+01:00",
-      "sport": "tenis",
-      "name": "Squash: Turniej US Open - finały",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-13T15:00:00+01:00",
-      "end": "2026-11-13T17:15:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-13T17:00:00+01:00",
-      "end": "2026-11-13T19:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej ATP w Sztokholmie - mecz półfinałowy gry pojedynczej",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-13T17:15:00+01:00",
-      "end": "2026-11-13T19:20:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-13T17:20:00+01:00",
-      "end": "2026-11-13T19:30:00+01:00",
-      "sport": "pilka",
-      "name": "Piłka nożna - mecz towarzyski drużyn U-21: Polska - Norwegia",
-      "channel": "TVP Sport",
-      "description": "Kadra Jerzego Brzęczka rozpoczyna przygotowania do mistrzostw Europy U-21. W San Pedro del Pinatar Biało-Czerwoni zagrają towarzysko nie tylko z Norwegią, lecz także z reprezentacją Serbii.",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-13T18:00:00+01:00",
-      "end": "2026-11-13T20:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej ATP w Paryżu - mecz półfinałowy gry pojedynczej",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-13T19:20:00+01:00",
-      "end": "2026-11-13T20:00:00+01:00",
-      "sport": "tenis",
-      "name": "8 wspaniałych",
-      "channel": "CANAL+ Sport 2",
-      "description": "W kobiecym tenisie sezon 2025 zwieńczył turniej WTA Finals w Rijadzie z udziałem ośmiu zawodniczek. Każdy odcinek tej serii będzie poświęcony innej z nich. Zobaczymy, z jakimi wyzwaniami się mierzą.",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
     {
       "start": "2026-11-13T19:50:00+01:00",
       "end": "2026-11-13T22:00:00+01:00",
@@ -175,7 +85,7 @@
       "verifiedLive": false
     },
     {
-      "start": "2026-11-14T01:35:00+01:00",
+      "start": "2026-11-14T01:30:00+01:00",
       "end": "2026-11-14T03:30:00+01:00",
       "sport": "pilka",
       "name": "Piłka nożna: Liga Narodów - mecz: Polska - Rumunia",
@@ -205,8 +115,8 @@
       "verifiedLive": false
     },
     {
-      "start": "2026-11-14T06:50:00+01:00",
-      "end": "2026-11-14T09:00:00+01:00",
+      "start": "2026-11-14T06:40:00+01:00",
+      "end": "2026-11-14T08:50:00+01:00",
       "sport": "pilka",
       "name": "Piłka nożna: Elite League U-20 - mecz: Polska - Niemcy",
       "channel": "TVP Sport",
@@ -235,7 +145,7 @@
       "verifiedLive": false
     },
     {
-      "start": "2026-11-14T10:30:00+01:00",
+      "start": "2026-11-14T10:25:00+01:00",
       "end": "2026-11-14T12:40:00+01:00",
       "sport": "pilka",
       "name": "Piłka nożna - mecz towarzyski drużyn U-21: Polska - Norwegia",
@@ -326,6 +236,16 @@
     },
     {
       "start": "2026-11-15T01:00:00+01:00",
+      "end": "2026-11-15T07:00:00+01:00",
+      "sport": "siatkowka",
+      "name": "Siatkówka mężczyzn: Mistrzostwa Europy 2026 - mecz grupy B: Polska - Portugalia",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-15T01:00:00+01:00",
       "end": "2026-11-15T03:00:00+01:00",
       "sport": "tenis",
       "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz półfinałowy",
@@ -335,8 +255,8 @@
       "verifiedLive": false
     },
     {
-      "start": "2026-11-15T01:20:00+01:00",
-      "end": "2026-11-15T03:15:00+01:00",
+      "start": "2026-11-15T01:15:00+01:00",
+      "end": "2026-11-15T02:55:00+01:00",
       "sport": "pilka",
       "name": "Koszykówka kobiet: Eliminacje mistrzostw Europy - mecz: Czarnogóra - Polska",
       "channel": "TVP Sport",
@@ -355,8 +275,8 @@
       "verifiedLive": false
     },
     {
-      "start": "2026-11-15T05:30:00+01:00",
-      "end": "2026-11-15T07:30:00+01:00",
+      "start": "2026-11-15T05:35:00+01:00",
+      "end": "2026-11-15T07:25:00+01:00",
       "sport": "pilka",
       "name": "Koszykówka kobiet: Eliminacje mistrzostw Europy - mecz: Czarnogóra - Polska",
       "channel": "TVP Sport",
@@ -385,8 +305,8 @@
       "verifiedLive": false
     },
     {
-      "start": "2026-11-15T08:30:00+01:00",
-      "end": "2026-11-15T10:45:00+01:00",
+      "start": "2026-11-15T08:25:00+01:00",
+      "end": "2026-11-15T10:40:00+01:00",
       "sport": "pilka",
       "name": "Piłka nożna: Liga Narodów - mecz: Rumunia - Polska",
       "channel": "TVP Sport",
@@ -400,6 +320,16 @@
       "sport": "tenis",
       "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz półfinałowy",
       "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-15T11:30:00+01:00",
+      "end": "2026-11-15T14:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP Finals w Turynie - mecz gry podwójnej",
+      "channel": "Polsat Sport",
       "description": "",
       "epgSaysLive": false,
       "verifiedLive": false
@@ -419,6 +349,16 @@
       "end": "2026-11-15T17:25:00+01:00",
       "sport": "tenis",
       "name": "Tenis: Turniej ATP Finals w Turynie - mecz gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-15T18:00:00+01:00",
+      "end": "2026-11-15T20:35:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP Finals w Turynie - mecz fazy grupowej gry podwójnej",
       "channel": "Polsat Sport",
       "description": "",
       "epgSaysLive": false,
@@ -465,21 +405,31 @@
       "verifiedLive": false
     },
     {
+      "start": "2026-11-16T00:25:00+01:00",
+      "end": "2026-11-16T02:20:00+01:00",
+      "sport": "pilka",
+      "name": "Piłka nożna: Liga Narodów - mecz: Rumunia - Polska",
+      "channel": "TVP Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
       "start": "2026-11-16T01:00:00+01:00",
-      "end": "2026-11-16T03:30:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej ATP Finals w Turynie - mecz fazy grupowej gry pojedynczej",
+      "end": "2026-11-16T07:00:00+01:00",
+      "sport": "siatkowka",
+      "name": "Siatkówka mężczyzn: Mistrzostwa Europy 2026 - mecz grupy B: Polska - Izrael",
       "channel": "Polsat Sport",
       "description": "",
       "epgSaysLive": false,
       "verifiedLive": false
     },
     {
-      "start": "2026-11-16T01:50:00+01:00",
-      "end": "2026-11-16T03:55:00+01:00",
-      "sport": "pilka",
-      "name": "Piłka nożna: Liga Narodów - mecz: Rumunia - Polska",
-      "channel": "TVP Sport",
+      "start": "2026-11-16T01:00:00+01:00",
+      "end": "2026-11-16T03:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP Finals w Turynie - mecz fazy grupowej gry pojedynczej",
+      "channel": "Polsat Sport",
       "description": "",
       "epgSaysLive": false,
       "verifiedLive": false
@@ -520,7 +470,7 @@
       "sport": "tenis",
       "name": "Tenis: Turniej WTA Finals w Indian Wells",
       "channel": "CANAL+ Sport 2",
-      "description": "",
+      "description": "Pora rozpocząć walkę o tytuł najlepszej tenisistki tego sezonu. W imprezie rozgrywanej na twardych kortach w Indian Wells wystąpi osiem czołowych zawodniczek 2026 roku. Są to - Aryna Sabalenka, Mirra Andriejewa, Jessica Pegula, Coco Gauff, Elina Svit",
       "epgSaysLive": false,
       "verifiedLive": false
     },
@@ -550,7 +500,7 @@
       "sport": "tenis",
       "name": "Tenis: Turniej WTA Finals w Indian Wells",
       "channel": "CANAL+ Sport 2",
-      "description": "",
+      "description": "Pora rozpocząć walkę o tytuł najlepszej tenisistki tego sezonu. W imprezie rozgrywanej na twardych kortach w Indian Wells wystąpi osiem czołowych zawodniczek 2026 roku. Są to - Aryna Sabalenka, Mirra Andriejewa, Jessica Pegula, Coco Gauff, Elina Svit",
       "epgSaysLive": false,
       "verifiedLive": false
     },
@@ -575,6 +525,16 @@
       "verifiedLive": false
     },
     {
+      "start": "2026-11-16T14:30:00+01:00",
+      "end": "2026-11-16T15:00:00+01:00",
+      "sport": "tenis",
+      "name": "ATP Tour: This Week",
+      "channel": "Polsat Sport",
+      "description": "Program poświęcony męskiemu tenisowi. Kibice znajdą w nim informacje o turniejach ATP, wywiady i analizy. Dzięki temu magazynowi każdy fan będzie na bieżąco z wiadomościami z ukochanej dyscypliny.",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
       "start": "2026-11-16T17:05:00+01:00",
       "end": "2026-11-16T19:15:00+01:00",
       "sport": "pilka",
@@ -595,20 +555,40 @@
       "verifiedLive": false
     },
     {
+      "start": "2026-11-16T18:00:00+01:00",
+      "end": "2026-11-16T20:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP Finals w Turynie - mecz gry podwójnej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
       "start": "2026-11-16T19:30:00+01:00",
       "end": "2026-11-16T21:45:00+01:00",
       "sport": "tenis",
       "name": "Tenis: Turniej WTA Finals w Indian Wells",
       "channel": "CANAL+ Sport 2",
+      "description": "Pora rozpocząć walkę o tytuł najlepszej tenisistki tego sezonu. W imprezie rozgrywanej na twardych kortach w Indian Wells wystąpi osiem czołowych zawodniczek 2026 roku. Są to - Aryna Sabalenka, Mirra Andriejewa, Jessica Pegula, Coco Gauff, Elina Svit",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-16T20:30:00+01:00",
+      "end": "2026-11-16T20:35:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP Finals w Turynie - mecz fazy grupowej gry pojedynczej",
+      "channel": "Polsat Sport",
       "description": "",
       "epgSaysLive": false,
       "verifiedLive": false
     },
     {
       "start": "2026-11-16T20:30:00+01:00",
-      "end": "2026-11-16T23:00:00+01:00",
+      "end": "2026-11-16T23:30:00+01:00",
       "sport": "tenis",
-      "name": "Tenis: Turniej ATP Finals w Turynie - mecz fazy grupowej gry pojedynczej",
+      "name": "Tenis: Turniej ATP Finals w Turynie - mecz gry pojedynczej",
       "channel": "Polsat Sport",
       "description": "",
       "epgSaysLive": false,
@@ -620,6 +600,26 @@
       "sport": "tenis",
       "name": "Tenis: Turniej WTA Finals w Indian Wells",
       "channel": "CANAL+ Sport 2",
+      "description": "Pora rozpocząć walkę o tytuł najlepszej tenisistki tego sezonu. W imprezie rozgrywanej na twardych kortach w Indian Wells wystąpi osiem czołowych zawodniczek 2026 roku. Są to - Aryna Sabalenka, Mirra Andriejewa, Jessica Pegula, Coco Gauff, Elina Svit",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-17T01:00:00+01:00",
+      "end": "2026-11-17T07:00:00+01:00",
+      "sport": "siatkowka",
+      "name": "Siatkówka mężczyzn: Mistrzostwa Europy 2026 - mecz grupy B: Macedonia Północna - Polska",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-17T01:00:00+01:00",
+      "end": "2026-11-17T03:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP Finals w Turynie - mecz fazy grupowej gry pojedynczej",
+      "channel": "Polsat Sport",
       "description": "",
       "epgSaysLive": false,
       "verifiedLive": false
@@ -671,6 +671,356 @@
       "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej gry pojedynczej: Jelena Rybakina - Linda Nosková",
       "channel": "CANAL+ Sport 2",
       "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-17T08:15:00+01:00",
+      "end": "2026-11-17T10:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej gry pojedynczej: Coco Gauff - Jessica Pegula",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-17T08:30:00+01:00",
+      "end": "2026-11-17T11:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP Finals w Turynie - mecz gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-17T10:30:00+01:00",
+      "end": "2026-11-17T12:45:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej gry podwójnej: Katerina Siniakova/Taylor Townsend - Sara Errani/Jasmine Paolini",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-17T10:40:00+01:00",
+      "end": "2026-11-17T12:55:00+01:00",
+      "sport": "pilka",
+      "name": "Piłka nożna: Elite League U-20 - mecz: Polska - Niemcy",
+      "channel": "TVP Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-17T11:00:00+01:00",
+      "end": "2026-11-17T11:30:00+01:00",
+      "sport": "tenis",
+      "name": "ATP World Tour Next Week",
+      "channel": "Polsat Sport",
+      "description": "Program poświęcony rozgrywkom z głównego cyklu ATP Tour. Kibice zobaczą w nim m.in. zapowiedzi nadchodzących turniejów. Ponadto dostaną porcję statystyk i ciekawostek, też zza kulis tenisowego świata.",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-17T11:30:00+01:00",
+      "end": "2026-11-17T14:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP Finals w Turynie - mecz fazy grupowej gry podwójnej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-17T12:00:00+01:00",
+      "end": "2026-11-17T13:00:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie: Turniej Czterech Skoczni w Oberstdorfie",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-17T12:00:00+01:00",
+      "end": "2026-11-17T13:00:00+01:00",
+      "sport": "skoki",
+      "name": "Skispringen: Vierschanzentournee FIS Ski Jumping Four Hills Tournament: Men's Oberstdorf",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-17T12:45:00+01:00",
+      "end": "2026-11-17T15:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej gry podwójnej: Cristina Bucsa/Nicole Melichar-Martinez - Ellen Perez/Demi Schuurs",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-17T13:00:00+01:00",
+      "end": "2026-11-17T14:00:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie: Turniej Czterech Skoczni w Garmisch-Partenkirchen",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-17T13:00:00+01:00",
+      "end": "2026-11-17T14:00:00+01:00",
+      "sport": "skoki",
+      "name": "Skispringen: Vierschanzentournee FIS Ski Jumping Four Hills Tournament: Garmisch-Partenkirchen Men",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-17T14:00:00+01:00",
+      "end": "2026-11-17T17:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP Finals w Turynie - mecz fazy grupowej gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-17T15:00:00+01:00",
+      "end": "2026-11-17T17:15:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej gry pojedynczej: Aryna Sabalenka - Karolína Muchová",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-17T16:45:00+01:00",
+      "end": "2026-11-17T19:05:00+01:00",
+      "sport": "pilka",
+      "name": "Koszykówka kobiet: Eliminacje mistrzostw Europy - mecz: Polska - Turcja",
+      "channel": "TVP Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-17T17:00:00+01:00",
+      "end": "2026-11-17T18:00:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie: Turniej Czterech Skoczni w Garmisch-Partenkirchen",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-17T17:00:00+01:00",
+      "end": "2026-11-17T18:00:00+01:00",
+      "sport": "skoki",
+      "name": "Skispringen: Vierschanzentournee FIS Ski Jumping Four Hills Tournament: Men's Oberstdorf",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-17T17:15:00+01:00",
+      "end": "2026-11-17T19:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej gry pojedynczej: Mirra Andriejewa - Elina Switolina",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-17T18:00:00+01:00",
+      "end": "2026-11-17T20:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP Finals w Turynie - mecz fazy grupowej gry podwójnej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-17T19:30:00+01:00",
+      "end": "2026-11-17T21:45:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej gry podwójnej: Gabriela Dabrowski/Luisa Stefani - Elise Mertens/Shuai Zhang",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-17T20:30:00+01:00",
+      "end": "2026-11-17T23:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP Finals w Turynie - mecz fazy grupowej gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-17T20:35:00+01:00",
+      "end": "2026-11-17T23:15:00+01:00",
+      "sport": "pilka",
+      "name": "Piłka nożna: Liga Narodów - mecz: Polska - Szwecja",
+      "channel": "TVP 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-17T20:35:00+01:00",
+      "end": "2026-11-18T00:10:00+01:00",
+      "sport": "pilka",
+      "name": "Piłka nożna: Liga Narodów - mecz: Polska - Szwecja",
+      "channel": "TVP Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-17T21:45:00+01:00",
+      "end": "2026-11-18T00:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej gry podwójnej: Hanyu Guo/Kristina Mladenovic - Su-Wei Hsieh/Jelena Ostapenko",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-17T22:00:00+01:00",
+      "end": "2026-11-17T23:00:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie: Turniej Czterech Skoczni w Oberstdorfie",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-17T22:00:00+01:00",
+      "end": "2026-11-17T23:00:00+01:00",
+      "sport": "skoki",
+      "name": "Skispringen: Vierschanzentournee FIS Ski Jumping Four Hills Tournament: Men's Oberstdorf",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-17T23:00:00+01:00",
+      "end": "2026-11-18T00:00:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie: Turniej Czterech Skoczni w Garmisch-Partenkirchen",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-17T23:00:00+01:00",
+      "end": "2026-11-18T00:00:00+01:00",
+      "sport": "skoki",
+      "name": "Skispringen: Vierschanzentournee FIS Ski Jumping Four Hills Tournament: Garmisch-Partenkirchen Men",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-18T00:00:00+01:00",
+      "end": "2026-11-18T02:15:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA Finals w Indian Wells",
+      "channel": "CANAL+ Sport 2",
+      "description": "Pora rozpocząć walkę o tytuł najlepszej tenisistki tego sezonu. W imprezie rozgrywanej na twardych kortach w Indian Wells wystąpi osiem czołowych zawodniczek 2026 roku. Są to - Aryna Sabalenka, Mirra Andriejewa, Jessica Pegula, Coco Gauff, Elina Svit",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-18T00:10:00+01:00",
+      "end": "2026-11-18T02:10:00+01:00",
+      "sport": "pilka",
+      "name": "Piłka nożna - mecz towarzyski drużyn U-21: Polska - Serbia",
+      "channel": "TVP Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-18T01:00:00+01:00",
+      "end": "2026-11-18T03:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP Finals w Turynie - mecz fazy grupowej gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-18T01:30:00+01:00",
+      "end": "2026-11-18T03:00:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie: Turniej Czterech Skoczni w Garmisch-Partenkirchen",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-18T02:00:00+01:00",
+      "end": "2026-11-18T04:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP Finals w Turynie - mecz fazy grupowej gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-18T04:00:00+01:00",
+      "end": "2026-11-18T06:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP Finals w Turynie - mecz fazy grupowej gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-18T06:00:00+01:00",
+      "end": "2026-11-18T08:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP Finals w Turynie - mecz gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-18T06:00:00+01:00",
+      "end": "2026-11-18T08:15:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA Finals w Indian Wells",
+      "channel": "CANAL+ Sport 2",
+      "description": "Pora rozpocząć walkę o tytuł najlepszej tenisistki tego sezonu. W imprezie rozgrywanej na twardych kortach w Indian Wells wystąpi osiem czołowych zawodniczek 2026 roku. Są to - Aryna Sabalenka, Mirra Andriejewa, Jessica Pegula, Coco Gauff, Elina Svit",
       "epgSaysLive": false,
       "verifiedLive": false
     }
