@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-12T20:32:12.194284+01:00",
+  "updatedAt": "2026-11-13T08:19:59.492151+01:00",
   "source": "Teleman, zbiorcza ramówka LIVE (dane diagnostyczne)",
   "warning": "LIVE = oznaczenie w ramówce. Nie potwierdza udziału Polaków ani rzeczywistego terminu zawodów. Nie publikować w events.json.",
   "pagesChecked": 6,
   "rows": [
     {
-      "dateLabel": "piątek, 13 listopada",
+      "dateLabel": "dziś, 13 listopada",
       "timeLabel": "14:00",
       "channel": "Polsat Sport 3",
       "title": "Tenis: Turniej ATP w Sztokholmie mecz półfinałowy gry pojedynczej",
@@ -16,7 +16,7 @@
       "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "piątek, 13 listopada",
+      "dateLabel": "dziś, 13 listopada",
       "timeLabel": "17:00",
       "channel": "Polsat Sport 3",
       "title": "Tenis: Turniej ATP w Sztokholmie mecz półfinałowy gry pojedynczej",
@@ -27,7 +27,7 @@
       "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "piątek, 13 listopada",
+      "dateLabel": "dziś, 13 listopada",
       "timeLabel": "17:20",
       "channel": "TVP Sport",
       "title": "Piłka nożna mecz towarzyski drużyn U-21: Polska - Norwegia",
@@ -38,7 +38,7 @@
       "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "piątek, 13 listopada",
+      "dateLabel": "dziś, 13 listopada",
       "timeLabel": "19:50",
       "channel": "TVP Sport",
       "title": "Piłka nożna: Elite League U-20 mecz: Polska - Niemcy",
@@ -105,6 +105,17 @@
     },
     {
       "dateLabel": "niedziela, 15 listopada",
+      "timeLabel": "18:00",
+      "channel": "Polsat Sport 3",
+      "title": "Tenis: Turniej ATP Finals w Turynie mecz gry podwójnej",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
+    },
+    {
+      "dateLabel": "niedziela, 15 listopada",
       "timeLabel": "20:30",
       "channel": "Polsat Sport 2",
       "title": "Tenis: Turniej ATP Finals w Turynie mecz gry pojedynczej",
@@ -145,18 +156,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
-    },
-    {
-      "dateLabel": "poniedziałek, 16 listopada",
-      "timeLabel": "20:30",
-      "channel": "Polsat Sport 3",
-      "title": "Tenis: Turniej ATP Finals w Turynie mecz fazy grupowej gry pojedynczej",
-      "sport": "tenis",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_tennis_match_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
     },
     {
       "dateLabel": "poniedziałek, 16 listopada",
@@ -196,6 +196,17 @@
       "timeLabel": "18:00",
       "channel": "Polsat Sport 1",
       "title": "Tenis: Turniej ATP Finals w Turynie mecz fazy grupowej gry podwójnej",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+    },
+    {
+      "dateLabel": "wtorek, 17 listopada",
+      "timeLabel": "20:30",
+      "channel": "Polsat Sport 1",
+      "title": "Tenis: Turniej ATP Finals w Turynie mecz fazy grupowej gry pojedynczej",
       "sport": "tenis",
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
