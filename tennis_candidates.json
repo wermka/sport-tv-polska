@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-11-14T08:40:05.493913+01:00",
+  "updatedAt": "2026-11-14T14:29:40.434173+01:00",
   "source": "Live Tennis API",
   "note": "Zaplanowane mecze z polskim zawodnikiem wedlug aktualnej odpowiedzi API; kanal TV wymaga osobnej weryfikacji.",
-  "matches": []
+  "matches": [
+    {
+      "id": 220237,
+      "start": "2026-11-17T03:00:00+01:00",
+      "sport": "tenis",
+      "name": "Daniel Michalski – Taro Daniel",
+      "tournament": "Kobe",
+      "tour": "challenger",
+      "tier": null,
+      "doubles": false,
+      "status": "upcoming",
+      "channel": null,
+      "broadcastVerified": false,
+      "polishParticipantConfirmedByApi": true
+    }
+  ]
 }

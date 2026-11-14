@@ -1,69 +1,9 @@
 {
-  "updatedAt": "2026-11-14T08:40:05.545102+01:00",
+  "updatedAt": "2026-11-14T14:29:40.502996+01:00",
   "source": "XMLTV; entries unverified",
   "epgAvailable": true,
   "error": null,
   "events": [
-    {
-      "start": "2026-11-14T06:40:00+01:00",
-      "end": "2026-11-14T08:50:00+01:00",
-      "sport": "pilka",
-      "name": "Piłka nożna: Elite League U-20 - mecz: Polska - Niemcy",
-      "channel": "TVP Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-14T08:20:00+01:00",
-      "end": "2026-11-14T10:40:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-14T10:15:00+01:00",
-      "end": "2026-11-14T12:30:00+01:00",
-      "sport": "lekkoatletyka",
-      "name": "Triathlon: Zawody World Triathlon Championship Series w Abu Zabi - sztafeta mieszana",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-14T10:25:00+01:00",
-      "end": "2026-11-14T12:40:00+01:00",
-      "sport": "pilka",
-      "name": "Piłka nożna - mecz towarzyski drużyn U-21: Polska - Norwegia",
-      "channel": "TVP Sport",
-      "description": "Kadra Jerzego Brzęczka rozpoczyna przygotowania do mistrzostw Europy U-21. W San Pedro del Pinatar Biało-Czerwoni zagrają towarzysko nie tylko z Norwegią, lecz także z reprezentacją Serbii.",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-14T10:40:00+01:00",
-      "end": "2026-11-14T13:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-14T11:00:00+01:00",
-      "end": "2026-11-14T13:00:00+01:00",
-      "sport": "pilka",
-      "name": "Piłka ręczna mężczyzn: Eliminacje mistrzostw Europy - mecz: Rumunia - Polska",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
     {
       "start": "2026-11-14T13:00:00+01:00",
       "end": "2026-11-14T15:30:00+01:00",

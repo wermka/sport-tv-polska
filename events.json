@@ -1,5 +1,22 @@
 {
-  "updatedAt": "2026-11-14T08:40:22.200622+01:00",
+  "updatedAt": "2026-11-14T14:30:00.690224+01:00",
   "source": "Upcoming Polish tennis fixtures from API; TV channel requires Teleman LIVE",
-  "events": []
+  "events": [
+    {
+      "start": "2026-11-17T03:00:00+01:00",
+      "displayUntil": "2026-11-17T07:00:00+01:00",
+      "endConfirmedByEpg": false,
+      "sport": "tenis",
+      "name": "Daniel Michalski – Taro Daniel",
+      "tournament": "Kobe",
+      "matchId": "220237",
+      "matchScheduledStart": "2026-11-17T03:00:00+01:00",
+      "matchScheduled": true,
+      "timeType": "match_planned",
+      "channel": null,
+      "verifiedLive": false,
+      "sourceUrl": "https://api.livetennisapi.com/",
+      "verification": "Upcoming Polish fixture from Live Tennis API; TV unconfirmed"
+    }
+  ]
 }
