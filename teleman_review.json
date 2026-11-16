@@ -1,20 +1,9 @@
 {
-  "updatedAt": "2026-11-16T20:08:11.300527+01:00",
+  "updatedAt": "2026-11-16T20:50:50.417108+01:00",
   "source": "Teleman, zbiorcza ramówka LIVE (dane diagnostyczne)",
   "warning": "LIVE = oznaczenie w ramówce. Nie potwierdza udziału Polaków ani rzeczywistego terminu zawodów. Nie publikować w events.json.",
   "pagesChecked": 6,
   "rows": [
-    {
-      "dateLabel": "dziś, 16 listopada",
-      "timeLabel": "18:00",
-      "channel": "Polsat Sport 2",
-      "title": "Tenis: Turniej ATP Finals w Turynie mecz fazy grupowej gry podwójnej: Christian Harrison/Neal Skupski - Kevin Krawietz/Tim Puetz",
-      "sport": "tenis",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_tennis_match_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1"
-    },
     {
       "dateLabel": "dziś, 16 listopada",
       "timeLabel": "20:30",
@@ -68,7 +57,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
       "dateLabel": "wtorek, 17 listopada",
@@ -134,7 +123,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
     },
     {
       "dateLabel": "czwartek, 19 listopada",
@@ -178,7 +167,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
     },
     {
       "dateLabel": "piątek, 20 listopada",
@@ -233,7 +222,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
     },
     {
       "dateLabel": "piątek, 20 listopada",
@@ -320,6 +309,28 @@
       "sport": "tenis",
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+    },
+    {
+      "dateLabel": "sobota, 21 listopada",
+      "timeLabel": "16:45",
+      "channel": "TVN",
+      "title": "Skoki narciarskie: Zawody Pucharu Świata w Lillehammer 1. seria",
+      "sport": "skoki",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_participant_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+    },
+    {
+      "dateLabel": "sobota, 21 listopada",
+      "timeLabel": "16:50",
+      "channel": "Eurosport 1",
+      "title": "Skoki narciarskie: Zawody Pucharu Świata w Lillehammer",
+      "sport": "skoki",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_participant_check",
       "verified": false,
       "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
     }

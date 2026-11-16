@@ -1,29 +1,9 @@
 {
-  "updatedAt": "2026-11-16T20:06:29.152365+01:00",
+  "updatedAt": "2026-11-16T20:49:10.159279+01:00",
   "source": "XMLTV; entries unverified",
   "epgAvailable": true,
   "error": null,
   "events": [
-    {
-      "start": "2026-11-16T18:00:00+01:00",
-      "end": "2026-11-16T20:30:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej ATP Finals w Turynie - mecz fazy grupowej gry podwójnej",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-16T18:00:00+01:00",
-      "end": "2026-11-16T20:30:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej ATP Finals w Turynie - mecz fazy grupowej gry podwójnej: Christian Harrison/Neal Skupski - Kevin Krawietz/Tim Puetz",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
     {
       "start": "2026-11-16T19:30:00+01:00",
       "end": "2026-11-16T21:45:00+01:00",
