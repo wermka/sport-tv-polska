@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-11-16T20:49:10.101900+01:00",
+  "updatedAt": "2026-11-17T13:24:23.421424+01:00",
   "source": "Live Tennis API",
   "note": "Zaplanowane mecze z polskim zawodnikiem wedlug aktualnej odpowiedzi API; kanal TV wymaga osobnej weryfikacji.",
   "matches": [
     {
-      "id": 220237,
-      "start": "2026-11-17T07:30:00+01:00",
+      "id": 222103,
+      "start": "2026-11-17T16:00:00+01:00",
       "sport": "tenis",
-      "name": "Daniel Michalski – Taro Daniel",
-      "tournament": "Kobe",
+      "name": "Maks Kasnikowski – Theodore Dean",
+      "tournament": "Drummondville",
       "tour": "challenger",
       "tier": null,
       "doubles": false,
