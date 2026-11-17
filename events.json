@@ -1,5 +1,22 @@
 {
-  "updatedAt": "2026-11-17T16:55:50.963618+01:00",
+  "updatedAt": "2026-11-17T22:19:06.208279+01:00",
   "source": "Upcoming Polish tennis fixtures from API; TV channel requires Teleman LIVE",
-  "events": []
+  "events": [
+    {
+      "start": "2026-11-18T16:00:00+01:00",
+      "displayUntil": "2026-11-18T20:00:00+01:00",
+      "endConfirmedByEpg": false,
+      "sport": "tenis",
+      "name": "Maks Kasnikowski – Duncan Chan",
+      "tournament": "Drummondville",
+      "matchId": "222255",
+      "matchScheduledStart": "2026-11-18T16:00:00+01:00",
+      "matchScheduled": true,
+      "timeType": "match_planned",
+      "channel": null,
+      "verifiedLive": false,
+      "sourceUrl": "https://api.livetennisapi.com/",
+      "verification": "Upcoming Polish fixture from Live Tennis API; TV unconfirmed"
+    }
+  ]
 }
