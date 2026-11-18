@@ -1,89 +1,9 @@
 {
-  "updatedAt": "2026-11-18T16:34:05.584923+01:00",
+  "updatedAt": "2026-11-18T21:51:36.064330+01:00",
   "source": "XMLTV; entries unverified",
   "epgAvailable": true,
   "error": null,
   "events": [
-    {
-      "start": "2026-11-18T14:00:00+01:00",
-      "end": "2026-11-18T17:20:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej ATP Finals w Turynie - mecz fazy grupowej gry pojedynczej",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-18T15:10:00+01:00",
-      "end": "2026-11-18T16:45:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA Finals w Indian Wells",
-      "channel": "CANAL+ Sport 2",
-      "description": "Pora rozpocząć walkę o tytuł najlepszej tenisistki tego sezonu. W imprezie rozgrywanej na twardych kortach w Indian Wells wystąpi osiem czołowych zawodniczek 2026 roku. Są to - Aryna Sabalenka, Mirra Andriejewa, Jessica Pegula, Coco Gauff, Elina Svit",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-18T16:45:00+01:00",
-      "end": "2026-11-18T17:20:00+01:00",
-      "sport": "tenis",
-      "name": "8 wspaniałych",
-      "channel": "CANAL+ Sport 2",
-      "description": "W kobiecym tenisie sezon 2025 zwieńczył turniej WTA Finals w Rijadzie z udziałem ośmiu zawodniczek. Każdy odcinek tej serii będzie poświęcony innej z nich. Zobaczymy, z jakimi wyzwaniami się mierzą.",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-18T17:00:00+01:00",
-      "end": "2026-11-18T18:00:00+01:00",
-      "sport": "skoki",
-      "name": "Skoki narciarskie: Turniej Czterech Skoczni w Innsbrucku - Konkurs",
-      "channel": "Eurosport 1",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-18T17:00:00+01:00",
-      "end": "2026-11-18T18:00:00+01:00",
-      "sport": "skoki",
-      "name": "Skispringen: Vierschanzentournee FIS Ski Jumping Four Hills Tournament: Bischofshofen Men",
-      "channel": "Eurosport 1",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-18T17:20:00+01:00",
-      "end": "2026-11-18T19:50:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA Finals w Indian Wells",
-      "channel": "CANAL+ Sport 2",
-      "description": "Pora rozpocząć walkę o tytuł najlepszej tenisistki tego sezonu. W imprezie rozgrywanej na twardych kortach w Indian Wells wystąpi osiem czołowych zawodniczek 2026 roku. Są to - Aryna Sabalenka, Mirra Andriejewa, Jessica Pegula, Coco Gauff, Elina Svit",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-18T18:00:00+01:00",
-      "end": "2026-11-18T20:30:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej ATP Finals w Turynie - mecz fazy grupowej gry podwójnej",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-18T19:50:00+01:00",
-      "end": "2026-11-18T21:45:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA Finals w Indian Wells",
-      "channel": "CANAL+ Sport 2",
-      "description": "Pora rozpocząć walkę o tytuł najlepszej tenisistki tego sezonu. W imprezie rozgrywanej na twardych kortach w Indian Wells wystąpi osiem czołowych zawodniczek 2026 roku. Są to - Aryna Sabalenka, Mirra Andriejewa, Jessica Pegula, Coco Gauff, Elina Svit",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
     {
       "start": "2026-11-18T20:30:00+01:00",
       "end": "2026-11-18T23:00:00+01:00",
@@ -196,7 +116,7 @@
     },
     {
       "start": "2026-11-19T05:00:00+01:00",
-      "end": "2026-11-19T06:00:00+01:00",
+      "end": "2026-11-19T07:00:00+01:00",
       "sport": "skoki",
       "name": "Skoki narciarskie: Turniej Czterech Skoczni w Oberstdorfie",
       "channel": "Eurosport 1",
@@ -216,10 +136,10 @@
     },
     {
       "start": "2026-11-19T06:00:00+01:00",
-      "end": "2026-11-19T07:00:00+01:00",
-      "sport": "skoki",
-      "name": "Skoki narciarskie: Turniej Czterech Skoczni w Garmisch-Partenkirchen",
-      "channel": "Eurosport 1",
+      "end": "2026-11-19T08:15:00+01:00",
+      "sport": "pilka",
+      "name": "Piłka nożna: Liga Narodów - mecz: Polska - Szwecja",
+      "channel": "TVP Sport",
       "description": "",
       "epgSaysLive": false,
       "verifiedLive": false
@@ -230,16 +150,6 @@
       "sport": "tenis",
       "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej gry podwójnej: Katerina Siniakova/Taylor Townsend - Cristina Bucsa/Nicole Melichar-Martinez",
       "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-19T06:05:00+01:00",
-      "end": "2026-11-19T08:15:00+01:00",
-      "sport": "pilka",
-      "name": "Piłka nożna: Liga Narodów - mecz: Polska - Szwecja",
-      "channel": "TVP Sport",
       "description": "",
       "epgSaysLive": false,
       "verifiedLive": false
@@ -275,16 +185,6 @@
       "verifiedLive": false
     },
     {
-      "start": "2026-11-19T08:30:00+01:00",
-      "end": "2026-11-19T09:30:00+01:00",
-      "sport": "skoki",
-      "name": "Skoki narciarskie: Turniej Czterech Skoczni w Innsbrucku",
-      "channel": "Eurosport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
       "start": "2026-11-19T09:00:00+01:00",
       "end": "2026-11-19T11:00:00+01:00",
       "sport": "tenis",
@@ -295,7 +195,17 @@
       "verifiedLive": false
     },
     {
-      "start": "2026-11-19T09:30:00+01:00",
+      "start": "2026-11-19T09:00:00+01:00",
+      "end": "2026-11-19T09:45:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie: Turniej Czterech Skoczni w Innsbrucku",
+      "channel": "Eurosport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-19T09:45:00+01:00",
       "end": "2026-11-19T10:30:00+01:00",
       "sport": "skoki",
       "name": "Skoki narciarskie: Turniej Czterech Skoczni w Bischofshofen",
@@ -366,16 +276,6 @@
     },
     {
       "start": "2026-11-19T14:00:00+01:00",
-      "end": "2026-11-19T14:45:00+01:00",
-      "sport": "skoki",
-      "name": "Skoki narciarskie: Turniej Czterech Skoczni w Oberstdorfie",
-      "channel": "Eurosport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-19T14:45:00+01:00",
       "end": "2026-11-19T15:30:00+01:00",
       "sport": "skoki",
       "name": "Skoki narciarskie: Turniej Czterech Skoczni w Garmisch-Partenkirchen",
@@ -685,11 +585,31 @@
       "verifiedLive": false
     },
     {
+      "start": "2026-11-20T08:30:00+01:00",
+      "end": "2026-11-20T09:15:00+01:00",
+      "sport": "skoki",
+      "name": "Skispringen: Vierschanzentournee FIS Ski Jumping Four Hills Tournament: Innsbruck Men",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
       "start": "2026-11-20T09:00:00+01:00",
       "end": "2026-11-20T11:00:00+01:00",
       "sport": "tenis",
       "name": "Tenis: Turniej ATP Finals w Turynie - mecz fazy grupowej gry pojedynczej",
       "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-20T09:15:00+01:00",
+      "end": "2026-11-20T10:00:00+01:00",
+      "sport": "skoki",
+      "name": "Skispringen: Vierschanzentournee FIS Ski Jumping Four Hills Tournament: Bischofshofen Men",
+      "channel": "Eurosport 1",
       "description": "",
       "epgSaysLive": false,
       "verifiedLive": false
@@ -769,6 +689,16 @@
       "end": "2026-11-20T14:00:00+01:00",
       "sport": "skoki",
       "name": "Skoki narciarskie: Zawody Pucharu Świata w Lillehammer - studio",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-20T13:55:00+01:00",
+      "end": "2026-11-20T15:00:00+01:00",
+      "sport": "skoki",
+      "name": "Skispringen: Weltcup FIS Ski Jumping Men's World Cup: Lillehammer",
       "channel": "Eurosport 1",
       "description": "",
       "epgSaysLive": false,
@@ -925,6 +855,16 @@
       "verifiedLive": false
     },
     {
+      "start": "2026-11-20T22:20:00+01:00",
+      "end": "2026-11-20T23:00:00+01:00",
+      "sport": "skoki",
+      "name": "Weltcup FIS Ski Jumping World Cup: Lillehammer",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
       "start": "2026-11-20T23:00:00+01:00",
       "end": "2026-11-21T01:00:00+01:00",
       "sport": "tenis",
@@ -1015,6 +955,16 @@
       "verifiedLive": false
     },
     {
+      "start": "2026-11-21T07:00:00+01:00",
+      "end": "2026-11-21T09:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP Finals w Turynie - mecz fazy grupowej gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
       "start": "2026-11-21T08:15:00+01:00",
       "end": "2026-11-21T10:30:00+01:00",
       "sport": "tenis",
@@ -1045,6 +995,16 @@
       "verifiedLive": false
     },
     {
+      "start": "2026-11-21T09:00:00+01:00",
+      "end": "2026-11-21T11:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP Finals w Turynie - mecz fazy grupowej gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
       "start": "2026-11-21T10:10:00+01:00",
       "end": "2026-11-21T12:00:00+01:00",
       "sport": "tenis",
@@ -1070,6 +1030,26 @@
       "sport": "tenis",
       "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej gry podwójnej: Katerina Siniakova/Taylor Townsend - Sara Errani/Jasmine Paolini",
       "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-21T11:00:00+01:00",
+      "end": "2026-11-21T12:00:00+01:00",
+      "sport": "tenis",
+      "name": "ATP Tour: This Week",
+      "channel": "Polsat Sport",
+      "description": "Program poświęcony męskiemu tenisowi. Kibice znajdą w nim informacje o turniejach ATP, wywiady i analizy. Dzięki temu magazynowi każdy fan będzie na bieżąco z wiadomościami z ukochanej dyscypliny.",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-21T12:00:00+01:00",
+      "end": "2026-11-21T14:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP Finals w Turynie - mecz gry podwójnej",
+      "channel": "Polsat Sport",
       "description": "",
       "epgSaysLive": false,
       "verifiedLive": false
@@ -1106,6 +1086,16 @@
     },
     {
       "start": "2026-11-21T14:30:00+01:00",
+      "end": "2026-11-21T17:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP Finals w Turynie - mecz gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-21T14:30:00+01:00",
       "end": "2026-11-21T17:25:00+01:00",
       "sport": "tenis",
       "name": "Tenis: Turniej ATP Finals w Turynie - mecz półfinałowy gry pojedynczej",
@@ -1116,9 +1106,19 @@
     },
     {
       "start": "2026-11-21T14:30:00+01:00",
-      "end": "2026-11-21T16:00:00+01:00",
+      "end": "2026-11-21T16:05:00+01:00",
       "sport": "skoki",
       "name": "Skoki narciarskie kobiet: Zawody Pucharu Świata w Lillehammer",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-21T14:30:00+01:00",
+      "end": "2026-11-21T16:05:00+01:00",
+      "sport": "skoki",
+      "name": "Weltcup FIS Ski Jumping Women's World Cup: Lillehammer",
       "channel": "Eurosport 1",
       "description": "",
       "epgSaysLive": false,
@@ -1145,7 +1145,7 @@
       "verifiedLive": false
     },
     {
-      "start": "2026-11-21T16:00:00+01:00",
+      "start": "2026-11-21T16:05:00+01:00",
       "end": "2026-11-21T16:50:00+01:00",
       "sport": "skoki",
       "name": "Skoki narciarskie: Zawody Pucharu Świata w Lillehammer - studio",
@@ -1195,6 +1195,16 @@
       "verifiedLive": false
     },
     {
+      "start": "2026-11-21T18:00:00+01:00",
+      "end": "2026-11-21T20:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP Finals w Turynie - mecz gry podwójnej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
       "start": "2026-11-21T18:30:00+01:00",
       "end": "2026-11-21T19:00:00+01:00",
       "sport": "skoki",
@@ -1210,6 +1220,16 @@
       "sport": "tenis",
       "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej gry podwójnej: Gabriela Dabrowski/Luisa Stefani - Elise Mertens/Shuai Zhang",
       "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-21T20:30:00+01:00",
+      "end": "2026-11-21T23:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP Finals w Turynie - mecz gry pojedynczej",
+      "channel": "Polsat Sport",
       "description": "",
       "epgSaysLive": false,
       "verifiedLive": false
@@ -1255,10 +1275,10 @@
       "verifiedLive": false
     },
     {
-      "start": "2026-11-21T23:00:00+01:00",
+      "start": "2026-11-21T23:15:00+01:00",
       "end": "2026-11-22T00:00:00+01:00",
       "sport": "skoki",
-      "name": "Skispringen: Weltcup FIS Ski Jumping Men's World Cup: Lillehammer",
+      "name": "Skoki narciarskie: Zawody Pucharu Świata w Lillehammer",
       "channel": "Eurosport 1",
       "description": "",
       "epgSaysLive": false,
@@ -1268,7 +1288,7 @@
       "start": "2026-11-21T23:15:00+01:00",
       "end": "2026-11-22T00:00:00+01:00",
       "sport": "skoki",
-      "name": "Skoki narciarskie: Zawody Pucharu Świata w Lillehammer",
+      "name": "Skispringen: Weltcup FIS Ski Jumping Men's World Cup: Lillehammer",
       "channel": "Eurosport 1",
       "description": "",
       "epgSaysLive": false,
@@ -1319,6 +1339,506 @@
       "end": "2026-11-22T08:15:00+01:00",
       "sport": "tenis",
       "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej gry pojedynczej: Coco Gauff - Linda Nosková",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T07:00:00+01:00",
+      "end": "2026-11-22T09:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP Finals w Turynie - mecz gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T07:00:00+01:00",
+      "end": "2026-11-22T08:30:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie kobiet: Zawody Pucharu Świata w Lillehammer",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T08:15:00+01:00",
+      "end": "2026-11-22T10:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej gry podwójnej: Katerina Siniakova/Taylor Townsend - Ellen Perez/Demi Schuurs",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T08:30:00+01:00",
+      "end": "2026-11-22T09:45:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie: Zawody Pucharu Świata w Lillehammer",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T08:30:00+01:00",
+      "end": "2026-11-22T09:45:00+01:00",
+      "sport": "skoki",
+      "name": "Skispringen: Weltcup FIS Ski Jumping Men's World Cup: Lillehammer",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T09:00:00+01:00",
+      "end": "2026-11-22T11:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP Finals w Turynie - mecz gry podwójnej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T10:10:00+01:00",
+      "end": "2026-11-22T12:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Puchar Billie Jean King - mecz: Polska - Szwecja",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T10:20:00+01:00",
+      "end": "2026-11-22T11:00:00+01:00",
+      "sport": "tenis",
+      "name": "ATP World Tour Next Week",
+      "channel": "Polsat Sport",
+      "description": "Program poświęcony rozgrywkom z głównego cyklu ATP Tour. Kibice zobaczą w nim m.in. zapowiedzi nadchodzących turniejów. Ponadto dostaną porcję statystyk i ciekawostek, też zza kulis tenisowego świata.",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T10:30:00+01:00",
+      "end": "2026-11-22T12:00:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie: Zawody Pucharu Świata w Lillehammer",
+      "channel": "Eurosport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T10:30:00+01:00",
+      "end": "2026-11-22T12:45:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej gry podwójnej: Cristina Bucsa/Nicole Melichar-Martinez - Sara Errani/Jasmine Paolini",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T11:00:00+01:00",
+      "end": "2026-11-22T12:55:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP Finals w Turynie - mecz gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T11:40:00+01:00",
+      "end": "2026-11-22T12:00:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie: Zawody Pucharu Świata w Lillehammer - studio",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T12:00:00+01:00",
+      "end": "2026-11-22T13:30:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie kobiet: Zawody Pucharu Świata w Lillehammer",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T12:00:00+01:00",
+      "end": "2026-11-22T13:30:00+01:00",
+      "sport": "skoki",
+      "name": "Weltcup FIS Ski Jumping Women's World Cup: Lillehammer",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T12:45:00+01:00",
+      "end": "2026-11-22T15:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA Finals w Indian Wells",
+      "channel": "CANAL+ Sport 2",
+      "description": "Pora rozpocząć walkę o tytuł najlepszej tenisistki tego sezonu. W imprezie rozgrywanej na twardych kortach w Indian Wells wystąpi osiem czołowych zawodniczek 2026 roku. Są to - Aryna Sabalenka, Mirra Andriejewa, Jessica Pegula, Coco Gauff, Elina Svit",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T13:30:00+01:00",
+      "end": "2026-11-22T15:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Puchar Billie Jean King - mecz: Francja - Australia",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T14:30:00+01:00",
+      "end": "2026-11-22T15:30:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie: Zawody Pucharu Świata w Lillehammer - kwalifikacje",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T14:30:00+01:00",
+      "end": "2026-11-22T15:30:00+01:00",
+      "sport": "skoki",
+      "name": "Skispringen: Weltcup FIS Ski Jumping Men's World Cup: Lillehammer",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T15:00:00+01:00",
+      "end": "2026-11-22T18:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP Finals w Turynie - mecz gry podwójnej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T15:00:00+01:00",
+      "end": "2026-11-22T17:25:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP Finals w Turynie - mecz finałowy gry podwójnej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T15:00:00+01:00",
+      "end": "2026-11-22T17:15:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA Finals w Indian Wells",
+      "channel": "CANAL+ Sport 2",
+      "description": "Pora rozpocząć walkę o tytuł najlepszej tenisistki tego sezonu. W imprezie rozgrywanej na twardych kortach w Indian Wells wystąpi osiem czołowych zawodniczek 2026 roku. Są to - Aryna Sabalenka, Mirra Andriejewa, Jessica Pegula, Coco Gauff, Elina Svit",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T15:30:00+01:00",
+      "end": "2026-11-22T17:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Puchar Billie Jean King - mecz: Francja - Australia",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T15:30:00+01:00",
+      "end": "2026-11-22T16:00:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie: Zawody Pucharu Świata w Lillehammer - studio",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T15:45:00+01:00",
+      "end": "2026-11-22T18:00:00+01:00",
+      "sport": "skoki",
+      "name": "Skispringen: Weltcup FIS Ski Jumping Men's World Cup: Lillehammer",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T16:00:00+01:00",
+      "end": "2026-11-22T17:45:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie: Zawody Pucharu Świata w Lillehammer",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T17:15:00+01:00",
+      "end": "2026-11-22T19:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA Finals w Indian Wells",
+      "channel": "CANAL+ Sport 2",
+      "description": "Pora rozpocząć walkę o tytuł najlepszej tenisistki tego sezonu. W imprezie rozgrywanej na twardych kortach w Indian Wells wystąpi osiem czołowych zawodniczek 2026 roku. Są to - Aryna Sabalenka, Mirra Andriejewa, Jessica Pegula, Coco Gauff, Elina Svit",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T17:30:00+01:00",
+      "end": "2026-11-22T20:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Puchar Billie Jean King - mecz: Francja - Australia",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T17:45:00+01:00",
+      "end": "2026-11-22T18:15:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie: Zawody Pucharu Świata w Lillehammer - studio",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T18:00:00+01:00",
+      "end": "2026-11-22T20:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP Finals w Turynie - mecz gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T19:30:00+01:00",
+      "end": "2026-11-22T22:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA Finals w Indian Wells",
+      "channel": "CANAL+ Sport 2",
+      "description": "Pora rozpocząć walkę o tytuł najlepszej tenisistki tego sezonu. W imprezie rozgrywanej na twardych kortach w Indian Wells wystąpi osiem czołowych zawodniczek 2026 roku. Są to - Aryna Sabalenka, Mirra Andriejewa, Jessica Pegula, Coco Gauff, Elina Svit",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T21:00:00+01:00",
+      "end": "2026-11-22T22:00:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie kobiet: Zawody Pucharu Świata w Lillehammer",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T21:00:00+01:00",
+      "end": "2026-11-22T22:00:00+01:00",
+      "sport": "skoki",
+      "name": "Weltcup FIS Ski Jumping Women's World Cup: Lillehammer",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T22:00:00+01:00",
+      "end": "2026-11-23T00:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP Finals w Turynie - mecz gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T22:00:00+01:00",
+      "end": "2026-11-22T23:00:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie: Zawody Pucharu Świata w Lillehammer",
+      "channel": "Eurosport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T22:00:00+01:00",
+      "end": "2026-11-22T23:00:00+01:00",
+      "sport": "tenis",
+      "name": "8 wspaniałych",
+      "channel": "CANAL+ Sport 2",
+      "description": "W kobiecym tenisie sezon 2025 zwieńczył turniej WTA Finals w Rijadzie z udziałem ośmiu zawodniczek. Każdy odcinek tej serii będzie poświęcony innej z nich. Zobaczymy, z jakimi wyzwaniami się mierzą.",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T22:30:00+01:00",
+      "end": "2026-11-23T01:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Puchar Billie Jean King - mecz: Polska - Szwecja",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T23:00:00+01:00",
+      "end": "2026-11-23T00:00:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie: Zawody Pucharu Świata w Lillehammer - konkurs drużyn mieszanych",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-22T23:00:00+01:00",
+      "end": "2026-11-23T00:00:00+01:00",
+      "sport": "skoki",
+      "name": "Skispringen: Weltcup FIS Ski Jumping Men's World Cup: Lillehammer",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-23T00:00:00+01:00",
+      "end": "2026-11-23T00:45:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie: Zawody Pucharu Świata w Lillehammer",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-23T00:00:00+01:00",
+      "end": "2026-11-23T00:45:00+01:00",
+      "sport": "skoki",
+      "name": "Weltcup FIS Ski Jumping World Cup: Lillehammer",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-23T00:15:00+01:00",
+      "end": "2026-11-23T02:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej gry pojedynczej: Jessica Pegula - Linda Nosková",
+      "channel": "CANAL+ Sport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-23T00:30:00+01:00",
+      "end": "2026-11-23T02:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP Finals w Turynie - mecz gry podwójnej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-23T00:45:00+01:00",
+      "end": "2026-11-23T01:30:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie: Zawody Pucharu Świata w Lillehammer",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-23T00:45:00+01:00",
+      "end": "2026-11-23T01:30:00+01:00",
+      "sport": "skoki",
+      "name": "Skispringen: Weltcup FIS Ski Jumping Men's World Cup: Lillehammer",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-23T01:00:00+01:00",
+      "end": "2026-11-23T03:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej ATP Finals w Turynie - mecz gry pojedynczej",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-23T02:00:00+01:00",
+      "end": "2026-11-23T03:00:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie: Zawody Pucharu Świata w Lillehammer",
+      "channel": "Eurosport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-23T05:00:00+01:00",
+      "end": "2026-11-23T06:00:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie: Zawody Pucharu Świata w Lillehammer - konkurs drużyn mieszanych",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-23T06:00:00+01:00",
+      "end": "2026-11-23T08:30:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Puchar Billie Jean King - mecz: Polska - Szwecja",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-23T06:00:00+01:00",
+      "end": "2026-11-23T07:00:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie kobiet: Zawody Pucharu Świata w Lillehammer",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-23T06:00:00+01:00",
+      "end": "2026-11-23T08:15:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej gry podwójnej: Katerina Siniakova/Taylor Townsend - Cristina Bucsa/Nicole Melichar-Martinez",
       "channel": "CANAL+ Sport 2",
       "description": "",
       "epgSaysLive": false,
