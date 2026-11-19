@@ -1,5 +1,70 @@
 {
-  "updatedAt": "2026-11-19T16:40:44.651434+01:00",
+  "updatedAt": "2026-11-19T21:57:45.584577+01:00",
   "source": "Upcoming Polish tennis fixtures from API; TV channel requires Teleman LIVE",
-  "events": []
+  "events": [
+    {
+      "start": "2026-11-20T17:00:00+01:00",
+      "displayUntil": "2026-11-20T21:00:00+01:00",
+      "endConfirmedByEpg": false,
+      "sport": "tenis",
+      "name": "Kajsa Rinaldo Persson – Gina Feistel",
+      "tournament": "WTA Billie Jean King Cup - World Group",
+      "matchId": "223109",
+      "matchScheduledStart": "2026-11-20T17:00:00+01:00",
+      "matchScheduled": true,
+      "timeType": "match_planned",
+      "channel": null,
+      "verifiedLive": false,
+      "sourceUrl": "https://api.livetennisapi.com/",
+      "verification": "Upcoming Polish fixture from Live Tennis API; TV unconfirmed"
+    },
+    {
+      "start": "2026-11-20T18:30:00+01:00",
+      "displayUntil": "2026-11-20T22:30:00+01:00",
+      "endConfirmedByEpg": false,
+      "sport": "tenis",
+      "name": "Caijsa Wilda Hennemann – Martyna Kubka",
+      "tournament": "WTA Billie Jean King Cup - World Group",
+      "matchId": "223111",
+      "matchScheduledStart": "2026-11-20T18:30:00+01:00",
+      "matchScheduled": true,
+      "timeType": "match_planned",
+      "channel": null,
+      "verifiedLive": false,
+      "sourceUrl": "https://api.livetennisapi.com/",
+      "verification": "Upcoming Polish fixture from Live Tennis API; TV unconfirmed"
+    },
+    {
+      "start": "2026-11-21T14:30:00+01:00",
+      "displayUntil": "2026-11-21T18:30:00+01:00",
+      "endConfirmedByEpg": false,
+      "sport": "tenis",
+      "name": "Kajsa Rinaldo Persson – Martyna Kubka",
+      "tournament": "WTA Billie Jean King Cup - World Group",
+      "matchId": "223115",
+      "matchScheduledStart": "2026-11-21T14:30:00+01:00",
+      "matchScheduled": true,
+      "timeType": "match_planned",
+      "channel": null,
+      "verifiedLive": false,
+      "sourceUrl": "https://api.livetennisapi.com/",
+      "verification": "Upcoming Polish fixture from Live Tennis API; TV unconfirmed"
+    },
+    {
+      "start": "2026-11-21T16:00:00+01:00",
+      "displayUntil": "2026-11-21T20:00:00+01:00",
+      "endConfirmedByEpg": false,
+      "sport": "tenis",
+      "name": "Caijsa Wilda Hennemann – Gina Feistel",
+      "tournament": "WTA Billie Jean King Cup - World Group",
+      "matchId": "223116",
+      "matchScheduledStart": "2026-11-21T16:00:00+01:00",
+      "matchScheduled": true,
+      "timeType": "match_planned",
+      "channel": null,
+      "verifiedLive": false,
+      "sourceUrl": "https://api.livetennisapi.com/",
+      "verification": "Upcoming Polish fixture from Live Tennis API; TV unconfirmed"
+    }
+  ]
 }
