@@ -1,29 +1,9 @@
 {
-  "updatedAt": "2026-11-19T13:04:24.248326+01:00",
+  "updatedAt": "2026-11-19T16:40:25.081563+01:00",
   "source": "XMLTV; entries unverified",
   "epgAvailable": true,
   "error": null,
   "events": [
-    {
-      "start": "2026-11-19T11:30:00+01:00",
-      "end": "2026-11-19T14:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej ATP Finals w Turynie - mecz fazy grupowej gry podwójnej",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-19T12:45:00+01:00",
-      "end": "2026-11-19T15:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej gry pojedynczej: Aryna Sabalenka - Elina Switolina",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
     {
       "start": "2026-11-19T14:00:00+01:00",
       "end": "2026-11-19T17:20:00+01:00",
@@ -35,31 +15,11 @@
       "verifiedLive": false
     },
     {
-      "start": "2026-11-19T14:00:00+01:00",
-      "end": "2026-11-19T15:30:00+01:00",
-      "sport": "skoki",
-      "name": "Skoki narciarskie: Turniej Czterech Skoczni w Garmisch-Partenkirchen",
-      "channel": "Eurosport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
       "start": "2026-11-19T15:00:00+01:00",
       "end": "2026-11-19T17:15:00+01:00",
       "sport": "tenis",
       "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej gry podwójnej: Gabriela Dabrowski/Luisa Stefani - Su-Wei Hsieh/Jelena Ostapenko",
       "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-19T15:30:00+01:00",
-      "end": "2026-11-19T16:15:00+01:00",
-      "sport": "skoki",
-      "name": "Skoki narciarskie: Turniej Czterech Skoczni w Innsbrucku",
-      "channel": "Eurosport 2",
       "description": "",
       "epgSaysLive": false,
       "verifiedLive": false

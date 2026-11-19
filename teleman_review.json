@@ -1,20 +1,9 @@
 {
-  "updatedAt": "2026-11-19T13:04:43.431719+01:00",
+  "updatedAt": "2026-11-19T16:40:44.618242+01:00",
   "source": "Teleman, zbiorcza ramówka LIVE (dane diagnostyczne)",
   "warning": "LIVE = oznaczenie w ramówce. Nie potwierdza udziału Polaków ani rzeczywistego terminu zawodów. Nie publikować w events.json.",
   "pagesChecked": 6,
   "rows": [
-    {
-      "dateLabel": "dziś, 19 listopada",
-      "timeLabel": "11:30",
-      "channel": "Polsat Sport 1",
-      "title": "Tenis: Turniej ATP Finals w Turynie mecz fazy grupowej gry podwójnej",
-      "sport": "tenis",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_tennis_match_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1"
-    },
     {
       "dateLabel": "dziś, 19 listopada",
       "timeLabel": "14:00",
@@ -265,6 +254,17 @@
       "sport": "tenis",
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+    },
+    {
+      "dateLabel": "niedziela, 22 listopada",
+      "timeLabel": "14:30",
+      "channel": "Eurosport 1",
+      "title": "Skoki narciarskie: Zawody Pucharu Świata w Lillehammer kwalifikacje",
+      "sport": "skoki",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_participant_check",
       "verified": false,
       "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
     }
