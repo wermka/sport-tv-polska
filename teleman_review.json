@@ -1,97 +1,9 @@
 {
-  "updatedAt": "2026-11-21T15:36:57.376867+01:00",
+  "updatedAt": "2026-11-21T23:21:14.268336+01:00",
   "source": "Teleman, zbiorcza ramówka LIVE (dane diagnostyczne)",
   "warning": "LIVE = oznaczenie w ramówce. Nie potwierdza udziału Polaków ani rzeczywistego terminu zawodów. Nie publikować w events.json.",
   "pagesChecked": 6,
   "rows": [
-    {
-      "dateLabel": "dziś, 21 listopada",
-      "timeLabel": "14:30",
-      "channel": "Eurosport 1",
-      "title": "Skoki narciarskie kobiet: Zawody Pucharu Świata w Lillehammer",
-      "sport": "skoki",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_participant_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1"
-    },
-    {
-      "dateLabel": "dziś, 21 listopada",
-      "timeLabel": "14:30",
-      "channel": "Polsat Sport 2",
-      "title": "Tenis: Turniej ATP Finals w Turynie mecz półfinałowy gry pojedynczej",
-      "sport": "tenis",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_tennis_match_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1"
-    },
-    {
-      "dateLabel": "dziś, 21 listopada",
-      "timeLabel": "15:00",
-      "channel": "Polsat Sport 3",
-      "title": "Tenis: Puchar Billie Jean King mecz: Polska - Szwecja",
-      "sport": "tenis",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_tennis_match_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1"
-    },
-    {
-      "dateLabel": "dziś, 21 listopada",
-      "timeLabel": "16:45",
-      "channel": "TVN",
-      "title": "Skoki narciarskie: Zawody Pucharu Świata w Lillehammer 1. seria",
-      "sport": "skoki",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_participant_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1"
-    },
-    {
-      "dateLabel": "dziś, 21 listopada",
-      "timeLabel": "16:50",
-      "channel": "Eurosport 1",
-      "title": "Skoki narciarskie: Zawody Pucharu Świata w Lillehammer",
-      "sport": "skoki",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_participant_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1"
-    },
-    {
-      "dateLabel": "dziś, 21 listopada",
-      "timeLabel": "17:00",
-      "channel": "Polsat Sport 3",
-      "title": "Tenis: Puchar Billie Jean King mecz: Polska - Szwecja",
-      "sport": "tenis",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_tennis_match_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1"
-    },
-    {
-      "dateLabel": "dziś, 21 listopada",
-      "timeLabel": "17:55",
-      "channel": "TVN",
-      "title": "Skoki narciarskie: Zawody Pucharu Świata w Lillehammer 2. seria",
-      "sport": "skoki",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_participant_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1"
-    },
-    {
-      "dateLabel": "dziś, 21 listopada",
-      "timeLabel": "20:30",
-      "channel": "Polsat Sport 2",
-      "title": "Tenis: Turniej ATP Finals w Turynie mecz półfinałowy gry pojedynczej",
-      "sport": "tenis",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_tennis_match_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
-    },
     {
       "dateLabel": "niedziela, 22 listopada",
       "timeLabel": "12:00",
@@ -101,7 +13,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_participant_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
       "dateLabel": "niedziela, 22 listopada",
@@ -112,7 +24,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
       "dateLabel": "niedziela, 22 listopada",
@@ -123,7 +35,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_participant_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
     },
     {
       "dateLabel": "niedziela, 22 listopada",
@@ -134,7 +46,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
     },
     {
       "dateLabel": "niedziela, 22 listopada",
@@ -145,7 +57,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_participant_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
     },
     {
       "dateLabel": "niedziela, 22 listopada",
@@ -156,7 +68,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_participant_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
     },
     {
       "dateLabel": "niedziela, 22 listopada",
@@ -167,7 +79,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_participant_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
     },
     {
       "dateLabel": "niedziela, 22 listopada",
@@ -178,7 +90,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
     },
     {
       "dateLabel": "niedziela, 22 listopada",
@@ -189,7 +101,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
     },
     {
       "dateLabel": "wtorek, 24 listopada",
@@ -200,7 +112,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
     },
     {
       "dateLabel": "wtorek, 24 listopada",
@@ -211,7 +123,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
     },
     {
       "dateLabel": "wtorek, 24 listopada",
@@ -222,13 +134,79 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
     },
     {
       "dateLabel": "środa, 25 listopada",
       "timeLabel": "16:00",
       "channel": "Polsat Sport 3",
       "title": "Tenis: Puchar Davisa mecz: Włochy - Korea Południowa",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
+    },
+    {
+      "dateLabel": "środa, 25 listopada",
+      "timeLabel": "20:00",
+      "channel": "Polsat Sport 3",
+      "title": "Tenis: Puchar Davisa mecz: Włochy - Korea Południowa",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
+    },
+    {
+      "dateLabel": "czwartek, 26 listopada",
+      "timeLabel": "10:00",
+      "channel": "Polsat Sport 3",
+      "title": "Tenis: Puchar Davisa mecz: Wielka Brytania - Niemcy",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+    },
+    {
+      "dateLabel": "czwartek, 26 listopada",
+      "timeLabel": "12:00",
+      "channel": "Polsat Sport 3",
+      "title": "Tenis: Puchar Davisa mecz: Wielka Brytania - Niemcy",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+    },
+    {
+      "dateLabel": "czwartek, 26 listopada",
+      "timeLabel": "14:00",
+      "channel": "Polsat Sport 3",
+      "title": "Tenis: Puchar Davisa mecz: Wielka Brytania - Niemcy",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+    },
+    {
+      "dateLabel": "czwartek, 26 listopada",
+      "timeLabel": "17:00",
+      "channel": "Polsat Sport 3",
+      "title": "Tenis: Puchar Davisa mecz: Austria - Hiszpania",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+    },
+    {
+      "dateLabel": "czwartek, 26 listopada",
+      "timeLabel": "19:00",
+      "channel": "Polsat Sport 3",
+      "title": "Tenis: Puchar Davisa mecz: Austria - Hiszpania",
       "sport": "tenis",
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
