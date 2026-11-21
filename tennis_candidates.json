@@ -1,36 +1,8 @@
 {
-  "updatedAt": "2026-11-20T16:22:03.311619+01:00",
+  "updatedAt": "2026-11-21T00:59:04.470500+01:00",
   "source": "Live Tennis API",
   "note": "Zaplanowane mecze z polskim zawodnikiem wedlug aktualnej odpowiedzi API; kanal TV wymaga osobnej weryfikacji.",
   "matches": [
-    {
-      "id": 223109,
-      "start": "2026-11-20T17:15:00+01:00",
-      "sport": "tenis",
-      "name": "Kajsa Rinaldo Persson – Gina Feistel",
-      "tournament": "WTA Billie Jean King Cup - World Group",
-      "tour": "wta",
-      "tier": "bjk_cup",
-      "doubles": false,
-      "status": "upcoming",
-      "channel": null,
-      "broadcastVerified": false,
-      "polishParticipantConfirmedByApi": true
-    },
-    {
-      "id": 223111,
-      "start": "2026-11-20T18:45:00+01:00",
-      "sport": "tenis",
-      "name": "Caijsa Wilda Hennemann – Martyna Kubka",
-      "tournament": "WTA Billie Jean King Cup - World Group",
-      "tour": "wta",
-      "tier": "bjk_cup",
-      "doubles": false,
-      "status": "upcoming",
-      "channel": null,
-      "broadcastVerified": false,
-      "polishParticipantConfirmedByApi": true
-    },
     {
       "id": 223115,
       "start": "2026-11-21T14:30:00+01:00",
