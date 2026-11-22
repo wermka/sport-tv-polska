@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-21T23:21:14.268336+01:00",
+  "updatedAt": "2026-11-22T11:18:48.057745+01:00",
   "source": "Teleman, zbiorcza ramówka LIVE (dane diagnostyczne)",
   "warning": "LIVE = oznaczenie w ramówce. Nie potwierdza udziału Polaków ani rzeczywistego terminu zawodów. Nie publikować w events.json.",
   "pagesChecked": 6,
   "rows": [
     {
-      "dateLabel": "niedziela, 22 listopada",
+      "dateLabel": "dziś, 22 listopada",
       "timeLabel": "12:00",
       "channel": "Eurosport 1",
       "title": "Skoki narciarskie kobiet: Zawody Pucharu Świata w Lillehammer",
@@ -16,7 +16,7 @@
       "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "niedziela, 22 listopada",
+      "dateLabel": "dziś, 22 listopada",
       "timeLabel": "13:30",
       "channel": "Polsat Sport 3",
       "title": "Tenis: Puchar Billie Jean King mecz: Francja - Australia",
@@ -27,7 +27,7 @@
       "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "niedziela, 22 listopada",
+      "dateLabel": "dziś, 22 listopada",
       "timeLabel": "14:30",
       "channel": "Eurosport 1",
       "title": "Skoki narciarskie: Zawody Pucharu Świata w Lillehammer kwalifikacje",
@@ -35,10 +35,10 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_participant_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "niedziela, 22 listopada",
+      "dateLabel": "dziś, 22 listopada",
       "timeLabel": "15:00",
       "channel": "Polsat Sport 2",
       "title": "Tenis: Turniej ATP Finals w Turynie mecz finałowy gry podwójnej",
@@ -46,10 +46,10 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "niedziela, 22 listopada",
+      "dateLabel": "dziś, 22 listopada",
       "timeLabel": "16:00",
       "channel": "TVN",
       "title": "Skoki narciarskie: Zawody Pucharu Świata w Lillehammer 1. seria",
@@ -60,7 +60,7 @@
       "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
     },
     {
-      "dateLabel": "niedziela, 22 listopada",
+      "dateLabel": "dziś, 22 listopada",
       "timeLabel": "16:00",
       "channel": "Eurosport 1",
       "title": "Skoki narciarskie: Zawody Pucharu Świata w Lillehammer",
@@ -71,7 +71,7 @@
       "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
     },
     {
-      "dateLabel": "niedziela, 22 listopada",
+      "dateLabel": "dziś, 22 listopada",
       "timeLabel": "17:10",
       "channel": "TVN",
       "title": "Skoki narciarskie: Zawody Pucharu Świata w Lillehammer 2. seria",
@@ -82,7 +82,7 @@
       "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
     },
     {
-      "dateLabel": "niedziela, 22 listopada",
+      "dateLabel": "dziś, 22 listopada",
       "timeLabel": "17:30",
       "channel": "Polsat Sport 3",
       "title": "Tenis: Puchar Billie Jean King mecz: Francja - Australia",
@@ -93,7 +93,7 @@
       "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
     },
     {
-      "dateLabel": "niedziela, 22 listopada",
+      "dateLabel": "dziś, 22 listopada",
       "timeLabel": "18:00",
       "channel": "Polsat Sport 1",
       "title": "Tenis: Turniej ATP Finals w Turynie finałowy mecz gry pojedynczej",
@@ -145,7 +145,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
     },
     {
       "dateLabel": "środa, 25 listopada",
@@ -167,7 +167,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
     },
     {
       "dateLabel": "czwartek, 26 listopada",
@@ -178,7 +178,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
     },
     {
       "dateLabel": "czwartek, 26 listopada",
@@ -189,7 +189,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
     },
     {
       "dateLabel": "czwartek, 26 listopada",
@@ -200,7 +200,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
     },
     {
       "dateLabel": "czwartek, 26 listopada",
