@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-11-22T15:29:39.558605+01:00",
+  "updatedAt": "2026-11-23T00:37:02.571325+01:00",
   "source": "Live Tennis API",
   "note": "Zaplanowane mecze z polskim zawodnikiem wedlug aktualnej odpowiedzi API; kanal TV wymaga osobnej weryfikacji.",
   "matches": [
     {
-      "id": 223652,
-      "start": "2026-11-22T15:45:00+01:00",
+      "id": 224116,
+      "start": "2026-11-23T10:30:00+01:00",
       "sport": "tenis",
-      "name": "Ammar Elamin – Wojciech Marek",
-      "tournament": "Monastir 2 (Tunisia) - Qualification",
+      "name": "Karol Malirz – Oleksandr Ovcharenko",
+      "tournament": "Hersonissos 4",
       "tour": "challenger",
       "tier": "challenger_50",
       "doubles": false,
@@ -18,11 +18,11 @@
       "polishParticipantConfirmedByApi": true
     },
     {
-      "id": 224116,
-      "start": "2026-11-23T09:00:00+01:00",
+      "id": 224206,
+      "start": "2026-11-23T14:30:00+01:00",
       "sport": "tenis",
-      "name": "Karol Malirz – Oleksandr Ovcharenko",
-      "tournament": "Hersonissos 4",
+      "name": "Samir Hamza Reguig – Wojciech Marek",
+      "tournament": "Monastir 2 (Tunisia) - Qualification",
       "tour": "challenger",
       "tier": "challenger_50",
       "doubles": false,
