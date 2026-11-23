@@ -1,27 +1,13 @@
 {
-  "updatedAt": "2026-11-23T09:08:02.013808+01:00",
+  "updatedAt": "2026-11-23T18:58:15.669864+01:00",
   "source": "Live Tennis API",
   "note": "Zaplanowane mecze z polskim zawodnikiem wedlug aktualnej odpowiedzi API; kanal TV wymaga osobnej weryfikacji.",
   "matches": [
     {
-      "id": 224116,
-      "start": "2026-11-23T10:30:00+01:00",
+      "id": 224619,
+      "start": "2026-11-24T13:00:00+01:00",
       "sport": "tenis",
-      "name": "Karol Malirz – Oleksandr Ovcharenko",
-      "tournament": "Hersonissos 4",
-      "tour": "challenger",
-      "tier": "challenger_50",
-      "doubles": false,
-      "status": "upcoming",
-      "channel": null,
-      "broadcastVerified": false,
-      "polishParticipantConfirmedByApi": true
-    },
-    {
-      "id": 224206,
-      "start": "2026-11-23T14:30:00+01:00",
-      "sport": "tenis",
-      "name": "Samir Hamza Reguig – Wojciech Marek",
+      "name": "Kimmer Coppejans – Wojciech Marek",
       "tournament": "Monastir 2 (Tunisia) - Qualification",
       "tour": "challenger",
       "tier": "challenger_50",
