@@ -1,75 +1,15 @@
 {
-  "updatedAt": "2026-11-23T18:58:15.738159+01:00",
+  "updatedAt": "2026-11-23T21:30:10.746585+01:00",
   "source": "XMLTV; entries unverified",
   "epgAvailable": true,
   "error": null,
   "events": [
-    {
-      "start": "2026-11-23T17:00:00+01:00",
-      "end": "2026-11-23T19:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Puchar Billie Jean King",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-23T17:15:00+01:00",
-      "end": "2026-11-23T19:45:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej gry podwójnej: Hanyu Guo/Kristina Mladenovic - Elise Mertens/Shuai Zhang",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-23T19:00:00+01:00",
-      "end": "2026-11-23T19:45:00+01:00",
-      "sport": "skoki",
-      "name": "Skoki narciarskie kobiet: Zawody Pucharu Świata w Lillehammer",
-      "channel": "Eurosport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-23T19:05:00+01:00",
-      "end": "2026-11-23T19:49:00+01:00",
-      "sport": "skoki",
-      "name": "Skoki narciarskie kobiet: Zawody Pucharu Świata w Lillehammer",
-      "channel": "Eurosport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
     {
       "start": "2026-11-23T19:45:00+01:00",
       "end": "2026-11-23T21:45:00+01:00",
       "sport": "tenis",
       "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz półfinałowy gry pojedynczej: Jessica Pegula - Mirra Andriejewa",
       "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-23T19:45:00+01:00",
-      "end": "2026-11-23T20:30:00+01:00",
-      "sport": "skoki",
-      "name": "Skoki narciarskie: Zawody Pucharu Świata w Lillehammer",
-      "channel": "Eurosport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-23T19:49:00+01:00",
-      "end": "2026-11-23T20:33:00+01:00",
-      "sport": "skoki",
-      "name": "Skoki narciarskie: Zawody Pucharu Świata w Lillehammer",
-      "channel": "Eurosport 2",
       "description": "",
       "epgSaysLive": false,
       "verifiedLive": false

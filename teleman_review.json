@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T18:59:53.749561+01:00",
+  "updatedAt": "2026-11-23T21:31:42.819484+01:00",
   "source": "Teleman, zbiorcza ramówka LIVE (dane diagnostyczne)",
   "warning": "LIVE = oznaczenie w ramówce. Nie potwierdza udziału Polaków ani rzeczywistego terminu zawodów. Nie publikować w events.json.",
   "pagesChecked": 6,
@@ -24,7 +24,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
       "dateLabel": "wtorek, 24 listopada",
@@ -35,7 +35,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
       "dateLabel": "środa, 25 listopada",
@@ -123,7 +123,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
     },
     {
       "dateLabel": "piątek, 27 listopada",
@@ -134,7 +134,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_participant_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
     },
     {
       "dateLabel": "piątek, 27 listopada",
@@ -145,7 +145,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
     },
     {
       "dateLabel": "piątek, 27 listopada",
@@ -157,6 +157,50 @@
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
       "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
+    },
+    {
+      "dateLabel": "sobota, 28 listopada",
+      "timeLabel": "12:00",
+      "channel": "Polsat Sport 3",
+      "title": "Tenis: Puchar Davisa mecz półfinałowy",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+    },
+    {
+      "dateLabel": "sobota, 28 listopada",
+      "timeLabel": "13:05",
+      "channel": "TVP Sport",
+      "title": "Biathlon: Zawody Pucharu Świata w Kontiolahti pojedyncza sztafeta mieszana",
+      "sport": "lekkoatletyka",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_participant_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+    },
+    {
+      "dateLabel": "sobota, 28 listopada",
+      "timeLabel": "13:25",
+      "channel": "Eurosport 1",
+      "title": "Skoki narciarskie kobiet: Zawody Pucharu Świata w Hinzenbachu",
+      "sport": "skoki",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_participant_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
+    },
+    {
+      "dateLabel": "sobota, 28 listopada",
+      "timeLabel": "14:00",
+      "channel": "Polsat Sport 3",
+      "title": "Tenis: Puchar Davisa mecz półfinałowy",
+      "sport": "tenis",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
     }
   ]
 }
