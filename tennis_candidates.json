@@ -1,21 +1,6 @@
 {
-  "updatedAt": "2026-11-23T21:30:10.694848+01:00",
+  "updatedAt": "2026-11-24T17:18:53.907487+01:00",
   "source": "Live Tennis API",
   "note": "Zaplanowane mecze z polskim zawodnikiem wedlug aktualnej odpowiedzi API; kanal TV wymaga osobnej weryfikacji.",
-  "matches": [
-    {
-      "id": 224619,
-      "start": "2026-11-24T13:00:00+01:00",
-      "sport": "tenis",
-      "name": "Kimmer Coppejans – Wojciech Marek",
-      "tournament": "Monastir 2 (Tunisia) - Qualification",
-      "tour": "challenger",
-      "tier": "challenger_50",
-      "doubles": false,
-      "status": "upcoming",
-      "channel": null,
-      "broadcastVerified": false,
-      "polishParticipantConfirmedByApi": true
-    }
-  ]
+  "matches": []
 }
