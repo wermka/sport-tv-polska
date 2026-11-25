@@ -1,239 +1,9 @@
 {
-  "updatedAt": "2026-11-24T17:18:53.985035+01:00",
+  "updatedAt": "2026-11-25T02:02:08.280059+01:00",
   "source": "XMLTV; entries unverified",
   "epgAvailable": true,
   "error": null,
   "events": [
-    {
-      "start": "2026-11-24T15:35:00+01:00",
-      "end": "2026-11-24T18:50:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej gry pojedynczej: Coco Gauff - Jessica Pegula",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-24T16:00:00+01:00",
-      "end": "2026-11-24T18:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Puchar Davisa - mecz: Czechy - Kanada",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-24T16:30:00+01:00",
-      "end": "2026-11-24T17:30:00+01:00",
-      "sport": "skoki",
-      "name": "Skoki narciarskie: Zawody Pucharu Świata w Lillehammer - konkurs drużyn mieszanych",
-      "channel": "Eurosport 1",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-24T16:30:00+01:00",
-      "end": "2026-11-24T17:30:00+01:00",
-      "sport": "skoki",
-      "name": "Weltcup FIS Ski Jumping World Cup: Lillehammer",
-      "channel": "Eurosport 1",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-24T17:30:00+01:00",
-      "end": "2026-11-24T18:00:00+01:00",
-      "sport": "skoki",
-      "name": "Skoki narciarskie kobiet: Zawody Pucharu Świata w Lillehammer",
-      "channel": "Eurosport 1",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-24T17:30:00+01:00",
-      "end": "2026-11-24T18:00:00+01:00",
-      "sport": "skoki",
-      "name": "Weltcup FIS Ski Jumping Women's World Cup: Lillehammer",
-      "channel": "Eurosport 1",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-24T18:00:00+01:00",
-      "end": "2026-11-24T20:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Puchar Davisa - mecz: Czechy - Kanada",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-24T18:00:00+01:00",
-      "end": "2026-11-24T19:00:00+01:00",
-      "sport": "skoki",
-      "name": "Skoki narciarskie: Zawody Pucharu Świata w Lillehammer",
-      "channel": "Eurosport 1",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-24T18:00:00+01:00",
-      "end": "2026-11-24T19:00:00+01:00",
-      "sport": "skoki",
-      "name": "Skispringen: Weltcup FIS Ski Jumping Men's World Cup: Lillehammer",
-      "channel": "Eurosport 1",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-24T18:50:00+01:00",
-      "end": "2026-11-24T21:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej gry podwójnej: Katerina Siniakova/Taylor Townsend - Sara Errani/Jasmine Paolini",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-24T20:00:00+01:00",
-      "end": "2026-11-24T20:55:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Puchar Davisa - mecz: Czechy - Kanada",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-24T21:00:00+01:00",
-      "end": "2026-11-25T00:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Puchar Billie Jean King",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-24T21:00:00+01:00",
-      "end": "2026-11-24T22:00:00+01:00",
-      "sport": "skoki",
-      "name": "Skoki narciarskie: Zawody Pucharu Świata w Lillehammer",
-      "channel": "Eurosport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-24T21:00:00+01:00",
-      "end": "2026-11-24T22:40:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej gry podwójnej: Cristina Bucsa/Nicole Melichar-Martinez - Ellen Perez/Demi Schuurs",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-24T22:00:00+01:00",
-      "end": "2026-11-24T23:00:00+01:00",
-      "sport": "skoki",
-      "name": "Skoki narciarskie: Zawody Pucharu Świata w Lillehammer - konkurs drużyn mieszanych",
-      "channel": "Eurosport 1",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-24T22:00:00+01:00",
-      "end": "2026-11-24T23:00:00+01:00",
-      "sport": "skoki",
-      "name": "Weltcup FIS Ski Jumping World Cup: Lillehammer",
-      "channel": "Eurosport 1",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-24T22:40:00+01:00",
-      "end": "2026-11-25T01:10:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz fazy grupowej gry pojedynczej: Aryna Sabalenka - Karolína Muchová",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-24T23:00:00+01:00",
-      "end": "2026-11-25T01:00:00+01:00",
-      "sport": "siatkowka",
-      "name": "Siatkówka mężczyzn: Mistrzostwa Europy 2026 - mecz grupy B: Macedonia Północna - Polska",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-24T23:00:00+01:00",
-      "end": "2026-11-25T01:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Puchar Davisa",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-24T23:00:00+01:00",
-      "end": "2026-11-25T00:00:00+01:00",
-      "sport": "skoki",
-      "name": "Skoki narciarskie kobiet: Zawody Pucharu Świata w Lillehammer",
-      "channel": "Eurosport 1",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-24T23:00:00+01:00",
-      "end": "2026-11-25T00:00:00+01:00",
-      "sport": "skoki",
-      "name": "Weltcup FIS Ski Jumping Women's World Cup: Lillehammer",
-      "channel": "Eurosport 1",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-25T00:00:00+01:00",
-      "end": "2026-11-25T01:30:00+01:00",
-      "sport": "skoki",
-      "name": "Skoki narciarskie: Turniej Czterech Skoczni w Garmisch-Partenkirchen",
-      "channel": "Eurosport 1",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-25T00:00:00+01:00",
-      "end": "2026-11-25T01:30:00+01:00",
-      "sport": "skoki",
-      "name": "Skispringen: Vierschanzentournee FIS Ski Jumping Four Hills Tournament: Garmisch-Partenkirchen Men",
-      "channel": "Eurosport 1",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
     {
       "start": "2026-11-25T01:00:00+01:00",
       "end": "2026-11-25T07:00:00+01:00",
@@ -376,7 +146,7 @@
     },
     {
       "start": "2026-11-25T09:45:00+01:00",
-      "end": "2026-11-25T11:55:00+01:00",
+      "end": "2026-11-25T11:45:00+01:00",
       "sport": "pilka",
       "name": "Koszykówka mężczyzn: Eliminacje mistrzostw świata - mecz: Izrael - Polska",
       "channel": "TVP Sport",
@@ -416,7 +186,7 @@
     },
     {
       "start": "2026-11-25T11:55:00+01:00",
-      "end": "2026-11-25T14:10:00+01:00",
+      "end": "2026-11-25T14:00:00+01:00",
       "sport": "pilka",
       "name": "Piłka nożna: STS Puchar Polski - mecz 1/8 finału: KS Polonia Środa Wielkopolska - Sokół Kleczew",
       "channel": "TVP Sport",
@@ -486,7 +256,7 @@
     },
     {
       "start": "2026-11-25T16:00:00+01:00",
-      "end": "2026-11-25T17:50:00+01:00",
+      "end": "2026-11-25T17:45:00+01:00",
       "sport": "tenis",
       "name": "Tenis: Puchar Davisa - mecz: Włochy - Korea Południowa",
       "channel": "Polsat Sport",
@@ -648,7 +418,7 @@
       "start": "2026-11-25T23:00:00+01:00",
       "end": "2026-11-26T01:00:00+01:00",
       "sport": "tenis",
-      "name": "Tenis: Puchar Davisa",
+      "name": "Tenis: Puchar Davisa - mecz ćwierćfinałowy: Włochy - Korea Południowa",
       "channel": "Polsat Sport",
       "description": "",
       "epgSaysLive": false,
@@ -768,7 +538,7 @@
       "start": "2026-11-26T07:00:00+01:00",
       "end": "2026-11-26T10:00:00+01:00",
       "sport": "tenis",
-      "name": "Tenis: Puchar Davisa - mecz: Włochy - Korea",
+      "name": "Tenis: Puchar Davisa - mecz: Włochy - Korea Południowa",
       "channel": "Polsat Sport",
       "description": "",
       "epgSaysLive": false,
@@ -1105,6 +875,16 @@
       "verifiedLive": false
     },
     {
+      "start": "2026-11-27T01:00:00+01:00",
+      "end": "2026-11-27T07:00:00+01:00",
+      "sport": "siatkowka",
+      "name": "Siatkówka mężczyzn: Mistrzostwa Europy 2026 - mecz ćwierćfinałowy: Polska - Niemcy",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
       "start": "2026-11-27T01:30:00+01:00",
       "end": "2026-11-27T03:00:00+01:00",
       "sport": "skoki",
@@ -1126,7 +906,7 @@
     },
     {
       "start": "2026-11-27T06:00:00+01:00",
-      "end": "2026-11-27T08:30:00+01:00",
+      "end": "2026-11-27T08:00:00+01:00",
       "sport": "tenis",
       "name": "Tenis: Puchar Davisa - mecz: Austria - Hiszpania",
       "channel": "Polsat Sport",
@@ -1155,21 +935,21 @@
       "verifiedLive": false
     },
     {
-      "start": "2026-11-27T08:15:00+01:00",
-      "end": "2026-11-27T10:30:00+01:00",
+      "start": "2026-11-27T08:00:00+01:00",
+      "end": "2026-11-27T10:00:00+01:00",
       "sport": "tenis",
-      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz półfinałowy gry pojedynczej: Linda Nosková - Elina Switolina",
-      "channel": "CANAL+ Sport 2",
+      "name": "Tenis: Puchar Davisa - mecz: Wielka Brytania - Niemcy",
+      "channel": "Polsat Sport",
       "description": "",
       "epgSaysLive": false,
       "verifiedLive": false
     },
     {
-      "start": "2026-11-27T08:30:00+01:00",
-      "end": "2026-11-27T11:00:00+01:00",
+      "start": "2026-11-27T08:15:00+01:00",
+      "end": "2026-11-27T10:30:00+01:00",
       "sport": "tenis",
-      "name": "Tenis: Puchar Davisa - mecz: Wielka Brytania - Niemcy",
-      "channel": "Polsat Sport",
+      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz półfinałowy gry pojedynczej: Linda Nosková - Elina Switolina",
+      "channel": "CANAL+ Sport 2",
       "description": "",
       "epgSaysLive": false,
       "verifiedLive": false
@@ -1327,6 +1107,226 @@
     {
       "start": "2026-11-28T06:00:00+01:00",
       "end": "2026-11-28T08:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Puchar Davisa - mecz półfinałowy",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-28T08:00:00+01:00",
+      "end": "2026-11-28T10:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Puchar Davisa - mecz półfinałowy",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-28T08:40:00+01:00",
+      "end": "2026-11-28T10:45:00+01:00",
+      "sport": "pilka",
+      "name": "Koszykówka mężczyzn: Eliminacje mistrzostw świata - mecz: Polska - Chorwacja",
+      "channel": "TVP Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-28T08:45:00+01:00",
+      "end": "2026-11-28T10:45:00+01:00",
+      "sport": "pilka",
+      "name": "Koszykówka mężczyzn: Eliminacje mistrzostw świata - mecz: Polska - Chorwacja",
+      "channel": "TVP Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-28T12:00:00+01:00",
+      "end": "2026-11-28T14:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Puchar Davisa - mecz półfinałowy",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-28T13:05:00+01:00",
+      "end": "2026-11-28T14:25:00+01:00",
+      "sport": "lekkoatletyka",
+      "name": "Biathlon: Zawody Pucharu Świata w Kontiolahti - pojedyncza sztafeta mieszana",
+      "channel": "TVP Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-28T13:25:00+01:00",
+      "end": "2026-11-28T15:25:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie kobiet: Zawody Pucharu Świata w Hinzenbachu",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-28T14:00:00+01:00",
+      "end": "2026-11-28T16:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Puchar Davisa - mecz półfinałowy",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-28T15:10:00+01:00",
+      "end": "2026-11-28T16:55:00+01:00",
+      "sport": "lekkoatletyka",
+      "name": "Biathlon: Zawody Pucharu Świata w Kontiolahti - sztafeta mieszana",
+      "channel": "TVP Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-28T16:00:00+01:00",
+      "end": "2026-11-28T16:30:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie: Zawody Pucharu Świata w Ruce - studio",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-28T16:00:00+01:00",
+      "end": "2026-11-28T18:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Puchar Davisa - mecz półfinałowy",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-28T16:25:00+01:00",
+      "end": "2026-11-28T18:15:00+01:00",
+      "sport": "skoki",
+      "name": "Skispringen: Weltcup FIS Ski Jumping World Cup: Ruka Men",
+      "channel": "Eurosport 1",
+      "description": "Finnland ist die zweite Station für die Skispringer in diesem Winter. Vor einem Jahr spielte das Wetter in Ruka nicht mit, der Wettbewerb musste im zweiten Durchgang abgebrochen werden. Davon profitierte der Slowene Anze Lanisek, der nach dem ersten ",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-28T16:30:00+01:00",
+      "end": "2026-11-28T18:00:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie: Zawody Pucharu Świata w Ruce",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-28T18:00:00+01:00",
+      "end": "2026-11-28T18:30:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie: Zawody Pucharu Świata w Ruce - studio",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-28T20:30:00+01:00",
+      "end": "2026-11-28T23:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Puchar Davisa - mecz półfinałowy",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-28T22:00:00+01:00",
+      "end": "2026-11-28T23:00:00+01:00",
+      "sport": "tenis",
+      "name": "8 wspaniałych",
+      "channel": "CANAL+ Sport 2",
+      "description": "W kobiecym tenisie sezon 2025 zwieńczył turniej WTA Finals w Rijadzie z udziałem ośmiu zawodniczek. Każdy odcinek tej serii będzie poświęcony innej z nich. Zobaczymy, z jakimi wyzwaniami się mierzą.",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-28T23:00:00+01:00",
+      "end": "2026-11-29T01:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Puchar Davisa",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-28T23:00:00+01:00",
+      "end": "2026-11-29T00:30:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie: Zawody Pucharu Świata w Ruce",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-28T23:30:00+01:00",
+      "end": "2026-11-29T00:30:00+01:00",
+      "sport": "skoki",
+      "name": "Skispringen: Weltcup FIS Ski Jumping World Cup: Ruka Men",
+      "channel": "Eurosport 1",
+      "description": "Finnland ist die zweite Station für die Skispringer in diesem Winter. Vor einem Jahr spielte das Wetter in Ruka nicht mit, der Wettbewerb musste im zweiten Durchgang abgebrochen werden. Davon profitierte der Slowene Anze Lanisek, der nach dem ersten ",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-29T00:55:00+01:00",
+      "end": "2026-11-29T03:00:00+01:00",
+      "sport": "pilka",
+      "name": "Koszykówka mężczyzn: Eliminacje mistrzostw świata - mecz: Polska - Chorwacja",
+      "channel": "TVP Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-29T01:30:00+01:00",
+      "end": "2026-11-29T03:00:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie: Zawody Pucharu Świata w Ruce",
+      "channel": "Eurosport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-29T05:00:00+01:00",
+      "end": "2026-11-29T06:50:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie: Zawody Pucharu Świata w Ruce",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-29T06:00:00+01:00",
+      "end": "2026-11-29T08:00:00+01:00",
       "sport": "tenis",
       "name": "Tenis: Puchar Davisa - mecz półfinałowy",
       "channel": "Polsat Sport",
