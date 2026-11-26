@@ -1,44 +1,11 @@
 {
-  "updatedAt": "2026-11-25T21:08:33.517625+01:00",
+  "updatedAt": "2026-11-26T14:04:54.466031+01:00",
   "source": "Teleman, zbiorcza ramówka LIVE (dane diagnostyczne)",
   "warning": "LIVE = oznaczenie w ramówce. Nie potwierdza udziału Polaków ani rzeczywistego terminu zawodów. Nie publikować w events.json.",
   "pagesChecked": 6,
   "rows": [
     {
-      "dateLabel": "dziś, 25 listopada",
-      "timeLabel": "20:00",
-      "channel": "Polsat Sport 3",
-      "title": "Tenis: Puchar Davisa mecz: Włochy - Korea Południowa",
-      "sport": "tenis",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_tennis_match_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1"
-    },
-    {
-      "dateLabel": "czwartek, 26 listopada",
-      "timeLabel": "10:00",
-      "channel": "Polsat Sport 3",
-      "title": "Tenis: Puchar Davisa mecz: Wielka Brytania - Niemcy",
-      "sport": "tenis",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_tennis_match_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1"
-    },
-    {
-      "dateLabel": "czwartek, 26 listopada",
-      "timeLabel": "12:00",
-      "channel": "Polsat Sport 3",
-      "title": "Tenis: Puchar Davisa mecz: Wielka Brytania - Niemcy",
-      "sport": "tenis",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_tennis_match_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1"
-    },
-    {
-      "dateLabel": "czwartek, 26 listopada",
+      "dateLabel": "dziś, 26 listopada",
       "timeLabel": "14:00",
       "channel": "Polsat Sport 3",
       "title": "Tenis: Puchar Davisa mecz: Wielka Brytania - Niemcy",
@@ -49,7 +16,7 @@
       "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "czwartek, 26 listopada",
+      "dateLabel": "dziś, 26 listopada",
       "timeLabel": "17:00",
       "channel": "Polsat Sport 3",
       "title": "Tenis: Puchar Davisa mecz: Austria - Hiszpania",
@@ -60,7 +27,7 @@
       "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "czwartek, 26 listopada",
+      "dateLabel": "dziś, 26 listopada",
       "timeLabel": "19:00",
       "channel": "Polsat Sport 3",
       "title": "Tenis: Puchar Davisa mecz: Austria - Hiszpania",
@@ -79,7 +46,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
     },
     {
       "dateLabel": "piątek, 27 listopada",
@@ -90,7 +57,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_participant_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
     },
     {
       "dateLabel": "piątek, 27 listopada",
@@ -101,7 +68,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
     },
     {
       "dateLabel": "piątek, 27 listopada",
@@ -134,7 +101,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_participant_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
     },
     {
       "dateLabel": "sobota, 28 listopada",
@@ -145,7 +112,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_participant_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
     },
     {
       "dateLabel": "sobota, 28 listopada",
@@ -156,7 +123,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
     },
     {
       "dateLabel": "sobota, 28 listopada",
@@ -212,6 +179,17 @@
       "participantEvidence": "needs_participant_check",
       "verified": false,
       "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
+    },
+    {
+      "dateLabel": "niedziela, 29 listopada",
+      "timeLabel": "10:00",
+      "channel": "Eurosport 1",
+      "title": "Skoki narciarskie kobiet: Zawody Pucharu Świata w Hinzenbachu",
+      "sport": "skoki",
+      "telemanLiveBadge": true,
+      "participantEvidence": "needs_participant_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
     }
   ]
 }
