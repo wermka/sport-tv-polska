@@ -1,20 +1,9 @@
 {
-  "updatedAt": "2026-11-26T14:04:54.466031+01:00",
+  "updatedAt": "2026-11-26T17:48:30.965303+01:00",
   "source": "Teleman, zbiorcza ramówka LIVE (dane diagnostyczne)",
   "warning": "LIVE = oznaczenie w ramówce. Nie potwierdza udziału Polaków ani rzeczywistego terminu zawodów. Nie publikować w events.json.",
   "pagesChecked": 6,
   "rows": [
-    {
-      "dateLabel": "dziś, 26 listopada",
-      "timeLabel": "14:00",
-      "channel": "Polsat Sport 3",
-      "title": "Tenis: Puchar Davisa mecz: Wielka Brytania - Niemcy",
-      "sport": "tenis",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_tennis_match_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1"
-    },
     {
       "dateLabel": "dziś, 26 listopada",
       "timeLabel": "17:00",
@@ -134,7 +123,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_participant_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
     },
     {
       "dateLabel": "sobota, 28 listopada",
