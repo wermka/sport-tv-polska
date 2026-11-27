@@ -1,119 +1,9 @@
 {
-  "updatedAt": "2026-11-27T15:15:22.201820+01:00",
+  "updatedAt": "2026-11-27T23:53:48.104033+01:00",
   "source": "XMLTV; entries unverified",
   "epgAvailable": true,
   "error": null,
   "events": [
-    {
-      "start": "2026-11-27T14:30:00+01:00",
-      "end": "2026-11-27T16:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Puchar Davisa - mecz: Austria - Hiszpania",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-27T15:00:00+01:00",
-      "end": "2026-11-27T17:15:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz finałowy gry pojedynczej: Elina Switolina - Mirra Andriejewa",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-27T15:15:00+01:00",
-      "end": "2026-11-27T16:00:00+01:00",
-      "sport": "skoki",
-      "name": "Skoki narciarskie: Zawody Pucharu Świata w Lillehammer",
-      "channel": "Eurosport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-27T16:00:00+01:00",
-      "end": "2026-11-27T18:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Puchar Davisa - mecz półfinałowy",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-27T16:45:00+01:00",
-      "end": "2026-11-27T17:15:00+01:00",
-      "sport": "skoki",
-      "name": "Skoki narciarskie: Zawody Pucharu Świata w Ruce - studio",
-      "channel": "Eurosport 1",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-27T17:15:00+01:00",
-      "end": "2026-11-27T18:15:00+01:00",
-      "sport": "skoki",
-      "name": "Skoki narciarskie: Zawody Pucharu Świata w Ruce - kwalifikacje",
-      "channel": "Eurosport 1",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-27T17:15:00+01:00",
-      "end": "2026-11-27T19:30:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Turniej WTA Finals w Indian Wells - mecz finałowy gry podwójnej: Katerina Siniakova/Taylor Townsend - Sara Errani/Jasmine Paolini",
-      "channel": "CANAL+ Sport 2",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-27T18:00:00+01:00",
-      "end": "2026-11-27T20:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Puchar Davisa - mecz półfinałowy",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-27T18:15:00+01:00",
-      "end": "2026-11-27T18:45:00+01:00",
-      "sport": "skoki",
-      "name": "Skoki narciarskie: Zawody Pucharu Świata w Ruce - studio",
-      "channel": "Eurosport 1",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-27T20:00:00+01:00",
-      "end": "2026-11-27T23:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Puchar Davisa - mecz półfinałowy",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-11-27T20:35:00+01:00",
-      "end": "2026-11-27T23:15:00+01:00",
-      "sport": "pilka",
-      "name": "Koszykówka mężczyzn: Eliminacje mistrzostw świata - mecz: Polska - Chorwacja",
-      "channel": "TVP Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
     {
       "start": "2026-11-28T00:00:00+01:00",
       "end": "2026-11-28T00:45:00+01:00",
@@ -151,6 +41,16 @@
       "name": "Koszykówka mężczyzn: Eliminacje mistrzostw świata - mecz: Polska - Chorwacja",
       "channel": "TVP Sport",
       "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-28T11:20:00+01:00",
+      "end": "2026-11-28T12:00:00+01:00",
+      "sport": "tenis",
+      "name": "ATP World Tour Next Week",
+      "channel": "Polsat Sport",
+      "description": "Program poświęcony rozgrywkom z głównego cyklu ATP Tour. Kibice zobaczą w nim m.in. zapowiedzi nadchodzących turniejów. Ponadto dostaną porcję statystyk i ciekawostek, też zza kulis tenisowego świata.",
       "epgSaysLive": false,
       "verifiedLive": false
     },
@@ -287,8 +187,18 @@
     {
       "start": "2026-11-28T23:00:00+01:00",
       "end": "2026-11-29T01:00:00+01:00",
+      "sport": "siatkowka",
+      "name": "Siatkówka mężczyzn: Mistrzostwa Europy 2026 - mecz półfinałowy: Słowenia - Polska",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-28T23:00:00+01:00",
+      "end": "2026-11-29T01:00:00+01:00",
       "sport": "tenis",
-      "name": "Tenis: Puchar Davisa",
+      "name": "Tenis: Puchar Davisa - mecz półfinałowy",
       "channel": "Polsat Sport",
       "description": "",
       "epgSaysLive": false,
@@ -316,7 +226,7 @@
     },
     {
       "start": "2026-11-29T00:55:00+01:00",
-      "end": "2026-11-29T03:00:00+01:00",
+      "end": "2026-11-29T02:45:00+01:00",
       "sport": "pilka",
       "name": "Koszykówka mężczyzn: Eliminacje mistrzostw świata - mecz: Polska - Chorwacja",
       "channel": "TVP Sport",
@@ -657,6 +567,16 @@
     {
       "start": "2026-11-30T23:00:00+01:00",
       "end": "2026-12-01T01:00:00+01:00",
+      "sport": "siatkowka",
+      "name": "Siatkówka mężczyzn: Mistrzostwa Europy 2026 - mecz finałowy: Francja - Polska",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-11-30T23:00:00+01:00",
+      "end": "2026-12-01T01:00:00+01:00",
       "sport": "tenis",
       "name": "Tenis: Puchar Davisa - mecz finałowy",
       "channel": "Polsat Sport",
@@ -676,21 +596,21 @@
     },
     {
       "start": "2026-12-01T00:00:00+01:00",
-      "end": "2026-12-01T02:00:00+01:00",
-      "sport": "tenis",
-      "name": "Tenis: Puchar Davisa - mecz finałowy",
-      "channel": "Polsat Sport",
-      "description": "",
-      "epgSaysLive": false,
-      "verifiedLive": false
-    },
-    {
-      "start": "2026-12-01T00:00:00+01:00",
       "end": "2026-12-01T00:49:00+01:00",
       "sport": "tenis",
       "name": "8 wspaniałych",
       "channel": "CANAL+ Sport 2",
       "description": "W kobiecym tenisie sezon 2025 zwieńczył turniej WTA Finals w Rijadzie z udziałem ośmiu zawodniczek. Każdy odcinek tej serii będzie poświęcony innej z nich. Zobaczymy, z jakimi wyzwaniami się mierzą.",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-12-01T01:00:00+01:00",
+      "end": "2026-12-01T07:00:00+01:00",
+      "sport": "siatkowka",
+      "name": "Siatkówka mężczyzn: Mistrzostwa Europy 2026 - mecz grupy B: Polska - Bułgaria",
+      "channel": "Polsat Sport",
+      "description": "",
       "epgSaysLive": false,
       "verifiedLive": false
     },
@@ -710,6 +630,206 @@
       "sport": "tenis",
       "name": "Tenis: Puchar Davisa - mecz finałowy",
       "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-12-01T08:30:00+01:00",
+      "end": "2026-12-01T11:00:00+01:00",
+      "sport": "tenis",
+      "name": "Tenis: Puchar Davisa - mecz finałowy",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-12-01T10:00:00+01:00",
+      "end": "2026-12-01T11:00:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie: Zawody Pucharu Świata w Ruce",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-12-01T10:00:00+01:00",
+      "end": "2026-12-01T11:00:00+01:00",
+      "sport": "skoki",
+      "name": "Skispringen: Weltcup FIS Ski Jumping World Cup: Ruka Men",
+      "channel": "Eurosport 1",
+      "description": "Finnland ist die zweite Station für die Skispringer in diesem Winter. Vor einem Jahr spielte das Wetter in Ruka nicht mit, der Wettbewerb musste im zweiten Durchgang abgebrochen werden. Davon profitierte der Slowene Anze Lanisek, der nach dem ersten ",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-12-01T11:00:00+01:00",
+      "end": "2026-12-01T12:00:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie: Zawody Pucharu Świata w Ruce",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-12-01T11:00:00+01:00",
+      "end": "2026-12-01T12:00:00+01:00",
+      "sport": "skoki",
+      "name": "Skispringen: Weltcup FIS Ski Jumping World Cup: Ruka Men",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-12-01T11:55:00+01:00",
+      "end": "2026-12-01T14:00:00+01:00",
+      "sport": "pilka",
+      "name": "Piłka nożna: STS Puchar Polski - mecz 1/8 finału: Avia Świdnik - Górnik Zabrze",
+      "channel": "TVP Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-12-01T14:25:00+01:00",
+      "end": "2026-12-01T16:30:00+01:00",
+      "sport": "pilka",
+      "name": "Koszykówka mężczyzn: Eliminacje mistrzostw świata - mecz: Niemcy - Polska",
+      "channel": "TVP Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-12-01T17:00:00+01:00",
+      "end": "2026-12-01T18:00:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie: Zawody Pucharu Świata w Ruce",
+      "channel": "Eurosport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-12-01T17:55:00+01:00",
+      "end": "2026-12-01T20:40:00+01:00",
+      "sport": "pilka",
+      "name": "Piłka nożna kobiet: Eliminacje mistrzostw świata - mecz barażowy: Polska - Irlandia",
+      "channel": "TVP Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-12-01T18:00:00+01:00",
+      "end": "2026-12-01T19:00:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie: Zawody Pucharu Świata w Ruce",
+      "channel": "Eurosport 2",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-12-01T23:00:00+01:00",
+      "end": "2026-12-02T01:00:00+01:00",
+      "sport": "siatkowka",
+      "name": "Siatkówka mężczyzn: Mistrzostwa Europy 2026 - mecz grupy B: Polska - Portugalia",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-12-01T23:25:00+01:00",
+      "end": "2026-12-02T01:30:00+01:00",
+      "sport": "pilka",
+      "name": "Piłka nożna: STS Puchar Polski - mecz 1/8 finału: Avia Świdnik - Górnik Zabrze",
+      "channel": "TVP Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-12-01T23:30:00+01:00",
+      "end": "2026-12-02T00:30:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie: Zawody Pucharu Świata w Ruce",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-12-01T23:30:00+01:00",
+      "end": "2026-12-02T00:30:00+01:00",
+      "sport": "skoki",
+      "name": "Skispringen: Weltcup FIS Ski Jumping World Cup: Ruka Men",
+      "channel": "Eurosport 1",
+      "description": "Finnland ist die zweite Station für die Skispringer in diesem Winter. Vor einem Jahr spielte das Wetter in Ruka nicht mit, der Wettbewerb musste im zweiten Durchgang abgebrochen werden. Davon profitierte der Slowene Anze Lanisek, der nach dem ersten ",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-12-02T00:30:00+01:00",
+      "end": "2026-12-02T01:30:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie: Zawody Pucharu Świata w Ruce",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-12-02T00:30:00+01:00",
+      "end": "2026-12-02T01:30:00+01:00",
+      "sport": "skoki",
+      "name": "Skispringen: Weltcup FIS Ski Jumping World Cup: Ruka Men",
+      "channel": "Eurosport 1",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-12-02T01:00:00+01:00",
+      "end": "2026-12-02T07:00:00+01:00",
+      "sport": "siatkowka",
+      "name": "Siatkówka mężczyzn: Mistrzostwa Europy 2026 - mecz grupy B: Polska - Izrael",
+      "channel": "Polsat Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-12-02T01:30:00+01:00",
+      "end": "2026-12-02T03:35:00+01:00",
+      "sport": "pilka",
+      "name": "Piłka nożna: STS Puchar Polski - mecz 1/8 finału: KS Polonia Środa Wielkopolska - Sokół Kleczew",
+      "channel": "TVP Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-12-02T06:00:00+01:00",
+      "end": "2026-12-02T07:00:00+01:00",
+      "sport": "lekkoatletyka",
+      "name": "Biathlon: Zawody Pucharu Świata w Kontiolahti - pojedyncza sztafeta mieszana",
+      "channel": "TVP Sport",
+      "description": "",
+      "epgSaysLive": false,
+      "verifiedLive": false
+    },
+    {
+      "start": "2026-12-02T06:30:00+01:00",
+      "end": "2026-12-02T07:30:00+01:00",
+      "sport": "skoki",
+      "name": "Skoki narciarskie: Zawody Pucharu Świata w Ruce",
+      "channel": "Eurosport 2",
       "description": "",
       "epgSaysLive": false,
       "verifiedLive": false
