@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-27T23:54:06.833311+01:00",
+  "updatedAt": "2026-11-28T15:29:01.242380+01:00",
   "source": "Teleman, zbiorcza ramówka LIVE (dane diagnostyczne)",
   "warning": "LIVE = oznaczenie w ramówce. Nie potwierdza udziału Polaków ani rzeczywistego terminu zawodów. Nie publikować w events.json.",
   "pagesChecked": 6,
   "rows": [
     {
-      "dateLabel": "sobota, 28 listopada",
-      "timeLabel": "12:00",
+      "dateLabel": "dziś, 28 listopada",
+      "timeLabel": "14:00",
       "channel": "Polsat Sport 3",
       "title": "Tenis: Puchar Davisa mecz półfinałowy",
       "sport": "tenis",
@@ -16,40 +16,7 @@
       "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "sobota, 28 listopada",
-      "timeLabel": "13:05",
-      "channel": "TVP Sport",
-      "title": "Biathlon: Zawody Pucharu Świata w Kontiolahti pojedyncza sztafeta mieszana",
-      "sport": "lekkoatletyka",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_participant_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
-    },
-    {
-      "dateLabel": "sobota, 28 listopada",
-      "timeLabel": "13:25",
-      "channel": "Eurosport 1",
-      "title": "Skoki narciarskie kobiet: Zawody Pucharu Świata w Hinzenbachu",
-      "sport": "skoki",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_participant_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
-    },
-    {
-      "dateLabel": "sobota, 28 listopada",
-      "timeLabel": "14:00",
-      "channel": "Polsat Sport 3",
-      "title": "Tenis: Puchar Davisa mecz półfinałowy",
-      "sport": "tenis",
-      "telemanLiveBadge": true,
-      "participantEvidence": "needs_tennis_match_check",
-      "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
-    },
-    {
-      "dateLabel": "sobota, 28 listopada",
+      "dateLabel": "dziś, 28 listopada",
       "timeLabel": "15:10",
       "channel": "TVP Sport",
       "title": "Biathlon: Zawody Pucharu Świata w Kontiolahti sztafeta mieszana",
@@ -57,10 +24,10 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_participant_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "sobota, 28 listopada",
+      "dateLabel": "dziś, 28 listopada",
       "timeLabel": "16:00",
       "channel": "Polsat Sport 3",
       "title": "Tenis: Puchar Davisa mecz półfinałowy",
@@ -68,10 +35,10 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "sobota, 28 listopada",
+      "dateLabel": "dziś, 28 listopada",
       "timeLabel": "16:30",
       "channel": "TVN",
       "title": "Skoki narciarskie: Zawody Pucharu Świata w Ruce 1. seria",
@@ -79,10 +46,10 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_participant_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "sobota, 28 listopada",
+      "dateLabel": "dziś, 28 listopada",
       "timeLabel": "16:30",
       "channel": "Eurosport 1",
       "title": "Skoki narciarskie: Zawody Pucharu Świata w Ruce",
@@ -90,10 +57,10 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_participant_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
-      "dateLabel": "sobota, 28 listopada",
+      "dateLabel": "dziś, 28 listopada",
       "timeLabel": "17:45",
       "channel": "TVN",
       "title": "Skoki narciarskie: Zawody Pucharu Świata w Ruce 2. seria",
@@ -101,7 +68,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_participant_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1"
     },
     {
       "dateLabel": "niedziela, 29 listopada",
@@ -112,7 +79,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_participant_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=2"
     },
     {
       "dateLabel": "niedziela, 29 listopada",
@@ -123,7 +90,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_participant_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
     },
     {
       "dateLabel": "niedziela, 29 listopada",
@@ -134,7 +101,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_participant_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
     },
     {
       "dateLabel": "niedziela, 29 listopada",
@@ -145,7 +112,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_participant_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=3"
     },
     {
       "dateLabel": "niedziela, 29 listopada",
@@ -156,7 +123,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
     },
     {
       "dateLabel": "niedziela, 29 listopada",
@@ -167,7 +134,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_participant_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
     },
     {
       "dateLabel": "niedziela, 29 listopada",
@@ -178,7 +145,7 @@
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
       "verified": false,
-      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=5"
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
     },
     {
       "dateLabel": "niedziela, 29 listopada",
@@ -188,6 +155,17 @@
       "sport": "tenis",
       "telemanLiveBadge": true,
       "participantEvidence": "needs_tennis_match_check",
+      "verified": false,
+      "sourceUrl": "https://www.teleman.pl/sport?live=1&page=4"
+    },
+    {
+      "dateLabel": "wtorek, 1 grudnia",
+      "timeLabel": "17:55",
+      "channel": "TVP Sport",
+      "title": "Piłka nożna kobiet: Eliminacje mistrzostw świata mecz barażowy: Polska - Irlandia",
+      "sport": "pilka",
+      "telemanLiveBadge": true,
+      "participantEvidence": "national_team_named",
       "verified": false,
       "sourceUrl": "https://www.teleman.pl/sport?live=1&page=6"
     }
